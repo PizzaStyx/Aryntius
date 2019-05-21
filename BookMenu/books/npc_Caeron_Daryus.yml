@@ -1,0 +1,16 @@
+title: npc_Caeron_Daryus
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lDaryus"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1You seem in need"
+    - "&1 of new weaponry,"
+    - "&1 yes?&8”"
+    - ""
+    - '&7- { text: "If what you have", color:"BLUE", command: "shop npc_daryus_shop", hover: "&7View shop"}'
+    - '&l  { text: "is good, sure.", color:"BLUE", command: "shop npc_daryus_shop", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "Do you know about", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Daryus_2"}'
+    - '&l  { text: "unique items?", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Daryus_2"}'

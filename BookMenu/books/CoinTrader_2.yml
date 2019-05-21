@@ -1,0 +1,16 @@
+title: CoinTrader_2
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lCoin Trader"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Hello, again! Finally"
+    - "&1 some decent company"
+    - "&1 in this horrid place.&8”"
+    - ""
+    - '&7- { text: "Did you manage to", color:"BLUE", hover: "&7View lore", open: "CoinTrader_2A"}'
+    - '&l  { text: "take the emeralds?", color:"BLUE", hover: "&7View lore", open: "CoinTrader_2A"}'
+    - ""
+    - '&7- { text: "I''d like to convert", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'
+    - '&l  { text: "some currency.", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'

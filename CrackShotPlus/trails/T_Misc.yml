@@ -1,0 +1,55 @@
+### MISC TRAILS
+CircleRainbow:
+    Trail: "COLOURED_DUST"
+    Trail_Radius: 30
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Color: "300-500-400"
+    Circle:
+        Maxium_Circle_Size: 1.5
+Firework:
+    Trail: "FIREWORKS_SPARK"
+    Trail_Radius: 80
+    Space_Between_Trails: 0.35
+    Trail_Go_Through: "entities"
+PistolTrail:
+    Trail: "VOID_FOG"
+    Trail_Catch:
+        Space_Between_Trails: 0.8
+PistolTrail_Thick:
+    Trail: "VOID_FOG"
+    Trail_Catch:
+        Space_Between_Trails: 0.8
+    Trail_Settings:
+        Particle_Count: 3
+Pistol_Red_Thick:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-0-0"
+    Trail_Catch:
+        Space_Between_Trails: 0.8
+BetterGunSmoke:
+    Trail: "PARTICLE_SMOKE"
+    Space_Between_Trails: 2.0
+### SUPPORTER UNIQUE TRAILS
+Shrub_1:
+    Trail: "COLOURED_DUST"
+    Trail_Radius: 25
+    Trail_Go_Through: "all"
+    Space_Between_Trails: 2.0
+    Trail_Color: "90-20-20"
+    # Trail_Settings:
+        # Speed: 0.1
+        # Particle_Count: 2
+    Circle:
+        Maxium_Circle_Size: 6.0
+Shrub_2:
+    Trail: "COLOURED_DUST"
+    Trail_Radius: 25
+    Trail_Go_Through: "all"
+    Space_Between_Trails: 2.0
+    Trail_Color: "220-220-120"
+    # Trail_Settings:
+        # Speed: 0.1
+        # Particle_Count: 2
+    Circle:
+        Maxium_Circle_Size: 4.0

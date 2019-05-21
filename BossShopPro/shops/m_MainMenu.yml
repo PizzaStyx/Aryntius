@@ -1,0 +1,50 @@
+ShopName: Menu
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &3Main &bShop &7]'
+shop:
+  RankUp:
+    MenuItem:
+    - name:&dRank Shop
+    - lore:&7Unlock higher ranks using
+    - lore:&7your hard-earned Sigmas!
+    - id:264
+    - enchantment:ARROW_DAMAGE#10
+    - amount:1
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    InventoryLocation: 8
+    PriceType: free
+    Reward: Ranks
+    RewardType: shop
+  Blocks:
+    MenuItem:
+    - name:&aBlocks Shop
+    - lore:&7Shop for blocks!
+    - id:2
+    - durability:1
+    - amount:1
+    InventoryLocation: 2
+    PriceType: free
+    Reward: Blocks
+    RewardType: shop
+  ItemShop:
+    MenuItem:
+    - name:&3Item Shop
+    - lore:&7Shop for items!
+    - id:329
+    - amount:1
+    InventoryLocation: 4
+    PriceType: free
+    Reward: ItemShop
+    RewardType: shop
+  Food:
+    MenuItem:
+    - name:&eFood Shop
+    - lore:&7Shop for food!
+    - id:354
+    - amount:1
+    InventoryLocation: 6
+    PriceType: free
+    Reward: Food
+    RewardType: shop

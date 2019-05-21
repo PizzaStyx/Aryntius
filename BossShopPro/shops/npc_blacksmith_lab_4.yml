@@ -1,0 +1,669 @@
+ShopName: npc_blacksmith_lab_4
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Divine Blacksmith &8]"
+shop:
+### CELESTIAL ARMOR SET ----------------------------------------
+  Celestial_Helm:
+    MenuItem:
+    - id:302
+    - name:&d&oCelestial Veil
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &8&o-10% &7&omovement speed."
+    - "lore:&d★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&oRestore &c&o6.0❤ &7&owhenever you hit"
+    - "lore:&7&o  an enemy."
+    - "lore:&d★ &7&oSet Bonus: &a&oResist. IV &7&o+ &a&oRegen. IV&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f3x &aTearstone"
+    - "lore:&7- &f16x &aAncient Emerald"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought 1 Celestial Veil for &f3 &aTearstones&7, &f16 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:3
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Celestial_Helm 1'
+    RewardType: command
+  Celestial_Chest:
+    MenuItem:
+    - id:303
+    - name:&d&oCelestial Chainbody
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &8&o-10% &7&omovement speed."
+    - "lore:&d★ &c&o+15.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&oRestore &c&o4.0❤ &7&owhenever you take"
+    - "lore:&7&o  damage."
+    - "lore:&d★ &7&oSet Bonus: &a&oResist. IV &7&o+ &a&oRegen. IV&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f3x &aTearstone"
+    - "lore:&7- &f16x &aAncient Emerald"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - enchantment:PROTECTION_PROJECTILE#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought 1 Celestial Chainbody for &f3 &aTearstones&7, &f16 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:3
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Celestial_Chest 1'
+    RewardType: command
+  Celestial_Legs:
+    MenuItem:
+    - id:304
+    - name:&d&oCelestial Leggings
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &8&o-10% &7&omovement speed."
+    - "lore:&d★ &c&o+15.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&oYou have &a&oFire Resistance&7&o."
+    - "lore:&7&o  (Refreshes every 5.0s)."
+    - "lore:&d★ &7&oSet Bonus: &a&oResist. IV &7&o+ &a&oRegen. IV&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f3x &aTearstone"
+    - "lore:&7- &f16x &aAncient Emerald"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - enchantment:PROTECTION_PROJECTILE#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 20
+    Message: '&7[&bInfo&7] You bought 1 Celestial Leggings for &f3 &aTearstones&7, &f16 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:3
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Celestial_Legs 1'
+    RewardType: command
+  Celestial_Boots:
+    MenuItem:
+    - id:305
+    - name:&d&oCelestial Calceus
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &8&o-10% &7&omovement speed."
+    - "lore:&d★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&o10% chance to gain &a&oSpeed V &7&ofor"
+    - "lore:&7&o  5.0s whenever you take damage."
+    - "lore:&d★ &7&oSet Bonus: &a&oResist. IV &7&o+ &a&oRegen. IV&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f3x &aTearstone"
+    - "lore:&7- &f16x &aAncient Emerald"
+    - enchantment:PROTECTION_FALL#10
+    - enchantment:DEPTH_STRIDER#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 29
+    Message: '&7[&bInfo&7] You bought 1 Celestial Boots for &f3 &aTearstones&7, &f16 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:3
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Celestial_Boots 1'
+    RewardType: command
+### CLOCKWORK ARMOR SET ----------------------------------------
+  Clockwork_Helm:
+    MenuItem:
+    - id:314
+    - name:&d&oClockwork Mask
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&oAdds &c&o25.0-75.0❤ &7&odamage to all"
+    - "lore:&7&o  melee attacks."
+    - "lore:&d★ &7&oSet Bonus: You have &a&oStrength L&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aTearstone"
+    - "lore:&7- &f10x &aAncient Emerald"
+    - enchantment:WATER_WORKER#1
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You bought 1 Clockwork Mask for &f5 &aTearstones&7, &f10 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Clockwork_Helm 1'
+    RewardType: command
+  Clockwork_Chest:
+    MenuItem:
+    - id:299
+    - name:&d&oClockwork Boiler
+    - "lore:&7Protection X"
+    - "lore:&7Projectile Protection X"
+    - "lore:&7Blast Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&oYou have &a&oFire Resistance&7&o."
+    - "lore:&7&o  (Refreshes every 5.0s)."
+    - "lore:&d★ &7&oSet Bonus: You have &a&oStrength L&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f3x &aTearstone"
+    - "lore:&7- &f16x &aAncient Emerald"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:255#240#0
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bInfo&7] You bought 1 Clockwork Boiler for &f3 &aTearstones&7, &f16 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:3
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Clockwork_Chest 1'
+    RewardType: command
+  Clockwork_Legs:
+    MenuItem:
+    - id:300
+    - name:&d&oClockwork Belt
+    - "lore:&7Blast Protection X"
+    - "lore:&7Projectile Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&oYou have &a&oHaste IV&7&o."
+    - "lore:&7&o  (Refreshes every 5.0s)."
+    - "lore:&d★ &7&oSet Bonus: You have &a&oStrength L&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f3x &aTearstone"
+    - "lore:&7- &f16x &aAncient Emerald"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:255#240#0
+    - amount:1
+    InventoryLocation: 22
+    Message: '&7[&bInfo&7] You bought 1 Clockwork Belt for &f3 &aTearstones&7, &f16 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:3
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Clockwork_Legs 1'
+    RewardType: command
+  Clockwork_Boots:
+    MenuItem:
+    - id:317
+    - name:&d&oClockwork Boots
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &a&o+80% &7&omovement speed."
+    - "lore:&d★ &7&o25% chance for melee attacks to"
+    - "lore:&7&o  deal &c&o30.0❤ &4&oBleed &7&odamage over a"
+    - "lore:&7&o  period of 1.5s."
+    - "lore:&d★ &7&oSet Bonus: You have &a&oStrength L&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aTearstone"
+    - "lore:&7- &f10x &aAncient Emerald"
+    - enchantment:DEPTH_STRIDER#10
+    - enchantment:PROTECTION_FALL#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 31
+    Message: '&7[&bInfo&7] You bought 1 Clockwork Boots for &f5 &aTearstones&7, &f10 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Clockwork_Boots 1'
+    RewardType: command
+### ARCHMAGE SET -----------------------------------------------
+  Archmage_Helm:
+    MenuItem:
+    - id:298
+    - name:&d&oArchmage Cowl
+    - "lore:&7Protection X"
+    - "lore:&7Projectile Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &a&o+25% &7&omovement speed"
+    - "lore:&d★ &7&oAdds &c&o15.0-45.0❤ &7&odamage to all"
+    - "lore:&7&o  ranged/magic attacks."
+    - "lore:&d★ &7&oSet Bonus: &e&o40.0❤&7&o (Recharges"
+    - "lore:&7&o  fully every 10.0 seconds.)"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aTearstone"
+    - "lore:&7- &f30x &aAncient Emerald"
+    - enchantment:PROTECTION_PROJECTILE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:150#255#240
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You bought 1 Archmage Cowl for &f1 &aTearstone&7, &f30 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:30
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Archmage_Helm 1'
+    RewardType: command
+  Archmage_Chest:
+    MenuItem:
+    - id:299
+    - name:&d&oArchmage Cloak
+    - "lore:&7Protection X"
+    - "lore:&7Blast Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &a&o+25% &7&omovement speed."
+    - "lore:&d★ &7&oYou have &a&oFire Resistance&7&o."
+    - "lore:&7&o  (Refreshes every 5.0s)."
+    - "lore:&d★ &7&oSet Bonus: &e&o40.0❤&7&o (Recharges"
+    - "lore:&7&o  fully every 10.0 seconds.)"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aTearstone"
+    - "lore:&7- &f30x &aAncient Emerald"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:130#255#220
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bInfo&7] You bought 1 Archmage Cloak for &f1 &aTearstone&7, &f30 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:30
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Archmage_Chest 1'
+    RewardType: command
+  Archmage_Legs:
+    MenuItem:
+    - id:300
+    - name:&d&oArchmage Shroud
+    - "lore:&7Projectile Protection X"
+    - "lore:&7Blast Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &a&o+25% &7&omovement speed."
+    - "lore:&d★ &7&o10% chance to fully restore"
+    - "lore:&7&o  your gold hearts after taking"
+    - "lore:&7&o  damage."
+    - "lore:&d★ &7&oSet Bonus: &e&o40.0❤&7&o (Recharges"
+    - "lore:&7&o  fully every 10.0 seconds.)"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aTearstone"
+    - "lore:&7- &f30x &aAncient Emerald"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:110#255#200
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bInfo&7] You bought 1 Archmage Shroud for &f1 &aTearstone&7, &f30 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:30
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Archmage_Legs 1'
+    RewardType: command
+  Archmage_Boots:
+    MenuItem:
+    - id:301
+    - name:&d&oArchmage Sandals
+    - "lore:&7Depth Strider X"
+    - "lore:&7Feather Falling X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &a&o+25% &7&omovement speed."
+    - "lore:&d★ &7&oYou have &a&oJump Boost II&7&o."
+    - "lore:&7&o  (Refreshes every 5.0s)."
+    - "lore:&d★ &7&oSet Bonus: &e&o40.0❤&7&o (Recharges"
+    - "lore:&7&o  fully every 10.0 seconds.)"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aTearstone"
+    - "lore:&7- &f30x &aAncient Emerald"
+    - enchantment:PROTECTION_FALL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:100#255#180
+    - amount:1
+    InventoryLocation: 33
+    Message: '&7[&bInfo&7] You bought 1 Archmage Sandals for &f1 &aTearstone&7, &f30 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:30
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Archmage_Boots 1'
+    RewardType: command
+### SHADEWALKER SET --------------------------------------------
+  Shadewalker_Helm:
+    MenuItem:
+    - id:298
+    - name:&d&oShadewalker Cap
+    - "lore:&7Protection X"
+    - "lore:&7Projectile Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &a&o+20% &7&omovement speed."
+    - "lore:&d★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&oAdds &c&o20.0❤ &7&odamage to all"
+    - "lore:&7&o  your attacks."
+    - "lore:&d★ &7&oSet Bonus: &a&oRegeneration V&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aTearstone"
+    - "lore:&7- &f10x &aAncient Emerald"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:120#120#120
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought 1 Shadewalker Cap for &f5 &aTearstone&7, &f10 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Shadewalker_Helm 1'
+    RewardType: command
+  Shadewalker_Chest:
+    MenuItem:
+    - id:299
+    - name:&d&oShadewalker Tunic
+    - "lore:&7Protection X"
+    - "lore:&7Blast Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &a&o+20% &7&omovement speed."
+    - "lore:&d★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&oRestore &c&o10.0❤ &7&owhenever"
+    - "lore:&7&o  you hit an enemy."
+    - "lore:&d★ &7&oSet Bonus: &a&oRegeneration V&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &aTearstone"
+    - "lore:&7- &f10x &aAncient Emerald"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:90#90#90
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought 1 Shadewalker Tunic for &f8 &aTearstone&7, &f10 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Shadewalker_Chest 1'
+    RewardType: command
+  Shadewalker_Legs:
+    MenuItem:
+    - id:300
+    - name:&d&oShadewalker Leggings
+    - "lore:&7Blast Protection X"
+    - "lore:&7Projectile Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &a&o+20% &7&omovement speed."
+    - "lore:&d★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&oYou have &a&oFire Resistance&7&o."
+    - "lore:&7&o  (Refreshes every 5.0s)."
+    - "lore:&d★ &7&oSet Bonus: &a&oRegeneration V&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aTearstone"
+    - "lore:&7- &f10x &aAncient Emerald"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:60#60#60
+    - amount:1
+    InventoryLocation: 26
+    Message: '&7[&bInfo&7] You bought 1 Shadewalker Leggings for &f5 &aTearstone&7, &f10 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Shadewalker_Legs 1'
+    RewardType: command
+  Shadewalker_Boots:
+    MenuItem:
+    - id:301
+    - name:&d&oShadewalker Boots
+    - "lore:&7Depth Strider X"
+    - "lore:&7Feather Falling X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &a&o+20% &7&omovement speed."
+    - "lore:&d★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&oAdds &c&o5.0-15.0❤ &5&oChaos &7&odamage"
+    - "lore:&7&o  to all melee attacks."
+    - "lore:&d★ &7&oSet Bonus: &a&oRegeneration V&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &aTearstone"
+    - "lore:&7- &f10x &aAncient Emerald"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:30#30#30
+    - amount:1
+    InventoryLocation: 35
+    Message: '&7[&bInfo&7] You bought 1 Shadewalker Boots for &f8 &aTearstone&7, &f10 &aAncient Emeralds&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Shadewalker_Boots 1'
+    RewardType: command

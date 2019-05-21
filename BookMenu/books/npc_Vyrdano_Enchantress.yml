@@ -1,0 +1,16 @@
+title: npc_Vyrdano_Enchantress
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lEnchantress"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Hello there! Care"
+    - "&1 to try some of my"
+    - "&1 marvelous magics?&8”"
+    - ""
+    - '&7- { text: "Sure! What do you", color:"BLUE", command: "shop npc_Enchantress_Shop", hover: "&7View shop"}'
+    - '&l  { text: "have to offer?", color:"BLUE", command: "shop npc_Enchantress_Shop", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "What do you know", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Enchantress_2"}'
+    - '&l  { text: "about Izenryl?", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Enchantress_2"}'

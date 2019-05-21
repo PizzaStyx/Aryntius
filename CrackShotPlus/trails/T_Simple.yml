@@ -1,0 +1,45 @@
+### SIMPLE TRAILS
+SimpleSmoke:
+    Trail: "LARGE_SMOKE"
+AirMagic:
+    Trail: "CLOUD"
+WitchMagic:
+    Trail: "WITCH_MAGIC"
+Earth:
+    Trail: "HAPPY_VILLAGER"
+Razor:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-0-0"
+Crit:
+    Trail: "CRIT"
+Music:
+    Trail: "NOTE"
+WhiteMagic:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-255-255"
+GoldMagic:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-225-0"
+BloodMagic:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "115-0-0"
+PinkMagic:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-0-255"
+RedMagic:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-0-0"
+OrangeMagic:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-128-0"
+AquaMagic:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "0-255-255"
+Toxic:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "0-128-0"
+DeepWater:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "0-0-500"
+GunSmoke:
+    Trail: "PARTICLE_SMOKE"

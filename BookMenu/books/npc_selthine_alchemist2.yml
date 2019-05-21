@@ -1,0 +1,15 @@
+title: npc_selthine_alchemist2
+author: PizzaStyx
+pages:
+  1:
+    - "What are flasks, you ask? Well, my ignorant friend, let me tell you!"
+    - ""
+    - "Flasks are enchanted brews, like potions, but infinitely reusable!"
+    - ""
+    - "Instead of vanishing when used up like scrolls, they go on a short cooldown."
+  2:
+    - "The ones you see in my shop are brewed personally by me."
+    - ""
+    - "However, you may find strange and powerful flasks deep within dungeons such as the Labyrinth or the Trials."
+    - ""
+    - "&8&lEnd of dialogue."

@@ -1,0 +1,127 @@
+# 
+#  Ghast: 150
+configVersion: '1.12'
+chance: 10000
+namePrefix: '&cCorrupted'
+nameTagsLevel: 1
+nameTagsName: '<prefix> <mobName>'
+bossBarsName: '<prefix> <mobName>'
+enableBossBar: true
+bossBarSettings:
+  defaultColor: RED
+  defaultStyle: SOLID
+enableScoreBoard: false
+showHealthOnScoreBoard: false
+effectAllPlayerAttacks: false
+enableParticles: false
+enableDeathMessages: false
+deathMessages:
+- '&cplayer &chas killed an mob&c!'
+- '&cAn mob &cwas slain by player&c!'
+- '&cplayer &cowned an mob&c!'
+- '&cAn mob &cwas beheaded by player&c''s weapon!'
+- '&cplayer&c''s weapon &ckilled an mob&c!'
+- '&cAn mob &cwas killed by player &cusing a weapon&c!'
+enableSpawnMessages: false
+spawnMessageRadius: 64
+spawnMessages:
+- '&cAn Infernal mob has spawned near you!'
+- '&cWatch out!'
+- '&cYou hear a faint scream...'
+- '&cSomething is coming...'
+- '&cYou hear a mob nearby...'
+mobworlds:
+- world_nether
+- world_the_end
+effectworlds:
+- <all>
+enabledmobs:
+- WITHER
+enabledCharmSlots:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 36
+poisonous: false
+armoured: false
+blinding: false
+withering: false
+tosser: false
+thief: false
+quicksand: false
+bullwark: false
+rust: false
+sapper: false
+1up: false
+cloaked: false
+ender: false
+ghastly: false
+lifesteal: false
+sprint: false
+storm: false
+webber: false
+vengeance: false
+weakness: false
+berserk: false
+explode: false
+potions: false
+mama: false
+molten: false
+archer: false
+necromancer: false
+firework: false
+gravity: false
+flying: false
+mounted: false
+morph: false
+ghost: false
+confusing: false
+mamaSpawnAmount: 3
+vengeanceDamage: 6
+berserkDamage: 3
+moltenBurnLength: 5
+gravityLevitateLength: 6
+horseMountsHaveSaddles: true
+armouredMountsHaveArmour: true
+fireworkColour:
+  red: 255
+  green: 10
+  blue: 10
+enabledSpawnReasons:
+- INFECTION
+mobParticles:
+- lavaSpark:1:10
+mountFate: nothing
+enabledMounts:
+- PIG
+enabledRiders:
+- WITCH
+disabledBabyMobs:
+- WOLF
+- MUSHROOM_COW
+- COW
+- SHEEP
+- PIG
+- CHICKEN
+- OCELOT
+- HORSE
+minpowers: 3
+maxpowers: 7
+healthMultiplier: 4
+healthByPower: false
+healthByDistance: false
+powerByDistance: false
+healthToAdd: 5
+powerToAdd: 1
+xpMultiplier: 8
+addDistance: 200
+enableDrops: false
+dropChance: 1
+enableFarmingDrops: false
+naturalSpawnHeight: 0

@@ -1,0 +1,116 @@
+ShopName: MiscBlocks
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &7Misc &8Blocks &7]'
+shop:
+  Sponge:
+    MenuItem:
+    - name:&eSponge
+    - lore:&7Price:&6 80Σ
+    - id:19
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Sponge for&6 80 &7Sigmas.'
+    Price: 80.0
+    PriceType: money
+    Reward:
+    - - id:19
+      - amount:1
+    RewardType: item
+  Sponge2:
+    MenuItem:
+    - name:&eSponge
+    - lore:&7Price:&6 320Σ
+    - id:19
+    - amount:4
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 4 Sponge for&6 320 &7Sigmas.'
+    Price: 320.0
+    PriceType: money
+    Reward:
+    - - id:19
+      - amount:4
+    RewardType: item
+  Sponge3:
+    MenuItem:
+    - name:&eSponge
+    - lore:&7Price:&6 960Σ
+    - id:19
+    - amount:12
+    InventoryLocation: 5
+    Message: '&7[&bShop&7] You bought 12 Sponge for&6 960 &7Sigmas.'
+    Price: 960.0
+    PriceType: money
+    Reward:
+    - - id:19
+      - amount:12
+    RewardType: item
+  Sponge4:
+    MenuItem:
+    - name:&eSponge
+    - lore:&7Price:&6 2560Σ
+    - id:19
+    - amount:32
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 32 Sponge for&6 2560 &7Sigmas.'
+    Price: 2560.0
+    PriceType: money
+    Reward:
+    - - id:19
+      - amount:32
+    RewardType: item
+  Sponge5:
+    MenuItem:
+    - name:&eSponge
+    - lore:&7Price:&6 5120Σ
+    - id:19
+    - amount:64
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 1 Sponge for&6 5120 &7Sigmas.'
+    Price: 5120.0
+    PriceType: money
+    Reward:
+    - - id:19
+      - amount:64
+    RewardType: item
+  WaterBucket:
+    MenuItem:
+    - name:&bWater Bucket
+    - lore:&7Price:&6 950Σ
+    - id:326
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 1 Water Bucket for&6 950 &7Sigmas.'
+    Price: 950.0
+    PriceType: money
+    Reward:
+    - - id:326
+      - amount:1
+    RewardType: item
+  LavaBucket:
+    MenuItem:
+    - name:&cLava Bucket
+    - lore:&7Price:&6 4250Σ
+    - id:327
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Lava Bucket for&6 4250 &7Sigmas.'
+    Price: 4250.0
+    PriceType: money
+    Reward:
+    - - id:327
+      - amount:1
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Blocks Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 23
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Blocks

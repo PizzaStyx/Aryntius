@@ -1,0 +1,655 @@
+ShopName: npc_blacksmith_lab_3
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Grouchy Smith &8]"
+shop:
+### BYZANTITE ARMOR SET ----------------------------------------
+  Byzantite_Helm:
+    MenuItem:
+    - id:298
+    - name:&9Byzantite Helmet
+    - "lore:&7Blast Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &c+5.0❤ &7while equipped."
+    - "lore:&9★ &a+50% &7knockback resist."
+    - "lore:&9★ &7Set Bonus: &aResist. III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f15x &aUncut Diamond"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:200#0#150
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought 1 Byzantite Helmet for &f1 &aAncient Emerald&7, &f15 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Byzantite_Helm 1'
+    RewardType: command
+  Byzantite_Chest:
+    MenuItem:
+    - id:299
+    - name:&9Byzantite Chestplate
+    - "lore:&7Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &c+10.0❤ &7while equipped."
+    - "lore:&9★ &7Restore &c3.0❤ &7every"
+    - "lore:&7  second."
+    - "lore:&9★ &7Set Bonus: &aResist. III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f25x &aUncut Diamond"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:160#0#110
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought 1 Byzantite Chestplate for &f1 &aAncient Emerald&7, &f25 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Byzantite_Chest 1'
+    RewardType: command
+  Byzantite_Legs:
+    MenuItem:
+    - id:300
+    - name:&9Byzantite Greaves
+    - "lore:&7Projectile Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &c+10.0❤ &7while equipped."
+    - "lore:&9★ &7Restore &c2.0❤ &7whenever"
+    - "lore:&7  you hit an enemy."
+    - "lore:&9★ &7Set Bonus: &aResist. III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f25x &aUncut Diamond"
+    - enchantment:PROTECTION_PROJECTILE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:120#0#70
+    - amount:1
+    InventoryLocation: 20
+    Message: '&7[&bInfo&7] You bought 1 Byzantite Greaves for &f1 &aAncient Emerald&7, &f25 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Byzantite_Legs 1'
+    RewardType: command
+  Byzantite_Boots:
+    MenuItem:
+    - id:301
+    - name:&9Byzantite Boots
+    - "lore:&7Feather Falling X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &c+5.0❤ &7while equipped."
+    - "lore:&9★ &a+50% &7knockback resist."
+    - "lore:&9★ &7Set Bonus: &aResist. III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f15x &aUncut Diamond"
+    - enchantment:PROTECTION_FALL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:80#0#30
+    - amount:1
+    InventoryLocation: 29
+    Message: '&7[&bInfo&7] You bought 1 Byzantite Boots for &f1 &aAncient Emerald&7, &f15 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Byzantite_Boots 1'
+    RewardType: command
+### RAIDER ARMOR SET -------------------------------------------
+  Raider_Helm:
+    MenuItem:
+    - id:306
+    - "name:&9Raider's Bascinet"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+20% &7movement speed."
+    - "lore:&9★ &c+7.5❤ &7while equipped."
+    - "lore:&9★ &7Adds &c35.0❤ &7damage to all"
+    - "lore:&7  melee attacks."
+    - "lore:&9★ &7Set Bonus: &aStrength XX&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f25x &aUncut Diamond"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You bought 1 Raider''s Bascinet for &f1 &aAncient Emerald&7, &f25 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Raider_Helm 1'
+    RewardType: command
+  Raider_Chest:
+    MenuItem:
+    - id:303
+    - "name:&9Raider's Chainbody"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+20% &7movement speed."
+    - "lore:&9★ &c+7.5❤ &7while equipped."
+    - "lore:&9★ &7Restore &c5.0❤ &7whenever"
+    - "lore:&7  you hit an enemy."
+    - "lore:&9★ &7Set Bonus: &aStrength XX&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f15x &aUncut Diamond"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bInfo&7] You bought 1 Raider''s Chainbody for &f1 &aAncient Emerald&7, &f15 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Raider_Chest 1'
+    RewardType: command
+  Raider_Legs:
+    MenuItem:
+    - id:304
+    - "name:&9Raider's Chainlegs"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+20% &7movement speed."
+    - "lore:&9★ &c+7.5❤ &7while equipped."
+    - "lore:&9★ &715% chance for your attacks"
+    - "lore:&7  to &6Ignite &7enemies for 5.0s."
+    - "lore:&9★ &7Set Bonus: &aStrength XX&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f15x &aUncut Diamond"
+    - enchantment:PROTECTION_PROJECTILE#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 22
+    Message: '&7[&bInfo&7] You bought 1 Raider''s Chainlegs for &f1 &aAncient Emerald&7, &f15 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Raider_Legs 1'
+    RewardType: command
+  Raider_Boots:
+    MenuItem:
+    - id:309
+    - "name:&9Raider's Sabatons"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+20% &7movement speed."
+    - "lore:&9★ &c+7.5❤ &7while equipped."
+    - "lore:&9★ &7Adds &c35.0❤ &7damage to all"
+    - "lore:&7  melee attacks."
+    - "lore:&9★ &7Set Bonus: &aStrength XX&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f25x &aUncut Diamond"
+    - enchantment:PROTECTION_FALL#10
+    - enchantment:DEPTH_STRIDER#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 31
+    Message: '&7[&bInfo&7] You bought 1 Raider''s Sabatons for &f1 &aAncient Emerald&7, &f25 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Raider_Boots 1'
+    RewardType: command
+### FALCON ARMOR SET -------------------------------------------
+  Falcon_Helm:
+    MenuItem:
+    - id:306
+    - name:&9Falcon Half Helm
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+20% &7movement speed."
+    - "lore:&9★ &7You have &e10.0❤ &7for every"
+    - "lore:&7  level of &aHaste&7. (E.g. 20.0❤"
+    - "lore:&7  from Haste II)."
+    - "lore:&7  (Refreshes every 10.0s)."
+    - "lore:&9★ &7Set Bonus: &aHaste IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f3x &aAncient Emerald"
+    - "lore:&7- &f10x &aUncut Diamond"
+    - enchantment:PROTECTION_PROJECTILE#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You bought 1 Falcon Half Helm for &f3 &aAncient Emerald&7, &f10 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:3
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Falcon_Helm 1'
+    RewardType: command
+  Falcon_Chest:
+    MenuItem:
+    - id:299
+    - name:&9Falcon Cuirass
+    - "lore:&7Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+20% &7movement speed."
+    - "lore:&9★ &7Adds &c50.0❤ &7damage to all"
+    - "lore:&7  melee attacks."
+    - "lore:&9★ &7Set Bonus: &aHaste IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f20x &aUncut Diamond"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:125#125#125
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bInfo&7] You bought 1 Falcon Cuirass for &f1 &aAncient Emerald&7, &f20 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Falcon_Chest 1'
+    RewardType: command
+  Falcon_Legs:
+    MenuItem:
+    - id:308
+    - name:&9Falcon Greaves
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+20% &7movement speed."
+    - "lore:&9★ &7Adds &c20.0❤ &7damage to all"
+    - "lore:&7  ranged/magic attacks."
+    - "lore:&9★ &7Set Bonus: &aHaste IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f20x &aUncut Diamond"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bInfo&7] You bought 1 Falcon Greaves for &f1 &aAncient Emerald&7, &f20 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Falcon_Legs 1'
+    RewardType: command
+  Falcon_Boots:
+    MenuItem:
+    - id:301
+    - name:&9Falcon Calceus
+    - "lore:&7Depth Strider X"
+    - "lore:&7Feather Falling X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+20% &7movement speed."
+    - "lore:&9★ &7Gain &aSpeed &7equal to your"
+    - "lore:&7  level of &aHaste&7. (E.g. Speed"
+    - "lore:&7  II from Haste II)."
+    - "lore:&9★ &7Set Bonus: &aHaste IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f3x &aAncient Emerald"
+    - "lore:&7- &f10x &aUncut Diamond"
+    - enchantment:PROTECTION_FALL#10
+    - enchantment:DEPTH_STRIDER#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:101#101#105
+    - amount:1
+    InventoryLocation: 33
+    Message: '&7[&bInfo&7] You bought 1 Falcon Calceus for &f3 &aAncient Emerald&7, &f10 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:3
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Falcon_Boots 1'
+    RewardType: command
+### FIRESONG ARMOR SET -----------------------------------------
+  Firesong_Helm:
+    MenuItem:
+    - id:298
+    - name:&9Firesong Helmet
+    - "lore:&7Protection X"
+    - "lore:&7Projectile Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+30% &7movement speed."
+    - "lore:&9★ &7Adds &c15.0❤ &7damage to all"
+    - "lore:&7  your attacks."
+    - "lore:&9★ &7Set Bonus: &aRegeneration IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f20x &aUncut Diamond"
+    - enchantment:PROTECTION_PROJECTILE#10
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:255#100#0
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought 1 Firesong Helmet for &f1 &aAncient Emerald&7, &f20 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Firesong_Helm 1'
+    RewardType: command
+  Firesong_Chest:
+    MenuItem:
+    - id:299
+    - name:&9Firesong Chestplate
+    - "lore:&7Protection X"
+    - "lore:&7Blast Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &c+10.0❤ &7while equipped."
+    - "lore:&9★ &7You have &aFire Resistance&7."
+    - "lore:&7  (Refreshes every 8.0s)."
+    - "lore:&9★ &7Set Bonus: &aRegeneration IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f20x &aUncut Diamond"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:255#80#0
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought 1 Firesong Chestplate for &f1 &aAncient Emerald&7, &f20 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Firesong_Chest 1'
+    RewardType: command
+  Firesong_Legs:
+    MenuItem:
+    - id:300
+    - name:&9Firesong Greaves
+    - "lore:&7Projectile Protection X"
+    - "lore:&7Blast Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &c+10.0❤ &7while equipped."
+    - "lore:&9★ &725% chance to gain &aSpeed III"
+    - "lore:&7  for up to 5.0s whenever you"
+    - "lore:&7  take damage."
+    - "lore:&9★ &7Set Bonus: &aRegeneration IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f20x &aUncut Diamond"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - enchantment:PROTECTION_PROJECTILE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:255#60#0
+    - amount:1
+    InventoryLocation: 26
+    Message: '&7[&bInfo&7] You bought 1 Firesong Greaves for &f1 &aAncient Emerald&7, &f20 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Firesong_Legs 1'
+    RewardType: command
+  Firesong_Boots:
+    MenuItem:
+    - id:301
+    - name:&9Firesong Boots
+    - "lore:&7Depth Strider X"
+    - "lore:&7Feather Falling X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+30% &7movement speed."
+    - "lore:&9★ &7Adds &c5.0❤ &5Chaos &7damage"
+    - "lore:&7  to all your attacks."
+    - "lore:&9★ &7Set Bonus: &aRegeneration IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - "lore:&7- &f20x &aUncut Diamond"
+    - enchantment:PROTECTION_FALL#10
+    - enchantment:DEPTH_STRIDER#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:255#100#0
+    - amount:1
+    InventoryLocation: 35
+    Message: '&7[&bInfo&7] You bought 1 Firesong Boots for &f1 &aAncient Emerald&7, &f20 &aUncut Diamonds&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Firesong_Boots 1'
+    RewardType: command

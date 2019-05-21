@@ -1,0 +1,16 @@
+title: Lab_Smith_3
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lGrouchy Smith"
+    - "&8Trading NPC"
+    - ""
+    - "&1Approaching the man"
+    - "&1only seems to annoy"
+    - "&1him slightly."
+    - ""
+    - "&1You get straight to"
+    - "&1business and ask for"
+    - "&1his wares."
+    - ""
+    - '&7- { text: "Open Smith''s Shop", color:"BLUE", command: "shop npc_blacksmith_lab_3", hover: "&7View shop"}'

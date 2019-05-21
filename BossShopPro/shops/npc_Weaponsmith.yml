@@ -1,0 +1,126 @@
+ShopName: npc_selthine_blacksmith
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &3Smith & &bWeapon&7]'
+shop:
+  UDagger:
+    MenuItem:
+    - id:283
+    - name:&2Ceremonial Dagger
+    - 'lore:&0 #&7Tier: &2Uncommon#&0 #&7“&2A golden dagger adorned#&2 with intricate designs.&7”'
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &61200Σ"
+    - enchantment:DAMAGE_UNDEAD#5
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bInfo&7] You bought 1 Ceremonial Dagger for &61200 &7Sigmas.'
+    Price: 1200
+    PriceType: money
+    Reward:
+    - - id:283
+      - name:&2Ceremonial Dagger
+      - 'lore:&0 #&7Tier: &2Uncommon#&0 #&7“&2A golden dagger adorned#&2 with intricate designs.&7”'
+      - hideflags:HIDE_ATTRIBUTES
+      - enchantment:DAMAGE_UNDEAD#5
+      - amount:1
+    RewardType: item
+  UShortsword:
+    MenuItem:
+    - id:267
+    - name:&2Shortsword
+    - 'lore:&0 #&7Tier: &2Uncommon#&0 #&7“&2A smaller sword capable#&2 of quick strikes.&7”'
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &61350Σ"
+    - enchantment:DAMAGE_ALL#6
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 3
+    Message: '&7[&bInfo&7] You bought 1 Shortsword for &61350 &7Sigmas.'
+    Price: 1350
+    PriceType: money
+    Reward:
+    - - id:267
+      - name:&2Shortsword
+      - 'lore:&0 #&7Tier: &2Uncommon#&0 #&7“&2A smaller sword capable#&2 of quick strikes.&7”'
+      - hideflags:HIDE_ATTRIBUTES
+      - enchantment:DAMAGE_ALL#6
+      - hideflags:HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: item
+  UCrystalSword:
+    MenuItem:
+    - id:276
+    - name:&2Crystal Longsword
+    - 'lore:&0 #&7Tier: &2Uncommon#&0 #&7“&2A razor-sharp sword with#&2 a glistening edge.&7”'
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &61750Σ"
+    - enchantment:DAMAGE_ALL#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You bought 1 Crystal Longsword for &61750 &7Sigmas.'
+    Price: 1750
+    PriceType: money
+    Reward:
+    - - id:276
+      - name:&2Crystal Longsword
+      - 'lore:&0 #&7Tier: &2Uncommon#&0 #&7“&2A razor-sharp sword with#&2 a glistening edge.&7”'
+      - enchantment:DAMAGE_ALL#6
+      - hideflags:HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: item
+  RLongsword:
+    MenuItem:
+    - id:272
+    - name:&3Hollow Longsword
+    - 'lore:&0 #&7Tier: &3Rare#&0 #&7“&3A strange weapon forged#&3 carefully from within a#&3 kindled flame.&7”'
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &62400Σ"
+    - enchantment:DAMAGE_UNDEAD#10
+    - enchantment:MENDING#1
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 7
+    Message: '&7[&bInfo&7] You bought 1 Hollow Longsword for &62400 &7Sigmas.'
+    Price: 2400
+    PriceType: money
+    Reward:
+    - - id:272
+      - name:&3Hollow Longsword
+      - 'lore:&0 #&7Tier: &3Rare#&0 #&7“&3A strange weapon forged#&3 carefully from within a#&3 kindled flame.&7”'
+      - enchantment:DAMAGE_UNDEAD#10
+      - enchantment:MENDING#1
+      - hideflags:HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: item
+  RGreataxe:
+    MenuItem:
+    - id:258
+    - name:&3Mithril Greataxe
+    - 'lore:&0 #&7Tier: &3Rare#&0 #&7“&3This axe shines brilliantly#&3 despite the dim lights of its#&3 creator''&3s squalor.&7”'
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &63600Σ"
+    - enchantment:DAMAGE_ALL#10
+    - enchantment:MENDING#1
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 9
+    Message: '&7[&bInfo&7] You bought 1 Mithril Greataxe for &63600 &7Sigmas.'
+    Price: 3600
+    PriceType: money
+    Reward:
+    - - id:258
+      - name:&3Mithril Greataxe
+      - 'lore:&0 #&7Tier: &3Rare#&0 #&7“&3This axe shines brilliantly#&3 despite the dim lights of its#&3 creator''&3s squalor.&7”'
+      - enchantment:DAMAGE_ALL#10
+      - enchantment:MENDING#1
+      - hideflags:HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: item

@@ -1,0 +1,252 @@
+## DAMAGE SCROLLS
+Scroll1:
+    Item_Information:
+        Item_Name: "&fScroll of Fireball&7"
+        Item_Type: 339
+        Item_Lore: "&0 |&7Tier: &fCommon| &0 |&7Type: &9Magic (Consumable)|&7Damage: &c12.0❤|&7Cooldown: &91 Second|&0 |&7Right-click to cast spell."
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 15
+        Projectile_Damage: 100
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Bullet_Spread: 0.1
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_GHAST_SHOOT-1-1-0
+    Extras:
+        One_Time_Use: true
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was fireballed to death by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-10,FLAMES-1
+Scroll2:
+    Item_Information:
+        Item_Name: "&2Scroll of Flood&7"
+        Item_Type: 339
+        Item_Lore: "&0 |&7Tier: &2Uncommon| &0 |&7Type: &9Magic (Consumable)|&7Damage: &c6.0x3❤|&7Cooldown: &91 Second|&0 |&7Right-click to cast spell."
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 0
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 35
+        Projectile_Damage: 40
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-0-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0
+    Extras:
+        One_Time_Use: true
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was drowned by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-9,BLOCK_BREAK-22
+Scroll3:
+    Item_Information:
+        Item_Name: "&3Scroll of Earthquake&7"
+        Item_Type: 339
+        Item_Lore: "&0 |&7Tier: &3Rare| &0 |&7Type: &9Magic (Consumable)|&7Damage: &c4.0x4❤|&7Cooldown: &93 Seconds|&0 |&7Right-click to cast this spell.|&7Heals user by &c4.0❤ &7per hit."
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 60
+        Recoil_Amount: 0
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 30
+        Projectile_Damage: 50
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-1-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_IRONGOLEM_HURT-1-2-0,ENTITY_IRONGOLEM_HURT-1-0-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: HEAL-2-1
+    Extras:
+        One_Time_Use: true
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was drowned by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-133,SMOKE
+Scroll4:
+    Item_Information:
+        Item_Name: "&9Scroll of Storms&7"
+        Item_Type: 339
+        Item_Lore: "&0 |&7Tier: &9Superior| &0 |&7Type: &9Magic (Consumable)|&7Damage: &c8.0❤|&7Cooldown: &93 Seconds|&0 |&7Right-click to cast this spell.|&7Inflicts &c15.0❤ &7bleed damage."
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 60
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 40
+        Projectile_Damage: 240
+        Bullet_Spread: 0.1
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-2-0,ENTITY_GHAST_SHOOT-1-2-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: WITHER-120-10
+    Extras:
+        One_Time_Use: true
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was drowned by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-20,BLOCK_BREAK-35
+Scroll5:
+    Item_Information:
+        Item_Name: "&4&oScroll of Immunity&7"
+        Item_Type: 339
+        Item_Lore: "&0 |&7Tier: &4&oCorrupted| &0 |&7Type: &9Magic (Consumable)|&7Damage: &c0.0❤|&7Cooldown: &920 Seconds|&0 |&7Right-click to cast this spell.|&7Gain Resist. V for 12.0s but|&7suffer slow/blind for 20.0s.|&0 |&7“&4It only costs your soul!&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_DEATH-1-2-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: DAMAGE_RESISTANCE-240-5,SLOW-400-4,BLINDNESS-400-1
+    Extras:
+        One_Time_Use: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-87,BLOCK_BREAK-214,SMOKE
+Scroll6:
+    Item_Information:
+        Item_Name: "&5&oScroll of Holy Smite&7"
+        Item_Type: 339
+        Item_Lore: "&0 |&7Tier: &6&oLegendary| &0 |&7Type: &9Magic (Consumable)|&7Damage: &c250.0x3❤|&7Cooldown: &915 Seconds|&0 |&7Right-click to cast this spell.|&0 |&7“&6A powerful technique used|&6 to destroy void demons.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 300
+        Recoil_Amount: 0
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 20
+        Projectile_Damage: 20000
+        Bullet_Spread: 0.2
+        Reset_Fall_Distance: true
+        Sounds_Shoot: BLOCK_ENCHANTMENT_TABLE_USE-1-2-0,BLOCK_ENCHANTMENT_TABLE_USE-0.8-1-0,BLOCK_ENCHANTMENT_TABLE_USE-0.2-0-0
+    Extras:
+        One_Time_Use: true
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was purified by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-0.2-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80,BLOCK_BREAK-155
+    Lightning:
+        Enable: true
+        No_Damage: true
+        On_Impact_With_Anything: true
+Scroll7:
+    Item_Information:
+        Item_Name: "&5&oScroll of Lifeforce&7"
+        Item_Type: 339
+        Item_Lore: "&0 |&7Tier: &6&oLegendary| &0 |&7Type: &9Magic (Consumable)|&7Damage: &c0.0❤|&7Cooldown: &960 Seconds|&0 |&7Right-click to cast this spell.|&7Gain &c10.0❤ &7for 5 minutes.|&0 |&7“&6An ancient power forged with|&6 the true essence of the soul.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1200
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-0-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEALTH_BOOST-6000-5,REGENERATION-60-10
+    Extras:
+        One_Time_Use: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-35,BLOCK_BREAK-155,BLOCK_BREAK-80

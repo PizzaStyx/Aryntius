@@ -1,0 +1,17 @@
+title: npc_HH_OldHunter
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lOld Hunter"
+    - "&8Covenant Leader"
+    - ""
+    - "&8“&1Hello, good hunter."
+    - "&1 I do hope you are"
+    - "&1 well in these dark"
+    - "&1 times.&8”"
+    - ""
+    - '&7- { text: "I would like a new", color:"BLUE", command: "bs HunterTitles", hover: "&7Change title"}'
+    - '&l  { text: "covenant title.", color:"BLUE", command: "bs HunterTitles", hover: "&7Change title"}'
+    - ""
+    - '&7- { text: "What do the titles", color:"BLUE", hover: "&7View lore", open: "general_Covenants"}'
+    - '&l  { text: "even do?", color:"BLUE", hover: "&7View lore", open: "general_Covenants"}'

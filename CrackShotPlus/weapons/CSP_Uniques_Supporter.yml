@@ -1,0 +1,5 @@
+ShrubSpell:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "RedMagic,OrangeMagic"

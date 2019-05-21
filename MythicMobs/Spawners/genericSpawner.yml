@@ -1,0 +1,31 @@
+genericSpawner:
+### There are over 1100 spawners on Aryntius, the vast majority
+### of which are clones of each other. So uploading them would
+### be pointless.
+###
+### Instead, I've included an example spawner that behaves exactly
+### like any spawner on Aryntius would. Boss spawners work the same
+### way but have a longer timer and a MaxMobs value of 1.
+  MobName: Example_Mob
+  World: world
+  X: 0
+  Y: 62
+  Z: 0
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 5
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 0
+  CooldownTimer: 0
+  Warmup: 60
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 25
+  LeashRange: 0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

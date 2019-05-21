@@ -1,0 +1,21 @@
+### SMOKIN TRAILS
+Smoking_Water:
+    Trail: "MAGIC_CRIT"
+    Trail_Settings:
+        Speed: 0.15
+        Particle_Count: 3
+Smoking_Frost:
+    Trail: "CLOUD"
+    Trail_Settings:
+        Speed: 0.15
+        Particle_Count: 3
+Smoking_Lava:
+    Trail: "LAVA_POP"
+    Trail_Settings:
+        Speed: 0.15
+        Particle_Count: 3
+Smoking_Flames:
+    Trail: "FLAME"
+    Trail_Settings:
+        Speed: 0.15
+        Particle_Count: 3

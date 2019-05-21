@@ -1,0 +1,270 @@
+ShopName: npc_pequod_shop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Pequod''s Pain &8]'
+shop:
+### FLASKS 0 ---------------------------------------------------
+  CFlask_1:
+    MenuItem:
+    - id:437
+    - "name:&9Assassin's Acrimony"
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&9★ &7Gain &aHaste X &7for 10.0s."
+    - "lore:&9★ &7Restores full health on use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% CFlask_1'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought an &9Assassin''s Acrimony &7for &f5 &aStar Fragment&7.'
+  CFlask_2:
+    MenuItem:
+    - id:437
+    - "name:&9Sentinel's Stability"
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&9★ &7Gain &aRegen. X &7for 10.0s."
+    - "lore:&9★ &7Gain &aWaterbreathing &7for 10.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% CFlask_2'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You bought a &9Sentinel''s Stability &7for &f5 &aStar Fragment&7.'
+  CFlask_3:
+    MenuItem:
+    - id:437
+    - "name:&9Rabbit's Rush"
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&9★ &7Gain &aSpeed V &7for 10.0s."
+    - "lore:&9★ &7Gain &aJump Boost II &7for 10.0s."
+    - "lore:&9★ &7Removes &8Slowness &7on use."
+    - "lore:&9★ &7Removes &8Levitation &7on use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% CFlask_3'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You bought a &9Rabbit''s Rush &7for &f5 &aStar Fragment&7.'
+  CFlask_4:
+    MenuItem:
+    - id:437
+    - "name:&9Tanuki's Tenacity"
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&9★ &7Gain &aStrength C &7for 10.0s."
+    - "lore:&9★ &7Suffer &8Blindness &7for 3.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% CFlask_4'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought a &9Tanuki''s Tenacity &7for &f5 &aStar Fragment&7.'
+### FLASKS ----------------------------------------------------
+  VFlask_1: ### Flask of Deftness
+    MenuItem:
+    - id:437
+    - name:&d&oFlask of Deftness
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oGain &a&oHaste X &7&ofor 10.0s."
+    - "lore:&d★ &7&oGain &a&oRegen. X &7&ofor 10.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f16x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VFlask_1'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought a &d&oFlask of Deftness &7for &f16 &aStar Fragment&7.'
+  VFlask_2: ### Lifeweave Flask
+    MenuItem:
+    - id:437
+    - name:&d&oLifeweave Flask
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oRestores full health on use."
+    - "lore:&d★ &7&oGain &a&oSpeed X &7&ofor 10.0s."
+    - "lore:&d★ &7&oGain &a&oWaterbreathing &7&ofor 10.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f16x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VFlask_2'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    InventoryLocation: 13
+    Message: '&7[&bInfo&7] You bought a &d&oLifeweave Flask &7for &f16 &aStar Fragment&7.'
+  VFlask_3: ### Flask of Grounding
+    MenuItem:
+    - id:437
+    - name:&d&oFlask of Grounding
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oSets your gold hearts to"
+    - "lore:&e&o  100.0❤ &7&ofor up to 5.0s."
+    - "lore:&d★ &7&oRemoves &8&oSlowness &7&oon use."
+    - "lore:&d★ &7&oRemoves &8&oLevitation &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f16x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VFlask_3'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    InventoryLocation: 15
+    Message: '&7[&bInfo&7] You bought a &d&oFlask of Grounding &7for &f16 &aStar Fragment&7.'
+  VFlask_4: ### Flask of Leaping
+    MenuItem:
+    - id:437
+    - name:&d&oFlask of Leaping
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oGain &a&oJump Boost V &7&ofor 12.0s."
+    - "lore:&d★ &7&oSuffer &b&oFrozen &7&ofor 3.0s."
+    - "lore:&d★ &7&oSuffer &8&oBlindness &7&ofor 3.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f16x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VFlask_4'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought a &d&oFlask of Leaping &7for &f16 &aStar Fragment&7.'

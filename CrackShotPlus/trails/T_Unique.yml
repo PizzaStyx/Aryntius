@@ -1,0 +1,101 @@
+### UNIQUE WEAPON TRAILS
+Reaper:
+    Trail: "PARTICLE_SMOKE"
+    Trail_Radius: 6
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 3
+    Circle:
+        Maxium_Circle_Size: 2.0
+Executor:
+    Trail: "VOID_FOG"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+PlasmaBurst:
+    Trail: "MAGIC_CRIT"
+    Trail_Radius: 60
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 0.5
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 2
+    Circle:
+        Maxium_Circle_Size: 1.0
+Flamethrower:
+    Trail: "FLAME"
+    Trail_Radius: 8
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 0.5
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 2
+VoidMagic:
+    Trail: "WITCH_MAGIC"
+    Trail_Radius: 20
+    Trail_Go_Through: "all"
+    Space_Between_Trails: 4.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 5
+    Circle:
+        Maxium_Circle_Size: 4.0
+FireTube:
+    Trail: "FLAME"
+    Trail_Radius: 10
+    Trail_Go_Through: "all"
+    Space_Between_Trails: 4.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 3
+    Circle:
+        Maxium_Circle_Size: 2.0
+WideMagic:
+    Trail: "SPELL"
+    Trail_Radius: 5
+    Trail_Go_Through: "all"
+    Space_Between_Trails: 4.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 1
+    Circle:
+        Maxium_Circle_Size: 3.0
+BigCloud:
+    Trail: "CLOUD"
+    Trail_Radius: 1
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 1.0
+    Circle:
+        Maxium_Circle_Size: 1.0
+CloudSaber:
+    Trail: "INSTANT_SPELL"
+    Trail_Radius: 6
+    Trail_Go_Through: "all"
+    Space_Between_Trails: 4.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 3
+    Circle:
+        Maxium_Circle_Size: 4.0
+Arch_Sword:
+    Trail: "LARGE_SMOKE"
+    Trail_Radius: 6
+    Trail_Go_Through: "all"
+    Space_Between_Trails: 4.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 1
+    Circle:
+        Maxium_Circle_Size: 4.0
+Arch_Sword2:
+    Trail: "WITCH_MAGIC"
+    Trail_Radius: 6
+    Trail_Go_Through: "all"
+    Space_Between_Trails: 4.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 3
+    Circle:
+        Maxium_Circle_Size: 4.0

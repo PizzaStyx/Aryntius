@@ -1,0 +1,7 @@
+# Citizens CMD Plugin by Mateus Moreira aka iPSYKO
+# @LichtHund
+# Version 1.1.0
+# 
+# Enables Checking for update.
+CheckUpdates: false
+CooldownDisplayType: 0

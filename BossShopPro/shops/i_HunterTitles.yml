@@ -1,0 +1,100 @@
+ShopName: HunterTitles
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &4Hunter Titles &8]'
+shop:
+  HH_Title_1:
+    RewardType: Command
+    Price:
+    - - mythicitem:HH_1
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'pex user %player% prefix "&8«&cTracker&8» &7"'
+    MenuItem:
+    - id:35
+    - durability:15
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - "name:&8«&cTracker&8» &7Title"
+    - "lore:&0 "
+    - "lore:&c★ &7&oThis cosmetic title shows"
+    - "lore:&7&o  your participation in the"
+    - "lore:&7&o  Hunter's Covenant!"
+    - "lore:&0 "
+    - "lore:&7Prefix Cost:"
+    - "lore:&7- &f20x &cCorrupted Fragment"
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You have obtained the &8«&cTracker&8» &7title!'
+  HH_Title_2:
+    RewardType: Command
+    Price:
+    - - mythicitem:HH_2
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'pex user %player% prefix "&8«&4Rea&cper&8» &7"'
+    MenuItem:
+    - id:173
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - "name:&8«&4Rea&cper&8» &7Title"
+    - "lore:&0 "
+    - "lore:&c★ &7&oThis cosmetic title shows"
+    - "lore:&7&o  your participation in the"
+    - "lore:&7&o  Hunter's Covenant!"
+    - "lore:&0 "
+    - "lore:&7Prefix Cost:"
+    - "lore:&7- &f20x &4Greater Corrupted Fragment"
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You have obtained the &8«&4Rea&cper&8» &7title!'
+  HH_Title_3:
+    RewardType: Command
+    Price:
+    - - mythicitem:HH_3
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'pex user %player% prefix "&8«&4&oHarb&c&oinger&8» &7&o"'
+    MenuItem:
+    - id:49
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - "name:&8«&4&oHarb&c&oinger&8» &7Title"
+    - "lore:&0 "
+    - "lore:&c★ &7&oThis cosmetic title shows"
+    - "lore:&7&o  your participation in the"
+    - "lore:&7&o  Hunter's Covenant!"
+    - "lore:&0 "
+    - "lore:&7Prefix Cost:"
+    - "lore:&7- &f20x &4&oEssence of S&c&ohadows"
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You have obtained the &8«&4&oHarb&o&c&oinger&8» &7title!'
+  HH_Title_Reset:
+    RewardType: Command
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'pex user %player% prefix ""'
+    MenuItem:
+    - id:35
+    - durability:14
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - "name:&cTitle Reset"
+    - "lore:&0 "
+    - "lore:&c★ &7&oThis resets your current"
+    - "lore:&7&o  chat prefix to show your"
+    - "lore:&7&o  original rank."
+    - "lore:&0 "
+    - "lore:&7Reset Cost:"
+    - "lore:&7- &f1x &aStar Fragment"
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You have reset your title.'

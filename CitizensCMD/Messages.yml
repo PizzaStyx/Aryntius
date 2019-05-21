@@ -1,0 +1,11 @@
+NoPermission: '&7[&bInfo&7] &cYou do not have permissions to perform this command!'
+CooldownMinutesSeconds: '&7[&bInfo&7] Please wait &f%M% and %S% &7before interacting
+  with this NPC again.'
+CooldownSeconds: '&7[&bInfo&7] Please wait &f%S% &7before interacting with this NPC
+  again.'
+InvalidCommand: '&7[&bInfo&7] Command not found &7/npcmd &7for help.'
+CooldownDaysHours: '&7[&bInfo&7] Please wait &f%D% and %H% &7before interacting with
+  this NPC again.'
+CooldownHoursMinutes: '&7[&bInfo&7] Please wait &f%H% and %M% &7before interacting
+  with this NPC again.'
+OneTimeClick: '&7[&bInfo&7] You may only perform this interactaction once!'

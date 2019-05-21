@@ -1,0 +1,256 @@
+ShopName: BakeShop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Pizza''s &aBakery &7]'
+shop:
+  Cookie:
+    MenuItem:
+    - name:&aCookie
+    - lore:&7Price:&6 6Σ
+    - id:357
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Cookie for&6 6 &7Sigmas.'
+    Price: 6.0
+    PriceType: money
+    Reward:
+    - - id:357
+      - amount:1
+    RewardType: item
+  Cookie2:
+    MenuItem:
+    - name:&aCookie
+    - lore:&7Price:&6 96Σ
+    - id:357
+    - amount:16
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 16 Cookie for&6 96 &7Sigmas.'
+    Price: 96.0
+    PriceType: money
+    Reward:
+    - - id:357
+      - amount:16
+    RewardType: item
+  Cookie3:
+    MenuItem:
+    - name:&aCookie
+    - lore:&7Price:&6 192Σ
+    - id:357
+    - amount:32
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 32 Cookie for&6 192 &7Sigmas.'
+    Price: 192.0
+    PriceType: money
+    Reward:
+    - - id:357
+      - amount:32
+    RewardType: item
+  Cookie4:
+    MenuItem:
+    - name:&aCookie
+    - lore:&7Price:&6 384Σ
+    - id:357
+    - amount:64
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 64 Cookie for&6 384 &7Sigmas.'
+    Price: 384.0
+    PriceType: money
+    Reward:
+    - - id:357
+      - amount:64
+    RewardType: item
+  Bread:
+    MenuItem:
+    - name:&eBread
+    - lore:&7Price:&6 50Σ
+    - id:297
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Bread for&6 50 &7Sigmas.'
+    Price: 50.0
+    PriceType: money
+    Reward:
+    - - id:297
+      - amount:1
+    RewardType: item
+  Bread2:
+    MenuItem:
+    - name:&eBread
+    - lore:&7Price:&6 800Σ
+    - id:297
+    - amount:16
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 16 Bread for&6 800 &7Sigmas.'
+    Price: 800.0
+    PriceType: money
+    Reward:
+    - - id:297
+      - amount:16
+    RewardType: item
+  Bread3:
+    MenuItem:
+    - name:&eBread
+    - lore:&7Price:&6 1600Σ
+    - id:297
+    - amount:32
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 32 Bread for&6 1600 &7Sigmas.'
+    Price: 1600.0
+    PriceType: money
+    Reward:
+    - - id:297
+      - amount:32
+    RewardType: item
+  Bread4:
+    MenuItem:
+    - name:&eBread
+    - lore:&7Price:&6 3200Σ
+    - id:297
+    - amount:64
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 64 Bread for&6 3200 &7Sigmas.'
+    Price: 3200.0
+    PriceType: money
+    Reward:
+    - - id:297
+      - amount:64
+    RewardType: item
+  BakedPotato:
+    MenuItem:
+    - name:&bBaked Potato
+    - lore:&7Price:&6 80Σ
+    - id:393
+    - amount:1
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You bought 1 Baked Potato for&6 80 &7Sigmas.'
+    Price: 80.0
+    PriceType: money
+    Reward:
+    - - id:393
+      - amount:1
+    RewardType: item
+  BakedPotato2:
+    MenuItem:
+    - name:&bBaked Potato
+    - lore:&7Price:&6 640Σ
+    - id:393
+    - amount:8
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 8 Baked Potato for&6 640 &7Sigmas.'
+    Price: 640.0
+    PriceType: money
+    Reward:
+    - - id:393
+      - amount:8
+    RewardType: item
+  BakedPotato3:
+    MenuItem:
+    - name:&bBaked Potato
+    - lore:&7Price:&6 1280Σ
+    - id:393
+    - amount:16
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 16 Baked Potato for&6 1280 &7Sigmas.'
+    Price: 1280.0
+    PriceType: money
+    Reward:
+    - - id:393
+      - amount:16
+    RewardType: item
+  BakedPotato4:
+    MenuItem:
+    - name:&bBaked Potato
+    - lore:&7Price:&6 2560Σ
+    - id:393
+    - amount:32
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 32 Baked Potato for&6 2560 &7Sigmas.'
+    Price: 2560.0
+    PriceType: money
+    Reward:
+    - - id:393
+      - amount:32
+    RewardType: item
+  PumpkinPie:
+    MenuItem:
+    - name:&cPumpkin Pie
+    - lore:&7Price:&6 60Σ
+    - id:400
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Pumpkin Pie for&6 60 &7Sigmas.'
+    Price: 60.0
+    PriceType: money
+    Reward:
+    - - id:400
+      - amount:1
+    RewardType: item
+  PumpkinPie2:
+    MenuItem:
+    - name:&cPumpkin Pie
+    - lore:&7Price:&6 480Σ
+    - id:400
+    - amount:8
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 8 Pumpkin Pie for&6 480 &7Sigmas.'
+    Price: 480.0
+    PriceType: money
+    Reward:
+    - - id:400
+      - amount:8
+    RewardType: item
+  PumpkinPie3:
+    MenuItem:
+    - name:&cPumpkin Pie
+    - lore:&7Price:&6 960Σ
+    - id:400
+    - amount:16
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 16 Pumpkin Pie for&6 960 &7Sigmas.'
+    Price: 960.0
+    PriceType: money
+    Reward:
+    - - id:400
+      - amount:16
+    RewardType: item
+  PumpkinPie4:
+    MenuItem:
+    - name:&cPumpkin Pie
+    - lore:&7Price:&6 1920Σ
+    - id:400
+    - amount:32
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You bought 32 Pumpkin Pie for&6 1920 &7Sigmas.'
+    Price: 1920.0
+    PriceType: money
+    Reward:
+    - - id:400
+      - amount:32
+    RewardType: item
+  Cake:
+    MenuItem:
+    - name:&dCake
+    - lore:&7Price:&6 300Σ
+    - id:354
+    - amount:1
+    InventoryLocation: 23
+    Message: '&7[&bShop&7] You bought 1 Cake for&6 300 &7Sigmas.'
+    Price: 300.0
+    PriceType: money
+    Reward:
+    - - id:354
+      - amount:1
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Food Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 32
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Food

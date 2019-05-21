@@ -1,0 +1,16 @@
+title: Trials_Smith
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lEternal Smith"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Ah, you must be the"
+    - "&1 newborn Eternal. I"
+    - "&1 have heard much"
+    - "&1 about you.&8”"
+    - ""
+    - '&7- { text: "What are the Trials?", color:"BLUE", hover: "&7View lore", open: "Trials_Smith_2"}'
+    - ""
+    - '&7- { text: "I''d like to complete", color:"BLUE", command: "shop npc_blacksmith_trials", hover: "&7View shop"}'
+    - '&l  { text: "a Legendary set.", color:"BLUE", command: "shop npc_blacksmith_trials", hover: "&7View shop"}'

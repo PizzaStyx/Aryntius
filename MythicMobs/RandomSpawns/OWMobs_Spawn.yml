@@ -1,0 +1,164 @@
+### Random spawns
+1:
+  MobType: OpenZ1
+  Worlds: world
+  Chance: 0.01
+  Priority: 10
+  Action: replace
+  Conditions:
+  - outside true
+  - inregion{r=sporn} false
+2:
+  MobType: OpenS1
+  Worlds: world
+  Chance: 0.01
+  Priority: 11
+  Action: replace
+  Conditions:
+  - outside true
+  - inregion{r=sporn} false
+3:
+  MobType: OpenSP1
+  Worlds: world
+  Chance: 0.01
+  Priority: 9
+  Action: replace
+  Conditions:
+  - outside true
+  - inregion{r=sporn} false
+### TIER 2
+4:
+  MobType: OpenZ2
+  Worlds: world
+  Chance: 0.005
+  Priority: 20
+  Action: replace
+  Conditions:
+  - outside true
+  - inregion{r=sporn} false
+5:
+  MobType: OpenS2
+  Worlds: world
+  Chance: 0.005
+  Priority: 25
+  Action: replace
+  Conditions:
+  - outside true
+  - inregion{r=sporn} false
+6:
+  MobType: OpenZ2M
+  Worlds: world
+  Chance: 0.005
+  Priority: 18
+  Action: replace
+  Conditions:
+  - outside true
+  - inregion{r=sporn} false
+### TIER 3
+7:
+  MobType: OpenSP2
+  Worlds: world
+  Chance: 0.0025
+  Priority: 50
+  Action: replace
+  Conditions:
+  - outside true
+  - inregion{r=sporn} false
+8:
+  MobType: OpenZ3
+  Worlds: world
+  Chance: 0.0025
+  Priority: 60
+  Action: replace
+  Conditions:
+  - outside true
+  - inregion{r=sporn} false
+9:
+  MobType: OpenS3
+  Worlds: world
+  Chance: 0.0025
+  Priority: 70
+  Action: replace
+  Conditions:
+  - outside true
+  - inregion{r=sporn} false
+10:
+  MobType: OpenZ3M
+  Worlds: world
+  Chance: 0.002
+  Priority: 100
+  Action: replace
+  Conditions:
+  - outside true
+  - inregion{r=sporn} false
+### NETHER SPAWNS (LEGACY) ----------------------------------------------------
+# ### BOSSES
+# OpenBoss1_N:
+  # MobType: OpenBoss1
+  # Worlds: world_nether
+  # Chance: 0.001
+  # Priority: 255
+  # Action: replace
+# ### NETHER SPAWNS
+# N1:
+  # MobType: OpenZ1
+  # Worlds: world_nether
+  # Chance: 0.025
+  # Priority: 10
+  # Action: replace
+# N2:
+  # MobType: OpenS1
+  # Worlds: world_nether
+  # Chance: 0.025
+  # Priority: 11
+  # Action: replace
+# N3:
+  # MobType: OpenSP1
+  # Worlds: world_nether
+  # Chance: 0.025
+  # Priority: 9
+  # Action: replace
+# ### TIER 2
+# N4:
+  # MobType: OpenZ2
+  # Worlds: world_nether
+  # Chance: 0.01
+  # Priority: 20
+  # Action: replace
+# N5:
+  # MobType: OpenS2
+  # Worlds: world_nether
+  # Chance: 0.01
+  # Priority: 25
+  # Action: replace
+# N6:
+  # MobType: OpenZ2M
+  # Worlds: world_nether
+  # Chance: 0.01
+  # Priority: 18
+  # Action: replace
+# ### TIER 3
+# N7:
+  # MobType: OpenSP2
+  # Worlds: world_nether
+  # Chance: 0.005
+  # Priority: 50
+  # Action: replace
+# N8:
+  # MobType: OpenZ3
+  # Worlds: world_nether
+  # Chance: 0.005
+  # Priority: 60
+  # Action: replace
+# N9:
+  # MobType: OpenS3
+  # Worlds: world_nether
+  # Chance: 0.005
+  # Priority: 70
+  # Action: replace
+# N10:
+  # MobType: OpenZ3M
+  # Worlds: world_nether
+  # Chance: 0.004
+  # Priority: 100
+  # Action: replace

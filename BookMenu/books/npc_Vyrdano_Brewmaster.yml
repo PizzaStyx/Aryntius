@@ -1,0 +1,16 @@
+title: npc_Vyrdano_Brewmaster
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lBrewmaster"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Feel a thirst? Need"
+    - "&1 it quenched? We've"
+    - "&1 got it all!&8”"
+    - ""
+    - '&7- { text: "Sure, I''m willing to", color:"BLUE", command: "shop npc_Brewmaster_Shop", hover: "&7View shop"}'
+    - '&l  { text: "taste a new brew!", color:"BLUE", command: "shop npc_Brewmaster_Shop", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "Got any tips for a", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Brewmaster_2"}'
+    - '&l  { text: "novice alchemist?", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Brewmaster_2"}'

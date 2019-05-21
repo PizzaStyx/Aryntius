@@ -1,0 +1,58 @@
+### RIFLES
+AutoRifle1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Blue
+AutoRifle2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Red
+BurstRifle1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PistolTrail"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Purple
+BurstRifle2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke,PistolTrail"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Purple
+BurstRifle3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke,PistolTrail"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_PurpleDark
+### SPECIAL RIFLES
+FusionRifle:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperAqua"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Blue
+RAttachment:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PiercedWater"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Red

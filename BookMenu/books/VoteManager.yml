@@ -1,0 +1,18 @@
+title: VoteManager
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lVote Manager"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1So you want a crate"
+    - "&1 key, eh? Just vote"
+    - "&1 and you'll get one!&8”"
+    - ""
+    # - '&7- { text: "I would like to vote", color:"BLUE", command: "vote", hover: "&7Vote"}'
+    # - '&l  { text: "for the server.", color:"BLUE", command: "vote", hover: "&7Vote"}'
+    - '&7- { text: "&9I would like to vote", url: "https://www.aryntius.com/vote", hover: "&7Open in browser"}'
+    - '&l  { text: "&9for the server.", url: "https://www.aryntius.com/vote", hover: "&7Open in browser"}'
+    - ""
+    - '&7- { text: "What does voting", color:"BLUE", hover: "&7View lore", open: "VoteManager_A"}'
+    - '&l  { text: "give me?", color:"BLUE", hover: "&7View lore", open: "VoteManager_A"}'

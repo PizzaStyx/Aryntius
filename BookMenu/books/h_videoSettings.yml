@@ -1,0 +1,29 @@
+title: videoSettings
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lVideo Settings"
+    - ""
+    - "Aryntius is designed around the default Minecraft font and textures with all particles fully enabled."
+    - ""
+    - "Reduced particles will make attacks/spells seem invisible."
+  2:
+    - "It is permitted and encouraged to use different resource packs."
+    - ""
+    - "However, some bugs may arise."
+    - ""
+    - "For example, fonts in a larger size/width may display menus incorrectly."
+  3:
+    - "This can cause dialogue options or shops to become inaccessible to the client."
+    - ""
+    - "To prevent this while using a non-default resource pack, it is suggested to enable the Unicode font in your client's settings."
+  4:
+    - "To enable the Unicode font, follow these steps from the menu:"
+    - ""
+    - "Options"
+    - "&1» &0Language"
+    - "&1»» &0Force Unicode"
+    - "    Font: &8ON"
+    - ""
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

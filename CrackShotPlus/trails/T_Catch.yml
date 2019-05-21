@@ -1,0 +1,72 @@
+### CATCH TRAILS
+Critical_Trails:
+    Trail: "CRIT"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+Flaming_Trails:
+    Trail: "FLAME"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+Smoking_Trails:
+    Trail: "LARGE_SMOKE"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+Magic_Trails:
+    Trail: "WITCH_MAGIC"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+Heart_Trails:
+    Trail: "HEART"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+Rainbow_Trails:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "300-500-400"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+### NEW ONES
+ThickWater:
+    Trail: "MAGIC_CRIT"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+DarkWater:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "0-0-255"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+CatchRed:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-0-0"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+CatchDarkRed:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "180-0-0"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+CatchGold:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-255-0"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+CatchEarth:
+    Trail: "HAPPY_VILLAGER"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5
+CatchSmoke:
+    Trail: "PARTICLE_SMOKE"
+    Trail_Catch:
+        Required_Distance_To_Catch: 0.5
+        Space_Between_Trails: 0.5

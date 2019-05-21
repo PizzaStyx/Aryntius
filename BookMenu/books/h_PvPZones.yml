@@ -1,0 +1,15 @@
+title: PvPZones
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lPvP Zones"
+    - ""
+    - "PvP is disabled in almost every area on the server with the sole exception of the Nether."
+    - ""
+    - "Notably, corrupted monsters also spawn at 2x the rate in the nether, making it the most challenging"
+  2:
+    - "natural environment on the entire server."
+    - ""
+    - "Among these enemies is a miniboss known as the Corrupted Hunter who deals massive amounts of damage and is tough even for endgame players."
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

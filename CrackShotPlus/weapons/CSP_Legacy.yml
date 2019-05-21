@@ -1,0 +1,36 @@
+### LEGACY WEAPONS
+LGC_Fang:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Razor"
+    Held:
+        Hide_Attributes: true
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Blood
+LGC_Tigris:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PistolTrail_Thick"
+    Held:
+        Hide_Attributes: true
+LGC_Tigris2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PistolTrail"
+    Held:
+        Hide_Attributes: true
+LGC_Curse1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WitchMagic"
+        Homing_Projectiles:
+            Radius_To_Nearest_Entity: 30
+            Crosshair_To_Lock: false
+            Lose_Control_Time: 100
+    Held:
+        Hide_Attributes: true

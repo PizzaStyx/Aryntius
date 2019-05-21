@@ -1,0 +1,242 @@
+ShopName: NetherBlocks
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &4Nether &cBlocks &7]'
+shop:
+  Netherrack:
+    MenuItem:
+    - name:&cNetherrack
+    - lore:&7Price:&6 2Σ
+    - id:87
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Netherrack for&6 2 &7Sigmas.'
+    Price: 2.0
+    PriceType: money
+    Reward:
+    - - id:87
+      - amount:1
+    RewardType: item
+  Netherrack2:
+    MenuItem:
+    - name:&cNetherrack
+    - lore:&7Price:&6 30Σ
+    - id:87
+    - amount:16
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 16 Netherrack for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:87
+      - amount:16
+    RewardType: item
+  Netherrack3:
+    MenuItem:
+    - name:&cNetherrack
+    - lore:&7Price:&6 60Σ
+    - id:87
+    - amount:32
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 32 Netherrack for&6 60 &7Sigmas.'
+    Price: 60.0
+    PriceType: money
+    Reward:
+    - - id:87
+      - amount:32
+    RewardType: item
+  Netherrack4:
+    MenuItem:
+    - name:&cNetherrack
+    - lore:&7Price:&6 120Σ
+    - id:87
+    - amount:64
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 64 Netherrack for&6 120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:87
+      - amount:64
+    RewardType: item
+  SoulSand:
+    MenuItem:
+    - name:&eSoul Sand
+    - lore:&7Price:&6 35Σ
+    - id:88
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Soul Sand for&6 35 &7Sigmas.'
+    Price: 35.0
+    PriceType: money
+    Reward:
+    - - id:88
+      - amount:1
+    RewardType: item
+  SoulSand2:
+    MenuItem:
+    - name:&eSoul Sand
+    - lore:&7Price:&6 540Σ
+    - id:88
+    - amount:16
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 16 Soul Sand for&6 540 &7Sigmas.'
+    Price: 540.0
+    PriceType: money
+    Reward:
+    - - id:88
+      - amount:16
+    RewardType: item
+  SoulSand3:
+    MenuItem:
+    - name:&eSoul Sand
+    - lore:&7Price:&6 1000Σ
+    - id:88
+    - amount:32
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 32 Soul Sand for&6 1000 &7Sigmas.'
+    Price: 1000.0
+    PriceType: money
+    Reward:
+    - - id:88
+      - amount:32
+    RewardType: item
+  SoulSand4:
+    MenuItem:
+    - name:&eSoul Sand
+    - lore:&7Price:&6 1950Σ
+    - id:88
+    - amount:64
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 64 Soul Sand for&6 1950 &7Sigmas.'
+    Price: 1950.0
+    PriceType: money
+    Reward:
+    - - id:88
+      - amount:64
+    RewardType: item
+  Glowstone:
+    MenuItem:
+    - name:&6Glowstone
+    - lore:&7Price:&6 64Σ
+    - id:89
+    - amount:1
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You bought 1 Glowstone for&6 64 &7Sigmas.'
+    Price: 64.0
+    PriceType: money
+    Reward:
+    - - id:89
+      - amount:1
+    RewardType: item
+  Glowstone2:
+    MenuItem:
+    - name:&6Glowstone
+    - lore:&7Price:&6 512Σ
+    - id:89
+    - amount:8
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 8 Glowstone for&6 512 &7Sigmas.'
+    Price: 512.0
+    PriceType: money
+    Reward:
+    - - id:89
+      - amount:8
+    RewardType: item
+  Glowstone3:
+    MenuItem:
+    - name:&6Glowstone
+    - lore:&7Price:&6 1024Σ
+    - id:89
+    - amount:16
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 16 Glowstone for&6 1024 &7Sigmas.'
+    Price: 1024.0
+    PriceType: money
+    Reward:
+    - - id:89
+      - amount:16
+    RewardType: item
+  Glowstone4:
+    MenuItem:
+    - name:&6Glowstone
+    - lore:&7Price:&6 4096Σ
+    - id:89
+    - amount:64
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 64 Glowstone for&6 4096 &7Sigmas.'
+    Price: 4096.0
+    PriceType: money
+    Reward:
+    - - id:89
+      - amount:64
+    RewardType: item
+  Magma:
+    MenuItem:
+    - name:&4Magma Block
+    - lore:&7Price:&6 250Σ
+    - id:213
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Magma Block for&6 250 &7Sigmas.'
+    Price: 250.0
+    PriceType: money
+    Reward:
+    - - id:213
+      - amount:1
+    RewardType: item
+  Magma2:
+    MenuItem:
+    - name:&4Magma Block
+    - lore:&7Price:&6 1000Σ
+    - id:213
+    - amount:4
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 4 Magma Block for&6 1000 &7Sigmas.'
+    Price: 250.0
+    PriceType: money
+    Reward:
+    - - id:213
+      - amount:4
+    RewardType: item
+  Magma3:
+    MenuItem:
+    - name:&4Magma Block
+    - lore:&7Price:&6 1950Σ
+    - id:213
+    - amount:8
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 8 Magma Block for&6 1950 &7Sigmas.'
+    Price: 1950.0
+    PriceType: money
+    Reward:
+    - - id:213
+      - amount:8
+    RewardType: item
+  Magma4:
+    MenuItem:
+    - name:&4Magma Block
+    - lore:&7Price:&6 15000Σ
+    - id:213
+    - amount:64
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You bought 64 Magma Block for&6 15000 &7Sigmas.'
+    Price: 15000.0
+    PriceType: money
+    Reward:
+    - - id:213
+      - amount:64
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Blocks Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 23
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Blocks

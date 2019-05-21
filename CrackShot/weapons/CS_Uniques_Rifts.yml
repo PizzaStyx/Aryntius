@@ -1,0 +1,408 @@
+ShockRifle:
+    Item_Information:
+        Item_Name: "&6&oStratocumulus&7"
+        Item_Type: 419
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 7
+        Recoil_Amount: 0
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Projectile_Speed: 25
+        Projectile_Damage: 700
+        Bullet_Spread: 0.2
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ITEM_BREAK-1-2-0,BLOCK_NOTE_SNARE-1-0-0,ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was shot to pieces by &f<shooter>&7!"
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 2
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: DAMAGE_RESISTANCE-1-1,SPEED-100-10,FAST_DIGGING-100-10
+    Reload:
+        Enable: true
+        Reload_Amount: 15
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 40
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_CLOSE-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-2
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_GENERIC_EXTINGUISH_FIRE-0.2-2-0
+ShockMagic:
+    Item_Information:
+        Item_Name: "&6&oOvercharge&7"
+        Item_Type: 169
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 200
+        Recoil_Amount: 0
+        Bullet_Spread: 0.15
+        Projectile_Amount: 2
+        Projectile_Type: snowball
+        Projectile_Speed: 15
+        Projectile_Damage: 4000
+        Remove_Bullet_Drop: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GENERIC_EXTINGUISH_FIRE-1-2-0,ENTITY_GENERIC_EXTINGUISH_FIRE-0.5-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-168
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 98000
+        Chance: 50
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+    Lightning:
+        Enable: true
+        No_Damage: true
+        On_Impact_With_Anything: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_GENERIC_EXTINGUISH_FIRE-0.2-2-0
+### SAHUVAR ITEMS ----------
+PoisonBow:
+    Item_Information:
+        Item_Name: "&6&oNightfall&7"
+        Item_Type: 261
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 10
+        Recoil_Amount: 0
+        Bullet_Spread: 0.75
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 15
+        Projectile_Damage: 700
+        Remove_Bullet_Drop: true
+        Remove_Arrows_On_Impact: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_ARROW_SHOOT-1-0-0,ENTITY_ARROW_SHOOT-1-1-0,ENTITY_ARROW_SHOOT-1-2-0,ENTITY_IRONGOLEM_HURT-1-1-0,BLOCK_FIRE_EXTINGUISH-1-2-0,BLOCK_FIRE_EXTINGUISH-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Super_Effective: PLAYER-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_BAT_DEATH-0.1-0-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-18,BLOCK_BREAK-133
+PoisonMagic:
+    Item_Information:
+        Item_Name: "&6&oMiasma&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Bullet_Spread: 2
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Projectile_Speed: 15
+        Projectile_Damage: 0
+        Remove_Arrows_On_Impact: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GENERIC_EXTINGUISH_FIRE-0.5-2-0,ENTITY_GENERIC_EXTINGUISH_FIRE-0.5-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 2
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: SMOKE
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_GENERIC_EXTINGUISH_FIRE-0.2-2-0
+### MAGMOS ITEMS ----------
+MoltenShotgun:
+    Item_Information:
+        Item_Name: "&6&oCaldera&7"
+        Item_Type: 418
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Recoil_Amount: 1
+        Projectile_Amount: 20
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 500
+        Bullet_Spread: 0.5
+        Remove_Bullet_Drop: false
+        Sounds_Shoot: ENTITY_ITEM_BREAK-1-2-0,BLOCK_NOTE_SNARE-1-0-0,ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-2-0,ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-0.5-1-0,ENTITY_GHAST_SHOOT-1-1-0,ENTITY_GHAST_SHOOT-1-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was shot to pieces by &f<shooter>&7!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 371
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 4
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,BLOCK_NOTE_SNARE-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 10
+        Sound_Open: BLOCK_WOODEN_DOOR_OPEN-1-2-0
+        Sound_Close: BLOCK_IRON_DOOR_CLOSE-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -20
+        Maximum_Damage: -450
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Super_Effective: PLAYER-0.5
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_BLAZE_BURN-0.2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: FLAMES-1
+        Particle_Impact_Anything: BLOCK_BREAK-10
+MoltenSpam:
+    Item_Information:
+        Item_Name: "&6&oEruption&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Bullet_Spread: 2
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Projectile_Speed: 15
+        Projectile_Damage: 250
+        Remove_Arrows_On_Impact: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_BLAZE_BURN-1-1-0,ENTITY_BLAZE_BURN-1-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 2
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-213
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_GENERIC_EXTINGUISH_FIRE-0.2-2-0
+MoltenStrike:
+    Item_Information:
+        Item_Name: "&6&oMolten Strike&7"
+        Item_Type: 271
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 5
+        Recoil_Amount: 0
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Bullet_Spread: 5
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 7
+        Projectile_Damage: 150
+        Projectile_Flames: true
+        # Projectile_Incendiary: Legacy Stuff
+            # Enable: true
+            # Duration: 80
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-0.75-1-0,ENTITY_IRONGOLEM_HURT-0.75-2-0
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was fireballed to death by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 600
+        Chance: 25
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-10
+### VRAAST ITEMS ----------
+FrostBow:
+    Item_Information:
+        Item_Name: "&6&oVraast's Reach&7"
+        Item_Type: 261
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 10
+        Recoil_Amount: 0
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 15
+        Projectile_Damage: 1500
+        Bullet_Spread: 0.75
+        Remove_Bullet_Drop: true
+        Remove_Arrows_On_Impact: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-1-0,ENTITY_WITHER_SHOOT-0.5-2-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_WITHER_AMBIENT-0.2-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-100-10,SLOW_DIGGING-100-10,BLINDNESS-100-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 3000
+        Chance: 50
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80,BLOCK_BREAK-79
+FrostBomb:
+    Item_Information:
+        Item_Name: "&6&oFrost Bomb&7"
+        Item_Type: 79
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 0
+        Bullet_Spread: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 15
+        Projectile_Damage: 1500
+        Remove_Arrows_On_Impact: true
+        # Remove_Bullet_Drop: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-1-0,ENTITY_WITHER_SHOOT-0.5-2-0,ENTITY_GHAST_SHOOT-1-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: SMOKE
+### TITAN'S REALM ITEMS ----------
+ChaosBow:
+    Item_Information:
+        Item_Name: "&6&oMalevolence&7"
+        Item_Type: 261
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 10
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 1000
+        Projectile_Damage: 1200
+        Bullet_Spread: 0
+        Remove_Bullet_Drop: true
+        Remove_Arrows_On_Impact: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_IRONGOLEM_DEATH-1-2-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_GHAST_SHOOT-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: SMOKE
+CurseBolt:
+    Item_Information:
+        Item_Name: "&6&oBloomcull&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 0
+        Bullet_Spread: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 15
+        Projectile_Damage: 900
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: BLOCK_PORTAL_TRAVEL-0.25-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7cursed &f<victim>&7 to death!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-202

@@ -1,0 +1,23 @@
+### PIERCED TRAILS
+PiercedFlame:
+    Trail: "FLAME"
+PiercedWater:
+    Trail: "MAGIC_CRIT"
+PiercedCrit:
+    Trail: "CRIT"
+    Trail_Settings:
+        Speed: 0.7
+        Particle_Count: 5
+PiercedSmoke:
+    Trail: "LARGE_SMOKE"
+    Trail_Settings:
+        Speed: 0.15
+        Particle_Count: 3
+PiercedMagic:
+    Trail: "WITCH_MAGIC"
+    Trail_Radius: 29
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 1.5
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 3

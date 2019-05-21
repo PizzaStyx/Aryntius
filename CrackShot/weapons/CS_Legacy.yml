@@ -1,0 +1,116 @@
+LGC_Fang:
+    Item_Information:
+        Item_Name: "&6&oSerpent's Fang&7"
+        Item_Type: 288
+        Item_Lore: "&aLegacy Item|&7Sharpness XLI|&0 |&7Tier: &6&oLegendary &4&o✶| &0 |&7Type: &9Magic|&7Speed: &9Very Fast|&7Damage: &c30.0x3❤|&0 |&7Right-click to cast. Blades|&7slow targets for up to 1.5s.|&0 |&7“&6The dragon becomes you!&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 12
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 40
+        Projectile_Damage: 60
+        Bullet_Spread: 0.8
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_BLAZE_SHOOT-0.5-1-0,ENTITY_SKELETON_DEATH-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 3
+    Reload:
+        Enable: true
+        Reload_Amount: 9
+        Reload_Duration: 30
+        Take_Ammo_On_Reload: false
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was ninja'd by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-30-4
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_GENERIC_HURT-1-1-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-214,BLOCK_BREAK-87
+        Particle_Impact_Anything: SMOKE
+LGC_FrostBomb:
+    Item_Information:
+        Item_Name: "&6&oVraast's Malice&7"
+        Item_Type: 79
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 60
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 79
+        Projectile_Speed: 20
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-1-0,ENTITY_WITHER_SHOOT-0.5-2-0,ENTITY_GHAST_SHOOT-1-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Incendiary: false
+        Explosion_Potion_Effect: BLINDNESS-160-1,SLOW-160-10,SLOW_DIGGING-160-10
+        Explosion_Radius: 5
+        Explosion_Delay: 30
+        Damage_Multiplier: 9999
+        Sounds_Explode: BLOCK_GLASS_BREAK-4-2-0,BLOCK_GLASS_BREAK-4-1-0,BLOCK_GLASS_BREAK-4-0-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was wiped from existence by &f<shooter>&7!"
+    Reload:
+        Enable: false
+        Reload_Amount: 12
+        Reload_Duration: 180
+        Take_Ammo_On_Reload: false
+        Sounds_Reloading: ENTITY_ENDERDRAGON_DEATH-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: dev,-5000,0,-5000,5000,255,5000,true|Expansions,-99999,0,-99999,99999,255,99999,true|world,-300,0,-300,300,255,300,true
+        Message_Of_Denial: "&7[ &cWeapon is disabled in this area! &7]"
+LGC_Curse1:
+    Item_Information:
+        Item_Name: "&d&oPossessed Doll&7"
+        Item_Type: 415
+        Item_Lore: "&aLegacy Item|&0 |&7Tier: &d&oUltimate| &0 |&7Type: &9Magic|&7Speed: &9Very Fast|&7Damage: &c6.0x3❤|&0 |&7Right-click to cast spell.|&7Bolts may track enemies.|&0 |&7“&dI think it can speak...&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Recoil_Amount: 0
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 12
+        Bullet_Spread: 3
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_ENDERDRAGON_GROWL-0.2-2-0
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was sent to the void by &f<shooter>&7!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_BAT_DEATH-0.2-0-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: SMOKE

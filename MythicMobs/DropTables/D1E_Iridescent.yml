@@ -1,0 +1,158 @@
+###---------------------------------------------------------###
+### IRIDESCENT DROPS (Work differently from normal drops)
+###---------------------------------------------------------###
+#
+# Instead of using a maximum vs minimum drop chance, all
+# Iridescent drops have the same potential from any enemy
+# with the respective drop table.
+#
+# Theoretically you can get EVERY possible drop from a
+# single lootsplosion, but in practice it's closer to
+# 1-3 items on average.
+#
+MicroIridescent:
+### These are low-tier iridescent items that can only
+### be found inside the Labyrinth.
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Dragon_Sword 1 0.005
+  - Laser 1 0.005
+  - FusionRifle 1 0.005
+  - Shield_Clockwork 1 0.005
+  - Charm_Clockwork 1 0.005
+  - Charm_Aquir 1 0.005
+  - Charm_Jump 1 0.005
+  - ShadowReaver 1 0.005
+  - Charm_Feather 1 0.005
+  - Lyre 1 0.003
+
+Iridescent:
+### Endgame Iridescent drops.
+## Drop chance changes by power.
+## 0.2% - Normal
+## 0.1% - Powerful
+## 0.05% - Meta-defining
+  Conditions:
+  - playerwithin 50
+  Drops:
+  ### MELEE
+  - Dragon_Sword_2 1 0.002
+  - ToxinDagger 1 0.002
+  - SandScythe 1 0.001
+  - Headsman 1 0.001
+  - TeleportSword 1 0.001
+  - RuneBlade 1 0.0005
+  ### RANGED
+  - CatGun 1 0.002
+  - AutoRifle2 1 0.002
+  - ShotgunX 1 0.002
+  - Roadhog 1 0.002
+  - AutoShotgun 1 0.001
+  - Flamethrower 1 0.0005
+  - Sniper4x 1 0.002
+  - Sniper4e 1 0.002
+  - Sniper5 1 0.001
+  - Venomhusk 1 0.001
+  - Bow_Curse 1 0.0005
+  ### MAGIC
+  - HellFire 1 0.002
+  - IceLightning 1 0.002
+  - Surge 1 0.001
+  - Euzhe 1 0.001
+  - BloodMagic2 1 0.001
+  - Lyre2 1 0.0005
+  - ShrubSpell 1 0.0005
+  ### OFF-HAND ACCESSORIES
+  - Dragon_Tear 1 0.001
+  - SpellCatalyst 1 0.0005
+  - SniperScope 1 0.0005
+  - Charm_VaalPact 1 0.002
+  - Charm_ESCharge 1 0.002
+  - Charm_NVision 1 0.001
+  - Charm_Negate 1 0.001
+  - Charm_Defense 1 0.001
+  - Charm_Titan 1 0.001
+  - Charm_Freeze 1 0.0005
+  - Charm_Bleed 1 0.0005
+  ### SHIELDS
+  - Shield_Void 1 0.002
+  - Shield_Immune 1 0.002
+  - Shield_Block 1 0.002
+  - Shield_Crimson 1 0.001
+  - Shield_Energy 1 0.001
+  - Shield_Turtle 1 0.001
+  - Shield_Paladin 1 0.0005
+  # BONE OF THE ANCIENTS VARIANTS
+  - Bone_11 1 0.0005
+  - Bone_12 1 0.001
+  - Bone_13 1 0.001
+  - Bone_21 1 0.001
+  - Bone_22 1 0.0005
+  - Bone_23 1 0.001
+  - Bone_31 1 0.001
+  - Bone_32 1 0.001
+  - Bone_33 1 0.0005
+  ### ARMOR (HELMETS)
+  - Helm_Vision 1 0.002
+  - Helm_Skull 1 0.001
+  - Helm_Elements 1 0.001
+  - Helm_Bleed 1 0.001
+  - Helm_Hydra 1 0.0005
+  ### ARMOR (CHESTPLATES)
+  - Chest_Bladestorm 1 0.002
+  - Chest_Strength 1 0.002
+  - Chest_Mercy 1 0.001
+  - Chest_Hydra 1 0.001
+  - Chest_Eclipse 1 0.001
+  - Chest_Haste 1 0.0005
+  - Chest_Mayhem 1 0.0005
+  ### ARMOR (LEGGINGS)
+  - Legs_Rampage 1 0.002
+  - Legs_Knockback 1 0.002
+  - Inquisitor 1 0.001
+  - Chameleon 1 0.001
+  - Legs_Crit 1 0.0005
+  - Legs_Phys 1 0.0005
+  ### ARMOR (BOOTS)
+  - Boots_Vanguard 1 0.002
+  - Boots_SuperFast 1 0.002
+  - Boots_AntiRes 1 0.001
+  - Boots_Nomad 1 0.001
+  - Boots_Bastion 1 0.0005
+  ### ARMOR (SETS)
+  - Assassin_Helm 1 0.001
+  - Assassin_Chest 1 0.001
+  - Assassin_Legs 1 0.001
+  - Assassin_Boots 1 0.001
+  - JUGG_Helm 1 0.001
+  - JUGG_Chest 1 0.001
+  - JUGG_Legs 1 0.001
+  - JUGG_Boots 1 0.001
+  - Guardian_Helm 1 0.001
+  - Guardian_Chest 1 0.001
+  - Guardian_Legs 1 0.001
+  - Guardian_Boots 1 0.001
+
+LegacyIridescent:
+## These items have been removed from the main
+## drop tables. Some may return. Others will not.
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - CritDagger 1 0.001
+  - BrokenSword 1 0.001
+  - SiegeCannon 1 0.001
+  - IonCannon 1 0.001
+  - GLauncher 1 0.0005
+  - LGC_Helm_Nomad 1 0.002
+  - LGC_DeathsDoor 1 0.001
+  - Charm_Moonstone 1 0.001
+  - Singularity_Helm 1 0.001
+  - Singularity_Helm2 1 0.001
+  - Singularity_Helm3 1 0.001
+  - Singularity_Chest 1 0.001
+  - Singularity_Legs 1 0.001
+  - Singularity_Boots 1 0.001

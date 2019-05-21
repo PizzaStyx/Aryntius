@@ -1,0 +1,166 @@
+ShopName: help_ItemTypes
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &9Item Types &8]"
+shop:
+  Item_Currency:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 2
+    MenuItem:
+    - id:399
+    - name:&e&oExample Currency
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&7“&eCurrency items drop from fallen"
+    - "lore:&e enemies can be used in multiple"
+    - "lore:&e ways. Some can be sold to the"
+    - "lore:&e server using &a/sell hand&e.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Item_Effect:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 4
+    MenuItem:
+    - id:277
+    - name:&e&oEffect Item
+    - "lore:&0 "
+    - "lore:&7Effect: &aPotion"
+    - "lore:&0 "
+    - "lore:&7“&eItems with effects will have"
+    - "lore:&e infinitely refreshing potion"
+    - "lore:&e effects as long as they're"
+    - "lore:&e equipped in your hotbar!&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Item_SetBonus:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 6
+    MenuItem:
+    - id:310
+    - name:&e&oArmor Set Item
+    - "lore:&0 "
+    - "lore:&7Set Bonus: &aPotion"
+    - "lore:&0 "
+    - "lore:&7“&eArmor with set bonuses yield"
+    - "lore:&e an infinitely refreshing potion"
+    - "lore:&e effect if you have all four set"
+    - "lore:&e pieces equipped.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Item_Accessory:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 8
+    MenuItem:
+    - id:351
+    - durability:11
+    - name:&e&oCharm of Examples
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&e★ &7&oThis effect can apply while"
+    - "lore:&7&o  equipped in your hotbar."
+    - "lore:&e» &7&oWhile equipped in off hand:"
+    - "lore:&e★ &7&oThis effect will only apply"
+    - "lore:&7&o  in your off hand."
+    - "lore:&0 "
+    - "lore:&7“&eAccessory items gain special"
+    - "lore:&e effects when equipped in your"
+    - "lore:&e hotbar or off hand.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+### EXAMPLE WEAPONS --------------------------------------------
+  Weapon_Ranged:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 11
+    MenuItem:
+    - id:417
+    - name:&e&oRanged Weapon
+    - "lore:&0 "
+    - "lore:&7Type: &9Gun/Bow Type"
+    - "lore:&7Ammo: &9Ammo Item Type"
+    - "lore:&7Speed: &9Weapon Attack Speed"
+    - "lore:&7Damage: &cDamage in Hearts"
+    - "lore:&0 "
+    - "lore:&7“&eAll non-vanilla ranged weapons"
+    - "lore:&e use this format and consume"
+    - "lore:&e ammo for each shot.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Weapon_Magic:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 13
+    MenuItem:
+    - id:403
+    - name:&e&oMagic Weapon
+    - "lore:&0 "
+    - "lore:&7Type: &9Magic Type"
+    - "lore:&7Speed: &9Attack Speed"
+    - "lore:&7Charge: &9Recharge Speed"
+    - "lore:&7Damage: &cDamage in Hearts"
+    - "lore:&0 "
+    - "lore:&7“&eMagic weapons deal damage on"
+    - "lore:&e cast, similar to ranged weapons"
+    - "lore:&e but have no ammo and instead"
+    - "lore:&e use recharge time.&7”"
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+  Weapon_Melee:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 15
+    MenuItem:
+    - id:276
+    - name:&e&oSpecial Melee Weapon
+    - "lore:&0 "
+    - "lore:&7Type: &9Weapon Type"
+    - "lore:&7Ability: &cDamage in Hearts"
+    - "lore:&7Cooldown: &9Ability Recharge Time"
+    - "lore:&0 "
+    - "lore:&7“&eSpecial melee items may have"
+    - "lore:&e casting abilities with multiple"
+    - "lore:&e effects.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Item_Complex:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 17
+    MenuItem:
+    - id:283
+    - name:&e&oComplex Item
+    - "lore:&0 "
+    - "lore:&e★ &7&oWhile you have &a&oEffect 1&7&o, gain &a&oEffect 2"
+    - "lore:&7&o  for X seconds whenever you attack"
+    - "lore:&7&o  an enemy monster/boss."
+    - "lore:&e★ &7&oAdds &c&oX.0-XX.0 &7&odamage to all attacks"
+    - "lore:&7&o  while you have &a&oEffect 3&7&o."
+    - "lore:&0 "
+    - "lore:&7“&eSome items will have far more complex"
+    - "lore:&e conditions and effects. Item stats are"
+    - "lore:&e described as shown above.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  MenuButton:
+    PriceType: nothing
+    RewardType: playercommand
+    Reward:
+    - menu open h_menu
+    InventoryLocation: 23
+    MenuItem:
+    - id:166
+    - name:&9Go Back
+    - "lore:&7Return to &9Help Center"
+    - amount:1

@@ -1,0 +1,52 @@
+### MELEE WEAPONS
+BBlade:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Earth"
+        Bouncing_Projectiles:
+            Decrese_Velocity_Per_Bounce: 1.0
+            Minium_Velocity: 0.1
+            Bounce_Amount: 5
+Mjolnir:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic,PiercedSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Holy_noProc
+InfSword:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WitchMagic"
+        Delay_Bar:
+            Left_Color: "&d"
+            Right_Color: "&7"
+            Symbol: "✶"
+            Symbol_Amount: 5
+            Action_Bar: "&5&l{&7#BAR#&5&l} &7#TIME#s"
+            End_Action_Bar: "&7ABILITY RECHARGED"
+SilenceDagger:
+    Damage:
+        Damage_Hologram_Format: "&d&lSILENCED"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic"
+Pwnsword:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic"
+Fang2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic"
+Thor2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic"

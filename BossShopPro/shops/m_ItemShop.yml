@@ -1,0 +1,110 @@
+ShopName: ItemShop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &3Item &bShop &7]'
+shop:
+  Ores:
+    MenuItem:
+    - name:&eOres
+    - lore:&7Coal, Diamonds, etc.
+    - id:264
+    - amount:1
+    InventoryLocation: 1
+    PriceType: free
+    Reward: Ores
+    RewardType: shop
+  MobDrops:
+    MenuItem:
+    - name:&dMob Drops
+    - lore:&7Bones, gunpowder, etc.
+    - id:368
+    - amount:1
+    InventoryLocation: 3
+    PriceType: free
+    Reward: MobDrops1
+    RewardType: shop
+  MobDrops2:
+    MenuItem:
+    - name:&aAnimal Drops
+    - lore:&7Leather, feathers, etc.
+    - id:288
+    - amount:1
+    InventoryLocation: 5
+    PriceType: free
+    Reward: MobDrops2
+    RewardType: shop
+  MobDrops3:
+    MenuItem:
+    - name:&cNether Items
+    - lore:&7Blaze rods, etc.
+    - id:378
+    - amount:1
+    InventoryLocation: 7
+    PriceType: free
+    Reward: MobDrops3
+    RewardType: shop
+  HorseShop:
+    MenuItem:
+    - name:&6Horse Items
+    - lore:&7NEIIIGHH!
+    - id:329
+    - amount:1
+    InventoryLocation: 9
+    PriceType: free
+    Reward: Horses
+    RewardType: shop
+  CropsShop:
+    MenuItem:
+    - name:&2Crops Shop
+    - lore:&7Buy some seeds.
+    - lore:&7Start a farm!
+    - id:296
+    - amount:1
+    InventoryLocation: 11
+    PriceType: free
+    Reward: Crops
+    RewardType: shop
+  FishShop:
+    MenuItem:
+    - name:&3Fish Shop
+    - lore:&7Fresh fish!
+    - id:349
+    - amount:1
+    InventoryLocation: 13
+    PriceType: free
+    Reward: FishShop
+    RewardType: shop
+  RecordShop:
+    MenuItem:
+    - name:&5Record Shop
+    - lore:&7Drop some sick beats.
+    - id:2256
+    - amount:1
+    InventoryLocation: 15
+    PriceType: free
+    Reward: RecordShop
+    RewardType: shop
+  MiscItems:
+    MenuItem:
+    - name:&4Misc. Items
+    - lore:&7Stuff that isn't in any of the
+    - lore:&7other item categories.
+    - id:410
+    - amount:1
+    InventoryLocation: 17
+    PriceType: free
+    Reward: Misc
+    RewardType: shop
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Main Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 23
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Menu

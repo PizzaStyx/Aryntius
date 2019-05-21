@@ -1,0 +1,16 @@
+title: Lab_Smith_1
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lLonely Smith"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1A face! Are you real"
+    - "&1 or just an illusion?&8”"
+    - ""
+    - ""
+    - '&7- { text: "I want to know more", color:"BLUE", hover: "&7View lore", open: "Lab_Smith_1A"}'
+    - '&l  { text: "about this place.", color:"BLUE", hover: "&7View lore", open: "Lab_Smith_1A"}'
+    - ""
+    - '&7- { text: "I''d like to buy some", color:"BLUE", command: "shop npc_blacksmith_lab_1", hover: "&7View shop"}'
+    - '&l  { text: "of your wares.", color:"BLUE", command: "shop npc_blacksmith_lab_1", hover: "&7View shop"}'

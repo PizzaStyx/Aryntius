@@ -1,0 +1,106 @@
+Laser:
+    Item_Information:
+        Item_Name: "&b&oLaser Cannon&7"
+        Item_Type: 379
+        Item_Lore: "&0 |&7Tier: &b&oIridescent|&0 |&7Type: &9Sniper|&7Ammo: &9Prismarine Crystal|&7DPS: &c10.0❤|&0 |&7Left-click to scope. Fires|&7fully automatically.|&0 |&7Deals x4 damage on headshot.|&0 |&7“&bZAP! ZAP! ZAP!&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 20
+        Remove_Arrows_On_Impact: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_IRONGOLEM_ATTACK-0.5-2-1,ENTITY_GENERIC_EXTINGUISH_FIRE-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was vaporized by &f<shooter>&7!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 410
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 128
+        Reload_Duration: 20
+        Reload_Bullets_Individually: false
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-2-5,BLOCK_NOTE_HAT-1-1-12,ENTITY_IRONGOLEM_ATTACK-1-2-8,BLOCK_PISTON_CONTRACT-0.5-2-16,BLOCK_NOTE_SNARE-1-6-20
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Headshot:
+        Enable: true
+        Bonus_Damage: 90
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Victim: ENTITY_PLAYER_HURT-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 0
+    Particles:
+        Enable: true
+        Particle_Terrain: false
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Sounds_Toggle_Zoom: BLOCK_NOTE_HAT-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+Laser2:
+    Item_Information:
+        Item_Name: "&d&oLaser Blaster&7"
+        Item_Type: 379
+        Item_Lore: "&0 |&7Tier: &d&oUltimate|&0 |&7Type: &9Shotgun|&7Ammo: &9Prismarine Crystal|&7DPS: &c10.0❤x4|&0 |&7Left-click to scope. Deals|&7x4 damage on headshot.|&0 |&7“&dPEW! PEW! PEW!&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 20
+        Bullet_Spread: 0.5
+        Remove_Arrows_On_Impact: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_IRONGOLEM_ATTACK-0.5-2-1,ENTITY_GENERIC_EXTINGUISH_FIRE-1-1-0,ENTITY_GENERIC_EXTINGUISH_FIRE-1-2-2
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was vaporized by &f<shooter>&7!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 410
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Reload_Duration: 20
+        Reload_Bullets_Individually: false
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-2-5,BLOCK_NOTE_HAT-1-1-12,ENTITY_IRONGOLEM_ATTACK-1-2-8,BLOCK_PISTON_CONTRACT-0.5-2-16,BLOCK_NOTE_SNARE-1-6-20
+    Headshot:
+        Enable: true
+        Bonus_Damage: 90
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Victim: ENTITY_PLAYER_HURT-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 0
+    Particles:
+        Enable: true
+        Particle_Terrain: false
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Sounds_Toggle_Zoom: BLOCK_NOTE_HAT-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0

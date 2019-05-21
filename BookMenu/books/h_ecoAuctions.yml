@@ -1,0 +1,39 @@
+title: Auctions
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lAuctions Help"
+    - ""
+    - "Auctions allow players to set up and bid on items, whether for competition, sales, or just fun!"
+    - ""
+    - "To start an auction, hold the item you want to auction and use this"
+    - '{ text: "&9complex command", hover: "&9/auc <quantity> <start price> <increments> <time>"}&0.'
+  2:
+    - "Command analysis:"
+    - ""
+    - "Time is defined in seconds for auctions. So 120s = 2 minutes, and you would type that into the command."
+    - ""
+    - "Bid increments define the difference between bids. For example, if you bid on an auction with a bid"
+  3:
+    - "increment of 50 and someone bids, their bid must be at least 50 higher than yours to successfully win the auction."
+    - ""
+    - "Command Examples"
+    - ""
+    - '{ text: "&9/auc s", hover: "&7Starts auction with the default settings (&91 &7item, &9$1 &7price, &9$1 &7bid increment, &930 &7second auction length"}&0.'
+    - ""
+    - '{ text: "&9/auc 50 100 20 80", hover: "&950 &7items, &9$100 &7start price, &9$20 &7bid increment, &980 &7second auction length"}&0.'
+  4:
+    - "To bid on an auction, use &9/bid <amount>&0. To cancel a bid, use &9/bid cancel&0."
+    - "" 
+    - "To cancel an auction, use &9/auc cancel&0."
+    - ""
+    - "To turn off the announcer in order to avoid auctions spamming up your chat, use &9/auc stfu&0."
+    - ""
+  5:
+    - "You can also use &9/sauc &0instead of &9/auc &0in order to create a sealed auction, i.e. where people cannot see bids."
+    - ""
+    - "For even more help,"
+    - 'use { text: "&9/auc help", command: "auc help", hover: "&7Run command &9/auc help"}&0.'
+    - ""
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

@@ -1,0 +1,594 @@
+ShopName: NaturalBlocks
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Natural &aBlocks &7]'
+shop:
+  Dirt:
+    MenuItem:
+    - name:&fDirt
+    - lore:&7Price:&6 2Σ
+    - id:3
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Dirt for &62 &7Sigmas.'
+    Price: 2.0
+    PriceType: money
+    Reward:
+    - - id:3
+      - amount:1
+    RewardType: item
+  Dirt2:
+    MenuItem:
+    - name:&fDirt
+    - lore:&7Price:&6 30Σ
+    - id:3
+    - amount:16
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 16 Dirt for &630 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:3
+      - amount:16
+    RewardType: item
+  Dirt3:
+    MenuItem:
+    - name:&fDirt
+    - lore:&7Price:&6 50Σ
+    - id:3
+    - amount:32
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 30 Dirt for &650 &7Sigmas.'
+    Price: 50.0
+    PriceType: money
+    Reward:
+    - - id:3
+      - amount:32
+    RewardType: item
+  Dirt4:
+    MenuItem:
+    - name:&fDirt
+    - lore:&7Price:&6 100Σ
+    - id:3
+    - amount:64
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 64 Dirt for &6100 &7Sigmas.'
+    Price: 100.0
+    PriceType: money
+    Reward:
+    - - id:3
+      - amount:64
+    RewardType: item
+  Grass:
+    MenuItem:
+    - name:&aGrass
+    - lore:&7Price:&6 150Σ
+    - id:2
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Grass for &6150 &7Sigmas.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:2
+      - amount:1
+    RewardType: item
+  Grass2:
+    MenuItem:
+    - name:&aGrass
+    - lore:&7Price:&6 1450Σ
+    - id:2
+    - amount:10
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 10 Grass for &61450 &7Sigmas.'
+    Price: 1450.0
+    PriceType: money
+    Reward:
+    - - id:2
+      - amount:10
+    RewardType: item
+  Grass3:
+    MenuItem:
+    - name:&aGrass
+    - lore:&7Price:&6 3600Σ
+    - id:2
+    - amount:28
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 28 Grass for &63600 &7Sigmas.'
+    Price: 3600.0
+    PriceType: money
+    Reward:
+    - - id:2
+      - amount:32
+    RewardType: item
+  Grass4:
+    MenuItem:
+    - name:&aGrass
+    - lore:&7Price:&6 7500Σ
+    - id:2
+    - amount:64
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 64 Grass for &67500 &7Sigmas.'
+    Price: 7500.0
+    PriceType: money
+    Reward:
+    - - id:2
+      - amount:64
+    RewardType: item
+  Podzol:
+    MenuItem:
+    - name:&bPodzol
+    - lore:&7Price:&6 150Σ
+    - id:3
+    - durability:2
+    - amount:1
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You bought 1 Podzol for &6150 &7Sigmas.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:3
+      - durability:2
+      - amount:1
+    RewardType: item
+  Podzol2:
+    MenuItem:
+    - name:&bPodzol
+    - lore:&7Price:&6 1750Σ
+    - id:3
+    - durability:2
+    - amount:12
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 12 Podzol for &61750 &7Sigmas.'
+    Price: 1750.0
+    PriceType: money
+    Reward:
+    - - id:3
+      - durability:2
+      - amount:12
+    RewardType: item
+  Podzol3:
+    MenuItem:
+    - name:&bPodzol
+    - lore:&7Price:&6 3600Σ
+    - id:3
+    - durability:2
+    - amount:28
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 28 Podzol for &63600 &7Sigmas.'
+    Price: 3600.0
+    PriceType: money
+    Reward:
+    - - id:3
+      - durability:2
+      - amount:28
+    RewardType: item
+  Podzol4:
+    MenuItem:
+    - name:&bPodzol
+    - lore:&7Price:&6 7500Σ
+    - id:3
+    - durability:2
+    - amount:64
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 64 Podzol for &67500 &7Sigmas.'
+    Price: 7500.0
+    PriceType: money
+    Reward:
+    - - id:3
+      - durability:2
+      - amount:64
+    RewardType: item
+  Mycelium:
+    MenuItem:
+    - name:&dMycelium
+    - lore:&7Price:&6 150Σ
+    - id:110
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Mycelium for &6150 &7Sigmas.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:110
+      - amount:1
+    RewardType: item
+  Mycelium2:
+    MenuItem:
+    - name:&dMycelium
+    - lore:&7Price:&6 1750Σ
+    - id:110
+    - amount:8
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 8 Mycelium for &61750 &7Sigmas.'
+    Price: 1750.0
+    PriceType: money
+    Reward:
+    - - id:110
+      - amount:8
+    RewardType: item
+  Mycelium3:
+    MenuItem:
+    - name:&dMycelium
+    - lore:&7Price:&6 2600Σ
+    - id:110
+    - amount:16
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 16 Mycelium for &62600 &7Sigmas.'
+    Price: 2600.0
+    PriceType: money
+    Reward:
+    - - id:110
+      - amount:16
+    RewardType: item
+  Mycelium4:
+    MenuItem:
+    - name:&dMycelium
+    - lore:&7Price:&6 5100Σ
+    - id:110
+    - amount:32
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You bought 1 Mycelium for &65100 &7Sigmas.'
+    Price: 5100.0
+    PriceType: money
+    Reward:
+    - - id:110
+      - amount:32
+    RewardType: item
+  Sand:
+    MenuItem:
+    - name:&eSand
+    - lore:&7Price:&6 2Σ
+    - id:12
+    - amount:1
+    InventoryLocation: 19
+    Message: '&7[&bShop&7] You bought 1 Sand for &62 &7Sigmas.'
+    Price: 2.0
+    PriceType: money
+    Reward:
+    - - id:12
+      - amount:1
+    RewardType: item
+  Sand2:
+    MenuItem:
+    - name:&eSand
+    - lore:&7Price:&6 30Σ
+    - id:12
+    - amount:16
+    InventoryLocation: 20
+    Message: '&7[&bShop&7] You bought 16 Sand for &630 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:12
+      - amount:16
+    RewardType: item
+  Sand3:
+    MenuItem:
+    - name:&eSand
+    - lore:&7Price:&6 50Σ
+    - id:12
+    - amount:32
+    InventoryLocation: 21
+    Message: '&7[&bShop&7] You bought 32 Sand for &650 &7Sigmas.'
+    Price: 50.0
+    PriceType: money
+    Reward:
+    - - id:12
+      - amount:32
+    RewardType: item
+  Sand4:
+    MenuItem:
+    - name:&eSand
+    - lore:&7Price:&6 100Σ
+    - id:12
+    - amount:64
+    InventoryLocation: 22
+    Message: '&7[&bShop&7] You bought 64 Sand for &6100 &7Sigmas.'
+    Price: 100.0
+    PriceType: money
+    Reward:
+    - - id:12
+      - amount:64
+    RewardType: item
+  Redsand:
+    MenuItem:
+    - name:&cRed Sand
+    - lore:&7Price:&6 5Σ
+    - id:12
+    - durability:1
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bShop&7] You bought 1 Red Sand for &65 &7Sigmas.'
+    Price: 5.0
+    PriceType: money
+    Reward:
+    - - id:12
+      - durability:1
+      - amount:1
+    RewardType: item
+  Redsand2:
+    MenuItem:
+    - name:&cRed Sand
+    - lore:&7Price:&6 60Σ
+    - id:12
+    - durability:1
+    - amount:12
+    InventoryLocation: 25
+    Message: '&7[&bShop&7] You bought 12 Red Sand for &660 &7Sigmas.'
+    Price: 60.0
+    PriceType: money
+    Reward:
+    - - id:12
+      - durability:1
+      - amount:12
+    RewardType: item
+  Redsand3:
+    MenuItem:
+    - name:&cRed Sand
+    - lore:&7Price:&6 120Σ
+    - id:12
+    - durability:1
+    - amount:28
+    InventoryLocation: 26
+    Message: '&7[&bShop&7] You bought 28 Red Sand for &6120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:12
+      - durability:1
+      - amount:28
+    RewardType: item
+  Redsand4:
+    MenuItem:
+    - name:&cRed Sand
+    - lore:&7Price:&6 275Σ
+    - id:12
+    - durability:1
+    - amount:64
+    InventoryLocation: 27
+    Message: '&7[&bShop&7] You bought 64 Red Sand for &6275 &7Sigmas.'
+    Price: 275.0
+    PriceType: money
+    Reward:
+    - - id:12
+      - durability:1
+      - amount:64
+    RewardType: item
+  Clay:
+    MenuItem:
+    - name:&9Clay
+    - lore:&7Price:&6 5Σ
+    - id:82
+    - amount:1
+    InventoryLocation: 28
+    Message: '&7[&bShop&7] You bought 1 Clay for &65 &7Sigmas.'
+    Price: 5.0
+    PriceType: money
+    Reward:
+    - - id:82
+      - amount:1
+    RewardType: item
+  Clay2:
+    MenuItem:
+    - name:&9Clay
+    - lore:&7Price:&6 75Σ
+    - id:82
+    - amount:16
+    InventoryLocation: 29
+    Message: '&7[&bShop&7] You bought 16 Clay for &675 &7Sigmas.'
+    Price: 75.0
+    PriceType: money
+    Reward:
+    - - id:82
+      - amount:16
+    RewardType: item
+  Clay3:
+    MenuItem:
+    - name:&9Clay
+    - lore:&7Price:&6 140Σ
+    - id:82
+    - amount:32
+    InventoryLocation: 30
+    Message: '&7[&bShop&7] You bought 1 Clay for &6140 &7Sigmas.'
+    Price: 140.0
+    PriceType: money
+    Reward:
+    - - id:82
+      - amount:32
+    RewardType: item
+  Clay4:
+    MenuItem:
+    - name:&9Clay
+    - lore:&7Price:&6 265Σ
+    - id:82
+    - amount:64
+    InventoryLocation: 31
+    Message: '&7[&bShop&7] You bought 1 Clay for &6265 &7Sigmas.'
+    Price: 265.0
+    PriceType: money
+    Reward:
+    - - id:82
+      - amount:64
+    RewardType: item
+  Gravel:
+    MenuItem:
+    - name:&8Gravel
+    - lore:&7Price:&6 5Σ
+    - id:13
+    - amount:1
+    InventoryLocation: 33
+    Message: '&7[&bShop&7] You bought 1 Gravel for &65 &7Sigmas.'
+    Price: 5.0
+    PriceType: money
+    Reward:
+    - - id:13
+      - amount:1
+    RewardType: item
+  Gravel2:
+    MenuItem:
+    - name:&8Gravel
+    - lore:&7Price:&6 75Σ
+    - id:13
+    - amount:16
+    InventoryLocation: 34
+    Message: '&7[&bShop&7] You bought 16 Gravel for &675 &7Sigmas.'
+    Price: 75.0
+    PriceType: money
+    Reward:
+    - - id:13
+      - amount:16
+    RewardType: item
+  Gravel3:
+    MenuItem:
+    - name:&8Gravel
+    - lore:&7Price:&6 140Σ
+    - id:13
+    - amount:32
+    InventoryLocation: 35
+    Message: '&7[&bShop&7] You bought 32 Gravel for &6140 &7Sigmas.'
+    Price: 140.0
+    PriceType: money
+    Reward:
+    - - id:13
+      - amount:32
+    RewardType: item
+  Gravel4:
+    MenuItem:
+    - name:&8Gravel
+    - lore:&7Price:&6 265Σ
+    - id:13
+    - amount:64
+    InventoryLocation: 36
+    Message: '&7[&bShop&7] You bought 64 Gravel for &6265 &7Sigmas.'
+    Price: 265.0
+    PriceType: money
+    Reward:
+    - - id:13
+      - amount:64
+    RewardType: item
+  PackedIce:
+    MenuItem:
+    - name:&bPacked Ice
+    - lore:&7Price:&6 30Σ
+    - id:174
+    - amount:1
+    InventoryLocation: 37
+    Message: '&7[&bShop&7] You bought 1 Packed Ice for &630 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:174
+      - amount:1
+    RewardType: item
+  PackedIce2:
+    MenuItem:
+    - name:&bPacked Ice
+    - lore:&7Price:&6 350Σ
+    - id:174
+    - amount:12
+    InventoryLocation: 38
+    Message: '&7[&bShop&7] You bought 12 Packed Ice for &6350 &7Sigmas.'
+    Price: 350.0
+    PriceType: money
+    Reward:
+    - - id:174
+      - amount:12
+    RewardType: item
+  PackedIce3:
+    MenuItem:
+    - name:&bPacked Ice
+    - lore:&7Price:&6 800Σ
+    - id:174
+    - amount:28
+    InventoryLocation: 39
+    Message: '&7[&bShop&7] You bought 28 Packed Ice for &6800 &7Sigmas.'
+    Price: 800.0
+    PriceType: money
+    Reward:
+    - - id:174
+      - amount:28
+    RewardType: item
+  PackedIce4:
+    MenuItem:
+    - name:&bPacked Ice
+    - lore:&7Price:&6 1650Σ
+    - id:174
+    - amount:64
+    InventoryLocation: 40
+    Message: '&7[&bShop&7] You bought 1 Packed Ice for &61,650 &7Sigmas.'
+    Price: 1650.0
+    PriceType: money
+    Reward:
+    - - id:174
+      - amount:64
+    RewardType: item
+  Ice:
+    MenuItem:
+    - name:&3Ice
+    - lore:&7Price:&6 250Σ
+    - id:79
+    - amount:1
+    InventoryLocation: 42
+    Message: '&7[&bShop&7] You bought 1 Ice for &6250 &7Sigmas.'
+    Price: 250.0
+    PriceType: money
+    Reward:
+    - - id:79
+      - amount:1
+    RewardType: item
+  Ice2:
+    MenuItem:
+    - name:&3Ice
+    - lore:&7Price:&6 1000Σ
+    - id:79
+    - amount:4
+    InventoryLocation: 43
+    Message: '&7[&bShop&7] You bought 4 Ice for &61,000 &7Sigmas.'
+    Price: 1000.0
+    PriceType: money
+    Reward:
+    - - id:79
+      - amount:4
+    RewardType: item
+  Ice3:
+    MenuItem:
+    - name:&3Ice
+    - lore:&7Price:&6 1950Σ
+    - id:79
+    - amount:8
+    InventoryLocation: 44
+    Message: '&7[&bShop&7] You bought 8 Ice for &61950 &7Sigmas.'
+    Price: 1950.0
+    PriceType: money
+    Reward:
+    - - id:79
+      - amount:8
+    RewardType: item
+  Ice4:
+    MenuItem:
+    - name:&3Ice
+    - lore:&7Price:&6 3800Σ
+    - id:79
+    - amount:16
+    InventoryLocation: 45
+    Message: '&7[&bShop&7] You bought 16 Ice for &63800 &7Sigmas.'
+    Price: 3800.0
+    PriceType: money
+    Reward:
+    - - id:79
+      - amount:16
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Blocks Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 50
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Blocks

@@ -1,0 +1,299 @@
+ShopName: npc_Brewmaster_Shop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Master Brews &8]'
+shop:
+### FLASKS ----------------------------------------------------
+  VFlask_1: ### Flask of Deftness
+    MenuItem:
+    - id:437
+    - name:&d&oFlask of Deftness
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oGain &a&oHaste X &7&ofor 10.0s."
+    - "lore:&d★ &7&oGain &a&oRegen. X &7&ofor 10.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f16x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VFlask_1'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought a &d&oFlask of Deftness &7for &f16 &aStar Fragment&7.'
+  VFlask_2: ### Lifeweave Flask
+    MenuItem:
+    - id:437
+    - name:&d&oLifeweave Flask
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oRestores full health on use."
+    - "lore:&d★ &7&oGain &a&oSpeed X &7&ofor 10.0s."
+    - "lore:&d★ &7&oGain &a&oWaterbreathing &7&ofor 10.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f16x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VFlask_2'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You bought a &d&oLifeweave Flask &7for &f16 &aStar Fragment&7.'
+  VFlask_3: ### Flask of Grounding
+    MenuItem:
+    - id:437
+    - name:&d&oFlask of Grounding
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oSets your gold hearts to"
+    - "lore:&e&o  100.0❤ &7&ofor up to 5.0s."
+    - "lore:&d★ &7&oRemoves &8&oSlowness &7&oon use."
+    - "lore:&d★ &7&oRemoves &8&oLevitation &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f16x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VFlask_3'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You bought a &d&oFlask of Grounding &7for &f16 &aStar Fragment&7.'
+  VFlask_4: ### Flask of Leaping
+    MenuItem:
+    - id:437
+    - name:&d&oFlask of Leaping
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oGain &a&oJump Boost V &7&ofor 12.0s."
+    - "lore:&d★ &7&oSuffer &b&oFrozen &7&ofor 3.0s."
+    - "lore:&d★ &7&oSuffer &8&oBlindness &7&ofor 3.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f16x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VFlask_4'
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought a &d&oFlask of Leaping &7for &f16 &aStar Fragment&7.'
+### MYTHIC FLASKS ----------------------------------------------
+  VFlask_L1: ### Sunfoil Brew
+    MenuItem:
+    - id:437
+    - name:&5&oSunfoil Brew
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f30 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oSets your gold hearts to"
+    - "lore:&e&o  100.0❤ &7&ofor up to 20.0s."
+    - "lore:&5★ &7&oRemoves &a&oResistance &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f10x &5&oPh&d&ooenix Ash&5&oes"
+    - "lore:&7- &f10x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VFlask_L1'
+    PriceType: item
+    Price:
+    - - id:289
+      - 'name:&5&oPh&d&ooenix Ash&5&oes'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dLife s&5prings forth fro&dm the#&d soi&5ls below, even in the fa&dce#&d of even&5tual failu&dre.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:406
+      - 'name:&5&oDr&d&oeam Fragme&5&ont'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dThe e&5ssence of a lo&dng-dead#&d Titan, no&5w impris&doned within a#&d morta&5l''s soul.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought the &5&oSunfoil Brew&7.'
+  Flask4: ### Undying Rage
+    MenuItem:
+    - id:437
+    - name:&5&oUndying Rage
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f15 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oGain &a&oStrength CC &7&ofor 10.0s."
+    - "lore:&5★ &7&oRemoves &a&oRegeneration &7&oon use."
+    - "lore:&5★ &7&oRemoves all gold hearts on use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f15x &5&oPh&d&ooenix Ash&5&oes"
+    - "lore:&7- &f5x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Flask4'
+    PriceType: item
+    Price:
+    - - id:289
+      - 'name:&5&oPh&d&ooenix Ash&5&oes'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dLife s&5prings forth fro&dm the#&d soi&5ls below, even in the fa&dce#&d of even&5tual failu&dre.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    - - id:406
+      - 'name:&5&oDr&d&oeam Fragme&5&ont'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dThe e&5ssence of a lo&dng-dead#&d Titan, no&5w impris&doned within a#&d morta&5l''s soul.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    InventoryLocation: 13
+    Message: '&7[&bInfo&7] You bought the &5&oUndying Rage&7.'
+  Flask5: ### Stoneheart Brew
+    MenuItem:
+    - id:437
+    - name:&5&oStoneheart Brew
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oGain &a&oResist. V &7&ofor 10.0s."
+    - "lore:&5★ &7&oSuffer &8&oSlowness X &7&ofor 3.0s."
+    - "lore:&5★ &7&oSuffer &8&oWeakness X &7&ofor 3.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &5&oPh&d&ooenix Ash&5&oes"
+    - "lore:&7- &f15x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Flask5'
+    PriceType: item
+    Price:
+    - - id:289
+      - 'name:&5&oPh&d&ooenix Ash&5&oes'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dLife s&5prings forth fro&dm the#&d soi&5ls below, even in the fa&dce#&d of even&5tual failu&dre.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    - - id:406
+      - 'name:&5&oDr&d&oeam Fragme&5&ont'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dThe e&5ssence of a lo&dng-dead#&d Titan, no&5w impris&doned within a#&d morta&5l''s soul.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    InventoryLocation: 15
+    Message: '&7[&bInfo&7] You bought the &5&oStoneheart Brew&7.'
+  Flask11: ### Flask of Lifeforce
+    MenuItem:
+    - id:437
+    - name:&5&oFlask of Lifeforce
+    - "lore:&7Right-click to activate"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f60 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oGain &a&oRegen. X &7&ofor up to 10.0s."
+    - "lore:&5★ &c&o+10.0❤ &7&omaximum HP for 5 minutes."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f10x &5&oPh&d&ooenix Ash&5&oes"
+    - "lore:&7- &f10x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Flask11'
+    PriceType: item
+    Price:
+    - - id:289
+      - 'name:&5&oPh&d&ooenix Ash&5&oes'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dLife s&5prings forth fro&dm the#&d soi&5ls below, even in the fa&dce#&d of even&5tual failu&dre.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:406
+      - 'name:&5&oDr&d&oeam Fragme&5&ont'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dThe e&5ssence of a lo&dng-dead#&d Titan, no&5w impris&doned within a#&d morta&5l''s soul.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought the &5&oFlask of Lifeforce&7.'

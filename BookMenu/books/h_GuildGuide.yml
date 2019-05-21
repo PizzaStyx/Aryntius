@@ -1,0 +1,104 @@
+title: GuildGuide
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lGuild Guide"
+    - ""
+    - "Guilds are social groups on Aryntius."
+    - ""
+    - "&8Table of Contents"
+    - '&7» { text: "&9Management", gotoPage: 2, hover: "&7Jump to &9Management" }'
+    - '&7» { text: "&9Misc Features", gotoPage: 4, hover: "&7Jump to &9Misc Features" }'
+    - '&7» { text: "&9Guild Levels", gotoPage: 5, hover: "&7Jump to &9Guild Levels" }'
+    - '&7» { text: "&9Upgrading/Costs", gotoPage: 8, hover: "&7Jump to &9Upgrading/Costs" }'
+    - '&7» { text: "&9Disabled Features", gotoPage: 10, hover: "&7Jump to &9Disabled Features" }'
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'
+  2:
+    - "&8&lManagement"
+    - ""
+    - "To join a guild, type &9/guild accept <guild> &0after you receive an invite."
+    - ""
+    - "To decline an invite, type &9/guild decline&0."
+    - ""
+    - "To create a guild, use &9/guild create <name>&0."
+  3:
+    - "To invite a player, do"
+    - "&9/guild invite <player>&0."
+    - ""
+    - "To inspect another guild, use command:"
+    - "&9/guild inspect <guild>&0."
+    - ""
+    - "To change your guild tag, use command:"
+    - "&9/guild prefix <tag>&0."
+    - ""
+    - "For more help, use &9/guild help&0."
+  4:
+    - "&8&lMisc Features"
+    - ""
+    - "To open the guild's vault do &9/guild vault&0."
+    - ""
+    - "&9/guild chat &0will toggle visibility of your chat for other players."
+    - ""
+    - "Use &9/guild chat <msg> &0to send a message to all currently online guild members."
+  5:
+    - "&8&lGuild Levels"
+    - ""
+    - "Guild levels affect the guild's maximum bank balance and member limit."
+    - ""
+    - "Each successive level will also significantly boost the amount of EXP that drops from slain enemies."
+  6:
+    - "&9Guild Level 1:"
+    - "- 1,000,000 max bal"
+    - "- 10 member limit"
+    - ""
+    - "&9Guild Level 2:"
+    - "- 5,000,000 max bal"
+    - "- 20 member limit"
+    - "- 2x Mob EXP"
+    - ""
+    - "&9Guild Level 3:"
+    - "- 12,000,000 max bal"
+    - "- 30 member limit"
+    - "- 3x Mob EXP"
+  7:
+    - "&9Guild Level 4:"
+    - "- 25,000,000 max bal"
+    - "- 40 member limit"
+    - "- 4x Mob EXP"
+    - ""
+    - "&9Guild Level 5 (Max):"
+    - "- 100,000,000 max bal"
+    - "- 50 member limit"
+    - "- 5x Mob EXP"
+    - "- 2x Melee Damage"
+  8:
+    - "&8&lUpgrading/Costs"
+    - ""
+    - "A guild costs &9125,000 &0to create."
+    - ""
+    - "Setting a guild home costs &945,000&0."
+    - ""
+    - "Guild levels can be upgraded using money stored in the guild's bank."
+  9:
+    - "&9Level 1: &0Default"
+    - ""
+    - "&9Level 2 Cost:"
+    - "- 850,000"
+    - ""
+    - "&9Level 3 Cost:"
+    - "- 4,250,000"
+    - ""
+    - "&9Level 4 Cost:"
+    - "- 9,650,000"
+    - ""
+    - "&9Level 5 Cost:"
+    - "- 22,568,000"
+  10:
+    - "&8&lDisabled Features"
+    - ""
+    - "Currently, &9/guild buff &0is disabled due to plugin incompatability."
+    - ""
+    - "&9/guild claim &0is disabled since GriefPrevention is used for land claims instead."
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", gotoPage: 1, hover: "&7Return to main page" }'

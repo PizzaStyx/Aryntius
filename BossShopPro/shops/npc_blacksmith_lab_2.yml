@@ -1,0 +1,632 @@
+ShopName: npc_blacksmith_lab_2
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Ancient Smith &8]"
+shop:
+### MITHRIL ARMOR SET ------------------------------------------
+  Mithril_Helm:
+    MenuItem:
+    - id:306
+    - name:&3Mithril Helmet
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &a+20% &7knockback resist."
+    - "lore:&3★ &7Set Bonus: &aResist. II&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f15x &aGold Coin"
+    - enchantment:PROTECTION_EXPLOSIONS#8
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought 1 Mithril Helmet for &f1 &aUncut Diamond&7, &f15 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Mithril_Helm 1'
+    RewardType: command
+  Mithril_Chest:
+    MenuItem:
+    - id:307
+    - name:&3Mithril Breastplate
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &7Restore &c1.0❤ &7every"
+    - "lore:&7  second."
+    - "lore:&3★ &7Set Bonus: &aResist. II&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f25x &aGold Coin"
+    - enchantment:PROTECTION_ENVIRONMENTAL#7
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought 1 Mithril Breastplate for &f1 &aUncut Diamond&7, &f25 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Mithril_Chest 1'
+    RewardType: command
+  Mithril_Legs:
+    MenuItem:
+    - id:308
+    - name:&3Mithril Greaves
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &7Restore &c1.0❤ &7whenever"
+    - "lore:&7  you hit an enemy."
+    - "lore:&3★ &7Set Bonus: &aResist. II&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f25x &aGold Coin"
+    - enchantment:PROTECTION_PROJECTILE#7
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 20
+    Message: '&7[&bInfo&7] You bought 1 Mithril Greaves for &f1 &aUncut Diamond&7, &f25 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Mithril_Legs 1'
+    RewardType: command
+  Mithril_Boots:
+    MenuItem:
+    - id:309
+    - name:&3Mithril Boots
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &a+20% &7knockback resist."
+    - "lore:&3★ &7Set Bonus: &aResist. II&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f15x &aGold Coin"
+    - enchantment:PROTECTION_FALL#8
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 29
+    Message: '&7[&bInfo&7] You bought 1 Mithril Boots for &f1 &aUncut Diamond&7, &f15 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Mithril_Boots 1'
+    RewardType: command
+### BERSERKER ARMOR SET ----------------------------------------
+  Berserker_Helm:
+    MenuItem:
+    - id:302
+    - "name:&3Berserker's Helmet"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &a+20% &7movement speed."
+    - "lore:&3★ &7Adds &c5.0❤ &7damage to all melee"
+    - "lore:&7  attacks."
+    - "lore:&3★ &7Set Bonus: &aStrength X&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f15x &aGold Coin"
+    - enchantment:PROTECTION_ENVIRONMENTAL#6
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You bought 1 Berserker''s Helmet for &f1 &aUncut Diamond&7, &f15 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Berserker_Helm 1'
+    RewardType: command
+  Berserker_Chest:
+    MenuItem:
+    - id:299
+    - "name:&3Berserker's Cuirass"
+    - "lore:&7Projectile Protection X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &7Adds &c3.0❤ &5Chaos &7damage to"
+    - "lore:&7  all melee attacks while you"
+    - "lore:&7  have &aStrength&7."
+    - "lore:&3★ &7Set Bonus: &aStrength X&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f25x &aGold Coin"
+    - enchantment:PROTECTION_PROJECTILE#8
+    - color:87#0#0
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bInfo&7] You bought 1 Berserker''s Cuirass for &f1 &aUncut Diamond&7, &f25 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Berserker_Chest 1'
+    RewardType: command
+  Berserker_Legs:
+    MenuItem:
+    - id:300
+    - "name:&3Berserker's Greaves"
+    - "lore:&7Blast Protection VIII"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &7Adds &c3.0❤ &5Chaos &7damage to"
+    - "lore:&7  all melee attacks while you"
+    - "lore:&7  have &aStrength&7."
+    - "lore:&3★ &7Set Bonus: &aStrength X&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f25x &aGold Coin"
+    - enchantment:PROTECTION_EXPLOSIONS#8
+    - color:87#0#0
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 22
+    Message: '&7[&bInfo&7] You bought 1 Berserker''s Greaves for &f1 &aUncut Diamond&7, &f25 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Berserker_Legs 1'
+    RewardType: command
+  Berserker_Boots:
+    MenuItem:
+    - id:305
+    - "name:&3Berserker's Boots"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &a+20% &7movement speed."
+    - "lore:&3★ &7Adds &c5.0❤ &7damage to all melee"
+    - "lore:&7  attacks."
+    - "lore:&3★ &7Set Bonus: &aStrength X&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f15x &aGold Coin"
+    - enchantment:PROTECTION_FALL#6
+    - enchantment:DEPTH_STRIDER#6
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 31
+    Message: '&7[&bInfo&7] You bought 1 Berserker''s Boots for &f1 &aUncut Diamond&7, &f15 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Berserker_Boots 1'
+    RewardType: command
+### AQUIR ARMOR SET --------------------------------------------
+  Aquir_Helm:
+    MenuItem:
+    - id:310
+    - name:&3Aquir War Helm
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &a+30% &7movement speed."
+    - "lore:&3★ &7You have &e10.0❤ &7while you"
+    - "lore:&7  have &aWaterbreathing&7."
+    - "lore:&7  (Refreshes every 10.0s)."
+    - "lore:&3★ &7Set Bonus: &aWaterbreathing&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f20x &aGold Coin"
+    - enchantment:PROTECTION_ENVIRONMENTAL#8
+    - enchantment:WATER_WORKER#1
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You bought 1 Aquir War Helm for &f1 &aUncut Diamond&7, &f20 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Aquir_Helm 1'
+    RewardType: command
+  Aquir_Chest:
+    MenuItem:
+    - id:311
+    - name:&3Aquir Scalemail
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &7Adds &c1.5❤ &5Chaos &7damage to"
+    - "lore:&7  ranged/magic attacks while"
+    - "lore:&7  you have &aWaterbreathing&7."
+    - "lore:&3★ &7Set Bonus: &aWaterbreathing&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f20x &aGold Coin"
+    - enchantment:PROTECTION_EXPLOSIONS#8
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bInfo&7] You bought 1 Aquir Scalemail for &f1 &aUncut Diamond&7, &f20 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Aquir_Chest 1'
+    RewardType: command
+  Aquir_Legs:
+    MenuItem:
+    - id:312
+    - name:&3Aquir Greaves
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &7Adds &c1.5❤ &5Chaos &7damage to"
+    - "lore:&7  ranged/magic attacks while"
+    - "lore:&7  you have &aWaterbreathing&7."
+    - "lore:&3★ &7Set Bonus: &aWaterbreathing&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f20x &aGold Coin"
+    - enchantment:PROTECTION_PROJECTILE#8
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bInfo&7] You bought 1 Aquir Greaves for &f1 &aUncut Diamond&7, &f20 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Aquir_Legs 1'
+    RewardType: command
+  Aquir_Boots:
+    MenuItem:
+    - id:313
+    - name:&3Aquir Boots
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &a+30% &7movement speed."
+    - "lore:&3★ &7You have &aHaste IV &7while"
+    - "lore:&7  you have &aWaterbreathing&7."
+    - "lore:&7  (Refreshes every 5.0s)."
+    - "lore:&3★ &7Set Bonus: &aWaterbreathing&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f20x &aGold Coin"
+    - enchantment:PROTECTION_FALL#10
+    - enchantment:DEPTH_STRIDER#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 33
+    Message: '&7[&bInfo&7] You bought 1 Aquir Boots for &f1 &aUncut Diamond&7, &f20 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Aquir_Boots 1'
+    RewardType: command
+### RUNE PRIEST SET --------------------------------------------
+  Runic_Helm:
+    MenuItem:
+    - id:302
+    - name:&3Rune Priest Veil
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &7You have &aFire Resistance&7."
+    - "lore:&7  (Refreshes every 10.0s)."
+    - "lore:&3★ &7Set Bonus: &aRegen. III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f20x &aGold Coin"
+    - enchantment:PROTECTION_ENVIRONMENTAL#9
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought 1 Rune Priest Veil for &f1 &aUncut Diamond&7, &f20 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Runic_Helm 1'
+    RewardType: command
+  Runic_Chest:
+    MenuItem:
+    - id:299
+    - name:&3Rune Priest Robes
+    - "lore:&7Projectile Protection VIII"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &7Restore &c10.0❤ &7every 8.0s."
+    - "lore:&3★ &7Set Bonus: &aRegen. III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f20x &aGold Coin"
+    - enchantment:PROTECTION_PROJECTILE#8
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:46#112#145
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought 1 Rune Priest Robes for &f1 &aUncut Diamond&7, &f20 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Runic_Chest 1'
+    RewardType: command
+  Runic_Legs:
+    MenuItem:
+    - id:304
+    - name:&3Rune Priest Dress
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &710% chance to gain &aSpeed II"
+    - "lore:&7  for 5.0s whenever you take"
+    - "lore:&7  damage."
+    - "lore:&3★ &7Set Bonus: &aRegen. III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f20x &aGold Coin"
+    - enchantment:PROTECTION_EXPLOSIONS#9
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 26
+    Message: '&7[&bInfo&7] You bought 1 Rune Priest Dress for &f1 &aUncut Diamond&7, &f20 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Runic_Legs 1'
+    RewardType: command
+  Runic_Boots:
+    MenuItem:
+    - id:301
+    - name:&3Rune Priest Sandals
+    - "lore:&7Feather Falling VIII"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &a+30% &7knockback resist."
+    - "lore:&3★ &7Set Bonus: &aRegen. III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - "lore:&7- &f20x &aGold Coin"
+    - enchantment:PROTECTION_FALL#8
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:46#112#145
+    - amount:1
+    InventoryLocation: 35
+    Message: '&7[&bInfo&7] You bought 1 Rune Priest Sandals for &f1 &aUncut Diamond&7, &f20 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Runic_Boots 1'
+    RewardType: command

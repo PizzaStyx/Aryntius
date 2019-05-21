@@ -1,0 +1,16 @@
+title: npc_Vyrdano_Junkseller
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lJunk Seller"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Looking for rare or"
+    - "&1 amusing items? I've"
+    - "&1 quite the collection!&8”"
+    - ""
+    - '&7- { text: "Let''s see what you", color:"BLUE", command: "shop npc_Junkseller_Shop", hover: "&7View shop"}'
+    - '&l  { text: "can offer, then!", color:"BLUE", command: "shop npc_Junkseller_Shop", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "What''s that thing", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Junkseller_2"}'
+    - '&l  { text: "on your face?", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Junkseller_2"}'

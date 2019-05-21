@@ -1,0 +1,195 @@
+ShopName: npc_Blademaster_Shop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Blades for Hire &8]'
+shop:
+  NG_Sword_Low: ### Forge a random Uncommon
+    PriceType: item
+    Price:
+    - - mythicitem:ChaosSphere
+      - amount:3
+    RewardType: Command
+    Reward:
+    - 'rc falchion_1 %player%'
+    MenuItem:
+    - id:267
+    - name:&bCrafted Falchion (Low)
+    - "lore:&7Sharpness D"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &b???"
+    - "lore:&0 "
+    - "lore:&b★ &a&o+75% &7&oattack speed."
+    - "lore:&b★ &7&oUp to 1 extra modifier."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f3x &5&oCh&d&oaos Sphe&5&ore"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You forged &f1 &aFalchion &7for &f3 &5&oCh&d&oaos Sphe&5&ore&7.'
+  NG_Sword_Mid: ### Forge a random item
+    PriceType: item
+    Price:
+    - - mythicitem:ChaosSphere
+      - amount:8
+    RewardType: Command
+    Reward:
+    - 'rc falchion_2 %player%'
+    MenuItem:
+    - id:267
+    - name:&bCrafted Falchion (Mid)
+    - "lore:&7Sharpness D"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &b???"
+    - "lore:&0 "
+    - "lore:&b★ &a&o+75% &7&oattack speed."
+    - "lore:&b★ &7&oUp to 2 extra modifiers."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f8x &5&oCh&d&oaos Sphe&5&ore"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You forged &f1 &aFalchion &7for &f8 &5&oCh&d&oaos Sphe&5&ore&7.'
+  NG_Sword_High: ### Forge a random Rare
+    PriceType: item
+    Price:
+    - - mythicitem:ChaosSphere
+      - amount:15
+    RewardType: Command
+    Reward:
+    - 'rc falchion_3 %player%'
+    MenuItem:
+    - id:267
+    - name:&bCrafted Falchion (High)
+    - "lore:&7Sharpness D"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &b???"
+    - "lore:&0 "
+    - "lore:&b★ &a&o+75% &7&oattack speed."
+    - "lore:&b★ &7&oGuaranteed to have 2"
+    - "lore:&7&o  extra modifiers."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f15x &5&oCh&d&oaos Sphe&5&ore"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You forged &f1 &aFalchion &7for &f15 &5&oCh&d&oaos Sphe&5&ore&7.'
+  Upgrade_Judgement: ### Upgrades Skyforge Greataxe --> Judgement
+    PriceType: item
+    Price:
+    - - mythicitem:DreamFragment
+      - amount:35
+    - - mythicitem:Astralite
+      - amount:35
+    RewardType: Command
+    Reward:
+    - 'bc &f%player% &7has forged the &6&oJu&e&odgeme&6&ont&7!'
+    - 'playsound minecraft:ui.toast.challenge_complete master @p ~ ~ ~ 1.0 1.0 1.0'
+    - 'mm i give -s %player% Judgement'
+    MenuItem:
+    - id:286
+    - name:&6&oJu&e&odgeme&6&ont
+    - "lore:&7Sharpness M"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+75% &7&oattack speed."
+    - "lore:&6★ &7&oAdds &c&o150.0❤ &7&odamage to all melee"
+    - "lore:&7&o  attacks for every 20 &a&oStrength&7&o."
+    - "lore:&7&o  (Up to 1500.0❤ from Strength CC.)"
+    - "lore:&6★ &7&o25% chance to fully restore your"
+    - "lore:&7&o  health and gold hearts on attack."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f35x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f35x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You have forged the &6&oJu&e&odgeme&6&ont&7!'
+  Upgrade_Singularity: ### Upgrades Singularity Rift --> Singularity Herald
+    PriceType: item
+    Price:
+    - - mythicitem:DreamFragment
+      - amount:64
+    RewardType: Command
+    Reward:
+    - 'bc &f%player% &7has forged the &6&oSin&e&ogularity Her&6&oald&7!'
+    - 'playsound minecraft:ui.toast.challenge_complete master @p ~ ~ ~ 1.0 1.0 1.0'
+    - 'mm i give -s %player% Singularity_Sword'
+    MenuItem:
+    - id:267
+    - name:&6&oSin&e&ogularity Her&6&oald
+    - "lore:&7Smite C"
+    - "lore:&7Sharpness D"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+250% &7&oattack speed."
+    - "lore:&e★ &7&o35% status effect chance."
+    - "lore:&e★ &7&oDeals &c&o30.0❤ &4&oBleed &7&odamage"
+    - "lore:&7&o  over a period of 3.0s."
+    - "lore:&6★ &7&oInflicts &c&o75.0❤ &2&oToxin &7&odamage"
+    - "lore:&7&o  to bleeding enemies up to 3"
+    - "lore:&7&o  times each second."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f64x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 14
+    Message: '&7[&bInfo&7] You have forged the &6&oSin&e&ogularity Her&6&oald&7!'
+  Upgrade_DreamSaber: ### Upgrades The Shattered Dream --> Dream Saber
+    PriceType: item
+    Price:
+    - - mythicitem:DreamSaber
+      - amount:1
+    - - mythicitem:ChaosSphere
+      - amount:30
+    - - mythicitem:Astralite
+      - amount:30
+    - - mythicitem:DreamFragment
+      - amount:30
+    RewardType: Command
+    Reward:
+    - 'bc &f%player% &7has forged the &6&oDr&e&oeam Sab&6&oer&7!'
+    - 'playsound minecraft:ui.toast.challenge_complete master @p ~ ~ ~ 1.0 1.0 1.0'
+    - 'mm i give -s %player% DreamSaber2'
+    MenuItem:
+    - id:283
+    - name:&6&oDr&e&oeam Sab&6&oer
+    - "lore:&7Sharpness M"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed &d✷"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+100% &7&oattack speed."
+    - "lore:&6★ &c&o+20.0❤ &7&oif held in main hand."
+    - "lore:&6★ &3&oShocks&7&o, &b&oFreezes&7&o, and &e&oIgnites"
+    - "lore:&7&o  enemies you attack for 5.0s."
+    - "lore:&6★ &7&oAdds &c&o250.0❤ &5&oChaos &7&odamage to"
+    - "lore:&7&o  all melee attacks."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f1x &6&oThe Shattered Dream"
+    - "lore:&7- &f30x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f30x &5&oCh&d&oaos Sphe&5&ore"
+    - "lore:&7- &f30x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You have forged the &6&oDr&e&oeam Sab&6&oer&7!'

@@ -1,0 +1,21 @@
+title: Cartographer_MapDevice_2
+author: PizzaStyx
+pages:
+  1:
+    - "That's the issue. So far all rifts have led to beings of great, unspeakable power."
+    - ""
+    - "I suspect they may be the Titans in legends old."
+    - ""
+    - "But that's where you come in! I'm sure you can take them on!"
+  2:
+    - "Or at least live longer than a few mere seconds."
+    - ""
+    - "Either way, the treasure within each realm is bountiful and unimaginable."
+    - ""
+    - "I am only interested in knowledge of these realms."
+  3:
+    - "I'd say it's a fine deal."
+    - ""
+    - "You explore and take whatever you want while I learn the history of these rifts!"
+    - ""
+    - '&7- { text: "Sounds good to me!", color:"BLUE", command: "shop npc_ZanaPls", hover: "&7Open rifts"}'

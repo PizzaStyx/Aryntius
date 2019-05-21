@@ -1,0 +1,16 @@
+title: Locomancer_1
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lLocomancer"
+    - "&8Travel NPC"
+    - ""
+    - "&8“&1Hey you! I've found"
+    - "&1 a way to teleport"
+    - "&1 through!&8”"
+    - ""
+    - '&7- { text: "Alright, I''m ready.", color:"BLUE", command: "bs npc_fast_travel_lab", hover: "&7Select Teleport"}'
+    - '&l  { text: "Let''s go!", color:"BLUE", command: "bs npc_fast_travel_lab", hover: "&7Select Teleport"}'
+    - ""
+    - '&7- { text: "How exactly does", color:"BLUE", hover: "&7View lore", open: "Locomancer_1A"}'
+    - '&l  { text: "this work?", color:"BLUE", hover: "&7View lore", open: "Locomancer_1A"}'

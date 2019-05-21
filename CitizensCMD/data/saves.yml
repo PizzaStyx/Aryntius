@@ -1,0 +1,327 @@
+
+npc-data:
+  npc-22:
+    cooldown: 30
+    right-click-commands:
+      - '[console] heal %p%'
+      - '[ console] rawmsg %p% &bYou feel refreshed after a good drink.'
+    left-click-commands: []
+    price: 0
+  npc-31:
+    cooldown: 0
+    right-click-commands:
+      - '[console] sudo %p% warp armor'
+    left-click-commands: []
+    price: 0
+  npc-30:
+    cooldown: 0
+    right-click-commands:
+      - '[console] sudo %p% warp tools'
+    left-click-commands: []
+    price: 0
+  npc-29:
+    cooldown: 0
+    right-click-commands:
+      - '[console] sudo %p% warp materials'
+    left-click-commands: []
+    price: 0
+  npc-28:
+    cooldown: 0
+    right-click-commands:
+      - '[console] sudo %p% warp guns'
+    left-click-commands: []
+    price: 0
+  npc-27:
+    cooldown: 0
+    right-click-commands:
+      - '[console] sudo %p% warp magic'
+    left-click-commands: []
+    price: 0
+  npc-32:
+    cooldown: 0
+    right-click-commands:
+      - '[console] sudo %p% warp legend'
+    left-click-commands: []
+    price: 0
+  npc-36:
+    cooldown: 0
+    right-click-commands:
+      - '[console] sudo %p% bookmenu open SC_Dialogue_1'
+    left-click-commands: []
+    price: 0
+  npc-41:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open Lab_Smith_4'
+    left-click-commands: []
+    price: 0
+  npc-37:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open Lab_Smith_1'
+    left-click-commands: []
+    price: 0
+  npc-39:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open Lab_Smith_2'
+    left-click-commands: []
+    price: 0
+  npc-40:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open Trials_Smith'
+    left-click-commands: []
+    price: 0
+  npc-34:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open Lab_Smith_3'
+    left-click-commands: []
+    price: 0
+  npc-42:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open CoinTrader_1'
+    left-click-commands: []
+    price: 0
+  npc-43:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open CoinTrader_2'
+    left-click-commands: []
+    price: 0
+  npc-44:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open CoinTrader_3'
+    left-click-commands: []
+    price: 0
+  npc-45:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open CoinTrader_4'
+    left-click-commands: []
+    price: 0
+  npc-10:
+    cooldown: 0
+    right-click-commands:
+      - '[player] shop npc_sorcerer_1'
+    left-click-commands: []
+    price: 0
+  npc-25:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open CoinTrader_0'
+    left-click-commands: []
+    price: 0
+  npc-11:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open Locomancer'
+    left-click-commands: []
+    price: 0
+  npc-3:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_selthine_smith'
+    left-click-commands: []
+    price: 0
+  npc-46:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_selthine_alchemist'
+    left-click-commands: []
+    price: 0
+  npc-47:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open Historian_0'
+    left-click-commands: []
+    price: 0
+  npc-51:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open Locomancer_1'
+    left-click-commands: []
+    price: 0
+  npc-48:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_HH1_Selthine'
+    left-click-commands: []
+    price: 0
+  npc-49:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_HH_Smith'
+    left-click-commands: []
+    price: 0
+  npc-50:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_HH_OldHunter'
+    left-click-commands: []
+    price: 0
+  npc-7:
+    cooldown: 0
+    right-click-commands:
+      - '[player] shop npc_Void_BaroKiteer'
+    left-click-commands: []
+    price: 0
+  npc-52:
+    cooldown: 0
+    right-click-commands:
+      - '[console] sudo %p% backpack'
+    left-click-commands: []
+    price: 0
+  npc-63:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open Cartographer_M0'
+    left-click-commands: []
+    price: 0
+  npc-62:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open Cartographer_0'
+    left-click-commands: []
+    price: 0
+  npc-64:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_SirGerald_Main'
+    left-click-commands: []
+    price: 0
+  npc-58:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Vyrdano_Junkseller'
+    left-click-commands: []
+    price: 0
+  npc-59:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Vyrdano_Citizen'
+    left-click-commands: []
+    price: 0
+  npc-55:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open SC_Dialogue_Vyrdano'
+    left-click-commands: []
+    price: 0
+  npc-56:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Vyrdano_Enchantress'
+    left-click-commands: []
+    price: 0
+  npc-53:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Vyrdano_Brewmaster'
+    left-click-commands: []
+    price: 0
+  npc-57:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Vyrdano_Blademaster'
+    left-click-commands: []
+    price: 0
+  npc-61:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Vyrdano_Fletcher'
+    left-click-commands: []
+    price: 0
+  npc-60:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Vyrdano_Armorsmith'
+    left-click-commands: []
+    price: 0
+  npc-54:
+    cooldown: 0
+    right-click-commands:
+      - '[player] shop AppleShop'
+    left-click-commands: []
+    price: 0
+  npc-67:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open FatherJohn_0'
+    left-click-commands: []
+    price: 0
+  npc-65:
+    cooldown: 0
+    right-click-commands:
+      - '[player] shop'
+    left-click-commands: []
+    price: 0
+  npc-77:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open SC_Dialogue_Caeron'
+    left-click-commands: []
+    price: 0
+  npc-79:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Caeron_Horuk'
+    left-click-commands: []
+    price: 0
+  npc-86:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Caeron_Pequod'
+    left-click-commands: []
+    price: 0
+  npc-87:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Caeron_Daryus'
+    left-click-commands: []
+    price: 0
+  npc-83:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Caeron_Fladnag'
+    left-click-commands: []
+    price: 0
+  npc-88:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Caeron_Atlas'
+    left-click-commands: []
+    price: 0
+  npc-100:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open CoinTrader_5'
+    left-click-commands: []
+    price: 0
+  npc-85:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_Caeron_Deathlord'
+    left-click-commands: []
+    price: 0
+  npc-101:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open CoinTrader_6'
+    left-click-commands: []
+    price: 0
+  npc-14:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open npc_selthine_packrat'
+    left-click-commands: []
+    price: 0
+  npc-13:
+    cooldown: 0
+    right-click-commands:
+      - '[player] bookmenu open VoteManager'
+    left-click-commands: []
+    price: 0

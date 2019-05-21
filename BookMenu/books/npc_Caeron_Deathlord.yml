@@ -1,0 +1,16 @@
+title: npc_Caeron_Deathlord
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lDeathlord1337"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1So, uh, you gonna"
+    - "&1 buy anything or"
+    - "&1 what?&8”"
+    - ""
+    - '&7- { text: "I''d like to buy a", color:"BLUE", command: "shop npc_Deathlord_Shop", hover: "&7View shop"}'
+    - '&l  { text: "couple of items.", color:"BLUE", command: "shop npc_Deathlord_Shop", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "What makes your", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Deathlord_2"}'
+    - '&l  { text: "items worth it?", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Deathlord_2"}'

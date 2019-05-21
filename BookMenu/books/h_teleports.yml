@@ -1,0 +1,13 @@
+title: Teleports
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lTeleports"
+    - ""
+    - "To request teleport to a user do &9/tpa &9<user>"
+    - ""
+    - "To accept a teleport request do &9/tpaccept"
+    - ""
+    - "To decline a teleport request do &9/tpdeny"
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

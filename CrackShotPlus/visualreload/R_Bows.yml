@@ -1,0 +1,46 @@
+## BOW RELOADS
+R_Bow1:
+    Left_Color: "&b"
+    Right_Color: "&7"
+    Symbol: "»"
+    Symbol_Amount: 8
+    Reload_Message:
+        Action_Bar: "&7#BAR#&3&l> &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7ABILITY RECHARGED"
+R_Bow2:
+    Left_Color: "&d"
+    Right_Color: "&7"
+    Symbol: "»"
+    Symbol_Amount: 8
+    Reload_Message:
+        Action_Bar: "&7#BAR#&5&l> &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7ABILITY RECHARGED"
+R_Bow3:
+    Left_Color: "&f"
+    Right_Color: "&7"
+    Symbol: "»"
+    Symbol_Amount: 8
+    Reload_Message:
+        Action_Bar: "&7#BAR#&b&l> &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7ABILITY RECHARGED"
+R_Bow4:
+    Left_Color: "&6"
+    Right_Color: "&8"
+    Symbol: "»"
+    Symbol_Amount: 8
+    Reload_Message:
+        Action_Bar: "&7#BAR#&6&l> &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7ABILITY RECHARGED"
+R_Bow5:
+    Left_Color: "&4"
+    Right_Color: "&8"
+    Symbol: "»"
+    Symbol_Amount: 8
+    Reload_Message:
+        Action_Bar: "&7#BAR#&4&l> &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7ABILITY RECHARGED"

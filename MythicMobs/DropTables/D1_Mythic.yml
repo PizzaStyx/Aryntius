@@ -1,0 +1,69 @@
+###---------------------------------------------------------###
+### MYTHIC DROPS (Work differently from normal drops)
+###---------------------------------------------------------###
+Mythic:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - exp 750
+### DROP CHANCES
+## BAD - 0.003
+## GOOD - 0.002
+## AMAZING - 0.001
+### WEAPONS
+  - Giantspike 1 0.003
+  - Giantspike2 1 0.003
+  - AstralSpade 1 0.003
+  - MoltenSword 1 0.002
+  - T1_W1 1 0.002
+  - T1_W2 1 0.002
+  - Bow_Stronk 1 0.001
+  - Bow_Shock 1 0.001
+  - SMG4 1 0.003
+  - BurstRifle3 1 0.002
+  - Sniper4 1 0.002
+  - Tigris 1 0.001
+  - Scattergun5 1 0.001
+  - Crossbow4 1 0.003
+  - Rocket4 1 0.001
+  - Frost4 1 0.002
+  - Fire4 1 0.003
+  - Water4 1 0.003
+  - Apple 1 0.002
+### ARMOR (HELMETS)
+  - T1_A1 1 0.003
+  - T1_A2 1 0.003
+  - T1_A3 1 0.001
+  - T1_A4 1 0.002
+  - T1_A5 1 0.002
+  - T1_A6 1 0.001
+### ARMOR (CHESTPLATES)
+  - T1_B1 1 0.003
+  - T1_B2 1 0.002
+  - T1_B3 1 0.002
+  - T1_B4 1 0.001
+  - T1_B5 1 0.001
+  - T1_B6 1 0.001
+### ARMOR (LEGGINGS)
+  - T1_C1 1 0.002
+  - T1_C2 1 0.002
+  - T1_C3 1 0.003
+  - T1_C4 1 0.002
+  - T1_C5 1 0.001
+### ARMOR (BOOTS)
+  - T1_D1 1 0.002
+  - T1_D2 1 0.001
+  - T1_D3 1 0.002
+  - T1_D4 1 0.002
+  - T1_D5 1 0.002
+  - StampedeBoots 1 0.001
+  - Boots_Healing 1 0.001
+### CHARMS/ACCESSORIES
+  - Charm_Slow 1 0.002
+  - Charm_Regen 1 0.003
+  - Charm_Elements 1 0.002
+### ARMOR SETS
+  - Lithaan_Helm 1 0.001
+  - Lithaan_Chest 1 0.002
+  - Lithaan_Legs 1 0.001
+  - Lithaan_Boots 1 0.002

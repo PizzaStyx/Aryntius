@@ -1,0 +1,27 @@
+title: Anti-Grief
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lGrief Prevention"
+    - ""
+    - "Griefing is not allowed in any form on the server. It is your responsibility to protect your home!"
+    - ""
+    - "If you hate reading,"
+    - '{ text: "&9click here", hover: "&7Open &9YouTube Link", url: "https://www.youtube.com/watch?v=VDsjXB-BaE0"} &0to view a video tutorial in your browser!'
+  2:
+    - "Placing a chest will automatically protect a 9x9 area around the chest."
+    - ""
+    - "Claim height adjusts automatically based on how deep or high you build."
+    - ""
+    - "You can expand a claim's size using a gold shovel."
+  3:
+    - "Players gain 100 claim area per hour they play, starting with 100 area (e.g. 10x10). The higher their rank, the more bonus area they have in addition to the 100 gained per hour."
+    - ""
+    - 'Use { text: "&9/ranks", command: "shop ranks", hover: "&7Run command &9/ranks"}&0 to view each rank and its respective claim area bonuses.'
+  4:
+    - "There is &lNO &0hard limit to how much area you can claim in total on the server."
+    - ""
+    - "However, the maximum number of &lunused &0claim blocks a player can accumulate at once is 80,000."
+    - ""
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

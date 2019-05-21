@@ -1,0 +1,71 @@
+### SNIPERS
+Sniper1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperCloud"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Blue
+Sniper2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperToxic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Green
+Sniper3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperMagic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Purple
+Sniper4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperFire"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Red
+Sniper4e:
+    Damage:
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&b&lFrozen"
+                    Subtitle: "&7All speed reduced"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperBlack"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Blue
+Sniper4x:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperGold"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Gold
+Sniper5:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WhiteMagic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Blue
+Sniper6:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperRed"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Red

@@ -1,0 +1,16 @@
+title: npc_Vyrdano_Blademaster
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lBlademaster"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Good day, traveler!"
+    - "&1 Need anything from"
+    - "&1 my humble shop?&8”"
+    - ""
+    - '&7- { text: "I''d like to forge", color:"BLUE", command: "shop npc_Blademaster_Shop", hover: "&7View shop"}'
+    - '&l  { text: "some new items.", color:"BLUE", command: "shop npc_Blademaster_Shop", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "Hey, aren''t you", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Blademaster_2"}'
+    - '&l  { text: "that exile?", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Blademaster_2"}'

@@ -1,0 +1,63 @@
+### FLASKS
+VFlask_1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Cloud"
+        Delay_Bar:
+            Left_Color: "&d"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7FLASK RECHARGED"
+VFlask_2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Aqua"
+        Delay_Bar:
+            Left_Color: "&b"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&bFLASK RECHARGED"
+VFlask_3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Gold"
+        Delay_Bar:
+            Left_Color: "&d"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7FLASK RECHARGED"
+VFlask_4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Smoke"
+        Delay_Bar:
+            Left_Color: "&d"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7FLASK RECHARGED"
+### LEGENDARY FLASKS
+VFlask_L1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Gold,F_Smoke"
+        Delay_Bar:
+            Left_Color: "&6"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Title: "&6✶✷✶"
+            End_Subtitle: "&7Flask Recharged"

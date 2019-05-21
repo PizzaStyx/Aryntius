@@ -1,0 +1,238 @@
+ShopName: AppleShop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &3Apple &bShop &7]'
+shop:
+  Apple:
+    MenuItem:
+    - name:&aApple
+    - lore:&7Price:&6 15Σ
+    - id:260
+    - amount:1
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 1 Apple for&6 15 &7Sigmas.'
+    Price: 15.0
+    PriceType: money
+    Reward:
+    - - id:260
+      - amount:1
+    RewardType: item
+  Apple2:
+    MenuItem:
+    - name:&aApple
+    - lore:&7Price:&6 120Σ
+    - id:260
+    - amount:8
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 8 Apple for&6 120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:260
+      - amount:8
+    RewardType: item
+  Apple3:
+    MenuItem:
+    - name:&aApple
+    - lore:&7Price:&6 240Σ
+    - id:260
+    - amount:16
+    InventoryLocation: 14
+    Message: '&7[&bShop&7] You bought 16 Apple for&6 240 &7Sigmas.'
+    Price: 240.0
+    PriceType: money
+    Reward:
+    - - id:260
+      - amount:16
+    RewardType: item
+  Apple4:
+    MenuItem:
+    - name:&aApple
+    - lore:&7Price:&6 480Σ
+    - id:260
+    - amount:32
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 32 Apple for&6 480 &7Sigmas.'
+    Price: 480.0
+    PriceType: money
+    Reward:
+    - - id:260
+      - amount:32
+    RewardType: item
+  Apple5:
+    MenuItem:
+    - name:&aApple
+    - lore:&7Price:&6 960Σ
+    - id:260
+    - amount:64
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 64 Apple for&6 960 &7Sigmas.'
+    Price: 960.0
+    PriceType: money
+    Reward:
+    - - id:260
+      - amount:64
+    RewardType: item
+  Gapple:
+    MenuItem:
+    - name:&bGolden Apple
+    - lore:&7Price:&6 2000Σ
+    - id:322
+    - amount:1
+    InventoryLocation: 21
+    Message: '&7[&bShop&7] You bought 1 Golden Apple for&6 2000 &7Sigmas.'
+    Price: 2000.0
+    PriceType: money
+    Reward:
+    - - id:322
+      - amount:1
+    RewardType: item
+  Gapple2:
+    MenuItem:
+    - name:&bGolden Apple
+    - lore:&7Price:&6 8000Σ
+    - id:322
+    - amount:4
+    InventoryLocation: 22
+    Message: '&7[&bShop&7] You bought 4 Golden Apple for&6 8000 &7Sigmas.'
+    Price: 8000.0
+    PriceType: money
+    Reward:
+    - - id:322
+      - amount:4
+    RewardType: item
+  Gapple3:
+    MenuItem:
+    - name:&bGolden Apple
+    - lore:&7Price:&6 16000Σ
+    - id:322
+    - amount:8
+    InventoryLocation: 23
+    Message: '&7[&bShop&7] You bought 8 Golden Apple for&6 16000 &7Sigmas.'
+    Price: 16000.0
+    PriceType: money
+    Reward:
+    - - id:322
+      - amount:8
+    RewardType: item
+  Gapple4:
+    MenuItem:
+    - name:&bGolden Apple
+    - lore:&7Price:&6 32000Σ
+    - id:322
+    - amount:16
+    InventoryLocation: 24
+    Message: '&7[&bShop&7] You bought 16 Golden Apple for&6 32000 &7Sigmas.'
+    Price: 32000.0
+    PriceType: money
+    Reward:
+    - - id:322
+      - amount:16
+    RewardType: item
+  Gapple5:
+    MenuItem:
+    - name:&bGolden Apple
+    - lore:&7Price:&6 64000Σ
+    - id:322
+    - amount:32
+    InventoryLocation: 25
+    Message: '&7[&bShop&7] You bought 32 Golden Apple for&6 64000 &7Sigmas.'
+    Price: 64000.0
+    PriceType: money
+    Reward:
+    - - id:322
+      - amount:32
+    RewardType: item
+  Notch1:
+    MenuItem:
+    - name:&dNotched Apple
+    - lore:&7Price:&6 20000Σ
+    - id:322
+    - durability:1
+    - amount:1
+    InventoryLocation: 30
+    Message: '&7[&bShop&7] You bought 1 Notched Apple for&6 20000 &7Sigmas.'
+    Price: 20000.0
+    PriceType: money
+    Reward:
+    - - id:322
+      - durability:1
+      - amount:1
+    RewardType: item
+  Notch2:
+    MenuItem:
+    - name:&dNotched Apple
+    - lore:&7Price:&6 40000Σ
+    - id:322
+    - durability:1
+    - amount:2
+    InventoryLocation: 31
+    Message: '&7[&bShop&7] You bought 2 Notched Apple for&6 40000 &7Sigmas.'
+    Price: 40000.0
+    PriceType: money
+    Reward:
+    - - id:322
+      - durability:1
+      - amount:2
+    RewardType: item
+  Notch3:
+    MenuItem:
+    - name:&dNotched Apple
+    - lore:&7Price:&6 80000Σ
+    - id:322
+    - durability:1
+    - amount:4
+    InventoryLocation: 32
+    Message: '&7[&bShop&7] You bought 4 Notched Apple for&6 80000 &7Sigmas.'
+    Price: 80000.0
+    PriceType: money
+    Reward:
+    - - id:322
+      - durability:1
+      - amount:4
+    RewardType: item
+  Notch4:
+    MenuItem:
+    - name:&dNotched Apple
+    - lore:&7Price:&6 160000Σ
+    - id:322
+    - durability:1
+    - amount:8
+    InventoryLocation: 33
+    Message: '&7[&bShop&7] You bought 8 Notched Apple for&6 160000 &7Sigmas.'
+    Price: 160000.0
+    PriceType: money
+    Reward:
+    - - id:322
+      - durability:1
+      - amount:8
+    RewardType: item
+  Notch5:
+    MenuItem:
+    - name:&dNotched Apple
+    - lore:&7Price:&6 320000Σ
+    - id:322
+    - durability:1
+    - amount:16
+    InventoryLocation: 34
+    Message: '&7[&bShop&7] You bought 16 Notched Apple for&6 320000 &7Sigmas.'
+    Price: 320000.0
+    PriceType: money
+    Reward:
+    - - id:322
+      - durability:1
+      - amount:16
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Food Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 50
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Food

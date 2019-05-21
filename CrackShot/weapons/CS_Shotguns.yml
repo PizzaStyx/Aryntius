@@ -1,0 +1,479 @@
+Shotgun1:
+    Item_Information:
+        Item_Name: "&2Sawed-Off&7"
+        Item_Type: 419
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Recoil_Amount: 5
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 15
+        Projectile_Damage: 20
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Bullet_Spread: 1
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-1-0,ENTITY_GENERIC_EXPLODE-1-2-0,ENTITY_GHAST_SHOOT-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7double-barreled &f<victim>&7!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 371
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Bullets_Individually: true
+        Reload_Duration: 15
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,BLOCK_NOTE_SNARE-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_WOODEN_DOOR_CLOSE-1-2-0
+        Sound_Close: BLOCK_IRON_DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+        Maximum_Damage: -10
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-87,BLOCK_BREAK-214
+        Particle_Terrain: true
+Shotgun2:
+    Item_Information:
+        Item_Name: "&3Mithril Shotgun&7"
+        Item_Type: 417
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Recoil_Amount: 3
+        Projectile_Amount: 6
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 15
+        Projectile_Damage: 40
+        Bullet_Spread: 1
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-1-0,ENTITY_GENERIC_EXPLODE-1-2-0,ENTITY_GHAST_SHOOT-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7filled &f<victim>&7 with lead!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 371
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Bullets_Individually: true
+        Reload_Duration: 15
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,BLOCK_NOTE_SNARE-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_WOODEN_DOOR_CLOSE-1-2-0
+        Sound_Close: BLOCK_IRON_DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+        Maximum_Damage: -20
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-87,BLOCK_BREAK-214
+        Particle_Terrain: true
+Shotgun3:
+    Item_Information:
+        Item_Name: "&9Clockwork Tempest&7"
+        Item_Type: 418
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Recoil_Amount: 3
+        Projectile_Amount: 8
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 15
+        Projectile_Damage: 60
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Bullet_Spread: 0.8
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-1-0,ENTITY_ZOMBIE_ATTACK_IRON_DOOR-1-2-0,ENTITY_BLAZE_DEATH-1-2-2,ENTITY_GHAST_SHOOT-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was clockwork'd by &f<shooter>&7!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 263
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Reload_Bullets_Individually: true
+        Reload_Duration: 15
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,BLOCK_NOTE_SNARE-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_WOODEN_DOOR_OPEN-1-2-0
+        Sound_Close: BLOCK_IRON_DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+        Maximum_Damage: -30
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: FLAMES-1
+        Particle_Impact_Anything: BLOCK_BREAK-10
+Shotgun4:
+    Item_Information:
+        Item_Name: "&d&oThe Heartless Matador&7"
+        Item_Type: 417
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Recoil_Amount: 1
+        Projectile_Amount: 9
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 15
+        Projectile_Damage: 80
+        Projectile_Flames: false
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Bullet_Spread: 0.6
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-1-0,ENTITY_WITHER_HURT-1-1-0,ENTITY_WITHER_HURT-1-2-0,ENTITY_GENERIC_EXPLODE-1-2-0,ENTITY_GHAST_SHOOT-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was killed by &f<shooter>&7's birdshot!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 371
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Bullets_Individually: true
+        Reload_Duration: 15
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,BLOCK_NOTE_SNARE-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: BLOCK_WOODEN_DOOR_OPEN-1-2-0
+        Sound_Close: BLOCK_IRON_DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+        Maximum_Damage: -40
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-87,BLOCK_BREAK-214
+        Particle_Terrain: true
+AutoShotgun:
+    Item_Information:
+        Item_Name: "&b&oLast Reckoning&7"
+        Item_Type: 417
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 15
+        Projectile_Damage: 250
+        Bullet_Spread: 0.25
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-0.75-1-0,ENTITY_GENERIC_EXPLODE-0.5-2-0,ENTITY_GHAST_SHOOT-0.5-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was turned into pulp by &f<shooter>&7!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 32
+        Reload_Bullets_Individually: false
+        Reload_Duration: 60
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_WOODEN_DOOR_OPEN-1-2-0,BLOCK_NOTE_HAT-1-1-8,BLOCK_NOTE_SNARE-1-6-9,BLOCK_NOTE_HAT-1-1-16,BLOCK_NOTE_SNARE-1-6-17,BLOCK_NOTE_HAT-1-1-24,BLOCK_NOTE_SNARE-1-6-25,BLOCK_NOTE_HAT-1-1-32,BLOCK_NOTE_SNARE-1-6-33,BLOCK_NOTE_HAT-1-1-40,BLOCK_NOTE_SNARE-1-6-41,BLOCK_NOTE_HAT-1-1-48,BLOCK_NOTE_SNARE-1-6-49,BLOCK_NOTE_HAT-1-1-56,BLOCK_NOTE_SNARE-1-6-57,BLOCK_IRON_DOOR_CLOSE-1-2-60
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: 0.25
+        Maximum_Damage: 10
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-10
+Tigris:
+    Item_Information:
+        Item_Name: "&5&oThe Tigris&7"
+        Item_Type: 417
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Dual_Wield: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Projectile_Amount: 12
+        Projectile_Type: snowball
+        Projectile_Speed: 15
+        Projectile_Damage: 300
+        Projectile_Flames: false
+        Bullet_Spread: 0.3
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-1-0,ENTITY_GENERIC_EXPLODE-1-2-0,ENTITY_GHAST_SHOOT-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7mistook &f<victim>&7 for a quail!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 371
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_WOODEN_DOOR_OPEN-1-2-6,BLOCK_NOTE_HAT-1-1-16,ENTITY_IRONGOLEM_ATTACK-1-2-17,BLOCK_NOTE_HAT-1-1-26,ENTITY_IRONGOLEM_ATTACK-1-2-27,BLOCK_WOODEN_DOOR_CLOSE-1-2-38
+        Dual_Wield:
+            Single_Reload_Duration: 25
+            Sounds_Single_Reload: BLOCK_WOODEN_DOOR_OPEN-1-2-6,BLOCK_NOTE_HAT-1-1-16,ENTITY_IRONGOLEM_ATTACK-1-2-17,BLOCK_WOODEN_DOOR_CLOSE-1-2-23
+            Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -40
+        Maximum_Damage: -250
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-87,BLOCK_BREAK-214
+        Particle_Terrain: true
+Tigris3:
+    Item_Information:
+        Item_Name: "&4&oAbyssal Tigris&7"
+        Item_Type: 419
+        Item_Lore: "&0 |&7Tier: &4&oCorrupted|&0 |&7Type: &9Shotgun|&7Ammo: &9Gold Nugget|&7DPS: &c41.0x5❤|&0 |&7Left/right-click to shoot. On|&7shot, slow/blind yourself for|&7up to 3.5 seconds.|&0 |&7“&4A Tigris shotgun crafted out|&4 of strange materials.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Projectile_Speed: 15
+        Projectile_Damage: 82
+        Projectile_Flames: false
+        Bullet_Spread: 0.3
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-1-0,ENTITY_GENERIC_EXPLODE-1-2-0,ENTITY_GHAST_SHOOT-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7blew off &f<victim>&7's torso!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 371
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_WOODEN_DOOR_OPEN-1-2-6,BLOCK_NOTE_HAT-1-1-16,ENTITY_IRONGOLEM_ATTACK-1-2-17,BLOCK_NOTE_HAT-1-1-26,ENTITY_IRONGOLEM_ATTACK-1-2-27,BLOCK_WOODEN_DOOR_CLOSE-1-2-38
+        Dual_Wield:
+            Single_Reload_Duration: 25
+            Sounds_Single_Reload: BLOCK_WOODEN_DOOR_OPEN-1-2-6,BLOCK_NOTE_HAT-1-1-16,ENTITY_IRONGOLEM_ATTACK-1-2-17,BLOCK_WOODEN_DOOR_CLOSE-1-2-23
+            Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -20
+        Maximum_Damage: -70
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: SLOW-70-4,BLINDNESS-70-1
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-87,BLOCK_BREAK-214
+        Particle_Terrain: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+ShotgunX:
+    Item_Information:
+        Item_Name: "&b&oThe Reaper&7"
+        Item_Type: 397~1
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 8
+        Projectile_Amount: 16
+        Projectile_Type: snowball
+        Projectile_Speed: 15
+        Projectile_Damage: 700
+        Projectile_Flames: false
+        Bullet_Spread: 0.5
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-1-0,ENTITY_GENERIC_EXPLODE-1-2-0,ENTITY_GHAST_SHOOT-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was killed by &f<shooter>&7's birdshot!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 371
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Reload_Bullets_Individually: false
+        Reload_Duration: 20
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-0,BLOCK_WOODEN_DOOR_OPEN-1-2-2,BLOCK_NOTE_HAT-1-1-9,BLOCK_NOTE_HAT-1-1-11,BLOCK_NOTE_HAT-1-1-13,ITEM_FLINTANDSTEEL_USE-1-1-16,ENTITY_PLAYER_HURT-1-0-17,BLOCK_IRON_DOOR_CLOSE-1-2-18
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: HEAL-1-10
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -80
+        Maximum_Damage: -680
+    Hit_Events:
+        Enable: false
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-87,BLOCK_BREAK-214
+        Particle_Terrain: true
+ShotgunZ:
+    Item_Information:
+        Item_Name: "&6&oTest Shotgun&7"
+        Item_Type: 418
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Dual_Wield: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 64
+        Projectile_Flames: false
+        Bullet_Spread: 0.3
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-1-0,ENTITY_GENERIC_EXPLODE-1-2-0,ENTITY_GHAST_SHOOT-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7painted the wall with &f<victim>&7's brain!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 371
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 20
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: BLOCK_WOODEN_DOOR_OPEN-1-2-1,BLOCK_NOTE_HAT-1-1-7,ENTITY_IRONGOLEM_ATTACK-1-2-8,BLOCK_NOTE_HAT-1-1-14,ENTITY_IRONGOLEM_ATTACK-1-2-15,BLOCK_WOODEN_DOOR_CLOSE-1-2-20
+        Dual_Wield:
+            Single_Reload_Duration: 12
+            Sounds_Single_Reload: BLOCK_WOODEN_DOOR_OPEN-1-2-1,BLOCK_NOTE_HAT-1-1-5,ENTITY_IRONGOLEM_ATTACK-1-2-6,BLOCK_WOODEN_DOOR_CLOSE-1-2-11
+            Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -0.25
+        Maximum_Damage: -8
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-30-4,BLINDNESS-30-1
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-87,BLOCK_BREAK-214
+        Particle_Terrain: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0

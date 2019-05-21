@@ -1,0 +1,21 @@
+title: Backpacks
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lBackpacks"
+    - ""
+    - "Use &9/backpack&0 to access your own personal storage! Backpacks keep items upon death. Use them wisely!"
+    - ""
+    - "The higher rank a player is, the more slots they have in their backpack."
+  2:
+    - "This is a list of ranks and their respective backpack slots:"
+    - ""
+    - "&7[&8Vagrant&7] &0- 9 Slots"
+    - "&7[&6Settler&7] &0- 18 Slots"
+    - "&7[&aCitizen&7] &0- 27 Slots"
+    - "&7[&2Noble&7] &0- 36 Slots"
+    - "&7[&dAscendant&7] &0- 48 Slots"
+    - "&7[&5Deity&7] &0- 54 Slots"
+    - ""
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

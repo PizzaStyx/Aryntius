@@ -1,0 +1,378 @@
+ShopName: Stone
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &3Stone &bBlocks &7]'
+shop:
+  Cobblestone:
+    MenuItem:
+    - name:&fCobblestone
+    - lore:&7Price:&6 2Σ
+    - id:4
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Cobblestone for&6 2 &7Sigmas.'
+    Price: 2.0
+    PriceType: money
+    Reward:
+    - - id:4
+      - amount:1
+    RewardType: item
+  Cobblestone2:
+    MenuItem:
+    - name:&fCobblestone
+    - lore:&7Price:&6 30Σ
+    - id:4
+    - amount:16
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 16 Cobblestone for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:4
+      - amount:16
+    RewardType: item
+  Cobblestone3:
+    MenuItem:
+    - name:&fCobblestone
+    - lore:&7Price:&6 56Σ
+    - id:4
+    - amount:32
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 32 Cobblestone for&6 56 &7Sigmas.'
+    Price: 56.0
+    PriceType: money
+    Reward:
+    - - id:4
+      - amount:32
+    RewardType: item
+  Cobblestone4:
+    MenuItem:
+    - name:&fCobblestone
+    - lore:&7Price:&6 110Σ
+    - id:4
+    - amount:64
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 64 Cobblestone for&6 110 &7Sigmas.'
+    Price: 110.0
+    PriceType: money
+    Reward:
+    - - id:4
+      - amount:64
+    RewardType: item
+  Granite:
+    MenuItem:
+    - name:&bGranite
+    - lore:&7Price:&6 2Σ
+    - id:1
+    - durability:1
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Granite for&6 2 &7Sigmas.'
+    Price: 2.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:1
+      - amount:1
+    RewardType: item
+  Granite2:
+    MenuItem:
+    - name:&bGranite
+    - lore:&7Price:&6 32Σ
+    - id:1
+    - durability:1
+    - amount:16
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 16 Granite for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:1
+      - amount:16
+    RewardType: item
+  Granite3:
+    MenuItem:
+    - name:&bGranite
+    - lore:&7Price:&6 60Σ
+    - id:1
+    - durability:1
+    - amount:32
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 32 Granite for&6 60 &7Sigmas.'
+    Price: 60.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:1
+      - amount:32
+    RewardType: item
+  Granite4:
+    MenuItem:
+    - name:&bGranite
+    - lore:&7Price:&6 120Σ
+    - id:1
+    - durability:1
+    - amount:64
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 64 Granite for&6 120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:1
+      - amount:64
+    RewardType: item
+  Diorite:
+    MenuItem:
+    - name:&aDiorite
+    - lore:&7Price:&6 2Σ
+    - id:1
+    - durability:3
+    - amount:1
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You bought 1 Diorite for&6 2 &7Sigmas.'
+    Price: 2.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:3
+      - amount:1
+    RewardType: item
+  Diorite2:
+    MenuItem:
+    - name:&aDiorite
+    - lore:&7Price:&6 30Σ
+    - id:1
+    - durability:3
+    - amount:16
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 16 Diorite for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:3
+      - amount:16
+    RewardType: item
+  Diorite3:
+    MenuItem:
+    - name:&aDiorite
+    - lore:&7Price:&6 60Σ
+    - id:1
+    - durability:3
+    - amount:32
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 32 Diorite for&6 60 &7Sigmas.'
+    Price: 60.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:3
+      - amount:32
+    RewardType: item
+  Diorite4:
+    MenuItem:
+    - name:&aDiorite
+    - lore:&7Price:&6 120Σ
+    - id:1
+    - durability:3
+    - amount:64
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 64 Diorite for&6 120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:3
+      - amount:64
+    RewardType: item
+  Andesite:
+    MenuItem:
+    - name:&eAndesite
+    - lore:&7Price:&6 2Σ
+    - id:1
+    - durability:5
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Andesite for&6 2 &7Sigmas.'
+    Price: 2.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:5
+      - amount:1
+    RewardType: item
+  Andesite2:
+    MenuItem:
+    - name:&eAndesite
+    - lore:&7Price:&6 30Σ
+    - id:1
+    - durability:5
+    - amount:16
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 16 Andesite for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:5
+      - amount:16
+    RewardType: item
+  Andesite3:
+    MenuItem:
+    - name:&eAndesite
+    - lore:&7Price:&6 60Σ
+    - id:1
+    - durability:5
+    - amount:32
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 32 Andesite for&6 60 &7Sigmas.'
+    Price: 60.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:5
+      - amount:32
+    RewardType: item
+  Andesite4:
+    MenuItem:
+    - name:&eAndesite
+    - lore:&7Price:&6 120Σ
+    - id:1
+    - durability:5
+    - amount:64
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You bought 64 Andesite for&6 120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:1
+      - durability:5
+      - amount:64
+    RewardType: item
+  Endstone:
+    MenuItem:
+    - name:&dEndstone
+    - lore:&7Price:&6 15Σ
+    - id:121
+    - amount:1
+    InventoryLocation: 19
+    Message: '&7[&bShop&7] You bought 1 Endstone for&6 15 &7Sigmas.'
+    Price: 15.0
+    PriceType: money
+    Reward:
+    - - id:121
+      - amount:1
+    RewardType: item
+  Endstone2:
+    MenuItem:
+    - name:&dEndstone
+    - lore:&7Price:&6 135Σ
+    - id:121
+    - amount:8
+    InventoryLocation: 20
+    Message: '&7[&bShop&7] You bought 8 Endstone for&6 135 &7Sigmas.'
+    Price: 135.0
+    PriceType: money
+    Reward:
+    - - id:121
+      - amount:8
+    RewardType: item
+  Endstone3:
+    MenuItem:
+    - name:&dEndstone
+    - lore:&7Price:&6 260Σ
+    - id:121
+    - amount:16
+    InventoryLocation: 21
+    Message: '&7[&bShop&7] You bought 16 Endstone for&6 260 &7Sigmas.'
+    Price: 260.0
+    PriceType: money
+    Reward:
+    - - id:121
+      - amount:16
+    RewardType: item
+  Endstone4:
+    MenuItem:
+    - name:&dEndstone
+    - lore:&7Price:&6 900Σ
+    - id:121
+    - amount:64
+    InventoryLocation: 22
+    Message: '&7[&bShop&7] You bought 64 Endstone for&6 900 &7Sigmas.'
+    Price: 900.0
+    PriceType: money
+    Reward:
+    - - id:121
+      - amount:64
+    RewardType: item
+  Obsidian:
+    MenuItem:
+    - name:&cObsidian
+    - lore:&7Price:&6 800Σ
+    - id:49
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bShop&7] You bought 1 Obsidian for&6 800 &7Sigmas.'
+    Price: 800.0
+    PriceType: money
+    Reward:
+    - - id:49
+      - amount:1
+    RewardType: item
+  Obsidian2:
+    MenuItem:
+    - name:&cObsidian
+    - lore:&7Price:&6 3200Σ
+    - id:49
+    - amount:4
+    InventoryLocation: 25
+    Message: '&7[&bShop&7] You bought 4 Obsidian for&6 3200 &7Sigmas.'
+    Price: 3200.0
+    PriceType: money
+    Reward:
+    - - id:49
+      - amount:4
+    RewardType: item
+  Obsidian3:
+    MenuItem:
+    - name:&cObsidian
+    - lore:&7Price:&6 12800Σ
+    - id:49
+    - amount:16
+    InventoryLocation: 26
+    Message: '&7[&bShop&7] You bought 1 Obsidian for&6 12800 &7Sigmas.'
+    Price: 12800.0
+    PriceType: money
+    Reward:
+    - - id:49
+      - amount:16
+    RewardType: item
+  Obsidian4:
+    MenuItem:
+    - name:&cObsidian
+    - lore:&7Price:&6 50000Σ
+    - id:49
+    - amount:64
+    InventoryLocation: 27
+    Message: '&7[&bShop&7] You bought 1 Obsidian for&6 50000 &7Sigmas.'
+    Price: 50000.0
+    PriceType: money
+    Reward:
+    - - id:49
+      - amount:64
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Blocks Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 32
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Blocks

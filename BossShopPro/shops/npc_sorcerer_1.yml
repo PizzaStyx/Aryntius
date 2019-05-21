@@ -1,0 +1,94 @@
+ShopName: npc_sorcerer_1
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &3Magic & &bMadness&7]'
+shop:
+  Scroll1:
+    MenuItem:
+    - id:339
+    - name:&fFireball
+    - "lore:&0 "
+    - "lore:&7Tier: &fCommon"
+    - "lore:&0 "
+    - "lore:&7Type: &9Magic (Consumable)"
+    - "lore:&7Damage: &c50.0❤"
+    - "lore:&7Cooldown: &91 Second"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &6600Σ"
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought 1 Fireball Scroll for &6600 &7Sigmas.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - 'mm items give -s %player% Scroll1 1'
+    RewardType: command
+  Scroll2:
+    MenuItem:
+    - id:339
+    - name:&2Tidal Wave
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&7Type: &9Magic (Consumable)"
+    - "lore:&7Damage: &c20.0x3❤"
+    - "lore:&7Cooldown: &91 Second"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &61200Σ"
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You bought 1 Tidal Wave Scroll for &61200 &7Sigmas.'
+    Price: 1200.0
+    PriceType: money
+    Reward:
+    - 'mm items give -s %player% Scroll2 1'
+    RewardType: command
+  Scroll3:
+    MenuItem:
+    - id:339
+    - name:&3Earth Strike
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&7Type: &9Magic (Consumable)"
+    - "lore:&7Damage: &c25.0x4❤"
+    - "lore:&7Cooldown: &93 Seconds"
+    - "lore:&0 "
+    - "lore:&3★ &7&oRestores &c&o4.0❤&7&o on hit."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &63600Σ"
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You bought 1 Earth Strike Scroll for &63600 &7Sigmas.'
+    Price: 3600.0
+    PriceType: money
+    Reward:
+    - 'mm items give -s %player% Scroll3 1'
+    RewardType: command
+  Scroll4:
+    MenuItem:
+    - id:339
+    - name:&5Wind Slash
+    - "lore:&0 "
+    - "lore:&7Tier: &5Superior"
+    - "lore:&0 "
+    - "lore:&7Type: &9Magic (Consumable)"
+    - "lore:&7Damage: &c120.0❤"
+    - "lore:&7Cooldown: &93 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oInflicts &c&o15.0❤ &7&obleed damage."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &69200Σ"
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought 1 Wind Slash Scroll for &69200 &7Sigmas.'
+    Price: 9200.0
+    PriceType: money
+    Reward:
+    - 'mm items give -s %player% Scroll4 1'
+    RewardType: command

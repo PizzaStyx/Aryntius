@@ -1,0 +1,370 @@
+### EVENT DROP TABLES ------------------------------------------
+AprilFools:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - SlamSpell 1 0.25
+  - BanSword 1 0.25
+  - ZootBorx 1 0.25
+AprilFools_Mob:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - SlamSpell 1 0.0005
+  - BanSword 1 0.0005
+  - ZootBorx 1 0.0005
+### LOW-TIER BOSSES --------------------------------------------
+TutorialBoss:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Shotgun 1 0.1
+  - FireTendrils 1 0.1
+  - Water0 1 0.1
+  - T5_2 1 0.1
+  - T5_23 1 0.1
+  - T5_25 1 0.1
+  - Flask7 1 0.1
+  - Flask1 1 0.01
+### TRIALS BOSSES ----------------------------------------------
+Boss2:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Fist 1 0.125
+  - Earth4 1 0.125
+  - Dragoon 1 0.125
+  - Charm_Yrazotj 1 0.125
+  - T1_Sorrow 1 0.05
+Boss3:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Fang 1 0.125
+  - Dragon_Heart 1 0.125
+  - T1_Hatred 1 0.05
+Boss4:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Bow4 1 0.125
+  - Fire5 1 0.125
+  - T1_Hatred 1 0.05
+Boss5:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - AquirJusticar 1 0.125
+  - ShotgunY 1 0.125
+  - Water5 1 0.125
+  - Charm_Cunning 1 0.125
+  - T1_Cunning 1 0.05
+### TRIALS BOSS SETS -------------------------------------------
+Boss2_Set:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Titan_Helm 1 0.015
+  - Titan_Chest 1 0.015
+  - Titan_Legs 1 0.015
+  - Titan_Boots 1 0.015
+Boss5_Set:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Redeemer_Helm 1 0.015
+  - Redeemer_Chest 1 0.015
+  - Redeemer_Legs 1 0.015
+  - Redeemer_Boots 1 0.015
+Boss34_Set:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Dragon_Helm 1 0.01
+  - Dragon_Chest 1 0.01
+  - Dragon_Legs 1 0.01
+  - Dragon_Boots 1 0.01
+### VOID KEY DROPS ---------------------------------------------
+UpperKey:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Key_Up 1
+MiddleKey:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Key_Mid 1
+LowerKey:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Key_Low 1
+### COMPASS SHARD DROPS ----------------------------------------
+Shard_North:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Key_North 1
+Shard_South:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Key_South 1
+Shard_East:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Key_East 1
+Shard_West:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Key_West 1
+### ATLAS BOSSES -----------------------------------------------
+AtlasBoss_1: ### Hakgon the Dreamer
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - HakgonChest 1 0.25
+  - HakgonBoots 1 0.25
+  - Delusion 1 0.25
+AtlasBoss_2: ### The Witch of the Wilds
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - WitchMagic 1 0.25
+  - WitchHelm 1 0.25
+  - WitchLegs 1 0.25
+AtlasBoss_3: ### Webmother Mavlak
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - WoeFang 1 0.25
+  - SpiderHelm 1 0.25
+  - SpiderChest 1 0.25
+AtlasBoss_4: ### Noryk the Unbound
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - LibraryMagic 1 0.25
+  - LibraryLegs 1 0.25
+  - LibraryBoots 1 0.25
+AtlasBoss_5: ### The Sand Spirit
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - ScattergunX 1 0.25
+  - SandHelm 1 0.25
+  - SandBoots 1 0.25
+AtlasBoss_6: ### Brahmk the Unhinged
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - BrahmkSword 1 0.25
+  - BrahmkChest 1 0.25
+  - BrahmkBoots 1 0.25
+AtlasBoss_7: ### The King of Wraiths
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - WraithMelee 1 0.25
+  - WraithHelm 1 0.25
+  - WraithLegs 1 0.25
+AtlasBoss_8: ### Blade Golem
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - StoneforgeAxe 1 0.25
+  - StoneforgeHelm 1 0.25
+  - StoneforgeLegs 1 0.25
+AtlasBoss_9: ### Azure Guardian
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - AzureMagic 1 0.25
+  - AzureHelm 1 0.25
+  - AzureLegs 1 0.25
+AtlasBoss_10: ### King of the Storm
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - SniperZ 1 0.25
+  - StormChest 1 0.25
+  - StormBoots 1 0.25
+AtlasBoss_11: ### Hulaak the Frost Giant
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - FrostBuff 1 0.25
+  - Shield_Frost 1 0.25
+  - FrostHelm 1 0.25
+AtlasBoss_12: ### Kar'doth, The Extinguished
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Soulfire 1 0.25
+  - EmberChest 1 0.25
+  - EmberLegs 1 0.25
+AtlasBoss_13: ### Petrus the Forgotten
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - TigrisPrime 1 0.25
+  - PetrusChest 1 0.25
+  - PetrusBoots 1 0.25
+AtlasBoss_14: ### Uuryai, The Warden
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - CritRifle 1 0.25
+  - WardenChest 1 0.25
+  - WardenBoots 1 0.25
+AtlasBoss_15: ### Maugri, the Lost
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - MaugriSword 1 0.25
+  - MaugriCharm 1 0.25
+  - MaugriBoots 1 0.25
+AtlasBoss_X:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - EtherMagic 1 0.2
+  - EtherRifle 1 0.2
+  - EtherAxe 1 0.2
+  - EtherChest 1 0.2
+  - EtherBoots 1 0.2
+### TITANS -----------------------------------------------------
+LabBossX: ### The Architect
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Arch_Flask 1 0.125
+  - Arch_Sword 1 0.125
+  - Arch_Magic 1 0.125
+  - Arch_Rifle 1 0.125
+  - Arch_Sniper 1 0.005
+Titan1: ### N'azhrak
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Hexstorm 1 0.125
+  - Shield_Regen 1 0.125
+  - RogueDagger 1 0.125
+  - VoidLauncher 1 0.125
+  - T1_Wrath 1 0.05
+Titan1_Set:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Void_Helm 1 0.2
+  - Void_Chest 1 0.2
+  - Void_Legs 1 0.2
+  - Void_Boots 1 0.15
+Titan2: ### Magmos
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - MoltenStrike 1 0.2
+  - MoltenShotgun 1 0.2
+  - MoltenMagic 1 0.2
+  - MoltenChest 1 0.2
+  - MoltenCharm 1 0.2
+Titan3: ### Vraast
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - FrostBow 1 0.2
+  - FrostBomb 1 0.2
+  - FrostAxe 1 0.2
+  - FrostChest 1 0.2
+  - FrostBoots 1 0.2
+Titan4: ### Sahuvar
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - PoisonDagger 1 0.2
+  - PoisonBow 1 0.2
+  - PoisonMagic 1 0.2
+  - PoisonHelm 1 0.2
+  - PoisonLegs 1 0.2
+Titan5: ### Lord of Lightning
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - ShockSword 1 0.2
+  - ShockRifle 1 0.2
+  - ShockMagic 1 0.2
+  - ShockHelm 1 0.2
+  - ShockLegs 1 0.2
+Titan6: ### Curse Spamming Guy
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Riftwalker 1 0.2
+  - Charm_Frenzy 1 0.2
+  - Shield_Melee 1 0.2
+  - Charm_Curse 1 0.2
+  - Charm_Slow_4 1 0.2
+Titan7: ### Xyvricius the Insatiable
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - SwampAxe 1 0.2
+  - SwampBow 1 0.2
+  - SwampMagic 1 0.2
+  - SwampLegs 1 0.2
+  - SwampBoots 1 0.2
+Titan8:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - GraveSword 1 0.125
+  - GraveMagic 1 0.125
+  - GraveShotgun 1 0.125
+  - GraveChest 1 0.125
+  - GraveMind 1 0.125
+TitanX: ### Iezryl the Abyss Lord
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - DreamSaber 1 0.2
+  - ChaosBow 1 0.2
+  - AbyssMagic 1 0.2
+  - AbyssHelm 1 0.2
+  - AbyssLegs 1 0.2

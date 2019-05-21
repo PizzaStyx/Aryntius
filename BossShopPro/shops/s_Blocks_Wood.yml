@@ -1,0 +1,386 @@
+ShopName: WoodStuff
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &6The &eLumberyard &7]'
+shop:
+  OakLogs:
+    MenuItem:
+    - name:&aOak Log
+    - lore:&7Price:&6 10Σ
+    - id:17
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Oak Log for &610 &7Credits.'
+    Price: 10.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - amount:1
+    RewardType: item
+  OakLogs2:
+    MenuItem:
+    - name:&aOak Log
+    - lore:&7Price:&6 80Σ
+    - id:17
+    - amount:8
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 8 Oak Log for &675 &7Credits.'
+    Price: 75.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - amount:8
+    RewardType: item
+  OakLogs3:
+    MenuItem:
+    - name:&aOak Log
+    - lore:&7Price:&6 150Σ
+    - id:17
+    - amount:16
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 16 Oak Log for &6150 &7Credits.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - amount:16
+    RewardType: item
+  OakLogs4:
+    MenuItem:
+    - name:&aOak Log
+    - lore:&a&7Price:&6 600Σ
+    - id:17
+    - amount:64
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 64 Oak Log for &6600 &7Credits.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - amount:64
+    RewardType: item
+  SpruceLogs:
+    MenuItem:
+    - name:&bSpruce Log
+    - lore:&7Price:&6 10Σ
+    - id:17
+    - durability:1
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Spruce Log for &610 &7Credits.'
+    Price: 10.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:1
+      - amount:1
+    RewardType: item
+  SpruceLogs2:
+    MenuItem:
+    - name:&bSpruce Log
+    - lore:&7Price:&6 75Σ
+    - id:17
+    - durability:1
+    - amount:8
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 8 Spruce Log for &675 &7Credits.'
+    Price: 75.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:1
+      - amount:8
+    RewardType: item
+  SpruceLogs3:
+    MenuItem:
+    - name:&bSpruce Log
+    - lore:&7Price:&6 150Σ
+    - id:17
+    - durability:1
+    - amount:16
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 16 Spruce Log for &6150 &7Credits.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:1
+      - amount:16
+    RewardType: item
+  SpruceLogs4:
+    MenuItem:
+    - name:&bSpruce Log
+    - lore:&7Price:&6 600Σ
+    - id:17
+    - durability:1
+    - amount:64
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 64 Spruce Log for &6600 &7Credits.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:1
+      - amount:64
+    RewardType: item
+  BirchLogs:
+    MenuItem:
+    - name:&3Birch Log
+    - lore:&7Price:&6 10Σ
+    - id:17
+    - durability:2
+    - amount:1
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You bought 1 Birch Log for &610 &7Credits.'
+    Price: 10.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:2
+      - amount:1
+    RewardType: item
+  BirchLogs2:
+    MenuItem:
+    - name:&3Birch Log
+    - lore:&7Price:&6 75Σ
+    - id:17
+    - durability:2
+    - amount:8
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 8 Birch Log for &675 &7Credits.'
+    Price: 75.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:2
+      - amount:8
+    RewardType: item
+  BirchLogs3:
+    MenuItem:
+    - name:&3Birch Log
+    - lore:&7Price:&6 150Σ
+    - id:17
+    - durability:2
+    - amount:16
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 16 Birch Log for &6150 &7Credits.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:2
+      - amount:16
+    RewardType: item
+  BirchLogs4:
+    MenuItem:
+    - name:&3Birch Log
+    - lore:&7Price:&6 600Σ
+    - id:17
+    - durability:2
+    - amount:64
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 64 Birch Log for &6600 &7Credits.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:2
+      - amount:64
+    RewardType: item
+  JungleLogs:
+    MenuItem:
+    - name:&cJungle Log
+    - lore:&7Price:&6 10Σ
+    - id:17
+    - durability:3
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Jungle Log for &610 &7Credits.'
+    Price: 10.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:3
+      - amount:1
+    RewardType: item
+  JungleLogs2:
+    MenuItem:
+    - name:&cJungle Log
+    - lore:&7Price:&6 75Σ
+    - id:17
+    - durability:3
+    - amount:8
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 8 Jungle Log for &675 &7Credits.'
+    Price: 75.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:3
+      - amount:8
+    RewardType: item
+  JungleLogs3:
+    MenuItem:
+    - name:&cJungle Log
+    - lore:&7Price:&6 150Σ
+    - id:17
+    - durability:3
+    - amount:16
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 16 Jungle Log for &6150 &7Credits.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:3
+      - amount:16
+    RewardType: item
+  JungleLogs4:
+    MenuItem:
+    - name:&cJungle Log
+    - lore:&7Price:&6 600Σ
+    - id:17
+    - durability:3
+    - amount:64
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You bought 64 Jungle Log for &6600 &7Credits.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - - id:17
+      - durability:3
+      - amount:64
+    RewardType: item
+  AcaciaLog:
+    MenuItem:
+    - name:&eAcacia Log
+    - lore:&7Price:&6 10Σ
+    - id:162
+    - amount:1
+    InventoryLocation: 19
+    Message: '&7[&bShop&7] You bought 1 Acacia Log for &610 &7Credits.'
+    Price: 10.0
+    PriceType: money
+    Reward:
+    - - id:162
+      - amount:1
+    RewardType: item
+  AcaciaLog2:
+    MenuItem:
+    - name:&eAcacia Log
+    - lore:&7Price:&6 75Σ
+    - id:162
+    - amount:8
+    InventoryLocation: 20
+    Message: '&7[&bShop&7] You bought 8 Acacia Log for &675 &7Credits.'
+    Price: 75.0
+    PriceType: money
+    Reward:
+    - - id:162
+      - amount:8
+    RewardType: item
+  AcaciaLog3:
+    MenuItem:
+    - name:&eAcacia Log
+    - lore:&7Price:&6 150Σ
+    - id:162
+    - amount:16
+    InventoryLocation: 21
+    Message: '&7[&bShop&7] You bought 16 Acacia Log for &6150 &7Credits.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:162
+      - amount:16
+    RewardType: item
+  AcaciaLog4:
+    MenuItem:
+    - name:&eAcacia Log
+    - lore:&7Price:&6 600Σ
+    - id:162
+    - amount:64
+    InventoryLocation: 22
+    Message: '&7[&bShop&7] You bought 64 Acacia Log for &6600 &7Credits.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - - id:162
+      - amount:64
+    RewardType: item
+  DarkOakLog:
+    MenuItem:
+    - name:&dDark Oak Log
+    - lore:&7Price:&6 10Σ
+    - id:162
+    - durability:1
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bShop&7] You bought 1 Dark Oak Log for &610 &7Credits.'
+    Price: 10.0
+    PriceType: money
+    Reward:
+    - - id:162
+      - durability:1
+      - amount:1
+    RewardType: item
+  DarkOakLog2:
+    MenuItem:
+    - name:&dDark Oak Log
+    - lore:&7Price:&6 75Σ
+    - id:162
+    - durability:1
+    - amount:8
+    InventoryLocation: 25
+    Message: '&7[&bShop&7] You bought 8 Dark Oak Log for &675 &7Credits.'
+    Price: 75.0
+    PriceType: money
+    Reward:
+    - - id:162
+      - durability:1
+      - amount:8
+    RewardType: item
+  DarkOakLog3:
+    MenuItem:
+    - name:&dDark Oak Log
+    - lore:&7Price:&6 150Σ
+    - id:162
+    - durability:1
+    - amount:16
+    InventoryLocation: 26
+    Message: '&7[&bShop&7] You bought 16 Dark Oak Log for &6150 &7Credits.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:162
+      - durability:1
+      - amount:16
+    RewardType: item
+  DarkOakLog4:
+    MenuItem:
+    - name:&dDark Oak Log
+    - lore:&7Price:&6 600Σ
+    - id:162
+    - durability:1
+    - amount:64
+    InventoryLocation: 27
+    Message: '&7[&bShop&7] You bought 64 Dark Oak Log for &6600 &7Credits.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - - id:162
+      - durability:1
+      - amount:64
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Blocks Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 32
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Blocks

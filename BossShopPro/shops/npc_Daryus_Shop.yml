@@ -1,0 +1,100 @@
+ShopName: npc_daryus_shop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Daryus'' Damagers &8]'
+shop:
+  NG_Catalyst_Low: ### Forge a random Uncommon
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'rc catalyst_1 %player%'
+    MenuItem:
+    - id:280
+    - name:&bCrafted Catalyst (Low)
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b???"
+    - "lore:&0 "
+    - "lore:&b» &7While equipped in off hand:"
+    - "lore:&b★ &7Adds &c50.0❤ &7damage to all"
+    - "lore:&7  ranged/magic attacks."
+    - "lore:&b★ &7Up to 1 extra modifier."
+    - "lore:&0 "
+    - "lore:&7Crafting Cost:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You forged &f1 &aCatalyst &7for &f5 &aStar Fragments&7.'
+  NG_Catalyst_Mid: ### Forge a random item
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    RewardType: Command
+    Reward:
+    - 'rc catalyst_2 %player%'
+    MenuItem:
+    - id:280
+    - name:&bCrafted Catalyst (Mid)
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b???"
+    - "lore:&0 "
+    - "lore:&b» &7While equipped in off hand:"
+    - "lore:&b★ &7Adds &c50.0❤ &7damage to all"
+    - "lore:&7  ranged/magic attacks."
+    - "lore:&b★ &7Up to 2 extra modifiers."
+    - "lore:&0 "
+    - "lore:&7Crafting Cost:"
+    - "lore:&7- &f10x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You forged &f1 &aCatalyst &7for &f10 &aStar Fragments&7.'
+  NG_Catalyst_High: ### Forge a random Rare
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    RewardType: Command
+    Reward:
+    - 'rc catalyst_3 %player%'
+    MenuItem:
+    - id:280
+    - name:&bCrafted Catalyst (High)
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b???"
+    - "lore:&0 "
+    - "lore:&b» &7While equipped in off hand:"
+    - "lore:&b★ &7Adds &c50.0❤ &7damage to all"
+    - "lore:&7  ranged/magic attacks."
+    - "lore:&b★ &7Guaranteed to have 2"
+    - "lore:&7  extra modifiers."
+    - "lore:&0 "
+    - "lore:&7Crafting Cost:"
+    - "lore:&7- &f20x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You forged &f1 &aCatalyst &7for &f20 &aStar Fragments&7.'

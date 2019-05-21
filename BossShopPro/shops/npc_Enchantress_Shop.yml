@@ -1,0 +1,445 @@
+ShopName: npc_Enchantress_Shop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Enchantress'' Trinkets &8]'
+shop:
+### SCROLLS ----------------------------------------------------
+  VScroll_1: ### Scroll of Clarity
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_1'
+    MenuItem:
+    - id:339
+    - name:&d&oScroll of Clarity
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f10 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oGain &a&oSpeed X &7&ofor 5.0s."
+    - "lore:&d★ &7&oRemoves &8&oSlowness &7&oon use."
+    - "lore:&d★ &7&oRemoves &8&oBlindness &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought a &d&oScroll of Clarity &7for &f1 &aStar Fragment&7.'
+  VScroll_2: ### Scroll of Shielding
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_2'
+    MenuItem:
+    - id:339
+    - name:&d&oScroll of Shielding
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f15 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oRestores full health on use."
+    - "lore:&d★ &7&oSet your gold hearts to &e&o100.0❤"
+    - "lore:&7&o  for up to 10.0s."
+    - "lore:&d★ &7&oRemoves &a&oRegeneration &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You bought a &d&oScroll of Shielding &7for &f1 &aStar Fragment&7.'
+  VScroll_3: ### Scroll of Armouring
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_3'
+    MenuItem:
+    - id:339
+    - name:&d&oScroll of Armouring
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f15 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oGain &a&oResistance IV &7&ofor 10.0s."
+    - "lore:&d★ &7&oGain &a&oRegeneration X &7&ofor 10.0s."
+    - "lore:&d★ &7&oRemoves all gold hearts on use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You bought a &d&oScroll of Armouring &7for &f1 &aStar Fragment&7.'
+  VScroll_4: ### Scroll of Vision
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_4'
+    MenuItem:
+    - id:339
+    - name:&d&oScroll of Vision
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f7 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oGain &a&oNight Vision &7&ofor 30.0s."
+    - "lore:&d★ &7&oRemoves &8&oNausea &7&oon use."
+    - "lore:&d★ &7&oRemoves &8&oBlindness &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought a &d&oScroll of Vision &7for &f1 &aStar Fragment&7.'
+### MYTHIC SCROLLS ---------------------------------------------
+  VScroll_L1: ### Scroll of Anger
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_L1'
+    MenuItem:
+    - id:339
+    - name:&5&oScroll of Anger
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oGain &a&oStrength CC &7&ofor 10.0s."
+    - "lore:&5★ &7&oRemoves &8&oFatigue &7&oon use."
+    - "lore:&5★ &7&oRemoves &8&oWeakness &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought a &5&oScroll of Anger &7for &f5 &aStar Fragment&7.'
+  VScroll_L2: ### Scroll of Divinity
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_L2'
+    MenuItem:
+    - id:339
+    - name:&5&oScroll of Divinity
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f30 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oGain &a&oResistance V &7&ofor 15.0s."
+    - "lore:&5★ &7&oRemoves &a&oRegeneration &7&oon use."
+    - "lore:&5★ &7&oRemoves all gold hearts on use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bInfo&7] You bought a &5&oScroll of Divinity &7for &f5 &aStar Fragment&7.'
+  VScroll_L3: ### Scroll of Divinity
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_L3'
+    MenuItem:
+    - id:339
+    - name:&5&oScroll of Frenzy
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oGain &a&oHaste X &7&ofor 10.0s."
+    - "lore:&5★ &7&oGain &a&oSpeed X &7&ofor 10.0s."
+    - "lore:&5★ &7&oRemoves &8&oFatigue &7&oon use."
+    - "lore:&5★ &7&oRemoves &8&oSlowness &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bInfo&7] You bought a &5&oScroll of Frenzy &7for &f5 &aStar Fragment&7.'
+  Scroll6: ### Scroll of Holy Smite
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Scroll6'
+    MenuItem:
+    - id:339
+    - name:&5&oScroll of Holy Smite
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c10000.0❤x3"
+    - "lore:&7Cooldown: &f15 Seconds"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f20x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought a &5&oScroll of Frenzy &7for &f5 &aStar Fragment&7.'
+### TALISMANS --------------------------------------------------
+  Talisman_1: ### Create a Talisman of Shielding
+    PriceType: item
+    Price:
+    - - id:377
+      - 'name:&5&oEt&d&oher Cryst&5&oal'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dA s&5hard of the Void, fore&dver#&d entan&5gled in the lifef&dorce of#&d th&5e world.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    - - id:289
+      - 'name:&5&oPh&d&ooenix Ash&5&oes'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dLife s&5prings forth fro&dm the#&d soi&5ls below, even in the fa&dce#&d of even&5tual failu&dre.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Talisman_1'
+    MenuItem:
+    - id:410
+    - name:&5&oTalisman of Shielding
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&5» &7&oActive Skill (Right-click):"
+    - "lore:&5★ &7&oSet your gold hearts to &e&o80.0❤"
+    - "lore:&7&o  for up to 3.0s."
+    - "lore:&5★ &c&oSkill has a cooldown of 5.0s."
+    - "lore:&5» &7&oPassive Skill (Off-hand):"
+    - "lore:&5★ &7&oSet your gold hearts to &e&o40.0❤"
+    - "lore:&7&o  once every 1.5s."
+    - "lore:&5★ &c&oRegeneration has no effect."
+    - "lore:&0 "
+    - "lore:&7Creation Cost:"
+    - "lore:&7- &f25x &5&oEt&d&oher Cryst&5&oal"
+    - "lore:&7- &f25x &5&oPh&d&ooenix Ash&5&oes"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 20
+    Message: '&7[&bInfo&7] The Enchantress has created the &6&oTalisman of Shielding &7for you.'
+  Talisman_2: ### Create a Talisman of Restoration
+    PriceType: item
+    Price:
+    - - id:377
+      - 'name:&5&oEt&d&oher Cryst&5&oal'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dA s&5hard of the Void, fore&dver#&d entan&5gled in the lifef&dorce of#&d th&5e world.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:289
+      - 'name:&5&oPh&d&ooenix Ash&5&oes'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dLife s&5prings forth fro&dm the#&d soi&5ls below, even in the fa&dce#&d of even&5tual failu&dre.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:40
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Talisman_2'
+    MenuItem:
+    - id:410
+    - name:&5&oTalisman of Restoration
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&5» &7&oActive Skill (Right-click):"
+    - "lore:&5★ &7&oRestore &c&o80.0❤ &7&oover a period"
+    - "lore:&7&o  of 2.5s."
+    - "lore:&5★ &c&oSkill has a cooldown of 5.0s."
+    - "lore:&5» &7&oPassive Skill (Off-hand):"
+    - "lore:&5★ &c&o+30.0❤ &7&omaximum health."
+    - "lore:&5★ &7&oRestore &c&o10.0❤ &7&oevery second."
+    - "lore:&0 "
+    - "lore:&7Creation Cost:"
+    - "lore:&7- &f10x &5&oEt&d&oher Cryst&5&oal"
+    - "lore:&7- &f40x &5&oPh&d&ooenix Ash&5&oes"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 22
+    Message: '&7[&bInfo&7] The Enchantress has created the &6&oTalisman of Restoration &7for you.'
+  Talisman_3: ### Create a Talisman of Shaping
+    PriceType: item
+    Price:
+    - - id:377
+      - 'name:&5&oEt&d&oher Cryst&5&oal'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dA s&5hard of the Void, fore&dver#&d entan&5gled in the lifef&dorce of#&d th&5e world.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    - - id:289
+      - 'name:&5&oPh&d&ooenix Ash&5&oes'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dLife s&5prings forth fro&dm the#&d soi&5ls below, even in the fa&dce#&d of even&5tual failu&dre.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Talisman_3'
+    MenuItem:
+    - id:410
+    - name:&5&oTalisman of Shaping
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&5» &7&oActive Skill (Right-click):"
+    - "lore:&5★ &7&oGain a random positive effect"
+    - "lore:&7&o  for up to 5.0s."
+    - "lore:&5★ &c&oSkill has a cooldown of 5.0s."
+    - "lore:&5» &7&oPassive Skill (Off-hand):"
+    - "lore:&5★ &c&o+20.0❤ &7&omaximum health."
+    - "lore:&5★ &7&o35% chance for your attacks"
+    - "lore:&7&o  to inflict &d&oCurse &7&oon enemies."
+    - "lore:&0 "
+    - "lore:&7Creation Cost:"
+    - "lore:&7- &f25x &5&oEt&d&oher Cryst&5&oal"
+    - "lore:&7- &f25x &5&oPh&d&ooenix Ash&5&oes"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bInfo&7] The Enchantress has created the &6&oTalisman of Shaping &7for you.'
+  Talisman_4: ### Create a Talisman of Rage
+    PriceType: item
+    Price:
+    - - id:377
+      - 'name:&5&oEt&d&oher Cryst&5&oal'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dA s&5hard of the Void, fore&dver#&d entan&5gled in the lifef&dorce of#&d th&5e world.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:40
+    - - id:289
+      - 'name:&5&oPh&d&ooenix Ash&5&oes'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dLife s&5prings forth fro&dm the#&d soi&5ls below, even in the fa&dce#&d of even&5tual failu&dre.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Talisman_4'
+    MenuItem:
+    - id:410
+    - name:&5&oTalisman of Rage
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&5» &7&oActive Skill (Right-click):"
+    - "lore:&5★ &7&oGain &a&oStrength CC &7&ofor 10.0s."
+    - "lore:&5★ &c&oSkill has a cooldown of 15.0s."
+    - "lore:&5» &7&oPassive Skill (Off-hand):"
+    - "lore:&5★ &c&o+20.0❤ &7&omaximum health."
+    - "lore:&5★ &7&oGain &a&oHaste X &7&oand &a&oSpeed X &7&ofor"
+    - "lore:&7&o  10.0s once every 20.0s."
+    - "lore:&0 "
+    - "lore:&7Creation Cost:"
+    - "lore:&7- &f40x &5&oEt&d&oher Cryst&5&oal"
+    - "lore:&7- &f10x &5&oPh&d&ooenix Ash&5&oes"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 26
+    Message: '&7[&bInfo&7] The Enchantress has created the &6&oTalisman of Rage &7for you.'

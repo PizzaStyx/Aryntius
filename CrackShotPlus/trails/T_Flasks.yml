@@ -1,0 +1,60 @@
+### FLASK TRAILS
+F_Heart:
+    Trail: "HEART"
+    Trail_Radius: 2
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 1.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 1
+    Circle:
+        Maxium_Circle_Size: 2.0
+F_Void:
+    Trail: "WITCH_MAGIC"
+    Trail_Radius: 2
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 1.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 1
+    Circle:
+        Maxium_Circle_Size: 2.0
+F_Fire:
+    Trail: "FLAME"
+    Trail_Radius: 2
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 1.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 1
+    Circle:
+        Maxium_Circle_Size: 2.0
+F_Gold:
+    Trail: "COLOURED_DUST"
+    Trail_Radius: 2
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 1.0
+    Trail_Color: "255-225-0"
+    Circle:
+        Maxium_Circle_Size: 2.0
+F_Smoke:
+    Trail: "PARTICLE_SMOKE"
+    Trail_Radius: 2
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 1.0
+    Circle:
+        Maxium_Circle_Size: 2.0
+F_Cloud:
+    Trail: "CLOUD"
+    Trail_Radius: 2
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 1.0
+    Circle:
+        Maxium_Circle_Size: 2.0
+F_Aqua:
+    Trail: "MAGIC_CRIT"
+    Trail_Radius: 2
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 1.0
+    Circle:
+        Maxium_Circle_Size: 2.0

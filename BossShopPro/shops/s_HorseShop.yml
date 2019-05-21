@@ -1,0 +1,88 @@
+ShopName: Horses
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &6Horse &eShop &7]'
+shop:
+  IHA:
+    MenuItem:
+    - name:&eIron Horse Armor
+    - lore:&7Price:&6 25000Σ
+    - id:417
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Iron Horse Armor for&6 25000 &7Sigmas.'
+    Price: 25000.0
+    PriceType: money
+    Reward:
+    - - id:417
+      - amount:1
+    RewardType: item
+  GHA:
+    MenuItem:
+    - name:&aGold Horse Armor
+    - lore:&7Price:&6 45000Σ
+    - id:418
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bShop&7] You bought 1 Gold Horse Armor for&6 45000 &7Sigmas.'
+    Price: 45000.0
+    PriceType: money
+    Reward:
+    - - id:418
+      - amount:1
+    RewardType: item
+  DHA:
+    MenuItem:
+    - name:&dDiamond Horse Armor
+    - lore:&7Price:&6 120000Σ
+    - id:419
+    - amount:1
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 1 Gold Horse Armor for&6 120000 &7Sigmas.'
+    Price: 120000.0
+    PriceType: money
+    Reward:
+    - - id:419
+      - amount:1
+    RewardType: item
+  Saddle:
+    MenuItem:
+    - name:&cSaddle
+    - lore:&7Price:&6 50000Σ
+    - id:329
+    - amount:1
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 1 Saddle for&6 50000 &7Sigmas.'
+    Price: 50000.0
+    PriceType: money
+    Reward:
+    - - id:329
+      - amount:1
+    RewardType: item
+  NameTag:
+    MenuItem:
+    - name:&bName Tag
+    - lore:&7Price:&6 35000Σ
+    - id:421
+    - amount:1
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 1 Name Tag for&6 35000 &7Sigmas.'
+    Price: 35000.0
+    PriceType: money
+    Reward:
+    - - id:421
+      - amount:1
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Item Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 23
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: ItemShop

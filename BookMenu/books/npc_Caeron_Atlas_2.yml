@@ -1,0 +1,26 @@
+title: npc_Caeron_Atlas_2
+author: PizzaStyx
+pages:
+  1:
+    - "A seasoned treasure hunter such as you should be able to immediately recognize the Aquir markings."
+    - ""
+    - "This is none other than Maugri's Atlas, one of the maps of the world's heart."
+    - ""
+    - "Legends say that"
+  2:
+    - "Maugri and his companions set out into the darkness in search of the giants, rumored to have been locked deep underground after the dragons vanished."
+    - ""
+    - "But they never returned from their mission, and only"
+  3:
+    - "fragments of their work have been found... until now!"
+    - ""
+    - "We have pieced together the puzzle, but lack the manpower to explore these odd places."
+    - ""
+    - "That's where you come in!"
+  4:
+    - "With your strength and wit, you should be able to find out what happened to them, as these new lands exist beyond the reach of time."
+    - ""
+    - "So, will you help us?"
+    - ""
+    - '&7- { text: "Alright, let''s see", color:"BLUE", command: "shop menu_dungeon_atlas", hover: "&7Open atlas"}'
+    - '&l  { text: "what this is about.", color:"BLUE", command: "shop menu_dungeon_atlas", hover: "&7Open atlas"}'

@@ -1,0 +1,16 @@
+title: CoinTrader_1
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lCoin Trader"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1By the Eternals! Look"
+    - "&1 at the size of these"
+    - "&1 riches!&8”"
+    - ""
+    - '&7- { text: "What are you talking", color:"BLUE", hover: "&7View lore", open: "CoinTrader_1A"}'
+    - '&l  { text: "about?", color:"BLUE", hover: "&7View lore", open: "CoinTrader_1A"}'
+    - ""
+    - '&7- { text: "I''d like to convert", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'
+    - '&l  { text: "some currency.", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'

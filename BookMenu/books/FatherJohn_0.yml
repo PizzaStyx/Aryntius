@@ -1,0 +1,16 @@
+title: FatherJohn_0
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lFather John"
+    - "&8Quest NPC"
+    - ""
+    - "&8“&1Blessings to you"
+    - "&1 on this fine day,"
+    - "&1 traveler!&8”"
+    - ""
+    - '&7- { text: "What exactly is", color:"BLUE", hover: "&7View lore", open: "FatherJohn_1"}'
+    - '&l  { text: "going on here?", color:"BLUE", hover: "&7View lore", open: "FatherJohn_1"}'
+    - ""
+    - '&7- { text: "Anything I should", color:"BLUE", hover: "&7View lore", open: "FatherJohn_2"}'
+    - '&l  { text: "know about Paleon?", color:"BLUE", hover: "&7View lore", open: "FatherJohn_2"}'

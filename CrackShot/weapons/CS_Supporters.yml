@@ -1,0 +1,55 @@
+### SUPPORTER UNIQUES (CS FILE)
+ShrubSpell:
+    Item_Information:
+        Item_Name: "&b&oThe Flood&7"
+        Item_Type: 38
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    # Shooting:
+        # Remove_Bullet_Drop: true
+        # Right_Click_To_Shoot: true
+        # Cancel_Left_Click_Block_Damage: true
+        # Cancel_Right_Click_Interactions: true
+        # Delay_Between_Shots: 20
+        # Recoil_Amount: 0
+        # Projectile_Amount: 1
+        # Projectile_Type: energy
+        # Projectile_Subtype: 25-3-ALL-0
+        # Removal_Or_Drag_Delay: 4-false
+        # Projectile_Damage: 450
+        # Reset_Fall_Distance: true
+        # Sounds_Shoot: BLOCK_ANVIL_LAND-2-2-0,ENTITY_ENDERMEN_DEATH-2-1-0,BLOCK_NOTE_SNARE-2-1-1,ENTITY_GHAST_DEATH-2-1-4,BLOCK_NOTE_SNARE-2-3-7,ENTITY_ENDERMEN_DEATH-2-1-6,ENTITY_ENDERMEN_DEATH-2-1-8,ENTITY_ENDERMEN_DEATH-2-1-10,BLOCK_NOTE_SNARE-2-1-11,ENTITY_ENDERMEN_DEATH-2-1-12,ENTITY_BLAZE_DEATH-2-1-5,ENTITY_VILLAGER_DEATH-2-1-14,ENTITY_PIG_DEATH-2-1-16,ENTITY_HORSE_DEATH-2-1-18
+    # Custom_Death_Message: 
+        # Normal: "&7[&dInfo&7] &f<victim> &7was wiped from existence by &f<shooter>&7!"
+    # Fully_Automatic:
+        # Enable: true
+        # Fire_Rate: 1
+    # Potion_Effects:
+        # Activation: hit
+        # Potion_Effect_Victim: SPEED-100-10,DAMAGE_RESISTANCE-1-1,SLOW-70-10,SLOW_DIGGING-70-10
+    # Abilities:
+        # Reset_Hit_Cooldown: true
+        # No_Fall_Damage: true
+    # Particles:
+        # Enable: true
+        # Particle_Impact_Anything: SMOKE
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 10
+        Projectile_Damage: 500
+        Bullet_Spread: 0.1
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ENDERMAN_TELEPORT-0.3-0-0,ENTITY_ZOMBIE_VILLAGER_CONVERTED-0.2-2-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 8
+    Custom_Death_Message:
+        Normal: "&7[&bInfo&7] &f<shooter> &7was unshaped by &f<victim>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true

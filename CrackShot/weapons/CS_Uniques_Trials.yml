@@ -1,0 +1,559 @@
+### UNIQUES - Trials of the Aquir
+### Finally separated into its own CS file (07-04-2018)
+### TRIAL OF SORROW --------------------------------------------
+Earth4:
+    Item_Information:
+        Item_Name: "&6&oY'razotj's Head&7"
+        Item_Type: 397~2
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Recoil_Amount: 0
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 30
+        Projectile_Damage: 200
+        Bullet_Spread: 1.5
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-1-0,ENTITY_IRONGOLEM_HURT-1-2-0,ENTITY_IRONGOLEM_HURT-1-1-0
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim> &7the legacy of Y'razotj."
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-133,SMOKE
+Dragoon:
+    Item_Information:
+        Item_Name: "&6&oThe Dragoon&7"
+        Item_Type: 397~5
+        Item_Lore: "&0 |&7Tier: &6&oLegendary &2&o✶|&0 |&7Type: &9Other|&7Ammo: &9Iron Nugget|&7DPS: &c15.0❤|&0 |&7Hold right-click to shoot.|&0 |&7“&6A minigun built into a dragon's|&6 skull. Yes. It's THAT awesome.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 400
+        Bullet_Spread: 0.5
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-0.3-2-0,ENTITY_ENDERDRAGON_GROWL-0.1-2-0
+    Skip_Name_Check: false
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was roasted by &f<shooter>&7's dragoon!"
+    Sneak:
+        Enable: false
+        No_Recoil: true
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ENTITY_ITEM_BREAK-1-2-0,ENTITY_ITEM_BREAK-1-1-0,ENTITY_ITEM_BREAK-1-0-0
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_IRON_DOOR_OPEN-1-0-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-0-38
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+Fist:
+    Item_Information:
+        Item_Name: "&6&oY'razotj's Fist&7"
+        Item_Type: 145
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Melee_Mode: true
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 5
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 500
+        Reset_Fall_Distance: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 4500
+        Chance: 25
+        Sounds_Shooter: ENTITY_PLAYER_ATTACK_CRIT-1-1-0,ENTITY_PLAYER_ATTACK_CRIT-1-2-0,ENTITY_PLAYER_ATTACK_CRIT-1-0-0
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was crushed by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_PLAYER_ATTACK_KNOCKBACK-1-2-0,ENTITY_PLAYER_ATTACK_KNOCKBACK-1-1-0,ENTITY_PLAYER_ATTACK_KNOCKBACK-1-0-0
+### TRIAL OF CUNNING -------------------------------------------
+Water5:
+    Item_Information:
+        Item_Name: "&6&oTidal Fury&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 30
+        Projectile_Damage: 170
+        Bullet_Spread: 3
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.25-0-0,ENTITY_GHAST_SHOOT-0.75-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 12
+        Reload_Duration: 20
+        Take_Ammo_On_Reload: false
+        Sounds_Reloading: ENTITY_HOSTILE_SWIM-0.75-1-0,ENTITY_HOSTILE_SWIM-0.75-2-10,ENTITY_ELDER_GUARDIAN_CURSE-0.3-2-20
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<shooter> &7washed &f<victim> &7out of existence."
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: BLINDNESS-100-1,SLOW-30-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-0.2-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-9,BLOCK_BREAK-22
+ShotgunY:
+    Item_Information:
+        Item_Name: "&6&oAquir Executor&7"
+        Item_Type: 419
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Right_Click_To_Shoot: false
+        Delay_Between_Shots: 5
+        Projectile_Amount: 10
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 120
+        Projectile_Flames: false
+        Bullet_Spread: 0.3
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-1-0,ENTITY_GENERIC_EXPLODE-1-2-0,ENTITY_GHAST_SHOOT-1-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was killed by &f<shooter>&7's buckshot!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 371
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Reload_Bullets_Individually: false
+        Reload_Duration: 20
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-0,BLOCK_WOODEN_DOOR_OPEN-1-2-2,BLOCK_NOTE_HAT-1-1-9,BLOCK_NOTE_HAT-1-1-11,BLOCK_NOTE_HAT-1-1-13,ITEM_FLINTANDSTEEL_USE-1-1-16,ENTITY_PLAYER_HURT-1-0-17,BLOCK_IRON_DOOR_CLOSE-1-2-18
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-87,BLOCK_BREAK-214
+        Particle_Terrain: true
+Justicar:
+    Item_Information:
+        Item_Name: "&6&oAquir Justicar&7"
+        Item_Type: 279
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 40
+        Recoil_Amount: 0
+        Projectile_Amount: 8
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 20
+        Projectile_Damage: 20
+        Bullet_Spread: 3.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_ELDER_GUARDIAN_CURSE-0.35-2-0,ENTITY_ELDER_GUARDIAN_CURSE-0.35-1-0
+    # Reload:
+        # Enable: true
+        # Reload_Amount: 1
+        # Reload_Duration: 40
+        # Take_Ammo_On_Reload: false
+        # Sounds_Reloading: ENTITY_HOSTILE_SWIM-0.75-1-15,ENTITY_HOSTILE_SWIM-0.75-1-20,ENTITY_HOSTILE_SWIM-0.75-2-25
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was slain by the gods!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-100-4,BLINDNESS-100-1,CONFUSION-100-4,WEAKNESS-100-10
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-49,BLOCK_BREAK-173
+        Particle_Impact_Anything: SMOKE
+### TRIAL OF HATRED --------------------------------------------
+Fang:
+    Item_Information:
+        Item_Name: "&6&oThe Serpent's Fang&7"
+        Item_Type: 288
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Melee_Attachment: Fang2
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 15
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 40
+        Projectile_Damage: 150
+        Bullet_Spread: 0.5
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_BLAZE_SHOOT-0.5-1-0,ENTITY_SKELETON_DEATH-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 24
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: false
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_CLOSE-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was ninja'd by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_GENERIC_HURT-1-1-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 450
+        Chance: 35
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-100-4,BLINDNESS-100-1,REGENERATION-1-1
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-214,BLOCK_BREAK-87
+        Particle_Impact_Anything: SMOKE
+Fang2:
+    Item_Information:
+        Item_Name: "&6&oSerpent's Bite&7"
+        Item_Type: 283
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Melee_Mode: true
+        Remove_Unused_Tag: true
+        Hidden_From_List: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 2
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 500
+        Reset_Fall_Distance: true
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was stabbed by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 1500
+        Chance: 35
+        Sounds_Shooter: ENTITY_GENERIC_HURT-1-1-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_PLAYER_ATTACK_SWEEP-1-1-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-214,BLOCK_BREAK-152
+Fire5:
+    Item_Information:
+        Item_Name: "&6&oSeeds of the Sun&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Recoil_Amount: 0
+        Projectile_Amount: 7
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 35
+        Projectile_Damage: 240
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Bullet_Spread: 2
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_GHAST_SHOOT-0.7-1-0,ENTITY_GHAST_SHOOT-0.5-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: false
+        Sounds_Reloading: ENTITY_BLAZE_BURN-1-2-0,ENTITY_BLAZE_BURN-1-1-0,ENTITY_BLAZE_BURN-1-0-0
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<shooter> &7made &f<victim> &7suffer... but why?"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-10,FLAMES-1,SMOKE
+Bow4:
+    Item_Information:
+        Item_Name: "&6&oInferno&7"
+        Item_Type: 261
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 200
+        Recoil_Amount: 0
+        Projectile_Amount: 8
+        Projectile_Type: arrow
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 1000
+        Bullet_Spread: 0.5
+        Remove_Bullet_Drop: true
+        Remove_Arrows_On_Impact: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_ENDERDRAGON_GROWL-1-1-0,ENTITY_WITHER_SHOOT-1-0-0,ENTITY_WITHER_DEATH-1-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7gave &f<victim>&7 the double dragon!"
+    # Reload:
+        # Enable: true
+        # Reload_Amount: 1
+        # Reload_Bullets_Individually: true
+        # Reload_Duration: 200
+        # Sounds_Reloading: BLOCK_NOTE_PLING-1-1-0,ENTITY_PLAYER_LEVELUP-1-0-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 7000
+        Chance: 50
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-213,BLOCK_BREAK-10
+        Particle_Hit: EXPLOSION
+### THE VOID ---------------------------------------------------
+Curse4:
+    Item_Information:
+        Item_Name: "&6&oCascades&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 20-2-ALL-0
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Damage: 500
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_GHAST_SHOOT-1-1-0,ENTITY_GHAST_SHOOT-1-0-0,ENTITY_ENDERDRAGON_GROWL-0.2-2-0
+    # Reload:
+        # Enable: true
+        # Reload_Amount: 8
+        # Reload_Duration: 100
+        # Take_Ammo_On_Reload: false
+        # Sounds_Reloading: BLOCK_ENCHANTMENT_TABLE_USE-1-0-0,BLOCK_ENCHANTMENT_TABLE_USE-1-0-25,BLOCK_ENCHANTMENT_TABLE_USE-1-0-50,BLOCK_ENCHANTMENT_TABLE_USE-1-0-75,ENTITY_ENDERDRAGON_GROWL-0.5-1-100
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was wiped from existence by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_BAT_DEATH-0.1-0-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: SMOKE
+Hexstorm:
+    Item_Information:
+        Item_Name: "&6&oHexstorm&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 10
+        Projectile_Damage: 500
+        Bullet_Spread: 3.0
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ENDERDRAGON_GROWL-0.2-1-0,ENTITY_ENDERDRAGON_GROWL-0.2-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 75
+        Take_Ammo_On_Reload: false
+        Sounds_Reloading: BLOCK_ENCHANTMENT_TABLE_USE-1-0-0,BLOCK_ENCHANTMENT_TABLE_USE-1-0-15,BLOCK_ENCHANTMENT_TABLE_USE-1-0-30,BLOCK_ENCHANTMENT_TABLE_USE-1-0-45,BLOCK_ENCHANTMENT_TABLE_USE-1-0-60,ENTITY_IRONGOLEM_DEATH-1-1-75
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Custom_Death_Message:
+        Normal: "&7[&bInfo&7] &f<shooter> &7was unshaped by &f<victim>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+VoidLauncher:
+    Item_Information:
+        Item_Name: "&6&oThe Singularity&7"
+        Item_Type: 138
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 35
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 399
+        Projectile_Speed: 15
+        Sounds_Shoot: ENTITY_ENDERDRAGON_GROWL-2-1-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Incendiary: true
+        Ignite_Victims: 120
+        Explosion_Potion_Effect: BLINDNESS-100-1,SLOW-100-1,WITHER-100-10
+        Explosion_Radius: 5
+        Explosion_Delay: 30
+        Damage_Multiplier: 9999
+        Sounds_Explode: ENTITY_WITHER_DEATH-2-2-0,ENTITY_WITHER_DEATH-2-1-0,ENTITY_WITHER_DEATH-2-0-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was wiped from existence by &f<shooter>&7!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 264
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 12
+        Reload_Duration: 180
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: ENTITY_ENDERDRAGON_DEATH-1-1-0
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: dev,-5000,0,-5000,5000,255,5000,true|Expansions,-99999,0,-99999,99999,255,99999,true|world,-300,0,-300,300,255,300,true
+        Message_Of_Denial: "&7[ &cWeapon is disabled in this area! &7]"
+RogueDagger:
+    Item_Information:
+        Item_Name: "&6&oPerfect Shadow&7"
+        Item_Type: 359
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Melee_Mode: true
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 5
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 300
+        Reset_Fall_Distance: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 2700
+        Chance: 40
+        Sounds_Shooter: ENTITY_GENERIC_BURN-1-2-0,ENTITY_GENERIC_BURN-1-1-0,ENTITY_GENERIC_BURN-1-2-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: SPEED-50-10,ABSORPTION-20-40,INVISIBILITY-200-1
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was stabbed by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_GENERIC_BURN-1-2-0
+    Particles:
+        Enable: true
+        Particle_Critical: SMOKE

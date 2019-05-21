@@ -1,0 +1,466 @@
+ShopName: MobDrops1
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &5Mob &dDrops &7]'
+shop:
+  RottenFlesh:
+    MenuItem:
+    - name:&8Rotten Flesh
+    - lore:&7Price:&6 8Σ
+    - id:367
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Rotten Flesh for&6 8 &7Sigmas.'
+    Price: 8.0
+    PriceType: money
+    Reward:
+    - - id:367
+      - amount:1
+    RewardType: item
+  RottenFlesh2:
+    MenuItem:
+    - name:&8Rotten Flesh
+    - lore:&7Price:&6 80Σ
+    - id:367
+    - amount:10
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 10 Rotten Flesh for&6 80 &7Sigmas.'
+    Price: 80.0
+    PriceType: money
+    Reward:
+    - - id:367
+      - amount:10
+    RewardType: item
+  RottenFlesh3:
+    MenuItem:
+    - name:&8Rotten Flesh
+    - lore:&7Price:&6 200Σ
+    - id:367
+    - amount:25
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 25 Rotten Flesh for&6 200 &7Sigmas.'
+    Price: 200.0
+    PriceType: money
+    Reward:
+    - - id:367
+      - amount:25
+    RewardType: item
+  RottenFlesh4:
+    MenuItem:
+    - name:&8Rotten Flesh
+    - lore:&7Price:&6 512Σ
+    - id:367
+    - amount:64
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 1 Rotten Flesh for&6 512 &7Sigmas.'
+    Price: 512.0
+    PriceType: money
+    Reward:
+    - - id:367
+      - amount:64
+    RewardType: item
+  Bone:
+    MenuItem:
+    - name:&fBone
+    - lore:&7Price:&6 12Σ
+    - id:352
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Bone for&6 12 &7Sigmas.'
+    Price: 12.0
+    PriceType: money
+    Reward:
+    - - id:352
+      - amount:1
+    RewardType: item
+  Bone2:
+    MenuItem:
+    - name:&fBone
+    - lore:&7Price:&6 120Σ
+    - id:352
+    - amount:10
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 10 Bone for&6 120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:352
+      - amount:10
+    RewardType: item
+  Bone3:
+    MenuItem:
+    - name:&fBone
+    - lore:&7Price:&6 240Σ
+    - id:352
+    - amount:20
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 20 Bone for&6 240 &7Sigmas.'
+    Price: 240.0
+    PriceType: money
+    Reward:
+    - - id:352
+      - amount:20
+    RewardType: item
+  Bone4:
+    MenuItem:
+    - name:&fBone
+    - lore:&7Price:&6 768Σ
+    - id:352
+    - amount:64
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 64 Bone for&6 768 &7Sigmas.'
+    Price: 768.0
+    PriceType: money
+    Reward:
+    - - id:352
+      - amount:64
+    RewardType: item
+  SpiderEye:
+    MenuItem:
+    - name:&4Spider Eye
+    - lore:&7Price:&6 9Σ
+    - id:375
+    - amount:1
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You bought 1 Spider Eye for&6 9 &7Sigmas.'
+    Price: 9.0
+    PriceType: money
+    Reward:
+    - - id:375
+      - amount:1
+    RewardType: item
+  SpiderEye2:
+    MenuItem:
+    - name:&4Spider Eye
+    - lore:&7Price:&6 90Σ
+    - id:375
+    - amount:10
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 10 Spider Eye for&6 90 &7Sigmas.'
+    Price: 90.0
+    PriceType: money
+    Reward:
+    - - id:375
+      - amount:10
+    RewardType: item
+  SpiderEye3:
+    MenuItem:
+    - name:&4Spider Eye
+    - lore:&7Price:&6 225Σ
+    - id:375
+    - amount:25
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 25 Spider Eye for&6 225 &7Sigmas.'
+    Price: 225.0
+    PriceType: money
+    Reward:
+    - - id:375
+      - amount:25
+    RewardType: item
+  SpiderEye4:
+    MenuItem:
+    - name:&4Spider Eye
+    - lore:&7Price:&6 576Σ
+    - id:375
+    - amount:64
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 64 Spider Eye for&6 576 &7Sigmas.'
+    Price: 576.0
+    PriceType: money
+    Reward:
+    - - id:375
+      - amount:64
+    RewardType: item
+  String:
+    MenuItem:
+    - name:&cString
+    - lore:&7Price:&6 5Σ
+    - id:287
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 String for&6 5 &7Sigmas.'
+    Price: 5.0
+    PriceType: money
+    Reward:
+    - - id:287
+      - amount:1
+    RewardType: item
+  String2:
+    MenuItem:
+    - name:&cString
+    - lore:&7Price:&6 80Σ
+    - id:287
+    - amount:16
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 16 String for&6 80 &7Sigmas.'
+    Price: 80.0
+    PriceType: money
+    Reward:
+    - - id:287
+      - amount:16
+    RewardType: item
+  String3:
+    MenuItem:
+    - name:&cString
+    - lore:&7Price:&6 160Σ
+    - id:287
+    - amount:32
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 32 String for&6 160 &7Sigmas.'
+    Price: 160.0
+    PriceType: money
+    Reward:
+    - - id:287
+      - amount:32
+    RewardType: item
+  String4:
+    MenuItem:
+    - name:&cString
+    - lore:&7Price:&6 320Σ
+    - id:287
+    - amount:64
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You bought 64 String for&6 320 &7Sigmas.'
+    Price: 320.0
+    PriceType: money
+    Reward:
+    - - id:287
+      - amount:64
+    RewardType: item
+  Gunpowder:
+    MenuItem:
+    - name:&eGunpowder
+    - lore:&7Price:&6 40Σ
+    - id:289
+    - amount:1
+    InventoryLocation: 19
+    Message: '&7[&bShop&7] You bought 1 Gunpowder for&6 40 &7Sigmas.'
+    Price: 40.0
+    PriceType: money
+    Reward:
+    - - id:289
+      - amount:1
+    RewardType: item
+  Gunpowder2:
+    MenuItem:
+    - name:&eGunpowder
+    - lore:&7Price:&6 480Σ
+    - id:289
+    - amount:12
+    InventoryLocation: 20
+    Message: '&7[&bShop&7] You bought 12 Gunpowder for&6 480 &7Sigmas.'
+    Price: 480.0
+    PriceType: money
+    Reward:
+    - - id:289
+      - amount:12
+    RewardType: item
+  Gunpowder3:
+    MenuItem:
+    - name:&eGunpowder
+    - lore:&7Price:&6 1200Σ
+    - id:289
+    - amount:30
+    InventoryLocation: 21
+    Message: '&7[&bShop&7] You bought 30 Gunpowder for&6 1200 &7Sigmas.'
+    Price: 1200.0
+    PriceType: money
+    Reward:
+    - - id:289
+      - amount:30
+    RewardType: item
+  Gunpowder4:
+    MenuItem:
+    - name:&eGunpowder
+    - lore:&7Price:&6 2560Σ
+    - id:289
+    - amount:64
+    InventoryLocation: 22
+    Message: '&7[&bShop&7] You bought 64 Gunpowder for&6 2560 &7Sigmas.'
+    Price: 2560.0
+    PriceType: money
+    Reward:
+    - - id:289
+      - amount:64
+    RewardType: item
+  Slimeball:
+    MenuItem:
+    - name:&aSlimeball
+    - lore:&7Price:&6 52Σ
+    - id:341
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bShop&7] You bought 1 Slimeball for&6 52 &7Sigmas.'
+    Price: 52.0
+    PriceType: money
+    Reward:
+    - - id:341
+      - amount:1
+    RewardType: item
+  Slimeball2:
+    MenuItem:
+    - name:&aSlimeball
+    - lore:&7Price:&6 416Σ
+    - id:341
+    - amount:8
+    InventoryLocation: 25
+    Message: '&7[&bShop&7] You bought 8 Slimeball for&6 416 &7Sigmas.'
+    Price: 416.0
+    PriceType: money
+    Reward:
+    - - id:341
+      - amount:8
+    RewardType: item
+  Slimeball3:
+    MenuItem:
+    - name:&aSlimeball
+    - lore:&7Price:&6 832Σ
+    - id:341
+    - amount:16
+    InventoryLocation: 26
+    Message: '&7[&bShop&7] You bought 16 Slimeball for&6 832 &7Sigmas.'
+    Price: 832.0
+    PriceType: money
+    Reward:
+    - - id:341
+      - amount:16
+    RewardType: item
+  Slimeball4:
+    MenuItem:
+    - name:&aSlimeball
+    - lore:&7Price:&6 1664Σ
+    - id:341
+    - amount:32
+    InventoryLocation: 27
+    Message: '&7[&bShop&7] You bought 32 Slimeball for&6 1664 &7Sigmas.'
+    Price: 1664.0
+    PriceType: money
+    Reward:
+    - - id:341
+      - amount:32
+    RewardType: item
+  Enderpearl:
+    MenuItem:
+    - name:&bEnder Pearl
+    - lore:&7Price:&6 30Σ
+    - id:368
+    - amount:1
+    InventoryLocation: 28
+    Message: '&7[&bShop&7] You bought 1 Ender Pearl for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:368
+      - amount:1
+    RewardType: item
+  Enderpearl2:
+    MenuItem:
+    - name:&bEnder Pearl
+    - lore:&7Price:&6 120Σ
+    - id:368
+    - amount:4
+    InventoryLocation: 29
+    Message: '&7[&bShop&7] You bought 4 Ender Pearl for&6 120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:368
+      - amount:4
+    RewardType: item
+  Enderpearl3:
+    MenuItem:
+    - name:&bEnder Pearl
+    - lore:&7Price:&6 240Σ
+    - id:368
+    - amount:8
+    InventoryLocation: 30
+    Message: '&7[&bShop&7] You bought 8 Ender Pearl for&6 240 &7Sigmas.'
+    Price: 240.0
+    PriceType: money
+    Reward:
+    - - id:368
+      - amount:8
+    RewardType: item
+  Enderpearl4:
+    MenuItem:
+    - name:&bEnder Pearl
+    - lore:&7Price:&6 480Σ
+    - id:368
+    - amount:16
+    InventoryLocation: 31
+    Message: '&7[&bShop&7] You bought 16 Ender Pearl for&6 480 &7Sigmas.'
+    Price: 480.0
+    PriceType: money
+    Reward:
+    - - id:368
+      - amount:16
+    RewardType: item
+  ShulkerShell1:
+    MenuItem:
+    - name:&dShulker Shell
+    - lore:&7Price:&6 600Σ
+    - id:450
+    - amount:1
+    InventoryLocation: 33
+    Message: '&7[&bShop&7] You bought 1 Shulker Shell for&6 600 &7Sigmas.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - - id:450
+      - amount:1
+    RewardType: item
+  ShulkerShell2:
+    MenuItem:
+    - name:&dShulker Shell
+    - lore:&7Price:&6 2400Σ
+    - id:450
+    - amount:4
+    InventoryLocation: 34
+    Message: '&7[&bShop&7] You bought 4 Shulker Shell for&6 2400 &7Sigmas.'
+    Price: 2400.0
+    PriceType: money
+    Reward:
+    - - id:450
+      - amount:4
+    RewardType: item
+  ShulkerShell3:
+    MenuItem:
+    - name:&dShulker Shell
+    - lore:&7Price:&6 4800Σ
+    - id:450
+    - amount:8
+    InventoryLocation: 35
+    Message: '&7[&bShop&7] You bought 8 Shulker Shell for&6 4800 &7Sigmas.'
+    Price: 4800.0
+    PriceType: money
+    Reward:
+    - - id:450
+      - amount:8
+    RewardType: item
+  ShulkerShell4:
+    MenuItem:
+    - name:&dShulker Shell
+    - lore:&7Price:&6 9600Σ
+    - id:450
+    - amount:16
+    InventoryLocation: 36
+    Message: '&7[&bShop&7] You bought 16 Shulker Shell for&6 9600 &7Sigmas.'
+    Price: 9600.0
+    PriceType: money
+    Reward:
+    - - id:450
+      - amount:16
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Item Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 41
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: ItemShop

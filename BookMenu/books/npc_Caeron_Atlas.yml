@@ -1,0 +1,16 @@
+title: npc_Caeron_Atlas
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lLaathio"
+    - "&8Archaeologist"
+    - ""
+    - "&8“&1Ah, it's you! We must"
+    - "&1 take a look at this"
+    - "&1 relic immediately!&8”"
+    - ""
+    - '&7- { text: "Alright, let''s see", color:"BLUE", command: "shop menu_dungeon_atlas", hover: "&7Open atlas"}'
+    - '&l  { text: "what this is about.", color:"BLUE", command: "shop menu_dungeon_atlas", hover: "&7Open atlas"}'
+    - ""
+    - '&7- { text: "What exactly am I", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Atlas_2"}'
+    - '&l  { text: "looking at?", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Atlas_2"}'

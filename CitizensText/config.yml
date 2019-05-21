@@ -1,0 +1,8 @@
+npcTexts: "§7[{2}/{3}] §f{0} §8| §7{1}"
+
+clickableMessage : '§eClickable Message !'
+
+continueAfter: 3
+continueDistance: 5
+
+disableClick: false

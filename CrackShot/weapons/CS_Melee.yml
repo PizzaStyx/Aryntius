@@ -1,0 +1,230 @@
+Mjolnir:
+    Item_Information:
+        Item_Name: "&6&oMjö&e&olnir&7"
+        Item_Type: 258
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Melee_Attachment: Thor2
+    Shooting:
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 100
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 500
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_AMBIENT-1-2-0,ENTITY_WITHER_AMBIENT-1-1-0,ENTITY_WITHER_AMBIENT-1-0-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 25
+        Take_Ammo_On_Reload: false
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was slain by the gods!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-30-4
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_GENERIC_HURT-1-1-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-49,BLOCK_BREAK-173
+        Particle_Impact_Anything: SMOKE
+    Lightning:
+        Enable: true
+        No_Damage: true
+        On_Impact_With_Anything: true
+Thor2:
+    Item_Information:
+        Item_Name: "&e&oThor's Fist&7"
+        Item_Type: 283
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Melee_Mode: true
+        Remove_Unused_Tag: true
+        Hidden_From_List: true
+    Shooting:
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 100
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 5
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 300
+        Reset_Fall_Distance: true
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was stabbed by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-214,BLOCK_BREAK-152
+SilenceDagger:
+    Item_Information:
+        Item_Name: "&4&oLithaa&c&on's Remorse&7"
+        Item_Type: 283
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Melee_Mode: true
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 2
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: BLOCK_ENCHANTMENT_TABLE_USE-2-2-0
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was devoured by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: DAMAGE_RESISTANCE-1-1
+        Potion_Effect_Shooter: DAMAGE_RESISTANCE-1-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ENCHANTMENT_TABLE_USE-2-2-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-214,BLOCK_BREAK-152
+InfSword:
+    Item_Information:
+        Item_Name: "&6&oInfinity Shard&7"
+        Item_Type: 276
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 40
+        Recoil_Amount: 0
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 60
+        Bullet_Spread: 0.8
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_BLAZE_SHOOT-0.5-1-0,ENTITY_WITHER_DEATH-0.3-2-0
+    # Reload:
+        # Enable: true
+        # Reload_Amount: 1
+        # Reload_Duration: 40
+        # Take_Ammo_On_Reload: false
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was ripped from reality by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_GENERIC_HURT-0.2-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-199,BLOCK_BREAK-201,SMOKE
+Pwnsword:
+    Item_Information:
+        Item_Name: "&b&oRunic Greatsword&7"
+        Item_Type: 272
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Melee_Mode: true
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 5
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 2000
+        Reset_Fall_Distance: true
+        Sounds_Shoot: BLOCK_ENCHANTMENT_TABLE_USE-2-2-0
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was cleaved in half by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 18000
+        Chance: 35
+        Sounds_Shooter: ENTITY_PLAYER_ATTACK_CRIT-1-1-0,ENTITY_PLAYER_ATTACK_CRIT-1-2-0,ENTITY_PLAYER_ATTACK_CRIT-1-0-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-0.75-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-214,BLOCK_BREAK-152
+### IRIDESCENT ITEMS
+CritDagger:
+    Item_Information:
+        Item_Name: "&b&oAbyssal Skean&7"
+        Item_Type: 268
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Melee_Mode: true
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 2
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 40
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GENERIC_BURN-1-2-0
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was wiped from existence by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_GENERIC_BURN-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 8000000
+        Chance: 0.5
+        Sounds_Shooter: ENTITY_ZOMBIE_BREAK_DOOR_WOOD-1-0-0
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-49,BLOCK_BREAK-173

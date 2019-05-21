@@ -1,0 +1,155 @@
+ShopName: npc_selthine_alchemist
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Alchemi&ast's Brews &7]"
+shop:
+  Flask8:
+    MenuItem:
+    - id:437
+    - "name:&fFlask of Healing"
+    - "lore:&0 "
+    - "lore:&7Tier: &fCommon"
+    - "lore:&0 "
+    - "lore:&7Type: &8Flask"
+    - "lore:&7Cooldown: &815 Seconds"
+    - "lore:&0 "
+    - "lore:&f★ &7&oInstantly heal &c&o100.0❤&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &67500Σ"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bInfo&7] You bought &fFlask of Healing &7for &67500 &7Sigmas.'
+    Price: 7500.0
+    PriceType: money
+    Reward:
+    - 'mm items give -s %player% Flask8 1'
+    RewardType: command
+  Flask9:
+    MenuItem:
+    - id:437
+    - "name:&fFlask of Frenzy"
+    - "lore:&0 "
+    - "lore:&7Tier: &fCommon"
+    - "lore:&0 "
+    - "lore:&7Type: &8Flask"
+    - "lore:&7Cooldown: &820 Seconds"
+    - "lore:&0 "
+    - "lore:&f★ &7&oGain &a&oHaste IV&7&o for 10.0s."
+    - "lore:&f★ &7&oGain &a&oSpeed IV&7&o for 10.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &aSilver Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 3
+    Message: '&7[&bInfo&7] You bought &fFlask of Frenzy &7for &f8 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Flask9 1'
+    RewardType: command
+  Flask6:
+    MenuItem:
+    - id:437
+    - "name:&2Flask of Swiftness"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&2★ &7&oGain &a&oSpeed X&7&o for 10.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f15x &aSilver Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You bought &2Flask of Swiftness &7for &f15 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Flask6 1'
+    RewardType: command
+  Flask7:
+    MenuItem:
+    - id:437
+    - "name:&2Flask of Rejuvenation"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&2★ &7&oGain &a&oRegen. X&7&o for 10.0s."
+    - "lore:&2★ &7&oYou are immune to &c&oHunger"
+    - "lore:&7&o  for 10.0s."
+    - "lore:&2★ &7&oSuffer &8&oBlindness&7&o for 5.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f17x &aSilver Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 7
+    Message: '&7[&bInfo&7] You bought &2Flask of Rejuvenation &7for &f17 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:17
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Flask7 1'
+    RewardType: command
+  Flask10:
+    MenuItem:
+    - id:437
+    - "name:&3Flask of Curing"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&7Type: &fFlask"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&3★ &7&oInstantly removes all negative"
+    - "lore:&7&o  effects on usage."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f7x &aGold Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 9
+    Message: '&7[&bInfo&7] You bought &3Flask of Curing &7for &f7 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:7
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Flask10 1'
+    RewardType: command

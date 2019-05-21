@@ -1,0 +1,262 @@
+Scattergun1:
+    Item_Information:
+        Item_Name: "&fScattergun&7"
+        Item_Type: 417
+        Item_Lore: "&0 |&7Tier: &fCommon|&0 |&7Type: &9Scattergun|&7Ammo: &9Iron Ingot|&7DPS: &c2.0❤x5|&0 |&7“&fAn experimental weapon|&f that fires iron shrapnel.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 3
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 16
+        Bullet_Spread: 3
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ITEM_BREAK-1-1-0,ENTITY_ITEM_BREAK-1-2-0,ENTITY_ITEM_BREAK-1-0-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was ripped apart by &f<shooter>&7's scattergun!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 265
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 36
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-24,BLOCK_PISTON_CONTRACT-1-2-26,BLOCK_PISTON_CONTRACT-1-2-30
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-7
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-0.2-2-0
+Scattergun2:
+    Item_Information:
+        Item_Name: "&3Aquir Scattergun&7"
+        Item_Type: 419
+        Item_Lore: "&0 |&7Tier: &3Rare|&0 |&7Type: &9Scattergun|&7Ammo: &9Iron Ingot|&7DPS: &c4.0❤x5|&0 |&7Crouch to focus fire.|&0 |&7“&3A powerful short-range|&3 weapon made by the Aquir.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 3
+        Projectile_Amount: 6
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 40
+        Bullet_Spread: 3.5
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ITEM_BREAK-1-1-0,ENTITY_ITEM_BREAK-1-2-0,ENTITY_ITEM_BREAK-1-0-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was ripped apart by &f<shooter>&7's scattergun!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 265
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 36
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-24,BLOCK_PISTON_CONTRACT-1-2-26,BLOCK_PISTON_CONTRACT-1-2-30
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-7
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-0.2-2-0
+Scattergun3:
+    Item_Information:
+        Item_Name: "&9Scatterburst&7"
+        Item_Type: 418
+        Item_Lore: "&0 |&7Tier: &9Superior|&0 |&7Type: &9Scattergun|&7Ammo: &9Iron Ingot|&7DPS: &c5.0❤x9|&0 |&7“&9A heavy scattergun that|&9 rapidly fires iron shrapnel.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 1
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 70
+        Bullet_Spread: 5
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ITEM_BREAK-1-1-0,ENTITY_ITEM_BREAK-1-2-0,ENTITY_ITEM_BREAK-1-0-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was ripped apart by &f<shooter>&7's scattergun!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 265
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 36
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-24,BLOCK_PISTON_CONTRACT-1-2-26,BLOCK_PISTON_CONTRACT-1-2-30
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-7
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-0.2-2-0
+Scattergun4:
+    Item_Information:
+        Item_Name: "&d&oIridium Scattergun&7"
+        Item_Type: 417
+        Item_Lore: "&0 |&7Tier: &d&oUltimate|&0 |&7Type: &9Scattergun|&7Ammo: &9Iron Ingot|&7DPS: &c10.0❤x5|&0 |&7Crouch to focus fire.|&0 |&7“&dAn extremely powerful|&d spread shooter.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 3
+        Projectile_Amount: 7
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 80
+        Bullet_Spread: 3.5
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ITEM_BREAK-1-1-0,ENTITY_ITEM_BREAK-1-2-0,ENTITY_ITEM_BREAK-1-0-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was ripped apart by &f<shooter>&7's scattergun!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 265
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 36
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-24,BLOCK_PISTON_CONTRACT-1-2-26,BLOCK_PISTON_CONTRACT-1-2-30
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-7
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-0.2-2-0
+Scattergun5:
+    Item_Information:
+        Item_Name: "&5&oCoronal Ejection&7"
+        Item_Type: 418
+        Item_Lore: "&0 |&7Tier: &6&oLegendary|&0 |&7Type: &9Scattergun|&7Ammo: &9Iron Ingot|&7DPS: &c20.0❤x12|&0 |&7Shots may ignite targets.|&0 |&7“&6Feel the wrath of the sun!&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Projectile_Amount: 20
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 190
+        Bullet_Spread: 3
+        Projectile_Flames: true
+        Reset_Fall_Distance: true
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_GHAST_SHOOT-1-1-0,ENTITY_GHAST_SHOOT-1-0-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was burnt to a crisp by &f<shooter>&7!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 265
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 36
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-24,BLOCK_PISTON_CONTRACT-1-2-26,BLOCK_PISTON_CONTRACT-1-2-30
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-10,FLAMES-1,SMOKE
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-0.2-2-0
+Roadhog:
+    Item_Information:
+        Item_Name: "&b&oWhole Hog&7"
+        Item_Type: 61
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 8
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 150
+        Bullet_Spread: 1
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ITEM_BREAK-1-1-0,ENTITY_ITEM_BREAK-1-2-0,ITEM_FLINTANDSTEEL_USE-1-1-0,ITEM_FLINTANDSTEEL_USE-1-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was shown the meaning of life by &f<shooter>&7!"
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 450
+        Chance: 20
+        Sounds_Shooter: ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR-0.25-2-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 24
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ENTITY_ITEM_BREAK-1-2-0,ENTITY_ITEM_BREAK-1-1-0,ENTITY_ITEM_BREAK-1-0-0
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_IRON_DOOR_OPEN-1-0-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-0-38
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 1

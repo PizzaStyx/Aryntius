@@ -1,0 +1,19 @@
+Bayonette:
+    Item_Information:
+        Item_Name: "&2Bayonette&7"
+        Item_Type: 288
+        Item_Lore: "&aA melee attachment.|&aNot intended for standalone use."
+        Melee_Mode: true
+        Sounds_Acquired: ENTITY_ARROW_SHOOT-1-0-0
+        Hidden_From_List: true
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Projectile_Damage: 20
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0,ENTITY_SLIME_JUMP-1-1-1

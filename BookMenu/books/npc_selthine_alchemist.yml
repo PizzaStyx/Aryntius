@@ -1,0 +1,16 @@
+title: npc_selthine_alchemist
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lAlchemist"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Hello! May I interest"
+    - "&1 you in some flask?"
+    - "&1 They're brewed to"
+    - "&1 absolute perfection!&8”"
+    - ""
+    - '&7- { text: "I''d gladly buy one!", color:"BLUE", command: "shop npc_selthine_alchemist", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "What exactly are", color:"BLUE", hover: "&7View lore", open: "npc_selthine_alchemist2"}'
+    - '&l  { text: "flasks, anyway?", color:"BLUE", hover: "&7View lore", open: "npc_selthine_alchemist2"}'

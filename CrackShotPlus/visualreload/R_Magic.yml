@@ -1,0 +1,141 @@
+## MAGIC RELOADS
+R_Fire:
+    Left_Color: "&c"
+    Right_Color: "&7"
+    Symbol: "•"
+    Symbol_Amount: 20
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+R_Fire2:
+    Left_Color: "&c"
+    Right_Color: "&7"
+    Symbol: "✵"
+    Symbol_Amount: 3
+    Reload_Message:
+        Action_Bar: "&4•✶&7#BAR#&4✶• &7#TIME#s"
+R_Water:
+    Left_Color: "&b"
+    Right_Color: "&7"
+    Symbol: "•"
+    Symbol_Amount: 20
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+R_Water2:
+    Left_Color: "&b"
+    Right_Color: "&7"
+    Symbol: "✵"
+    Symbol_Amount: 3
+    Reload_Message:
+        Action_Bar: "&3•✶&7#BAR#&3✶• &7#TIME#s"
+    Reload_Complete_Message:
+        Subtitle: "&f{&b•✶&3✵&b✶•&f}"
+R_Water2_noProc:
+    Left_Color: "&b"
+    Right_Color: "&7"
+    Symbol: "✵"
+    Symbol_Amount: 3
+    Reload_Message:
+        Action_Bar: "&3•✶&7#BAR#&3✶• &7#TIME#s"
+R_Water_Dark:
+    Left_Color: "&9"
+    Right_Color: "&8"
+    Symbol: "•"
+    Symbol_Amount: 20
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+R_Frost:
+    Left_Color: "&f"
+    Right_Color: "&b"
+    Symbol: "•"
+    Symbol_Amount: 20
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+R_Frost2:
+    Left_Color: "&f"
+    Right_Color: "&b"
+    Symbol: "✵"
+    Symbol_Amount: 3
+    Reload_Message:
+        Action_Bar: "&f•✶&7#BAR#&f✶• &7#TIME#s"
+R_Frost3:
+    Left_Color: "&f"
+    Right_Color: "&b"
+    Symbol: "✵"
+    Symbol_Amount: 5
+    Reload_Message:
+        Action_Bar: "&f•✶&7#BAR#&f✶• &7#TIME#s"
+    Reload_Complete_Message:
+        Subtitle: "&f•✶✵✵✵✶•"
+R_Earth:
+    Left_Color: "&a"
+    Right_Color: "&7"
+    Symbol: "✵"
+    Symbol_Amount: 3
+    Reload_Message:
+        Action_Bar: "&2•✶&7#BAR#&2✶• &7#TIME#s"
+R_Void:
+    Left_Color: "&d"
+    Right_Color: "&7"
+    Symbol: "✵"
+    Symbol_Amount: 3
+    Reload_Message:
+        Action_Bar: "&5•✶&7#BAR#&5✶• &7#TIME#s"
+R_Void2:
+    Left_Color: "&d"
+    Right_Color: "&7"
+    Symbol: "✵"
+    Symbol_Amount: 5
+    Reload_Message:
+        Action_Bar: "&5•✶&7#BAR#&5✶• &7#TIME#s"
+    Reload_Complete_Message:
+        Subtitle: "&5•✶&d✵&f☠☠☠&d✵&5✶•"
+R_Void3:
+    Left_Color: "&d"
+    Right_Color: "&8"
+    Symbol: "✵"
+    Symbol_Amount: 5
+    Reload_Message:
+        Action_Bar: "&5•✶&7#BAR#&5✶• &7#TIME#s"
+    Reload_Complete_Message:
+        Subtitle: "&8~{&d•✶&5✵&d✶•&8}~"
+R_Blood:
+    Left_Color: "&c"
+    Right_Color: "&8"
+    Symbol: "✷"
+    Symbol_Amount: 3
+    Reload_Message:
+        Action_Bar: "&4•✶&7#BAR#&4✶• &7#TIME#s"
+    Reload_Complete_Message:
+        Subtitle: "&4&l-}&4✶&c✷&4✶&4&l{-"
+R_Holy:
+    Left_Color: "&e"
+    Right_Color: "&7"
+    Symbol: "✷"
+    Symbol_Amount: 3
+    Reload_Message:
+        Action_Bar: "&6•✶&7#BAR#&6✶• &7#TIME#s"
+    Reload_Complete_Message:
+        Subtitle: "&6&l{ &e✶✷✶&6&l }"
+R_Holy_noProc:
+    Left_Color: "&e"
+    Right_Color: "&7"
+    Symbol: "✷"
+    Symbol_Amount: 3
+    Reload_Message:
+        Action_Bar: "&6•✶&7#BAR#&6✶• &7#TIME#s"
+R_Box:
+    Left_Color: "&c"
+    Right_Color: "&7"
+    Symbol: "■"
+    Symbol_Amount: 7
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+R_Music:
+    Left_Color: "&b"
+    Right_Color: "&7"
+    Symbol: "♫"
+    Symbol_Amount: 5
+    Reload_Message:
+        Action_Bar: "&3•♬&7#BAR#&3♬• &7#TIME#s"
+    Reload_Complete_Message:
+        Subtitle: "&7&l{ &b♫♬♫&7&l }"

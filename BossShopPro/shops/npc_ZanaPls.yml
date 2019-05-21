@@ -1,0 +1,439 @@
+ShopName: npc_ZanaPls
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &5The Rifts &8]"
+shop:
+  Titan1Teleport:
+    MenuItem:
+    - id:332
+    - "name:&bFrozen Depths"
+    - "lore:&7Difficulty: &f✦✦✦✦&8✦"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Occupant: &bVraast, Heir of Frost"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f10x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 3
+    Message: '&dYou have traveled to the &fFrozen Depths&d.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:500.5,62.0,500.5:0.0:180.0'
+    RewardType: command
+    ExtraPermission: 'atlas.third'
+  Titan2Teleport:
+    MenuItem:
+    - id:378
+    - "name:&6Molten Core"
+    - "lore:&7Difficulty: &f✦✦✦✦&8✦"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Occupant: &6Magmos, Lord of Ash"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f10x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 7
+    Message: '&dYou have traveled to the &fMolten Core&d.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:-2342.5,71.0,-2485.5:0.0:90.0'
+    RewardType: command
+    ExtraPermission: 'atlas.third'
+  Titan3Teleport:
+    MenuItem:
+    - id:368
+    - "name:&3Crackling Chasm"
+    - "lore:&7Difficulty: &f✦✦✦✦&8✦"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Occupant: &3The Nameless Titan"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f10x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 11
+    Message: '&dYou have traveled to the &fCrackling Chasm&d.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:-82.5,63.0,2018.5:0.0:335.0'
+    RewardType: command
+    ExtraPermission: 'atlas.third'
+  Titan4Teleport:
+    MenuItem:
+    - id:341
+    - "name:&2Valley of Venom"
+    - "lore:&7Difficulty: &f✦✦✦✦&8✦"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Occupant: &2Sahuvar the Deceiver"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f10x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 17
+    Message: '&dYou have traveled to the &fValley of Venom&d.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:-1925.5,62.0,-1979.5:0.0:0.0'
+    RewardType: command
+    ExtraPermission: 'atlas.third'
+  Titan5Teleport:
+    MenuItem:
+    - id:381
+    - "name:&4Swamp of Suffering"
+    - "lore:&7Difficulty: &f✦✦✦✦&8✦"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Occupant: &4Quu'rak the Insatiable"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f10x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 21
+    Message: '&dYou have traveled to the &fSwamp of Suffering&d.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:1874.5,63.0,-105.5:0.0:215.0'
+    RewardType: command
+    ExtraPermission: 'atlas.third'
+  Titan6Teleport:
+    MenuItem:
+    - id:385
+    - "name:&5Desert of Despair"
+    - "lore:&7Difficulty: &f✦✦✦✦&8✦"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Occupant: &5Otin the Deathweaver"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f10x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 25
+    Message: '&dYou have traveled to the &fDesert of Despair&d.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:1630.5,62.0,131.5:-5.0:145.0'
+    RewardType: command
+    ExtraPermission: 'atlas.third'
+  TitanXTeleport:
+    MenuItem:
+    - id:426
+    - "name:&cThe Titans' Realm"
+    - "lore:&7Difficulty: &f✦✦✦✦✦"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Occupant: &cUnknown"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f1x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f1x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f1x &5&oCh&d&oaos Sphe&5&ore"
+    - "lore:&7- &f1x &5&oEt&d&oher Cryst&5&oal"
+    - "lore:&7- &f1x &5&oPh&d&ooenix Ash&5&oes"
+    - "lore:&7- &f1x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 14
+    Message: '&dYou have traveled to the &fTitans'' Realm&d.'
+    Price:
+    - - mythicitem:ChaosSphere
+      - amount:1
+    - - mythicitem:EtherCrystal
+      - amount:1
+    - - mythicitem:PhoenixAshes
+      - amount:1
+    - - mythicitem:DreamFragment
+      - amount:1
+    - - mythicitem:Astralite
+      - amount:1
+    - - mythicitem:AncientHide
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:-1596.5,70.0,-1499.5:0.0:270.0'
+    RewardType: command
+    ExtraPermission: 'atlas.third'
+### FILLER SECTION -------------------------------------------------------
+  Filler_1:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 1
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_2:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 2
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_3:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 4
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_4:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 5
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_5:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 6
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_6:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 8
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_7:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 9
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_8:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 10
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_10:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 12
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_11:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 13
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_12:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 15
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_13:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 16
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_15:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 18
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_16:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 19
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_17:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 20
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_18:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 22
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_19:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 23
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_20:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 24
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_21:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 26
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_22:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 27
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+### BOTTOM FILLER --------------------------------------------------------
+  Filler_B1:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 28
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B2:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 29
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B3:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 30
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B4:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 31
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B5:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 33
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B6:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 34
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B7:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 35
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B8:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 36
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+### MENU BUTTON/UTILS ------------------------------------------
+  MenuButton:
+    PriceType: nothing
+    RewardType: close
+    InventoryLocation: 32
+    MenuItem:
+    - id:166
+    - name:&cClose Menu
+    - "lore:&7Exit the Rifts"
+    - amount:1

@@ -1,0 +1,16 @@
+title: CoinTrader_4
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lCoin Trader"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Why do we always end"
+    - "&1 up in awful places like"
+    - "&1 this?&8”"
+    - ""
+    - '&7- { text: "How are you doing,", color:"BLUE", hover: "&7View lore", open: "CoinTrader_4A"}'
+    - '&l  { text: "are things okay?", color:"BLUE", hover: "&7View lore", open: "CoinTrader_4A"}'
+    - ""
+    - '&7- { text: "I''d like to convert", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'
+    - '&l  { text: "some currency.", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'

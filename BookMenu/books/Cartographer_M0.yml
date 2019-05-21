@@ -1,0 +1,16 @@
+title: Cartographer_M0
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lIzenryl"
+    - "&8Scholar of the Rift"
+    - ""
+    - "&8“&1The stars bring good"
+    - "&1 fortune to us on this"
+    - "&1 fine day.&8”"
+    - ""
+    - '&7- { text: "I''d like to teleport", color:"BLUE", command: "shop npc_ZanaPls", hover: "&7Open rifts"}'
+    - '&l  { text: "to a rift, please!", color:"BLUE", command: "shop npc_ZanaPls", hover: "&7Open rifts"}'
+    - ""
+    - '&7- { text: "What is that device", color:"BLUE", hover: "&7View lore", open: "Cartographer_MapDevice"}'
+    - '&l  { text: "behind you?", color:"BLUE", hover: "&7View lore", open: "Cartographer_MapDevice"}'

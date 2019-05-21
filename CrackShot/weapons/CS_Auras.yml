@@ -1,0 +1,42 @@
+Aura_Void:
+    Item_Information:
+        Item_Name: "&4&oOrb o&c&of Chaos&7"
+        Item_Type: 381
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 1-1-NONE-0
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Damage: 30
+        Bullet_Spread: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-0.2-1-0,ENTITY_GHAST_SHOOT-0.2-0-0,ENTITY_ENDERDRAGON_GROWL-0.2-2-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 8
+    # Reload:
+        # Enable: false
+        # Reload_Amount: 80
+        # Reload_Duration: 100
+        # Take_Ammo_On_Reload: false
+        # Sounds_Reloading: ENTITY_WITHER_AMBIENT-0.5-0-0,ENTITY_WITHER_AMBIENT-0.5-0-45,ENTITY_WITHER_SHOOT-0.5-1-100
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was crushed by &f<shooter>&7!"
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: DAMAGE_RESISTANCE-1-1
+        Potion_Effect_Shooter: DAMAGE_RESISTANCE-1-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-0.2-2-0

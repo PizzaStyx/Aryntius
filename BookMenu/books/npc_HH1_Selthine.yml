@@ -1,0 +1,16 @@
+title: npc_HH1_Selthine
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lSalazar"
+    - "&8Covenant Member"
+    - ""
+    - "&8“&1Do you, too, wish to"
+    - "&1 cleanse this world"
+    - "&1 of the Corruption?&8”"
+    - ""
+    - '&7- { text: "Yes. How may I help", color:"BLUE", hover: "&7View info", open: "npc_HH2_Selthine"}'
+    - '&l  { text: "the Hunters?", color:"BLUE", hover: "&7View info", open: "npc_HH2_Selthine"}'
+    - ""
+    - '&7- { text: "What even is the", color:"BLUE", hover: "&7View lore", open: "npc_HH3_Selthine"}'
+    - '&l  { text: "Corruption?", color:"BLUE", hover: "&7View lore", open: "npc_HH3_Selthine"}'

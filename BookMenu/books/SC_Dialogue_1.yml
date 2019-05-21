@@ -1,0 +1,16 @@
+title: SC_Dialogue_1
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lSky Captain"
+    - "&8Travel NPC"
+    - ""
+    - "&8“&1Good day, traveler!"
+    - "&1 Where would you like"
+    - "&1 to go?&8”"
+    - ""
+    - '&7- { text: "Can you take me", color:"BLUE", command: "bs menu_city_fasttravel", hover: "&7Travel Map"}'
+    - '&l  { text: "to another city?", color:"BLUE", command: "bs menu_city_fasttravel", hover: "&7Travel Map"}'
+    - ""
+    - '&7- { text: "I''d like to survive", color:"BLUE", command: "rtp tpgui", hover: "&7Random Airdrop"}'
+    - '&l  { text: "in the wilderness.", color:"BLUE", command: "rtp tpgui", hover: "&7Random Airdrop"}'

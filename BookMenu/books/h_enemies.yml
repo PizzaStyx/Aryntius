@@ -1,0 +1,25 @@
+title: Enemies
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lEnemies"
+    - ""
+    - "Enemies scale health and damage immensely based solely on item tiers."
+    - ""
+    - "Most enemies come in three types: warrior, ranger, and mage."
+    - ""
+    - "Warriors have high"
+  2:
+    - "melee damage, armor, and movement speed but lack ranged attacks, making them most effective as close range attackers."
+    - ""
+    - "Similarly, rangers tend to sit in the back and shoot numerous arrows from afar but lack armor and agility."
+  3:
+    - "Mages tend to be a hybrid of the two but also cast spells which bypass blocked shields and have various effects."
+    - ""
+    - "Mages generally do not show up until the midgame areas but are extremely common in the endgame."
+  4:
+    - "All enemies will drop an item from their respective tier's loot tables."
+    - ""
+    - "Thus, it is far better to farm high-level enemies for currency and drops than low-tier enemies."
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

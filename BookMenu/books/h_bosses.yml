@@ -1,0 +1,25 @@
+title: Bosses
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lBosses"
+    - ""
+    - "At the end of most major areas lies a boss: an extremely powerful enemy with deadly abilities."
+    - ""
+    - "Bosses always significantly more health and damage than the enemies around them."
+  2:
+    - "Often you must defeat the boss to finish the area you are in."
+    - ""
+    - "Many bosses even drop powerful items unique to their own loot tables, especially bosses found in endgame areas."
+    - ""
+    - "By design, all bosses"
+  3:
+    - "are extremely difficult encounters and entering a battle against one without preparation can be very deadly."
+    - ""
+    - "The biggest tip is that completing an area will not necessarily guarantee that you can kill its boss."
+  4:
+    - "If you have trouble defeating a boss, try observing its attacks and matching its tempo and attack speed."
+    - ""
+    - "If you can't beat it alone, bring friends! Bosses do not scale health, which makes cooperation easy!"
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

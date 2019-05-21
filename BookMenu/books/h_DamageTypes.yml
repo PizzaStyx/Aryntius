@@ -1,0 +1,82 @@
+title: DamageTypes
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lDamage Scaling"
+    - ""
+    - "Damage is an essential part of Aryntius' gameplay."
+    - ""
+    - '&7» { text: "&9Introduction", gotoPage: 2, hover: "&7Jump to &9Introduction" }'
+    - '&7» { text: "&9Physical Damage", gotoPage: 3, hover: "&7Jump to &9Physical Damage" }'
+    - '&7» { text: "&9Chaos Damage", gotoPage: 4, hover: "&7Jump to &9Chaos Damage" }'
+    - '&7» { text: "&9Damage Reduction", gotoPage: 7, hover: "&7Jump to &9Damage Reduction" }'
+    - '&7» { text: "&9Golden Hearts", gotoPage: 10, hover: "&7Jump to &9Golden Hearts" }'
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'
+  2:
+    - "&8&lIntroduction"
+    - ""
+    - "Damage types were introduced in 2.1.5 and highly modify the effects of combat."
+    - ""
+    - "Damage is displayed in minecraft hearts (&c1.0❤&0) on all items and in holograms above enemies during combat."
+  3:
+    - "&8&lPhysical Damage"
+    - ""
+    - "Most weapons deal physical damage, which can be mitigated by both normal hearts, golden hearts, armor, and resistance."
+    - ""
+    - "This includes magic items and enchanted gear."
+  4:
+    - "&8&lChaos Damage"
+    - ""
+    - "Also known as true damage, chaos damage bypasses all armor and resistance levels."
+    - ""
+    - "It cannot be mitigated or reflected, and it directly damages the target's maximum health."
+  5:
+    - "Example:"
+    - ""
+    - "Physical Hit - &c250.0❤"
+    - "&c10.0❤ &0after reduction"
+    - ""
+    - "Chaos Hit - &c40.0❤"
+    - "&c40.0❤ &0after reduction"
+    - ""
+    - "As such, Chaos damage is incredibly powerful against armored enemies such as bosses."
+  6:
+    - "However, its effect is much weaker against enemies with higher levels of maximum health."
+    - ""
+    - "Notably, Chaos damage can also bypass vanilla Minecraft invincibility frames and stack without restrictions."
+  7:
+    - "&8&lDamage Reduction"
+    - ""
+    - "Damage taken can be severely mitigated with armor enchants and resistance."
+    - ""
+    - "Resistance adds 20% reduction per level."
+    - ""
+    - "I.e. Resistance IV = 4x20 = 80% damage reduction."
+  8:
+    - "Armor adds up to 80% damage reduction based on the sum of the enchant level."
+    - ""
+    - "E.g. Protection XV on one item is the same as having Protection V on 3 items."
+    - ""
+    - "Enchants are capped at a sum of 20 (XX) in Vanilla Minecraft."
+  9:
+    - "When combined, the maximum possible damage reduction attainable is 96%, meaning you take 1/20 of all incoming damage."
+    - ""
+    - "However, achieving Resistance V (100% damage reduction) is possible with temporary buffs."
+  10:
+    - "&8&lGolden Hearts"
+    - ""
+    - "Also known as Energy Shield (ES), golden hearts work exactly like Absorption in Vanilla Minecraft."
+    - ""
+    - "These function as normal hearts but cannot regenerate or be healed."
+  11:
+    - "Golden hearts do not stack, and instead replace their values based on the item's tier."
+    - ""
+    - "E.g. if a Legendary item gives 10.0 gold hearts while an Exalted item gives 20.0, you will only have 10.0 gold hearts with both equipped."
+  12:
+    - "Notably, players are immune to knockback while they have gold hearts."
+    - ""
+    - "However, chaos and bleed damage can bypass gold hearts entirely."
+    - ""
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", gotoPage: 1, hover: "&7Return to main page" }'

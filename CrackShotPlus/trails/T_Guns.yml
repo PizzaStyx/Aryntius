@@ -1,0 +1,83 @@
+### MINIGUN TRAILS
+Minigun1:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-100-0"
+Minigun2:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "255-255-0"
+### SNIPER TRAILS
+SniperCloud:
+    Trail: "CLOUD"
+    Trail_Radius: 120
+    Trail_Go_Through: "all"
+    Space_Between_Trails: 2.0
+    Circle:
+        Maxium_Circle_Size: 0.1
+SniperToxic:
+    Trail: "COLOURED_DUST"
+    Trail_Color: "0-128-0"
+    Trail_Radius: 120
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Circle:
+        Maxium_Circle_Size: 0.1
+SniperMagic:
+    Trail: "WITCH_MAGIC"
+    Trail_Radius: 120
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Circle:
+        Maxium_Circle_Size: 0.1
+SniperFire:
+    Trail: "FLAME"
+    Trail_Radius: 120
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Circle:
+        Maxium_Circle_Size: 0.1
+SniperBlack:
+    Trail: "PARTICLE_SMOKE"
+    Trail_Radius: 120
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Circle:
+        Maxium_Circle_Size: 0.1
+SniperGold:
+    Trail: "COLOURED_DUST"
+    Trail_Radius: 120
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Color: "255-225-0"
+    Circle:
+        Maxium_Circle_Size: 0.1
+SniperRed:
+    Trail: "COLOURED_DUST"
+    Trail_Radius: 120
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Color: "255-0-0"
+    Circle:
+        Maxium_Circle_Size: 0.1
+SniperOrange:
+    Trail: "COLOURED_DUST"
+    Trail_Radius: 120
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Color: "255-128-0"
+    Circle:
+        Maxium_Circle_Size: 0.1
+SniperAqua:
+    Trail: "COLOURED_DUST"
+    Trail_Radius: 120
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Color: "0-255-255"
+    Circle:
+        Maxium_Circle_Size: 0.1
+SniperSpark:
+    Trail: "FIREWORKS_SPARK"
+    Trail_Radius: 120
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Circle:
+        Maxium_Circle_Size: 0.1

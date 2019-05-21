@@ -1,0 +1,86 @@
+### GUN RELOADS
+R_Gun_Green:
+    Left_Color: "&a"
+    Right_Color: "&7"
+    Symbol: "|"
+    Symbol_Amount: 40
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Gun_Yellow:
+    Left_Color: "&e"
+    Right_Color: "&7"
+    Symbol: "|"
+    Symbol_Amount: 40
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Gun_Red:
+    Left_Color: "&c"
+    Right_Color: "&7"
+    Symbol: "|"
+    Symbol_Amount: 40
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Gun_Blue:
+    Left_Color: "&b"
+    Right_Color: "&7"
+    Symbol: "|"
+    Symbol_Amount: 40
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Gun_BlueDark:
+    Left_Color: "&9"
+    Right_Color: "&7"
+    Symbol: "|"
+    Symbol_Amount: 40
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Gun_Purple:
+    Left_Color: "&d"
+    Right_Color: "&7"
+    Symbol: "|"
+    Symbol_Amount: 40
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Gun_PurpleDark:
+    Left_Color: "&5"
+    Right_Color: "&8"
+    Symbol: "|"
+    Symbol_Amount: 40
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Gun_Gold:
+    Left_Color: "&6"
+    Right_Color: "&8"
+    Symbol: "|"
+    Symbol_Amount: 40
+    Reload_Message:
+        Action_Bar: "&7#BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&6RELOADING COMPLETE"
+### PRIMED RELOADS
+R_Prime:
+    Left_Color: "&f"
+    Right_Color: "&8"
+    Symbol: "✵"
+    Symbol_Amount: 5
+    Reload_Message:
+        Action_Bar: "&6&m--&6&l}&7#BAR#&6&l{&6&m--&7 #TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&6RELOADING COMPLETE"
+R_Molten:
+    Reload_Complete_Message:
+        Subtitle: "&c•✶&4✵✵✵&c✶•"

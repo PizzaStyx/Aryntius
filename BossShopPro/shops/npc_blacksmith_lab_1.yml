@@ -1,0 +1,491 @@
+ShopName: npc_blacksmith_lab_1
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Lonely Smith &8]"
+shop:
+### HARD LEATHER SET
+  HL_Helm:
+    MenuItem:
+    - id:298
+    - name:&2Hard Leather Cap
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &c+2.5❤&7 while equipped."
+    - "lore:&2★ &7Set Bonus: &aResistance I&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f20x &aSilver Coin"
+    - enchantment:PROTECTION_ENVIRONMENTAL#5
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought 1 Hard Leather Cap for &f20 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% HL_Helm 1'
+    RewardType: command
+  HL_Chest:
+    MenuItem:
+    - id:299
+    - name:&2Hard Leather Tunic
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &c+2.5❤&7 while equipped."
+    - "lore:&2★ &7Set Bonus: &aResistance I&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f20x &aSilver Coin"
+    - enchantment:PROTECTION_EXPLOSIONS#5
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought 1 Hard Leather Tunic for &f20 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% HL_Chest 1'
+    RewardType: command
+  HL_Legs:
+    MenuItem:
+    - id:300
+    - name:&2Hard Leather Pants
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &c+2.5❤&7 while equipped."
+    - "lore:&2★ &7Set Bonus: &aResistance I&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f20x &aSilver Coin"
+    - enchantment:PROTECTION_PROJECTILE#5
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 20
+    Message: '&7[&bInfo&7] You bought 1 Hard Leather Pants for &f20 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% HL_Legs 1'
+    RewardType: command
+  HL_Boots:
+    MenuItem:
+    - id:301
+    - name:&2Hard Leather Boots
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &c+2.5❤&7 while equipped."
+    - "lore:&2★ &7Set Bonus: &aResistance I&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f20x &aSilver Coin"
+    - enchantment:PROTECTION_FALL#5
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 29
+    Message: '&7[&bInfo&7] You bought 1 Hard Leather Boots for &f20 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% HL_Boots 1'
+    RewardType: command
+### PLEATED ARMOR SET
+  Pleated_Helm:
+    MenuItem:
+    - id:302
+    - name:&2Pleated Helm
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &a+10% &7movement speed."
+    - "lore:&2★ &7Set Bonus: &aStrength IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f20x &aSilver Coin"
+    - enchantment:PROTECTION_ENVIRONMENTAL#4
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You bought 1 Pleated Helm for &f20 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Pleated_Helm 1'
+    RewardType: command
+  Pleated_Chest:
+    MenuItem:
+    - id:303
+    - name:&2Pleated Chestplate
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &a+10% &7movement speed."
+    - "lore:&2★ &7Set Bonus: &aStrength IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f20x &aSilver Coin"
+    - enchantment:PROTECTION_EXPLOSIONS#4
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bInfo&7] You bought 1 Pleated Chestplate for &f20 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Pleated_Chest 1'
+    RewardType: command
+  Pleated_Legs:
+    MenuItem:
+    - id:304
+    - name:&2Pleated Greaves
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &a+10% &7movement speed."
+    - "lore:&2★ &7Set Bonus: &aStrength IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f20x &aSilver Coin"
+    - enchantment:PROTECTION_FIRE#4
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 22
+    Message: '&7[&bInfo&7] You bought 1 Pleated Greaves for &f20 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Pleated_Legs 1'
+    RewardType: command
+  Pleated_Boots:
+    MenuItem:
+    - id:305
+    - name:&2Pleated Boots
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &a+10% &7movement speed."
+    - "lore:&2★ &7Set Bonus: &aStrength IV&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f20x &aSilver Coin"
+    - enchantment:PROTECTION_FALL#5
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 31
+    Message: '&7[&bInfo&7] You bought 1 Pleated Boots for &f20 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Pleated_Boots 1'
+    RewardType: command
+### RUSHWALKER ARMOR SET
+  Rushwalker_Helm:
+    MenuItem:
+    - id:298
+    - name:&2Rushwalker Helm
+    - "lore:&7Protection IV"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &a+25% &7knockback resist."
+    - "lore:&2★ &7Set Bonus: &aSpeed III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f25x &aSilver Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:255#188#0
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You bought 1 Rushwalker Helm for &f25 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Rushwalker_Helm 1'
+    RewardType: command
+  Rushwalker_Chest:
+    MenuItem:
+    - id:299
+    - name:&2Rushwalker Cuirass
+    - "lore:&7Projectile Protection IV"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &a+25% &7knockback resist."
+    - "lore:&2★ &7Set Bonus: &aSpeed III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f25x &aSilver Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:233#170#0
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bInfo&7] You bought 1 Rushwalker Cuirass for &f25 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Rushwalker_Chest 1'
+    RewardType: command
+  Rushwalker_Legs:
+    MenuItem:
+    - id:300
+    - name:&2Rushwalker Greaves
+    - "lore:&7Blast Protection IV"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &a+25% &7knockback resist."
+    - "lore:&2★ &7Set Bonus: &aSpeed III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f25x &aSilver Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:210#160#0
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bInfo&7] You bought 1 Rushwalker Greaves for &f25 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Rushwalker_Legs 1'
+    RewardType: command
+  Rushwalker_Boots:
+    MenuItem:
+    - id:301
+    - name:&2Rushwalker Boots
+    - "lore:&7Depth Strider IV"
+    - "lore:&7Feather Falling IV"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &a+25% &7knockback resist."
+    - "lore:&2★ &7Set Bonus: &aSpeed III&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f25x &aSilver Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:195#145#0
+    - amount:1
+    InventoryLocation: 33
+    Message: '&7[&bInfo&7] You bought 1 Rushwalker Boots for &f25 &aSilver Coins&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Rushwalker_Boots 1'
+    RewardType: command
+### MONK'S ARMOR
+  Monk_Helm:
+    MenuItem:
+    - id:298
+    - "name:&2Monk's Hood"
+    - "lore:&7Protection IV"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &c+4.0❤&7 while equipped."
+    - "lore:&2★ &7Set Bonus: &aRegeneration II&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aGold Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:255#255#255
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought 1 Monk''s Hood for &f5 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Monk_Helm 1'
+    RewardType: command
+  Monk_Chest:
+    MenuItem:
+    - id:303
+    - "name:&2Monk's Tunic"
+    - "lore:&7Projectile Protection IV"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &c+6.0❤&7 while equipped."
+    - "lore:&2★ &7Set Bonus: &aRegeneration II&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &aGold Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought 1 Monk''s Tunic for &f8 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Monk_Chest 1'
+    RewardType: command
+  Monk_Legs:
+    MenuItem:
+    - id:300
+    - "name:&2Monk's Robes"
+    - "lore:&7Blast Protection IV"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &c+6.0❤&7 while equipped."
+    - "lore:&2★ &7Set Bonus: &aRegeneration II&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &aGold Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:255#255#255
+    - amount:1
+    InventoryLocation: 26
+    Message: '&7[&bInfo&7] You bought 1 Monk''s Robes for &f8 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Monk_Legs 1'
+    RewardType: command
+  Monk_Boots:
+    MenuItem:
+    - id:301
+    - "name:&2Monk's Galoshes"
+    - "lore:&7Depth Strider III"
+    - "lore:&7Feather Falling III"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &c+4.0❤&7 while equipped."
+    - "lore:&2★ &7Set Bonus: &aRegeneration II&7."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aGold Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:255#255#255
+    - amount:1
+    InventoryLocation: 35
+    Message: '&7[&bInfo&7] You bought 1 Monk''s Galoshes for &f5 &aGold Coins&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Monk_Boots 1'
+    RewardType: command

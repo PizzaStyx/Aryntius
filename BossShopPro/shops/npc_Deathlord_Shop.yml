@@ -1,0 +1,83 @@
+ShopName: npc_Deathlord_Shop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Weird Stuff &8]'
+shop:
+  RNG_Melee:
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'rc dlMelee %player%'
+    MenuItem:
+    - id:267
+    - name:&aRandom Melee Item
+    - "lore:&0 "
+    - "lore:&a★ &7&oGet a random melee weapon."
+    - "lore:&a★ &7&oItem is at least &d&oExalted &7&otier."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7You have received a random melee weapon.'
+  RNG_Ranger:
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'rc dlRanger %player%'
+    MenuItem:
+    - id:417
+    - name:&aRandom Ranged Weapon
+    - "lore:&0 "
+    - "lore:&a★ &7&oGet a random ranged weapon."
+    - "lore:&a★ &7&oItem is at least &d&oExalted &7&otier."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7You have received a random ranged weapon.'
+  RNG_Magic:
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'rc dlMagic %player%'
+    MenuItem:
+    - id:403
+    - name:&aRandom Magic Weapon
+    - "lore:&0 "
+    - "lore:&a★ &7&oGet a random magic weapon."
+    - "lore:&a★ &7&oItem is at least &d&oExalted &7&otier."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7You have received a random magic weapon.'

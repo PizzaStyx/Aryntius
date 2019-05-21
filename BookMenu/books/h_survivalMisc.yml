@@ -1,0 +1,43 @@
+title: SurvivalMisc
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lMisc. Features"
+    - ""
+    - "This article comprises of a list of Survival features that aren't related to anything else on the server."
+    - ""
+    - "&8&lMob Revenge"
+    - ""
+    - "Don't bully passive mobs too much. They will strike back! Some"
+  2:
+    - "of them are more powerful than others. Beware the cuckoo."
+    - ""
+    - "&8&lNotch Apples"
+    - ""
+    - "Due to 1.9 nerfing them, Notch Apples (crafted with gold blocks) on Aryntius now yield significantly different effects from the normal ones."
+  3:
+    - "Upon eating a notch apple, you will yield the following effects:"
+    - "" 
+    - "Resistance IV &7| &915s"
+    - "&0Speed V &7| &930s"
+    - "&0Strength IV &7| &930s"
+    - "&0Regeneration IV &7| &930s"
+    - "&0Fire Resist. &7| &95m"
+    - "&0Absorption IV &7| &92m"
+    - ""
+    - "Notch Apples have a 1 minute cooldown."
+  4:
+    - "&8&lBetter Crits"
+    - ""
+    - "Melee weapons now do up to 3.0x damage per critical hit. This is over twice the Vanilla amount!"
+    - ""
+    - "Ranged weapons do up to 2.0x damage per critical hit, for the sake of balance."
+    - ""
+  5:
+    - "&8&lShulker Boxes"
+    - ""
+    - "Shulker boxes open in your hand by default instead of when placed."
+    - ""
+    - "Use Sneak + Right Click to place down a shulker box like in Vanilla Survival."
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

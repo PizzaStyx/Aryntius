@@ -1,0 +1,2614 @@
+potionEffects:
+# Potions are applied to players who have all the required items every 10 seconds.
+# The potion lasts for 10 seconds so you get the effect as long as you have the items.
+# The required items must either be in the hotbar or the armor bar.
+#
+# Extension by my own discovery:
+# Particle Effects take the form NAME:FORCE:AMOUNT
+# So ENDER:3:15 makes 15 ender particles spawn per second or so with a force of 3.
+#
+##--------------------------------------------------------------------------##
+## ARMOR SETS
+##--------------------------------------------------------------------------##
+###----- UNCOMMON
+    1: ## HARD LEATHER SET
+      potion: "DAMAGE_RESISTANCE"
+      level: 1
+      requiredItems:
+        - 13
+        - 14
+        - 15
+        - 16
+    2: ## PLEATED SET
+      potion: "INCREASE_DAMAGE"
+      level: 4
+      requiredItems:
+        - 17
+        - 18
+        - 19
+        - 20
+    3: ## RUSHWALKER SET
+      potion: "SPEED"
+      level: 3
+      requiredItems:
+        - 21
+        - 22
+        - 23
+        - 24
+    4: ## MONK SET
+      potion: "REGENERATION"
+      level: 2
+      requiredItems:
+        - 25
+        - 26
+        - 27
+        - 28
+###----- RARE
+    5: ## MITHRIL ARMOR
+      potion: "DAMAGE_RESISTANCE"
+      level: 2
+      requiredItems:
+        - 34
+        - 35
+        - 36
+        - 37
+    6: ## BUNNY ARMOR
+      potion: "JUMP"
+      level: 3
+      requiredItems:
+        - 38
+        - 39
+        - 40
+        - 41
+    7: ## AQUIR ARMOR
+      potion: "WATER_BREATHING"
+      level: 1
+      requiredItems:
+        - 42
+        - 43
+        - 44
+        - 45
+    8: ## RUNE PRIEST ARMOR
+      potion: "REGENERATION"
+      level: 3
+      requiredItems:
+        - 46
+        - 47
+        - 48
+        - 49
+    9: ### BERSERKER ARMOR (ACTIVE)
+      potion: "INCREASE_DAMAGE"
+      level: 10
+      requiredItems:
+        - 300
+        - 301
+        - 302
+        - 303
+###----- SUPERIOR
+    10: ## FALCON ARMOR
+      potion: "FAST_DIGGING"
+      level: 4
+      requiredItems:
+        - 57
+        - 58
+        - 59
+        - 60
+    11: ## FIRESONG ARMOR
+      potion: "REGENERATION"
+      level: 4
+      requiredItems:
+        - 61
+        - 62
+        - 63
+        - 64
+    12: ## BYZANTITE ARMOR
+      potion: "DAMAGE_RESISTANCE"
+      level: 3
+      requiredItems:
+        - 65
+        - 66
+        - 67
+        - 68
+    13: ### RAIDER ARMOR
+      potion: "INCREASE_DAMAGE"
+      level: 20
+      requiredItems:
+        - 305
+        - 306
+        - 307
+        - 308
+###----- EXALTED
+    14: ### CELESTIAL ARMOR SET
+      potion: "DAMAGE_RESISTANCE"
+      level: 4
+      requiredItems:
+        - 80
+        - 81
+        - 82
+        - 83
+    15: ### CELESTIAL ARMOR SET
+      potion: "REGENERATION"
+      level: 4
+      requiredItems:
+        - 80
+        - 81
+        - 82
+        - 83
+    16: ### SHADEWALKER SET
+      potion: "REGENERATION"
+      level: 5
+      requiredItems:
+        - 84
+        - 85
+        - 86
+        - 87
+    17: ### ARCHMAGE SET
+      potion: "ABSORPTION"
+      level: 20
+      requiredItems:
+        - 88
+        - 89
+        - 90
+        - 91
+    18: ### CLOCKWORK ARMOR
+      potion: "INCREASE_DAMAGE"
+      level: 50
+      requiredItems:
+        - 92
+        - 93
+        - 94
+        - 95
+###----- LEGENDARY
+    19: ### TITAN ARMOR SET
+      potion: "REGENERATION"
+      level: 10
+      requiredItems:
+        - 168
+        - 169
+        - 170
+        - 171
+    20: ### THE EVENT HORIZON (TITAN)
+      potion: "SPEED"
+      level: 10
+      requiredItems:
+        - 168
+        - 169
+        - 170
+        - 171
+        - 130
+    21: ### REDEEMER ARMOR SET
+      potion: "ABSORPTION"
+      level: 30
+      requiredItems:
+        - 172
+        - 173
+        - 174
+        - 175
+    22: ### THE EVENT HORIZON (REDEEMER)
+      potion: "ABSORPTION"
+      level: 40
+      requiredItems:
+        - 172
+        - 173
+        - 174
+        - 175
+        - 130
+    23: ### DRAGONSCALE ARMOR SET
+      potion: "INCREASE_DAMAGE"
+      level: 200
+      requiredItems:
+        - 176
+        - 177
+        - 178
+        - 179
+    24: ### DRAGON'S HEART (ARMOR BONUS)
+      potion: "REGENERATION"
+      level: 10
+      requiredItems:
+        - 176
+        - 177
+        - 178
+        - 179
+        - 162
+    25: ### DRAGON'S HEART (CHARM)
+      potion: "SPEED"
+      level: 4
+      attackHelpEffect: self
+      requiredItems:
+        - 162
+    26:
+      potion: "FAST_DIGGING"
+      level: 10
+      attackHelpEffect: self
+      requiredItems:
+        - 162
+    27: ### THE EVENT HORIZON (DRAGONSCALE)
+      potion: "FAST_DIGGING"
+      level: 10
+      requiredItems:
+        - 176
+        - 177
+        - 178
+        - 179
+        - 130
+    28: ### VOID ARMOR (1.12)
+      potion: "DAMAGE_RESISTANCE"
+      level: 4
+      requiredItems:
+        - 180
+        - 181
+        - 182
+        - 183
+    29:
+      potion: "ABSORPTION"
+      level: 20
+      requiredItems:
+        - 180
+        - 181
+        - 182
+        - 183
+    30: ### THE EVENT HORIZON (VOID)
+      potion: "ABSORPTION"
+      level: 25
+      requiredItems:
+        - 180
+        - 181
+        - 182
+        - 183
+        - 130
+###----- IRIDESCENT
+    31: ### SINGULARITY BASCINET
+      potion: "INCREASE_DAMAGE"
+      level: 200
+      requiredItems:
+        - 315
+        - 122
+        - 123
+        - 124
+    32:
+      potion: "HEAL"
+      attackHelpEffect: self
+      level: 10
+      requiredItems:
+        - 315
+        - 122
+        - 123
+        - 124
+    33: ### SINGULARITY VEIL
+      potion: "ABSORPTION"
+      attackHelpEffect: self
+      level: 25
+      requiredItems:
+        - 314
+        - 122
+        - 123
+        - 124
+    34: ### SINGULARITY CROWN
+      potion: "INCREASE_DAMAGE"
+      level: 100
+      requiredItems:
+        - 121
+        - 122
+        - 123
+        - 124
+    35:
+      potion: "REGENERATION"
+      level: 10
+      requiredItems:
+        - 121
+        - 122
+        - 123
+        - 124
+    36: ### LITHAAN'S ARMOUR SET
+      potion: "REGENERATION"
+      level: 10
+      requiredItems:
+        - 132
+        - 133
+        - 134
+        - 135
+    37:
+      potion: "ABSORPTION"
+      level: 20
+      requiredItems:
+        - 132
+        - 133
+        - 134
+        - 135
+    38: ### THE MOONSTONE
+      potion: "ABSORPTION"
+      level: 30
+      attackHelpEffect: self
+      requiredItems:
+        - 172
+        - 173
+        - 174
+        - 175
+        - 312
+    39:
+      potion: "ABSORPTION"
+      level: 40
+      attackHelpEffect: self
+      requiredItems:
+        - 130
+        - 172
+        - 173
+        - 174
+        - 175
+        - 312
+    40: ### TOME OF MADNESS
+      potion: "ABSORPTION"
+      level: 20
+      attackHelpEffect: self
+      requiredItems:
+        - 180
+        - 181
+        - 182
+        - 183
+        - 313
+    41:
+      potion: "ABSORPTION"
+      level: 25
+      attackHelpEffect: self
+      requiredItems:
+        - 180
+        - 181
+        - 182
+        - 183
+        - 130
+        - 313
+    42:
+      potion: "REGENERATION"
+      level: 10
+      requiredItems:
+        - 180
+        - 313
+    43:
+      potion: "HEAL"
+      level: 10
+      attackHelpEffect: self
+      requiredItems:
+        - 180
+        - 181
+        - 182
+        - 183
+        - 130
+        - 313
+###----- CORRUPTED
+    50: ### VOID CULTIST ARMOR
+      potion: "ABSORPTION"
+      level: 50
+      requiredItems:
+        - 110
+        - 111
+        - 112
+        - 113
+    51: ### ICETOMB ARMOR
+      potion: "SLOW"
+      level: 10
+      attackHelpEffect: target
+      requiredItems:
+        - 114
+        - 115
+        - 116
+        - 117
+    52: ### ICETOMB ARMOR
+      potion: "SLOW_DIGGING"
+      level: 10
+      attackHelpEffect: target
+      requiredItems:
+        - 114
+        - 115
+        - 116
+        - 117
+    53: ### INFERNAL ARMOR
+      potion: "BLINDNESS"
+      level: 1
+      attackHelpEffect: target
+      requiredItems:
+        - 330
+        - 331
+        - 332
+        - 333
+    54:
+      potion: "SLOW"
+      level: 4
+      attackHelpEffect: target
+      requiredItems:
+        - 330
+        - 331
+        - 332
+        - 333
+###---------- WORTHLESS
+    56:
+      potion: "SLOW_DIGGING"
+      level: 10
+      requiredItems:
+        - 2
+    57:
+      potion: "WEAKNESS"
+      level: 10
+      requiredItems:
+        - 3
+###---------- RARE
+    58: ## RUNIC DAGGER
+      potion: "POISON"
+      level: 3
+      attackEffect: target
+      requiredItems:
+        - 29
+    59: ## CHARM OF REJUV
+      potion: "REGENERATION"
+      level: 1
+      requiredItems:
+        - 30
+    60: ## TRACKER'S BLADE
+      potion: "FAST_DIGGING"
+      level: 1
+      requiredItems:
+        - 31
+    61: ## ANCIENT LONGSWORD
+      potion: "INCREASE_DAMAGE"
+      level: 1
+      requiredItems:
+        - 32
+    62: ## AXE OF ACUITY
+      potion: "DAMAGE_RESISTANCE"
+      level: 1
+      requiredItems:
+        - 33
+###---------- SUPERIOR
+    63: ## MECHANICAL SPADE
+      potion: "FAST_DIGGING"
+      level: 2
+      requiredItems:
+        - 50
+    64: ## FORGOTTEN CLEAVER
+      potion: "INCREASE_DAMAGE"
+      level: 2
+      requiredItems:
+        - 51
+    65: ## SPIRIT RAVAGER
+      potion: "SPEED"
+      level: 2
+      requiredItems:
+        - 52
+    66: ## GIANT'S SPEAR
+      potion: "DAMAGE_RESISTANCE"
+      level: 2
+      requiredItems:
+        - 53
+    67: ## AQUIR SHIELD
+      potion: "WATER_BREATHING"
+      level: 1
+      requiredItems:
+        - 54
+    68: ## HYACINTH SHIELD
+      potion: "REGENERATION"
+      level: 2
+      requiredItems:
+        - 55
+    69: ## SUNRISE SHIELD
+      potion: "FIRE_RESISTANCE"
+      level: 1
+      requiredItems:
+        - 56
+###---------- EXALTED
+    70: ## UNITY
+      potion: "INCREASE_DAMAGE"
+      level: 10
+      requiredItems:
+        - 69
+    71:
+      potion: "INCREASE_DAMAGE"
+      attackHelpEffect: self
+      level: 50
+      requiredItems:
+        - 69
+    72: ## GIGASPADE
+      potion: "FAST_DIGGING"
+      level: 2
+      requiredItems:
+        - 70
+    73:
+      potion: "FAST_DIGGING"
+      attackHelpEffect: self
+      level: 4
+      requiredItems:
+        - 70
+    74: ## BROKEN SCEPTRE
+      potion: "ABSORPTION"
+      level: 5
+      requiredItems:
+        - 71
+    75: ## DOOMHAMMER
+      potion: "WEAKNESS"
+      level: 1
+      attackHelpEffect: target
+      requiredItems:
+        - 72
+    76: ## CELESTIAL TRACER
+      potion: "FAST_DIGGING"
+      level: 4
+      attackHelpEffect: self
+      requiredItems:
+        - 73
+    77: ## GIANT'S GREATAXE
+      potion: "DAMAGE_RESISTANCE"
+      level: 4
+      attackHelpEffect: self
+      requiredItems:
+        - 74
+    78: ## WHIRLING SERENADE
+      potion: "SPEED"
+      level: 2
+      attackHelpEffect: self
+      requiredItems:
+        - 75
+##----- ARMOR ITEMS (EXALTED)
+    79: ## HEAVEN'S CHESTPLATE
+      potion: "DAMAGE_RESISTANCE"
+      level: 3
+      requiredItems:
+        - 76
+    80: ## AQUIR LAUREL
+      potion: "WATER_BREATHING"
+      level: 1
+      requiredItems:
+        - 77
+    81: ## LEVITATION BOOTS
+      potion: "LEVITATION"
+      level: 1
+      requiredItems:
+        - 78
+    82: ## FLAMING KILT
+      potion: "FIRE_RESISTANCE"
+      level: 1
+      requiredItems:
+        - 79
+###---------- CORRUPTED
+    83: ### CORRUPTED PICKAXE
+      potion: "WEAKNESS"
+      level: 10
+      requiredItems:
+        - 96
+    84: ### CORRUPTED SPADE
+      potion: "POISON"
+      level: 10
+      requiredItems:
+        - 97
+    85: ### CORRUPTED AXE
+      potion: "WITHER"
+      level: 10
+      requiredItems:
+        - 98
+    86: ### CORRUPTED SWORD
+      potion: "BLINDNESS"
+      level: 1
+      requiredItems:
+        - 99
+##----- CORRUPTED (CHARMS)
+    87: ### JEWEL OF FIRE
+      potion: "INCREASE_DAMAGE"
+      level: 200
+      requiredItems:
+        - 100
+    88:
+      potion: "SLOW"
+      level: 10
+      attackHelpEffect: self
+      requiredItems:
+        - 100
+    89:
+      potion: "SLOW_DIGGING"
+      level: 10
+      attackHelpEffect: self
+      requiredItems:
+        - 100
+    90: ### JEWEL OF WATER
+      potion: "REGENERATION"
+      level: 10
+      requiredItems:
+        - 101
+    91:
+      potion: "WEAKNESS"
+      level: 127
+      attackHelpEffect: self
+      requiredItems:
+        - 101
+    92: ### JEWEL OF EARTH
+      potion: "FAST_DIGGING"
+      level: 10
+      requiredItems:
+        - 102
+    93:
+      potion: "BLINDNESS"
+      level: 1
+      attackHelpEffect: self
+      requiredItems:
+        - 102
+    94: ### JEWEL OF AIR
+      potion: "SPEED"
+      level: 10
+      requiredItems:
+        - 103
+    95:
+      potion: "HARM"
+      attackHelpEffect: self
+      level: 7
+      requiredItems:
+        - 103
+###----- CORRUPTED (CLASSIC)
+    98: ### SPECTRAL HUNTER
+      potion: "SLOW"
+      level: 2
+      requiredItems:
+        - 106
+    99:
+      potion: "SLOW_DIGGING"
+      level: 2
+      requiredItems:
+        - 106
+    100: ### TWIN VIPER
+      potion: "FAST_DIGGING"
+      level: 10
+      attackHelpEffect: self
+      requiredItems:
+        - 107
+    101:
+      potion: "SLOW"
+      level: 4
+      requiredItems:
+        - 107
+    102: ### WILTED ROSE
+      potion: "ABSORPTION"
+      level: 10
+      requiredItems:
+        - 104
+    103:
+      potion: "SLOW"
+      level: 3
+      requiredItems:
+        - 104
+    104: ### SUPER BUNNY HOPPERS
+      potion: "JUMP"
+      level: 5
+      requiredItems:
+        - 108
+    105:
+      potion: "HUNGER"
+      level: 10
+      requiredItems:
+        - 108
+    106: ## LIFE'S BANE
+      potion: "INCREASE_DAMAGE"
+      level: 50
+      attackHelpEffect: self
+      requiredItems:
+        - 109
+    107:
+      potion: "SLOW_DIGGING"
+      level: 3
+      requiredItems:
+        - 109
+###---------- IRIDESCENT
+    111: ## DRAGON'S TEAR
+      potion: "ABSORPTION"
+      level: 10
+      requiredItems:
+        - 120
+    112:
+      potion: "FIRE_RESISTANCE"
+      level: 1
+      requiredItems:
+        - 120
+    113: ## IMPERIAL FEATHER
+      potion: "FAST_DIGGING"
+      level: 4
+      requiredItems:
+        - 125
+    114:
+      potion: "SPEED"
+      level: 4
+      requiredItems:
+        - 125
+    115: ### CLOCKWORK SHIELD
+      potion: "DAMAGE_RESISTANCE"
+      level: 4
+      requiredItems:
+        - 92
+        - 93
+        - 94
+        - 95
+        - 126
+    116:
+      potion: "ABSORPTION"
+      level: 15
+      requiredItems:
+        - 92
+        - 93
+        - 94
+        - 95
+        - 126
+    117: ### CHRONO AQUIRA
+      potion: "REGENERATION"
+      level: 5
+      requiredItems:
+        - 92
+        - 93
+        - 94
+        - 95
+        - 127
+    118: ### RECOLLECTION CRYSTAL
+      potion: "SPEED"
+      level: 4
+      requiredItems:
+        - 42
+        - 43
+        - 44
+        - 45
+        - 128
+    119:
+      potion: "REGENERATION"
+      level: 4
+      requiredItems:
+        - 42
+        - 43
+        - 44
+        - 45
+        - 128
+    120: ### SHADOW REAVER
+      potion: "REGENERATION"
+      level: 10
+      requiredItems:
+        - 84
+        - 85
+        - 86
+        - 87
+        - 129
+    121:
+      potion: "HEAL"
+      level: 2
+      attackHelpEffect: self
+      requiredItems:
+        - 129
+###---------- LEGENDARY
+    122: ### FISHING ROD
+      potion: "LUCK"
+      level: 1
+      requiredItems:
+        - 150
+    123: ### TITAN BLADE
+      potion: "INCREASE_DAMAGE"
+      level: 50
+      requiredItems:
+        - 151
+    124: ### THE HEADSMAN
+      potion: "FAST_DIGGING"
+      level: 10
+      attackHelpEffect: self
+      requiredItems:
+        - 131
+    125: ### CRONUS SCYTHE
+      potion: "ABSORPTION"
+      level: 5
+      requiredItems:
+        - 152
+    126: ### ASTRAL SPADE
+      potion: "FAST_DIGGING"
+      level: 4
+      requiredItems:
+        - 153
+    127: ### VIBRO-SWORD
+      potion: "LEVITATION"
+      level: 1
+      requiredItems:
+        - 154
+    128: ### REAPER SHIELD
+      potion: "DAMAGE_RESISTANCE"
+      level: 4
+      requiredItems:
+        - 155
+    129: ### SCHOLAR'S SHIELD
+      potion: "SPEED"
+      level: 3
+      requiredItems:
+        - 156
+    130:
+      potion: "FAST_DIGGING"
+      level: 3
+      requiredItems:
+        - 156
+    131: ### ELDRITCH AEGIS
+      potion: "REGENERATION"
+      level: 10
+      attackHelpEffect: self
+      requiredItems:
+        - 157
+    132: ### SHIELD OF FRENZY
+      potion: "FAST_DIGGING"
+      level: 5
+      attackHelpEffect: self
+      requiredItems:
+        - 310
+    133:
+      potion: "SPEED"
+      level: 5
+      attackHelpEffect: self
+      requiredItems:
+        - 310
+##----- CHARMS (LEGENDARY)
+    134: ### CHARM OF RAGE
+      potion: "WITHER"
+      level: 10
+      attackHelpEffect: target
+      requiredItems:
+        - 158
+    135: ### BONE OF ANCIENTS
+      potion: "REGENERATION"
+      level: 4
+      requiredItems:
+        - 159
+    136: ### CHARM OF PLENTY
+      potion: "SATURATION"
+      level: 10
+      requiredItems:
+        - 160
+    137: ### CHARM OF INFINITE VALUE
+      potion: "HEAL"
+      level: 1
+      attackHelpEffect: self
+      requiredItems:
+        - 161
+    138: ### LEAPING CHARM
+      potion: "JUMP"
+      level: 10
+      requiredItems:
+        - 38
+        - 39
+        - 40
+        - 41
+        - 163
+### UPDATE 2.2.X -----------------------------------------------
+    139: ### ASSASSIN'S ARMOR
+      potion: "INVISIBILITY"
+      attackHelpEffect: self
+      level: 1
+      requiredItems:
+        - 136
+        - 137
+        - 138
+        - 139
+    140: ### EYE OF THE VOID
+      potion: "NIGHT_VISION"
+      level: 1
+      requiredItems:
+        - 165
+    141: ### DIVINE ARMOR
+      potion: "REGENERATION"
+      level: 10
+      requiredItems:
+        - 184
+        - 185
+        - 186
+        - 187
+    142: ### EAGLE ARMOR
+      potion: "HEAL"
+      attackHelpEffect: self
+      level: 10
+      requiredItems:
+        - 188
+        - 189
+        - 190
+        - 191
+    143: ### DREAMER'S ARMOR
+      potion: "ABSORPTION"
+      attackHelpEffect: self
+      level: 25
+      requiredItems:
+        - 192
+        - 193
+        - 194
+        - 195
+    144: ### ETERNAL ESSENCE
+      potion: "ABSORPTION"
+      attackHelpEffect: self
+      level: 5
+      requiredItems:
+        - 304
+    145: ### SURVIVAL INSTINCTS
+      potion: "ABSORPTION"
+      attackHelpEffect: self
+      level: 1
+      requiredItems:
+        - 309
+    146:
+      potion: "REGENERATION"
+      level: 3
+      requiredItems:
+        - 309
+    147: ### INVINCIBILITY CHARM
+      potion: "DAMAGE_RESISTANCE"
+      level: 5
+      requiredItems:
+        - 500
+    151: ### SANDS OF CREATION
+      potion: "SLOW"
+      level: 4
+      attackHelpEffect: target
+      requiredItems:
+        - 316
+    152: ### CHARM OF PURPOSE
+      potion: "UNLUCK"
+      level: 1
+      attackHelpEffect: target
+      requiredItems:
+        - 140
+    153: ### FALLEN ASHES
+      potion: "SLOW"
+      level: 1
+      attackHelpEffect: target
+      requiredItems:
+        - 317
+    154: ### LIFEGAIN SOUP
+      potion: "REGENERATION"
+      level: 5
+      attackHelpEffect: self
+      requiredItems:
+        - 318
+### UPDATE 2.3.X -----------------------------------------------
+    155: ### TURTLE CHARM
+      potion: "DAMAGE_RESISTANCE"
+      level: 5
+      requiredItems:
+        - 319
+        - 320
+        - 321
+        - 322
+        - 323
+        - 324
+    156: ### CHARM OF PLENTY 2.0
+      potion: "SATURATION"
+      level: 10
+      requiredItems:
+        - 325
+    157: ### REAPER SHIELD
+      potion: "DAMAGE_RESISTANCE"
+      level: 4
+      requiredItems:
+        - 326
+    158: ### SCHOLAR'S SHIELD
+      potion: "SPEED"
+      level: 3
+      requiredItems:
+        - 327
+    159:
+      potion: "FAST_DIGGING"
+      level: 3
+      requiredItems:
+        - 327
+    160: ### HEADSMAN 2
+      potion: "FAST_DIGGING"
+      level: 10
+      attackHelpEffect: self
+      requiredItems:
+        - 328
+    161: ### EYE OF THE VOID 2
+      potion: "NIGHT_VISION"
+      level: 1
+      requiredItems:
+        - 329
+    162: ### JUGGERNAUT ARMOR
+      potion: "LUCK"
+      level: 1
+      attackHelpEffect: target
+      requiredItems:
+        - 334
+        - 335
+        - 336
+        - 337
+    163: ### GUARDIAN ARMOR
+      potion: "LUCK"
+      level: 4
+      requiredItems:
+        - 338
+        - 339
+        - 340
+        - 341
+    164: ### LITHAAN'S ARMOUR SET
+      potion: "REGENERATION"
+      level: 10
+      requiredItems:
+        - 342
+        - 343
+        - 344
+        - 345
+    165:
+      potion: "ABSORPTION"
+      level: 20
+      requiredItems:
+        - 342
+        - 343
+        - 344
+        - 345
+### ------------------------------------------------------------------------###
+## THIS IS WHERE THE EFFECTS END AND THE ACTUAL LOOT FILE BEGINS.
+## Loot is needed to correspond to the effects listed earlier.
+### ------------------------------------------------------------------------###
+loot:
+### WORTHLESS --------------------------------------------------
+    1:
+      item: 351
+      durability: 3
+      amount: 1
+      name: "&8Poop"
+      chancePercentage: 0
+    2:
+      item: 292
+      amount: 1
+      name: "&8Old Hoe"
+      chancePercentage: 0
+    3:
+      item: 267
+      amount: 1
+      name: "&8Blunt Sword"
+      chancePercentage: 0
+###---------------------------------------------------------###
+## Uranium (because buffs)
+###---------------------------------------------------------###
+    11:
+      item: 351
+      durability: 10
+      amount: 1
+      name: "&d&oRefined Uranium"
+      chancePercentage: 0
+    12:
+      item: 351
+      durability: 8
+      amount: 1
+      name: "&d&oUranium Ore"
+      chancePercentage: 0
+### UNCOMMON ---------------------------------------------------
+    13: ### HARD LEATHER SET
+      item: 298
+      amount: 1
+      name: "&2Hard Leather Cap"
+      chancePercentage: 0
+    14:
+      item: 299
+      amount: 1
+      name: "&2Hard Leather Tunic"
+      chancePercentage: 0
+    15:
+      item: 300
+      amount: 1
+      name: "&2Hard Leather Pants"
+      chancePercentage: 0
+    16:
+      item: 301
+      amount: 1
+      name: "&2Hard Leather Boots"
+      chancePercentage: 0
+    17: ### PLEATED SET
+      item: 302
+      amount: 1
+      name: "&2Pleated Helm"
+      chancePercentage: 0
+    18:
+      item: 303
+      amount: 1
+      name: "&2Pleated Chestplate"
+      chancePercentage: 0
+    19:
+      item: 304
+      amount: 1
+      name: "&2Pleated Greaves"
+      chancePercentage: 0
+    20:
+      item: 305
+      amount: 1
+      name: "&2Pleated Boots"
+      chancePercentage: 0
+    21: ### RUSHWALKER SET
+      item: 298
+      amount: 1
+      name: "&2Rushwalker Helm"
+      chancePercentage: 0
+    22:
+      item: 299
+      amount: 1
+      name: "&2Rushwalker Cuirass"
+      chancePercentage: 0
+    23:
+      item: 300
+      amount: 1
+      name: "&2Rushwalker Greaves"
+      chancePercentage: 0
+    24:
+      item: 301
+      amount: 1
+      name: "&2Rushwalker Boots"
+      chancePercentage: 0
+    25: ### MONK SET
+      item: 298
+      amount: 1
+      name: "&2Monk's Hood"
+      chancePercentage: 0
+    26:
+      item: 303
+      amount: 1
+      name: "&2Monk's Tunic"
+      chancePercentage: 0
+    27:
+      item: 300
+      amount: 1
+      name: "&2Monk's Robes"
+      chancePercentage: 0
+    28:
+      item: 301
+      amount: 1
+      name: "&2Monk's Galoshes"
+      chancePercentage: 0
+### RARE ITEMS -------------------------------------------------
+    29:
+      item: 272
+      amount: 1
+      name: "&3Runic Dagger"
+      chancePercentage: 0
+    30:
+      item: 409
+      amount: 1
+      name: "&3Charm of Rejuvenation"
+      chancePercentage: 0
+    31:
+      item: 359
+      amount: 1
+      name: "&3Tracker's Blade"
+      chancePercentage: 0
+    32:
+      item: 267
+      amount: 1
+      name: "&3Ancient Longsword"
+      chancePercentage: 0
+    33:
+      item: 258
+      amount: 1
+      name: "&3Axe of Acuity"
+      chancePercentage: 0
+    34: ### MITHRIL SET
+      item: 306
+      amount: 1
+      durability: 0
+      name: "&3Mithril Helmet"
+      chancePercentage: 0
+    35:
+      item: 307
+      amount: 1
+      durability: 0
+      name: "&3Mithril Breastplate"
+      chancePercentage: 0
+    36:
+      item: 308
+      amount: 1
+      durability: 0
+      name: "&3Mithril Greaves"
+      chancePercentage: 0
+    37:
+      item: 309
+      amount: 1
+      durability: 0
+      name: "&3Mithril Boots"
+      chancePercentage: 0
+    38: ### BUNNY ARMOR SET
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&3Bunny Helmet"
+      chancePercentage: 0
+    39:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&3Bunny Tunic"
+      chancePercentage: 0
+    40:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&3Bunny Chaps"
+      chancePercentage: 0
+    41:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&3Bunny Hoppers"
+      chancePercentage: 0
+    42: ### AQUIR ARMOR SET
+      item: 310
+      amount: 1
+      durability: 0
+      name: "&3Aquir War Helm"
+      chancePercentage: 0
+    43:
+      item: 311
+      amount: 1
+      durability: 0
+      name: "&3Aquir Scalemail"
+      chancePercentage: 0
+    44:
+      item: 312
+      amount: 1
+      durability: 0
+      name: "&3Aquir Greaves"
+      chancePercentage: 0
+    45:
+      item: 313
+      amount: 1
+      durability: 0
+      name: "&3Aquir Boots"
+      chancePercentage: 0
+    46: ### RUNE PRIEST SET
+      item: 302
+      amount: 1
+      durability: 0
+      name: "&3Rune Priest Veil"
+      chancePercentage: 0
+    47:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&3Rune Priest Robes"
+      chancePercentage: 0
+    48:
+      item: 304
+      amount: 1
+      durability: 0
+      name: "&3Rune Priest Dress"
+      chancePercentage: 0
+    49:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&3Rune Priest Sandals"
+      chancePercentage: 0
+### SUPERIOR ITEMS ---------------------------------------------
+    50:
+      item: 284
+      amount: 1
+      durability: 0
+      name: "&9Mechanical Spade"
+      chancePercentage: 0
+    51:
+      item: 279
+      amount: 1
+      durability: 0
+      name: "&9Forgotten Cleaver"
+      chancePercentage: 0
+    52:
+      item: 276
+      amount: 1
+      durability: 0
+      name: "&9Spirit Ravager"
+      chancePercentage: 0
+    53:
+      item: 277
+      amount: 1
+      durability: 0
+      name: "&9Giant's Spear"
+      chancePercentage: 0
+    54:
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&9Aquir Aegis"
+      colour: LIGHT_BLUE
+      patterns:
+      - ==: Pattern
+        color: CYAN
+        pattern: vh
+      - ==: Pattern
+        color: GRAY
+        pattern: cs
+      - ==: Pattern
+        color: GRAY
+        pattern: ms
+      - ==: Pattern
+        color: WHITE
+        pattern: sc
+      - ==: Pattern
+        color: ORANGE
+        pattern: mc
+      - ==: Pattern
+        color: BLUE
+        pattern: gru
+      chancePercentage: 0
+    55:
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&9Hyacinth Shield"
+      colour: SILVER
+      patterns:
+      - ==: Pattern
+        color: WHITE
+        pattern: tt
+      - ==: Pattern
+        color: WHITE
+        pattern: bt
+      - ==: Pattern
+        color: GRAY
+        pattern: cbo
+      - ==: Pattern
+        color: PURPLE
+        pattern: mr
+      chancePercentage: 0
+    56:
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&9Sunrise Shield"
+      colour: PINK
+      patterns:
+      - ==: Pattern
+        color: YELLOW
+        pattern: flo
+      - ==: Pattern
+        color: ORANGE
+        pattern: mc
+      - ==: Pattern
+        color: WHITE
+        pattern: bt
+      - ==: Pattern
+        color: BROWN
+        pattern: bts
+      chancePercentage: 50
+    57: ### FALCON ARMOR
+      item: 306
+      amount: 1
+      durability: 0
+      name: "&9Falcon Half Helm"
+      chancePercentage: 0
+    58:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&9Falcon Cuirass"
+      chancePercentage: 0
+    59:
+      item: 308
+      amount: 1
+      durability: 0
+      name: "&9Falcon Greaves"
+      chancePercentage: 0
+    60:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&9Falcon Calceus"
+      chancePercentage: 0
+    61: ### FIRESONG ARMOR
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&9Firesong Helmet"
+      chancePercentage: 0
+    62:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&9Firesong Chestplate"
+      chancePercentage: 0
+    63:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&9Firesong Greaves"
+      chancePercentage: 0
+    64:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&9Firesong Boots"
+      chancePercentage: 0
+    65: ### BYZANTITE ARMOR
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&9Byzantite Helmet"
+      chancePercentage: 0
+    66:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&9Byzantite Chestplate"
+      chancePercentage: 0
+    67:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&9Byzantite Greaves"
+      chancePercentage: 0
+    68:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&9Byzantite Boots"
+      chancePercentage: 0
+### EXALTED ITEMS ----------------------------------------------
+    69:
+      item: 276
+      amount: 1
+      durability: 0
+      name: "&d&oUnity"
+      chancePercentage: 0
+    70:
+      item: 277
+      amount: 1
+      durability: 0
+      name: "&d&oGigaspade"
+      chancePercentage: 0
+    71:
+      item: 293
+      amount: 1
+      name: "&d&oBroken Sceptre"
+      chancePercentage: 0
+    72:
+      item: 279
+      amount: 1
+      name: "&d&oDoomhammer"
+      chancePercentage: 0
+    73:
+      item: 283
+      amount: 1
+      name: "&d&oCelestial Tracer"
+      chancePercentage: 0
+    74:
+      item: 279
+      amount: 1
+      name: "&d&oGiant's Greataxe"
+      chancePercentage: 0
+    75:
+      item: 292
+      amount: 1
+      name: "&d&oWhirling Serenade"
+      chancePercentage: 0
+### RANDOM ARMOR BITS
+    76:
+      item: 311
+      amount: 1
+      name: "&d&oHoly Chestplate"
+      chancePercentage: 0
+    77:
+      item: 310
+      amount: 1
+      name: "&d&oAquir Laurel"
+      chancePercentage: 0
+    78:
+      item: 309
+      amount: 1
+      name: "&d&oLevitation Boots"
+      chancePercentage: 0
+    79:
+      item: 312
+      amount: 1
+      name: "&d&oFlaming Kilt"
+      chancePercentage: 0
+    80: ### CELESTIAL ARMOR
+      item: 302
+      amount: 1
+      name: "&d&oCelestial Veil"
+      chancePercentage: 0
+    81:
+      item: 303
+      amount: 1
+      name: "&d&oCelestial Chainbody"
+      chancePercentage: 0
+    82:
+      item: 304
+      amount: 1
+      name: "&d&oCelestial Leggings"
+      chancePercentage: 0
+    83:
+      item: 305
+      amount: 1
+      name: "&d&oCelestial Calceus"
+      chancePercentage: 0
+    84: ### EXALTED ARMOR
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&d&oShadewalker Cap"
+      chancePercentage: 0
+    85:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&d&oShadewalker Tunic"
+      chancePercentage: 0
+    86:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&d&oShadewalker Leggings"
+      chancePercentage: 0
+    87:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&d&oShadewalker Boots"
+      chancePercentage: 0
+    88: ### ARCHMAGE ARMOR
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&d&oArchmage Cowl"
+      chancePercentage: 0
+    89:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&d&oArchmage Cloak"
+      chancePercentage: 0
+    90:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&d&oArchmage Shroud"
+      chancePercentage: 0
+    91:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&d&oArchmage Sandals"
+      chancePercentage: 0
+    92: ### CLOCKWORK ARMOR
+      item: 314
+      amount: 1
+      durability: 0
+      name: "&d&oClockwork Mask"
+      chancePercentage: 0
+    93:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&d&oClockwork Boiler"
+      chancePercentage: 0
+    94:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&d&oClockwork Belt"
+      chancePercentage: 0
+    95:
+      item: 317
+      amount: 1
+      durability: 0
+      name: "&d&oClockwork Boots"
+      chancePercentage: 0
+### CORRUPTED ITEMS --------------------------------------------
+    96:
+      item: 278
+      amount: 1
+      durability: 0
+      name: "&4&oRadiant Silhouette"
+      chancePercentage: 0
+    97:
+      item: 277
+      amount: 1
+      durability: 0
+      name: "&4&oUmbral Brilliance"
+      chancePercentage: 0
+    98:
+      item: 279
+      amount: 1
+      durability: 0
+      name: "&4&oTwilight Flare"
+      chancePercentage: 0
+    99:
+      item: 276
+      amount: 1
+      durability: 0
+      name: "&4&oLucent Shadow"
+      chancePercentage: 0
+### CORRUPTED CHARMS
+    100:
+      item: 351
+      amount: 1
+      durability: 1
+      name: "&4&oJewel of Fire"
+      chancePercentage: 0
+    101:
+      item: 351
+      amount: 1
+      durability: 6
+      name: "&4&oJewel of Water"
+      chancePercentage: 0
+    102:
+      item: 351
+      amount: 1
+      durability: 2
+      name: "&4&oJewel of Earth"
+      chancePercentage: 0
+    103:
+      item: 406
+      amount: 1
+      durability: 0
+      name: "&4&oJewel of Air"
+      chancePercentage: 0
+    104:
+      item: 38
+      amount: 1
+      name: "&4&oWilte&c&od Rose"
+      chancePercentage: 0
+### CORRUPTED WEAPONS/ARMOR
+    105:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&4&oFeatherb&c&oorne Boots"
+      chancePercentage: 0
+    106:
+      item: 261
+      amount: 1
+      durability: 0
+      name: "&4&oThe Spect&c&oral Hunter"
+      chancePercentage: 0
+    107:
+      item: 283
+      amount: 1
+      durability: 0
+      name: "&4&oThe Tw&c&oin Viper"
+      chancePercentage: 0
+    108:
+      item: 313
+      amount: 1
+      name: "&4&oSuper Bun&c&ony Hoppers"
+      chancePercentage: 0
+    109:
+      item: 279
+      amount: 1
+      durability: 0
+      name: "&4&oLife's &c&oBane"
+      chancePercentage: 0
+    110: ### VOID CULTIST ARMOR SET
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&4&oVoid Cul&c&otist Hood"
+      chancePercentage: 0
+    111:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&4&oVoid Cul&c&otist Cloak"
+      chancePercentage: 0
+    112:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&4&oVoid Cul&c&otist Robes"
+      chancePercentage: 0
+    113:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&4&oVoid Cul&c&otist Boots"
+      chancePercentage: 0
+    114: ### ICETOMB ARMOR SET
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&4&oIc&c&oetomb Cro&4&own"
+      chancePercentage: 0
+    115:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&4&oIc&c&oetomb Cuira&4&oss"
+      chancePercentage: 0
+    116:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&4&oIc&c&oetomb Greav&4&oes"
+      chancePercentage: 0
+    117:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&4&oIc&c&oetomb Sabato&4&ons"
+      chancePercentage: 0
+### IRIDESCENT ITEMS -------------------------------------------
+    120:
+      item: 370
+      amount: 1
+      name: "&b&oDragon's Tear"
+      chancePercentage: 0
+    121:
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&b&oSingularity Crown"
+      chancePercentage: 0
+    122:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&b&oSingularity Carapace"
+      chancePercentage: 0
+    123:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&b&oSingularity Greaves"
+      chancePercentage: 0
+    124:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&b&oSingularity Boots"
+      chancePercentage: 0
+    125:
+      item: 288
+      amount: 1
+      name: "&b&oImperial Feather"
+      chancePercentage: 0
+    126:
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&b&oClockwork Shield"
+      colour: YELLOW
+      patterns:
+      - ==: Pattern
+        color: BROWN
+        pattern: tts
+      - ==: Pattern
+        color: BROWN
+        pattern: bts
+      - ==: Pattern
+        color: WHITE
+        pattern: mc
+      - ==: Pattern
+        color: BROWN
+        pattern: flo
+      chancePercentage: 0
+    127:
+      item: 347
+      amount: 1
+      durability: 0
+      name: "&b&oChrono Aquira"
+      chancePercentage: 0
+    128:
+      item: 410
+      amount: 1
+      durability: 0
+      name: "&b&oRecollection Crystal"
+      chancePercentage: 0
+    129:
+      item: 291
+      amount: 1
+      durability: 0
+      name: "&b&oShadow Reaver"
+      chancePercentage: 0
+    130:
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&b&oThe Event Horizon"
+      colour: BLACK
+      patterns:
+      - ==: Pattern
+        color: YELLOW
+        pattern: drs
+      - ==: Pattern
+        color: ORANGE
+        pattern: mr
+      - ==: Pattern
+        color: RED
+        pattern: flo
+      - ==: Pattern
+        color: BLACK
+        pattern: mc
+      chancePercentage: 0
+    131:
+      item: 292
+      amount: 1
+      durability: 0
+      name: "&6&oThe Headsman"
+      chancePercentage: 0
+    132:
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&b&oLithaan's Presence"
+      chancePercentage: 0
+    133:
+      item: 311
+      amount: 1
+      durability: 0
+      name: "&b&oLithaan's Dream"
+      chancePercentage: 0
+    134:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&b&oLithaan's Solitude"
+      chancePercentage: 0
+    135:
+      item: 313
+      amount: 1
+      durability: 0
+      name: "&b&oLithaan's Despair"
+      chancePercentage: 0
+    136: ### Assassin's Set
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&b&oAssassin's Hood"
+      chancePercentage: 0
+    137:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&b&oAssassin's Tunic"
+      chancePercentage: 0
+    138:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&b&oAssassin's Cloak"
+      chancePercentage: 0
+    139: ### End of Assassin Set
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&b&oAssassin's Boots"
+      chancePercentage: 0
+    140:
+      item: 351
+      amount: 1
+      durability: 14
+      name: "&b&oCharm of Purpose"
+      chancePercentage: 0
+### LEGACY LEGENDARY ITEMS -------------------------------------
+    150:
+      item: 346
+      amount: 1
+      durability: 0
+      name: "&3Legendary Fishing Rod"
+      chancePercentage: 0
+    151:
+      item: 276
+      amount: 1
+      durability: 0
+      name: "&6&oTitan Blade"
+      chancePercentage: 0
+    152:
+      item: 294
+      amount: 1
+      durability: 0
+      name: "&6&oScythe of the Sands"
+      chancePercentage: 0
+    153: ### Now Mythic.
+      item: 277
+      amount: 1
+      durability: 0
+      name: "&5&oAstral Spade"
+      chancePercentage: 0
+    154:
+      item: 267
+      amount: 1
+      durability: 0
+      name: "&6&oVibro-Sword"
+      chancePercentage: 0
+    155:
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&6&oReaper Shield"
+      colour: BLACK
+      patterns:
+      - ==: Pattern
+        color: GRAY
+        pattern: tts
+      - ==: Pattern
+        color: GRAY
+        pattern: bts
+      - ==: Pattern
+        color: RED
+        pattern: cr
+      - ==: Pattern
+        color: SILVER
+        pattern: sku
+      chancePercentage: 3
+    156:
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&6&oScholar's Shield"
+      colour: WHITE
+      patterns:
+      - ==: Pattern
+        color: SILVER
+        pattern: tts
+      - ==: Pattern
+        color: GRAY
+        pattern: mc
+      - ==: Pattern
+        color: GRAY
+        pattern: bt
+      - ==: Pattern
+        color: GREEN
+        pattern: bl
+      - ==: Pattern
+        color: GREEN
+        pattern: br
+      chancePercentage: 5
+    157:
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&6&oEldritch Aegis"
+      colour: GREEN
+      patterns:
+      - ==: Pattern
+        color: LIME
+        pattern: gru
+      - ==: Pattern
+        color: GRAY
+        pattern: sc
+      - ==: Pattern
+        color: GRAY
+        pattern: mr
+      - ==: Pattern
+        color: LIME
+        pattern: mc
+      - ==: Pattern
+        color: GRAY
+        pattern: flo
+      chancePercentage: 0
+##
+## CHARMS AND STUFF
+##
+    158:
+      item: 377
+      amount: 1
+      durability: 0
+      name: "&6&oCharm of Rage"
+      chancePercentage: 0
+    159:
+      item: 352
+      amount: 1
+      name: "&6&oBone of the Ancients"
+      chancePercentage: 0
+    160:
+      item: 382
+      amount: 1
+      name: "&6&oCharm of Plenty"
+      chancePercentage: 0
+    161:
+      item: 378
+      amount: 1
+      name: "&3Charm of Infinite Value"
+      chancePercentage: 0
+    162:
+      item: 376
+      amount: 1
+      name: "&6&oDragon's Heart"
+      chancePercentage: 0
+    163:
+      item: 414
+      amount: 1
+      name: "&b&oCharm of Leaping"
+      chancePercentage: 0
+    164:
+      item: 402
+      amount: 1
+      name: "&6&oCharm of Shadows"
+      chancePercentage: 0
+    165:
+      item: 375
+      amount: 1
+      name: "&6&oEye of the Void"
+      chancePercentage: 0
+##
+## TITAN ARMOUR SET
+## MADE OF ASTRALITE
+##
+    168:
+      item: 314
+      amount: 1
+      name: "&6&oTitan Wreath"
+      chancePercentage: 0
+    169:
+      item: 315
+      amount: 1
+      name: "&6&oTitan Fleece"
+      chancePercentage: 0
+    170:
+      item: 316
+      amount: 1
+      name: "&6&oTitan Leggings"
+      chancePercentage: 0
+    171:
+      item: 317
+      amount: 1
+      name: "&6&oTitan Calceus"
+      chancePercentage: 0
+##
+## REDEEMER'S ARMOR SET
+## MADE OF ANCIENT SOULS
+##
+    172:
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&6&oRedeemer's Cowl"
+      chancePercentage: 0
+    173:
+      item: 303
+      amount: 1
+      durability: 0
+      name: "&6&oRedeemer's Chainbody"
+      chancePercentage: 0
+    174:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&6&oRedeemer's Robe"
+      chancePercentage: 0
+    175:
+      item: 305
+      amount: 1
+      durability: 0
+      name: "&6&oRedeemer's Sandals"
+      chancePercentage: 0
+###
+### DRAGONSCALE ARMOR
+###
+    176:
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&6&oDragonscale Helm"
+      chancePercentage: 0
+    177:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&6&oDragonscale Plate Mail"
+      chancePercentage: 0
+    178:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&6&oDragonscale Greaves"
+      chancePercentage: 0
+    179:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&6&oDragonscale Boots"
+      chancePercentage: 0
+    180: ### VOID ARMOR SET
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&6&oSorrow of the Void"
+      chancePercentage: 0
+    181:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&6&oHatred of the Void"
+      chancePercentage: 0
+    182:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&6&oCunning of the Void"
+      chancePercentage: 0
+    183:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&6&oWrath of the Void"
+      chancePercentage: 0
+### ASCENDED ITEMS ---------------------------------------------
+    184: ### DIVINE ARMOR
+      item: 302
+      amount: 1
+      durability: 0
+      name: "&6&oDiv&e&oine Basci&6&onet"
+      chancePercentage: 0
+    185:
+      item: 307
+      amount: 1
+      durability: 0
+      name: "&6&oDiv&e&oine Cuir&6&oass"
+      chancePercentage: 0
+    186:
+      item: 304
+      amount: 1
+      durability: 0
+      name: "&6&oDiv&e&oine Platel&6&oegs"
+      chancePercentage: 0
+    187:
+      item: 309
+      amount: 1
+      durability: 0
+      name: "&6&oDiv&e&oine Sabat&6&oons"
+      chancePercentage: 0
+    188: ### EAGLE ARMOR SET
+      item: 314
+      amount: 1
+      durability: 0
+      name: "&6&oEag&e&ole's G&6&oaze"
+      chancePercentage: 0
+    189:
+      item: 303
+      amount: 1
+      durability: 0
+      name: "&6&oEag&e&ole's Hun&6&oger"
+      chancePercentage: 0
+    190:
+      item: 316
+      amount: 1
+      durability: 0
+      name: "&6&oEag&e&ole's Gr&6&oasp"
+      chancePercentage: 0
+    191:
+      item: 305
+      amount: 1
+      durability: 0
+      name: "&6&oEag&e&ole's Banq&6&ouet"
+      chancePercentage: 0
+    192: ### DREAMER'S ARMOR SET
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&6&oDre&e&oamer's M&6&oask"
+      chancePercentage: 0
+    193:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&6&oDre&e&oamer's Man&6&otle"
+      chancePercentage: 0
+    194:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&6&oDre&e&oamer's Ro&6&obes"
+      chancePercentage: 0
+    195:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&6&oDre&e&oamer's Tre&6&oads"
+      chancePercentage: 0
+### UPDATE 2.0.0 (THE ETERNAL PATH) ----------------------------
+    300: ### BERSERKER ARMOR SET
+      item: 302
+      amount: 1
+      durability: 0
+      name: "&3Berserker's Helm"
+      chancePercentage: 0
+    301:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&3Berserker's Cuirass"
+      chancePercentage: 0
+    302:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&3Berserker's Greaves"
+      chancePercentage: 0
+    303:
+      item: 305
+      amount: 1
+      durability: 0
+      name: "&3Berserker's Boots"
+      chancePercentage: 0
+    304: ### ETERNAL ESSENCE
+      item: 353
+      amount: 1
+      durability: 0
+      name: "&6&oEternal Essence"
+      chancePercentage: 0
+    305: ### RAIDER'S ARMOR
+      item: 306
+      amount: 1
+      durability: 0
+      name: "&9Raider's Bascinet"
+      chancePercentage: 0
+    306:
+      item: 303
+      amount: 1
+      durability: 0
+      name: "&9Raider's Chainbody"
+      chancePercentage: 0
+    307:
+      item: 304
+      amount: 1
+      durability: 0
+      name: "&9Raider's Chainlegs"
+      chancePercentage: 0
+    308:
+      item: 309
+      amount: 1
+      durability: 0
+      name: "&9Raider's Sabatons"
+      chancePercentage: 0
+    309: ### LITERALLY ESSENTIAL
+      item: 449
+      amount: 1
+      durability: 0
+      name: "&d&oSurvival Instincts"
+      chancePercentage: 0
+    310: ### SHIELD OF FRENZY
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&6&oShield of Frenzy"
+      colour: RED
+      patterns:
+      - ==: Pattern
+        color: BLACK
+        pattern: gra
+      - ==: Pattern
+        color: YELLOW
+        pattern: flo
+      - ==: Pattern
+        color: BLACK
+        pattern: mr
+      - ==: Pattern
+        color: YELLOW
+        pattern: tts
+      - ==: Pattern
+        color: YELLOW
+        pattern: bts
+      chancePercentage: 3
+    311: ### RAMPAGE
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&6&oRampage"
+      colour: GRAY
+      patterns:
+      - ==: Pattern
+        color: SILVER
+        pattern: ss
+      - ==: Pattern
+        color: GRAY
+        pattern: mr
+      - ==: Pattern
+        color: RED
+        pattern: flo
+      chancePercentage: 3
+    312:
+      item: 337
+      amount: 1
+      durability: 0
+      name: "&b&oThe Moonstone"
+      chancePercentage: 0
+    313:
+      item: 340
+      amount: 1
+      durability: 0
+      name: "&b&oTome of Madness"
+      chancePercentage: 0
+    314:
+      item: 302
+      amount: 1
+      durability: 0
+      name: "&b&oSingularity Veil"
+      chancePercentage: 0
+    315:
+      item: 310
+      amount: 1
+      durability: 0
+      name: "&b&oSingularity Bascinet"
+      chancePercentage: 0
+### UPDATE 2.2.0 (The Shattered Dream) -------------------------
+    316:
+      item: 348
+      amount: 1
+      durability: 0
+      name: "&6&oSands of Creation"
+      chancePercentage: 0
+    317:
+      item: 289
+      amount: 1
+      durability: 0
+      name: "&5&oFallen Ashes"
+      chancePercentage: 0
+    318:
+      item: 436
+      amount: 1
+      durability: 0
+      name: "&5&oLifegain Soup"
+      chancePercentage: 0
+### UPDATE 2.3.0 (Maugri's Atlas) ------------------------------
+    319: ### TURTLE SHIELD
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&b&oTurtle Shield"
+      colour: LIGHT_BLUE
+      patterns:
+      - ==: Pattern
+        color: BLUE
+        pattern: gru
+      - ==: Pattern
+        color: WHITE
+        pattern: tts
+      - ==: Pattern
+        color: WHITE
+        pattern: bts
+      - ==: Pattern
+        color: GREEN
+        pattern: flo
+      - ==: Pattern
+        color: BROWN
+        pattern: mc
+      chancePercentage: 0
+    320:
+      item: 378
+      amount: 1
+      durability: 0
+      name: "&b&oTurtle Charm 1"
+      chancePercentage: 0
+    321:
+      item: 378
+      amount: 1
+      durability: 0
+      name: "&b&oTurtle Charm 2"
+      chancePercentage: 0
+    322:
+      item: 378
+      amount: 1
+      durability: 0
+      name: "&b&oTurtle Charm 3"
+      chancePercentage: 0
+    323:
+      item: 378
+      amount: 1
+      durability: 0
+      name: "&b&oTurtle Charm 4"
+      chancePercentage: 0
+    324:
+      item: 378
+      amount: 1
+      durability: 0
+      name: "&b&oTurtle Charm 5"
+      chancePercentage: 0
+### UPDATE 2.3.2 (LEGENDARY REWORKS) ---------------------------
+    325:
+      item: 382
+      amount: 1
+      name: "&3Charm of Plenty"
+      chancePercentage: 0
+    326:
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&5&oReaper Shield"
+      colour: BLACK
+      patterns:
+      - ==: Pattern
+        color: GRAY
+        pattern: tts
+      - ==: Pattern
+        color: GRAY
+        pattern: bts
+      - ==: Pattern
+        color: RED
+        pattern: cr
+      - ==: Pattern
+        color: SILVER
+        pattern: sku
+      chancePercentage: 3
+    327:
+      item: 442
+      amount: 1
+      durability: 0
+      name: "&5&oScholar's Shield"
+      colour: WHITE
+      patterns:
+      - ==: Pattern
+        color: SILVER
+        pattern: tts
+      - ==: Pattern
+        color: GRAY
+        pattern: mc
+      - ==: Pattern
+        color: GRAY
+        pattern: bt
+      - ==: Pattern
+        color: GREEN
+        pattern: bl
+      - ==: Pattern
+        color: GREEN
+        pattern: br
+      chancePercentage: 5
+    328:
+      item: 292
+      amount: 1
+      durability: 0
+      name: "&b&oThe Headsman"
+      chancePercentage: 0
+    329:
+      item: 375
+      amount: 1
+      name: "&b&oEye of the Void"
+      chancePercentage: 0
+### UPDATE 2.3.4 (NEW STUFF) -----------------------------------
+    330: ### INFERNAL ARMOR SET
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&4&oIn&c&ofernal Ho&4&ood"
+      chancePercentage: 0
+    331:
+      item: 299
+      amount: 1
+      durability: 0
+      name: "&4&oIn&c&ofernal Mant&4&ole"
+      chancePercentage: 0
+    332:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&4&oIn&c&ofernal Co&4&ore"
+      chancePercentage: 0
+    333:
+      item: 301
+      amount: 1
+      durability: 0
+      name: "&4&oIn&c&ofernal Fl&4&oow"
+      chancePercentage: 0
+    334: ### JUGGERNAUT ARMOR SET
+      item: 306
+      amount: 1
+      durability: 0
+      name: "&b&oJuggernaut's Greathelm"
+      chancePercentage: 0
+    335:
+      item: 307
+      amount: 1
+      durability: 0
+      name: "&b&oJuggernaut's Cuirass"
+      chancePercentage: 0
+    336:
+      item: 308
+      amount: 1
+      durability: 0
+      name: "&b&oJuggernaut's Platelegs"
+      chancePercentage: 0
+    337:
+      item: 309
+      amount: 1
+      durability: 0
+      name: "&b&oJuggernaut's Sabatons"
+      chancePercentage: 0
+### UPDATE 2.3.5 -----------------------------------------------
+    338: ### GUARDIAN ARMOR SET
+      item: 310
+      amount: 1
+      durability: 0
+      name: "&b&oGuardian's Crest"
+      chancePercentage: 0
+    339:
+      item: 311
+      amount: 1
+      durability: 0
+      name: "&b&oGuardian's Platemail"
+      chancePercentage: 0
+    340:
+      item: 312
+      amount: 1
+      durability: 0
+      name: "&b&oGuardian's Robes"
+      chancePercentage: 0
+    341:
+      item: 313
+      amount: 1
+      durability: 0
+      name: "&b&oGuardian's Sandals"
+      chancePercentage: 0
+    342: ### Lithaan's Rework
+      item: 298
+      amount: 1
+      durability: 0
+      name: "&5&oLithaan's Presence"
+      chancePercentage: 0
+    343:
+      item: 311
+      amount: 1
+      durability: 0
+      name: "&5&oLithaan's Dream"
+      chancePercentage: 0
+    344:
+      item: 300
+      amount: 1
+      durability: 0
+      name: "&5&oLithaan's Solitude"
+      chancePercentage: 0
+    345:
+      item: 313
+      amount: 1
+      durability: 0
+      name: "&5&oLithaan's Despair"
+      chancePercentage: 0
+### DEVELOPER-ONLY ---------------------------------------------
+    500:
+      item: 337
+      amount: 1
+      durability: 0
+      name: "&a&oCharm of Invulnerability"
+      lore1: "&0 "
+      lore2: "&7Tier: &a&oDev Only"
+      lore3: "&0 "
+      lore4: "&7Effect: &9Resist. V"
+      lore5: "&0 "
+      lore6: "&7“&aFor testing purposes only.&7”"
+      chancePercentage: 0
+      enchantments: 
+        1:
+          enchantment: ARROW_INFINITE
+          level: 10
+    501:
+      item: 267
+      amount: 1
+      name: "&fExample Item"
+      lore1: "&0 "
+      lore2: "&7Rarity: &fCommon"
+      lore3: "&0 "
+      lore4: "&a+80% damage reduction"
+      lore5: "&c-20% movement speed"
+      lore6: "&0 "
+      lore7: "&7“&fA testing item for use"
+      lore8: "&f in the future!&7”"
+      chancePercentage: 0
+      enchantments: 
+        1:
+          enchantment: ARROW_DAMAGE
+          level: 10
+    502:
+      item: 425
+      amount: 1
+      durability: 4
+      name: "&f&oThe Union Jack"
+      lore1: "&0 "
+      lore2: "&7Tier: &f&oEnglish"
+      lore3: "&0 "
+      lore4: "&f★ &7&oIf you are wearing a"
+      lore5: "&7&o  red coat, destroy an"
+      lore6: "&7&o  American."
+      lore7: "&0 "
+      lore8: "&7“&fFuckin' 'ell mate.&7”"
+      colour: BLUE
+      patterns:
+      - ==: Pattern
+        color: WHITE
+        pattern: drs
+      - ==: Pattern
+        color: WHITE
+        pattern: dls
+      - ==: Pattern
+        color: RED
+        pattern: cr
+      - ==: Pattern
+        color: WHITE
+        pattern: cs
+      - ==: Pattern
+        color: WHITE
+        pattern: ms
+      - ==: Pattern
+        color: RED
+        pattern: sc
+      chancePercentage: 0

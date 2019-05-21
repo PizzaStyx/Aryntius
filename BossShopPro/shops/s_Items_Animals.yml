@@ -1,0 +1,354 @@
+ShopName: MobDrops2
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Animal &aDrops &7]'
+shop:
+  Feather:
+    MenuItem:
+    - name:&fFeather
+    - lore:&7Price:&6 10Σ
+    - id:288
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Feather for&6 10 &7Sigmas.'
+    Price: 10.0
+    PriceType: money
+    Reward:
+    - - id:288
+      - amount:1
+    RewardType: item
+  Feather2:
+    MenuItem:
+    - name:&fFeather
+    - lore:&7Price:&6 160Σ
+    - id:288
+    - amount:16
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 16 Feather for&6 160 &7Sigmas.'
+    Price: 160.0
+    PriceType: money
+    Reward:
+    - - id:288
+      - amount:16
+    RewardType: item
+  Feather3:
+    MenuItem:
+    - name:&fFeather
+    - lore:&7Price:&6 320Σ
+    - id:288
+    - amount:32
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 32 Feather for&6 320 &7Sigmas.'
+    Price: 320.0
+    PriceType: money
+    Reward:
+    - - id:288
+      - amount:32
+    RewardType: item
+  Feather4:
+    MenuItem:
+    - name:&fFeather
+    - lore:&7Price:&6 640Σ
+    - id:288
+    - amount:64
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 64 Feather for&6 640 &7Sigmas.'
+    Price: 640.0
+    PriceType: money
+    Reward:
+    - - id:288
+      - amount:64
+    RewardType: item
+  Egg:
+    MenuItem:
+    - name:&eEgg
+    - lore:&7Price:&6 30Σ
+    - id:344
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Egg for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:344
+      - amount:1
+    RewardType: item
+  Egg2:
+    MenuItem:
+    - name:&eEgg
+    - lore:&7Price:&6 120Σ
+    - id:344
+    - amount:4
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 4 Egg for&6 120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:344
+      - amount:4
+    RewardType: item
+  Egg3:
+    MenuItem:
+    - name:&eEgg
+    - lore:&7Price:&6 240Σ
+    - id:344
+    - amount:8
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 8 Egg for&6 240 &7Sigmas.'
+    Price: 240.0
+    PriceType: money
+    Reward:
+    - - id:344
+      - amount:8
+    RewardType: item
+  Egg4:
+    MenuItem:
+    - name:&eEgg
+    - lore:&7Price:&6 480Σ
+    - id:344
+    - amount:16
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 16 Egg for&6 480 &7Sigmas.'
+    Price: 480.0
+    PriceType: money
+    Reward:
+    - - id:344
+      - amount:16
+    RewardType: item
+  Leather:
+    MenuItem:
+    - name:&cLeather
+    - lore:&7Price:&6 24Σ
+    - id:334
+    - amount:1
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You bought 1 Leather for&6 24 &7Sigmas.'
+    Price: 24.0
+    PriceType: money
+    Reward:
+    - - id:334
+      - amount:1
+    RewardType: item
+  Leather2:
+    MenuItem:
+    - name:&cLeather
+    - lore:&7Price:&6 384Σ
+    - id:334
+    - amount:16
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 16 Leather for&6 384 &7Sigmas.'
+    Price: 384.0
+    PriceType: money
+    Reward:
+    - - id:334
+      - amount:16
+    RewardType: item
+  Leather3:
+    MenuItem:
+    - name:&cLeather
+    - lore:&7Price:&6 768Σ
+    - id:334
+    - amount:32
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 32 Leather for&6 768 &7Sigmas.'
+    Price: 768.0
+    PriceType: money
+    Reward:
+    - - id:334
+      - amount:32
+    RewardType: item
+  Leather4:
+    MenuItem:
+    - name:&cLeather
+    - lore:&7Price:&6 1536Σ
+    - id:334
+    - amount:64
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 64 Leather for&6 1536 &7Sigmas.'
+    Price: 1536.0
+    PriceType: money
+    Reward:
+    - - id:334
+      - amount:64
+    RewardType: item
+  BunnyHide:
+    MenuItem:
+    - name:&aBunny Hide
+    - lore:&7Price:&6 16Σ
+    - id:415
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Bunny Hide for&6 16 &7Sigmas.'
+    Price: 16.0
+    PriceType: money
+    Reward:
+    - - id:415
+      - amount:1
+    RewardType: item
+  BunnyHide2:
+    MenuItem:
+    - name:&aBunny Hide
+    - lore:&7Price:&6 128Σ
+    - id:415
+    - amount:8
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 8 Bunny Hide for&6 128 &7Sigmas.'
+    Price: 128.0
+    PriceType: money
+    Reward:
+    - - id:415
+      - amount:8
+    RewardType: item
+  BunnyHide3:
+    MenuItem:
+    - name:&aBunny Hide
+    - lore:&7Price:&6 256Σ
+    - id:415
+    - amount:16
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 16 Bunny Hide for&6 256 &7Sigmas.'
+    Price: 256.0
+    PriceType: money
+    Reward:
+    - - id:415
+      - amount:16
+    RewardType: item
+  BunnyHide4:
+    MenuItem:
+    - name:&aBunny Hide
+    - lore:&7Price:&6 512Σ
+    - id:415
+    - amount:32
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You bought 32 Bunny Hide for&6 512 &7Sigmas.'
+    Price: 512.0
+    PriceType: money
+    Reward:
+    - - id:415
+      - amount:32
+    RewardType: item
+  BunnyFoot:
+    MenuItem:
+    - name:&dRabbit's Foot
+    - lore:&7Price:&6 200Σ
+    - id:414
+    - amount:1
+    InventoryLocation: 19
+    Message: '&7[&bShop&7] You bought 1 Rabbit''s Foot for&6 200 &7Sigmas.'
+    Price: 200.0
+    PriceType: money
+    Reward:
+    - - id:414
+      - amount:1
+    RewardType: item
+  BunnyFoot2:
+    MenuItem:
+    - name:&dRabbit's Foot
+    - lore:&7Price:&6 600Σ
+    - id:414
+    - amount:3
+    InventoryLocation: 20
+    Message: '&7[&bShop&7] You bought 3 Rabbit''s Foot for&6 600 &7Sigmas.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - - id:414
+      - amount:3
+    RewardType: item
+  BunnyFoot3:
+    MenuItem:
+    - name:&dRabbit's Foot
+    - lore:&7Price:&6 1600Σ
+    - id:414
+    - amount:8
+    InventoryLocation: 21
+    Message: '&7[&bShop&7] You bought 8 Rabbit''s Foot for&6 1600 &7Sigmas.'
+    Price: 1600.0
+    PriceType: money
+    Reward:
+    - - id:414
+      - amount:8
+    RewardType: item
+  BunnyFoot4:
+    MenuItem:
+    - name:&dRabbit's Foot
+    - lore:&7Price:&6 3200Σ
+    - id:414
+    - amount:16
+    InventoryLocation: 22
+    Message: '&7[&bShop&7] You bought 16 Rabbit''s Foot for&6 3200 &7Sigmas.'
+    Price: 3200.0
+    PriceType: money
+    Reward:
+    - - id:414
+      - amount:16
+    RewardType: item
+  InkSack:
+    MenuItem:
+    - name:&bInk Sack
+    - lore:&7Price:&6 25Σ
+    - id:351
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bShop&7] You bought 1 Ink Sack for&6 25 &7Sigmas.'
+    Price: 25.0
+    PriceType: money
+    Reward:
+    - - id:351
+      - amount:1
+    RewardType: item
+  InkSack2:
+    MenuItem:
+    - name:&bInk Sack
+    - lore:&7Price:&6 400Σ
+    - id:351
+    - amount:16
+    InventoryLocation: 25
+    Message: '&7[&bShop&7] You bought 16 Ink Sack for&6 400 &7Sigmas.'
+    Price: 400.0
+    PriceType: money
+    Reward:
+    - - id:351
+      - amount:16
+    RewardType: item
+  InkSack3:
+    MenuItem:
+    - name:&bInk Sack
+    - lore:&7Price:&6 800Σ
+    - id:351
+    - amount:32
+    InventoryLocation: 26
+    Message: '&7[&bShop&7] You bought 32 Ink Sack for&6 800 &7Sigmas.'
+    Price: 800.0
+    PriceType: money
+    Reward:
+    - - id:351
+      - amount:32
+    RewardType: item
+  InkSack4:
+    MenuItem:
+    - name:&bInk Sack
+    - lore:&7Price:&6 6400Σ
+    - id:351
+    - amount:64
+    InventoryLocation: 27
+    Message: '&7[&bShop&7] You bought 64 Ink Sack for&6 6400 &7Sigmas.'
+    Price: 6400.0
+    PriceType: money
+    Reward:
+    - - id:351
+      - amount:64
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Item Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 32
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: ItemShop

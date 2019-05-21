@@ -1,0 +1,83 @@
+### ETHER ITEMS ---------------------------------------------------------------
+EtherRifle:
+    Item_Information:
+        Item_Name: "&6&oDream Eater&7"
+        Item_Type: 417
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Recoil_Amount: 0
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Projectile_Speed: 25
+        Projectile_Damage: 400
+        Bullet_Spread: 0.2
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ITEM_BREAK-1-2-0,BLOCK_NOTE_SNARE-1-0-0,ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-0.5-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was shot to pieces by &f<shooter>&7!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 12
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 6
+        Sounds_Reloading: BLOCK_NOTE_HAT-1-1-0,BLOCK_NOTE_SNARE-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 10
+        Sound_Open: BLOCK_WOODEN_DOOR_OPEN-1-2-0
+        Sound_Close: BLOCK_IRON_DOOR_CLOSE-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 9600
+        Chance: 25
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+EtherMagic:
+    Item_Information:
+        Item_Name: "&6&oMiscreation&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 0
+        Projectile_Amount: 16
+        Projectile_Type: snowball
+        Projectile_Speed: 10
+        Projectile_Damage: 240
+        Bullet_Spread: 2
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ENDERDRAGON_GROWL-0.2-1-0,ENTITY_ENDERDRAGON_GROWL-0.2-2-0
+    Custom_Death_Message:
+        Normal: "&7[&bInfo&7] &f<shooter> &7was unshaped by &f<victim>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 480
+        Chance: 50
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0

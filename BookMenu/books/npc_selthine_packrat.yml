@@ -1,0 +1,17 @@
+title: npc_selthine_packrat
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lPackrat"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Ah, looking for more"
+    - "&1 storage? Then you"
+    - "&1 have come to the"
+    - "&1 right place.&8”"
+    - ""
+    - '&7- { text: "I''d like to open", color:"BLUE", command: "backpack", hover: "&7Open pack"}'
+    - '&l  { text: "my backpack.", color:"BLUE", command: "backpack", hover: "&7Open pack"}'
+    - ""
+    - '&7- { text: "How do backpacks", color:"BLUE", hover: "&7View lore", open: "npc_selthine_packrat_A"}'
+    - '&l  { text: "work?", color:"BLUE", hover: "&7View lore", open: "npc_selthine_packrat_A"}'

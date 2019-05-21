@@ -1,0 +1,15 @@
+title: ServerInfo
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lServer Info"
+    - ""
+    - "Here are some links to some of our social media:"
+    - ""
+    - '&7» { text: "&3Website", hover: "&7Open Link &3www.aryntius.com", url: "http://www.aryntius.com"}'
+    - ""
+    - '&7» { text: "&3Discord", hover: "&7Join our &3Discord&7!", url: "http://discord.gg/juu8r9P"}'
+    - ""
+    - '&7» { text: "&3Vote Links", hover: "&7Vote for rewards!", url: "http://www.aryntius.com/vote"}'
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

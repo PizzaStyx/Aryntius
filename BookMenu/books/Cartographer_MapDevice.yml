@@ -1,0 +1,9 @@
+title: Cartographer_MapDevice
+author: PizzaStyx
+pages:
+  1:
+    - "This is the Rift Seeker, an ancient machine built by the Aquir eons ago."
+    - ""
+    - "Using energy from Star Fragments, it can transport us across dimensions!"
+    - ""
+    - '&7- { text: "But to where?", color:"BLUE", hover: "&7View lore", open: "Cartographer_MapDevice_2"}'

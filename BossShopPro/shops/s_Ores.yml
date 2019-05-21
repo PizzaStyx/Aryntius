@@ -1,0 +1,418 @@
+ShopName: Ores
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &6Or&ees &8]'
+shop:
+  Coal:
+    MenuItem:
+    - name:&fCoal
+    - lore:&7Price:&6 10Σ
+    - id:263
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Coal for&6 10 &7Sigmas.'
+    Price: 10.0
+    PriceType: money
+    Reward:
+    - - id:263
+      - amount:1
+    RewardType: item
+  Coal2:
+    MenuItem:
+    - name:&fCoal
+    - lore:&7Price:&6 80Σ
+    - id:263
+    - amount:8
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 8 Coal for&6 80 &7Sigmas.'
+    Price: 80.0
+    PriceType: money
+    Reward:
+    - - id:263
+      - amount:8
+    RewardType: item
+  Coal3:
+    MenuItem:
+    - name:&fCoal
+    - lore:&7Price:&6 280Σ
+    - id:263
+    - amount:28
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 28 Coal for&6 280 &7Sigmas.'
+    Price: 280.0
+    PriceType: money
+    Reward:
+    - - id:263
+      - amount:28
+    RewardType: item
+  Coal4:
+    MenuItem:
+    - name:&fCoal
+    - lore:&7Price:&6 640Σ
+    - id:263
+    - amount:64
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 64 Coal for&6 640 &7Sigmas.'
+    Price: 640.0
+    PriceType: money
+    Reward:
+    - - id:263
+      - amount:64
+    RewardType: item
+  Iron:
+    MenuItem:
+    - name:&dIron Ingot
+    - lore:&7Price:&6 100Σ
+    - id:265
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Iron Ingot for&6 100 &7Sigmas.'
+    Price: 100.0
+    PriceType: money
+    Reward:
+    - - id:265
+      - amount:1
+    RewardType: item
+  Iron2:
+    MenuItem:
+    - name:&dIron Ingot
+    - lore:&7Price:&6 800Σ
+    - id:265
+    - amount:8
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 8 Iron Ingot for&6 800 &7Sigmas.'
+    Price: 800.0
+    PriceType: money
+    Reward:
+    - - id:265
+      - amount:8
+    RewardType: item
+  Iron3:
+    MenuItem:
+    - name:&dIron Ingot
+    - lore:&7Price:&6 2000Σ
+    - id:265
+    - amount:20
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 20 Iron Ingot for&6 2000 &7Sigmas.'
+    Price: 2000.0
+    PriceType: money
+    Reward:
+    - - id:265
+      - amount:20
+    RewardType: item
+  Iron4:
+    MenuItem:
+    - name:&dIron Ingot
+    - lore:&7Price:&6 6400Σ
+    - id:265
+    - amount:64
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 64 Iron Ingot for&6 6400 &7Sigmas.'
+    Price: 6400.0
+    PriceType: money
+    Reward:
+    - - id:265
+      - amount:64
+    RewardType: item
+  Lapis:
+    MenuItem:
+    - name:&9Lapis Lazuli
+    - lore:&7Price:&6 150Σ
+    - id:351
+    - durability:4
+    - amount:1
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You bought 1 Lapis Lazuli for&6 150 &7Sigmas.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:351
+      - durability:4
+      - amount:1
+    RewardType: item
+  Lapis2:
+    MenuItem:
+    - name:&9Lapis Lazuli
+    - lore:&7Price:&6 1200Σ
+    - id:351
+    - durability:4
+    - amount:8
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 8 Lapis Lazuli for&6 1200 &7Sigmas.'
+    Price: 1200.0
+    PriceType: money
+    Reward:
+    - - id:351
+      - durability:4
+      - amount:8
+    RewardType: item
+  Lapis3:
+    MenuItem:
+    - name:&9Lapis Lazuli
+    - lore:&7Price:&6 3750Σ
+    - id:351
+    - durability:4
+    - amount:25
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 25 Lapis Lazuli for&6 3750 &7Sigmas.'
+    Price: 3750.0
+    PriceType: money
+    Reward:
+    - - id:351
+      - durability:4
+      - amount:25
+    RewardType: item
+  Lapis4:
+    MenuItem:
+    - name:&9Lapis Lazuli
+    - lore:&7Price:&6 9600Σ
+    - id:351
+    - durability:4
+    - amount:64
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 64 Lapis Lazuli for&6 9600 &7Sigmas.'
+    Price: 9600.0
+    PriceType: money
+    Reward:
+    - - id:351
+      - durability:4
+      - amount:64
+    RewardType: item
+  Redstone:
+    MenuItem:
+    - name:&cRedstone
+    - lore:&7Price:&6 25Σ
+    - id:331
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Redstone for&6 25 &7Sigmas.'
+    Price: 25.0
+    PriceType: money
+    Reward:
+    - - id:331
+      - amount:1
+    RewardType: item
+  Redstone2:
+    MenuItem:
+    - name:&cRedstone
+    - lore:&7Price:&6 400Σ
+    - id:331
+    - amount:16
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 16 Redstone for&6 400 &7Sigmas.'
+    Price: 400.0
+    PriceType: money
+    Reward:
+    - - id:331
+      - amount:16
+    RewardType: item
+  Redstone3:
+    MenuItem:
+    - name:&cRedstone
+    - lore:&7Price:&6 800Σ
+    - id:331
+    - amount:32
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 32 Redstone for&6 800 &7Sigmas.'
+    Price: 800.0
+    PriceType: money
+    Reward:
+    - - id:331
+      - amount:32
+    RewardType: item
+  Redstone4:
+    MenuItem:
+    - name:&cRedstone
+    - lore:&7Price:&6 1600Σ
+    - id:331
+    - amount:64
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You bought 64 Redstone for&6 1600 &7Sigmas.'
+    Price: 1600.0
+    PriceType: money
+    Reward:
+    - - id:331
+      - amount:64
+    RewardType: item
+  Gold:
+    MenuItem:
+    - name:&eGold Ingot
+    - lore:&7Price:&6 500Σ
+    - id:266
+    - amount:1
+    InventoryLocation: 19
+    Message: '&7[&bShop&7] You bought 1 Gold Ingot for&6 500 &7Sigmas.'
+    Price: 500.0
+    PriceType: money
+    Reward:
+    - - id:266
+      - amount:1
+    RewardType: item
+  Gold2:
+    MenuItem:
+    - name:&eGold Ingot
+    - lore:&7Price:&6 4000Σ
+    - id:266
+    - amount:8
+    InventoryLocation: 20
+    Message: '&7[&bShop&7] You bought 8 Gold Ingot for&6 4000 &7Sigmas.'
+    Price: 4000.0
+    PriceType: money
+    Reward:
+    - - id:266
+      - amount:8
+    RewardType: item
+  Gold3:
+    MenuItem:
+    - name:&eGold Ingot
+    - lore:&7Price:&6 8000Σ
+    - id:266
+    - amount:16
+    InventoryLocation: 21
+    Message: '&7[&bShop&7] You bought 16 Gold Ingot for&6 8000 &7Sigmas.'
+    Price: 8000.0
+    PriceType: money
+    Reward:
+    - - id:266
+      - amount:16
+    RewardType: item
+  Gold4:
+    MenuItem:
+    - name:&eGold Ingot
+    - lore:&7Price:&6 32000Σ
+    - id:266
+    - amount:64
+    InventoryLocation: 22
+    Message: '&7[&bShop&7] You bought 64 Gold Ingot for&6 32000 &7Sigmas.'
+    Price: 32000.0
+    PriceType: money
+    Reward:
+    - - id:266
+      - amount:64
+    RewardType: item
+  Diamond:
+    MenuItem:
+    - name:&bDiamond
+    - lore:&7Price:&6 1000Σ
+    - id:264
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bShop&7] You bought 1 Diamond for&6 1000 &7Sigmas.'
+    Price: 1000.0
+    PriceType: money
+    Reward:
+    - - id:264
+      - amount:1
+    RewardType: item
+  Diamond2:
+    MenuItem:
+    - name:&bDiamond
+    - lore:&7Price:&6 5000Σ
+    - id:264
+    - amount:5
+    InventoryLocation: 25
+    Message: '&7[&bShop&7] You bought 5 Diamond for&6 5000 &7Sigmas.'
+    Price: 5000.0
+    PriceType: money
+    Reward:
+    - - id:264
+      - amount:5
+    RewardType: item
+  Diamond3:
+    MenuItem:
+    - name:&bDiamond
+    - lore:&7Price:&6 10000Σ
+    - id:264
+    - amount:10
+    InventoryLocation: 26
+    Message: '&7[&bShop&7] You bought 10 Diamond for&6 10000 &7Sigmas.'
+    Price: 10000.0
+    PriceType: money
+    Reward:
+    - - id:264
+      - amount:10
+    RewardType: item
+  Diamond4:
+    MenuItem:
+    - name:&bDiamond
+    - lore:&7Price:&6 32000Σ
+    - id:264
+    - amount:32
+    InventoryLocation: 27
+    Message: '&7[&bShop&7] You bought 32 Diamond for&6 32000 &7Sigmas.'
+    Price: 32000.0
+    PriceType: money
+    Reward:
+    - - id:264
+      - amount:32
+    RewardType: item
+  Emerald:
+    MenuItem:
+    - name:&aEmerald
+    - lore:&7Price:&6 2000Σ
+    - id:388
+    - amount:1
+    InventoryLocation: 28
+    Message: '&7[&bShop&7] You bought 1 Emerald for&6 2000 &7Sigmas.'
+    Price: 2000.0
+    PriceType: money
+    Reward:
+    - - id:388
+      - amount:1
+    RewardType: item
+  Emerald2:
+    MenuItem:
+    - name:&aEmerald
+    - lore:&7Price:&6 10000Σ
+    - id:388
+    - amount:5
+    InventoryLocation: 29
+    Message: '&7[&bShop&7] You bought 5 Emerald for&6 10000 &7Sigmas.'
+    Price: 10000.0
+    PriceType: money
+    Reward:
+    - - id:388
+      - amount:5
+    RewardType: item
+  Emerald3:
+    MenuItem:
+    - name:&aEmerald
+    - lore:&7Price:&6 20000Σ
+    - id:388
+    - amount:10
+    InventoryLocation: 30
+    Message: '&7[&bShop&7] You bought 10 Emerald for&6 20000 &7Sigmas.'
+    Price: 20000.0
+    PriceType: money
+    Reward:
+    - - id:388
+      - amount:10
+    RewardType: item
+  Emerald4:
+    MenuItem:
+    - name:&aEmerald
+    - lore:&7Price:&6 64000Σ
+    - id:388
+    - amount:32
+    InventoryLocation: 31
+    Message: '&7[&bShop&7] You bought 32 Emerald for&6 64000 &7Sigmas.'
+    Price: 64000.0
+    PriceType: money
+    Reward:
+    - - id:388
+      - amount:32
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Item Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 41
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: ItemShop

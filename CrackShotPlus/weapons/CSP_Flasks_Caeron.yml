@@ -1,0 +1,49 @@
+### FLASKS
+CFlask_1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Cloud"
+        Delay_Bar:
+            Left_Color: "&9"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7FLASK RECHARGED"
+CFlask_2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Aqua"
+        Delay_Bar:
+            Left_Color: "&9"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&bFLASK RECHARGED"
+CFlask_3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Gold"
+        Delay_Bar:
+            Left_Color: "&9"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7FLASK RECHARGED"
+CFlask_4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Smoke"
+        Delay_Bar:
+            Left_Color: "&9"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7FLASK RECHARGED"

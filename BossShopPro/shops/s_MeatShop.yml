@@ -1,0 +1,298 @@
+ShopName: MeatShop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &4Meat &cShop &7]'
+shop:
+  Rabbit:
+    MenuItem:
+    - name:&eRaw Rabbit
+    - lore:&7Price:&6 20Σ
+    - id:411
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Raw Rabbit for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:411
+      - amount:1
+    RewardType: item
+  Rabbit2:
+    MenuItem:
+    - name:&eRaw Rabbit
+    - lore:&7Price:&6 240Σ
+    - id:411
+    - amount:12
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 12 Raw Rabbit for&6 240 &7Sigmas.'
+    Price: 240.0
+    PriceType: money
+    Reward:
+    - - id:411
+      - amount:12
+    RewardType: item
+  Rabbit3:
+    MenuItem:
+    - name:&eRaw Rabbit
+    - lore:&7Price:&6 600Σ
+    - id:411
+    - amount:30
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 30 Raw Rabbit for&6 600 &7Sigmas.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - - id:411
+      - amount:30
+    RewardType: item
+  Rabbit4:
+    MenuItem:
+    - name:&eRaw Rabbit
+    - lore:&7Price:&6 1280Σ
+    - id:411
+    - amount:64
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 64 Raw Rabbit for&6 1280 &7Sigmas.'
+    Price: 1280.0
+    PriceType: money
+    Reward:
+    - - id:411
+      - amount:64
+    RewardType: item
+  Chicken:
+    MenuItem:
+    - name:&eRaw Chicken
+    - lore:&7Price:&6 20Σ
+    - id:365
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Raw Chicken for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:365
+      - amount:1
+    RewardType: item
+  Chicken2:
+    MenuItem:
+    - name:&eRaw Chicken
+    - lore:&7Price:&6 240Σ
+    - id:365
+    - amount:12
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 12 Raw Chicken for&6 240 &7Sigmas.'
+    Price: 240.0
+    PriceType: money
+    Reward:
+    - - id:365
+      - amount:12
+    RewardType: item
+  Chicken3:
+    MenuItem:
+    - name:&eRaw Chicken
+    - lore:&7Price:&6 600Σ
+    - id:365
+    - amount:30
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 30 Raw Chicken for&6 600 &7Sigmas.'
+    Price: 600.0
+    PriceType: money
+    Reward:
+    - - id:365
+      - amount:30
+    RewardType: item
+  Chicken4:
+    MenuItem:
+    - name:&eRaw Chicken
+    - lore:&7Price:&6 1280Σ
+    - id:365
+    - amount:64
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 64 Raw Chicken for&6 1280 &7Sigmas.'
+    Price: 1280.0
+    PriceType: money
+    Reward:
+    - - id:365
+      - amount:64
+    RewardType: item
+  Pork:
+    MenuItem:
+    - name:&cRaw PorkChop
+    - lore:&7Price:&6 30Σ
+    - id:319
+    - amount:1
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You bought 1 Raw Porkchop for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:319
+      - amount:1
+    RewardType: item
+  Pork2:
+    MenuItem:
+    - name:&cRaw PorkChop
+    - lore:&7Price:&6 480Σ
+    - id:319
+    - amount:16
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 16 Raw Porkchop for&6 480 &7Sigmas.'
+    Price: 480.0
+    PriceType: money
+    Reward:
+    - - id:319
+      - amount:16
+    RewardType: item
+  Pork3:
+    MenuItem:
+    - name:&cRaw PorkChop
+    - lore:&7Price:&6 960Σ
+    - id:319
+    - amount:32
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 32 Raw Porkchop for&6 960 &7Sigmas.'
+    Price: 960.0
+    PriceType: money
+    Reward:
+    - - id:319
+      - amount:32
+    RewardType: item
+  Pork4:
+    MenuItem:
+    - name:&cRaw PorkChop
+    - lore:&7Price:&6 1920Σ
+    - id:319
+    - amount:64
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 64 Raw Porkchop for&6 1920 &7Sigmas.'
+    Price: 1920.0
+    PriceType: money
+    Reward:
+    - - id:319
+      - amount:64
+    RewardType: item
+  RawBeef:
+    MenuItem:
+    - name:&cRaw Beef
+    - lore:&7Price:&6 30Σ
+    - id:363
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Raw Beef for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:363
+      - amount:1
+    RewardType: item
+  RawBeef2:
+    MenuItem:
+    - name:&cRaw Beef
+    - lore:&7Price:&6 480Σ
+    - id:363
+    - amount:16
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 16 Raw Beef for&6 480 &7Sigmas.'
+    Price: 480.0
+    PriceType: money
+    Reward:
+    - - id:363
+      - amount:16
+    RewardType: item
+  RawBeef3:
+    MenuItem:
+    - name:&cRaw Beef
+    - lore:&7Price:&6 960Σ
+    - id:363
+    - amount:32
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 32 Raw Beef for&6 960 &7Sigmas.'
+    Price: 960.0
+    PriceType: money
+    Reward:
+    - - id:363
+      - amount:32
+    RewardType: item
+  RawBeef4:
+    MenuItem:
+    - name:&cRaw Beef
+    - lore:&7Price:&6 1920Σ
+    - id:363
+    - amount:64
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You bought 64 Raw Beef for&6 1920 &7Sigmas.'
+    Price: 1920.0
+    PriceType: money
+    Reward:
+    - - id:363
+      - amount:64
+    RewardType: item
+  RawMutton:
+    MenuItem:
+    - name:&cRaw Mutton
+    - lore:&7Price:&6 25Σ
+    - id:423
+    - amount:1
+    InventoryLocation: 19
+    Message: '&7[&bShop&7] You bought 1 Raw Mutton for&6 25 &7Sigmas.'
+    Price: 25.0
+    PriceType: money
+    Reward:
+    - - id:423
+      - amount:1
+    RewardType: item
+  RawMutton2:
+    MenuItem:
+    - name:&cRaw Mutton
+    - lore:&7Price:&6 400Σ
+    - id:423
+    - amount:16
+    InventoryLocation: 20
+    Message: '&7[&bShop&7] You bought 16 Raw Mutton for&6 400 &7Sigmas.'
+    Price: 400.0
+    PriceType: money
+    Reward:
+    - - id:423
+      - amount:16
+    RewardType: item
+  RawMutton3:
+    MenuItem:
+    - name:&cRaw Mutton
+    - lore:&7Price:&6 800Σ
+    - id:423
+    - amount:32
+    InventoryLocation: 21
+    Message: '&7[&bShop&7] You bought 32 Raw Mutton for&6 800 &7Sigmas.'
+    Price: 800.0
+    PriceType: money
+    Reward:
+    - - id:423
+      - amount:32
+    RewardType: item
+  RawMutton4:
+    MenuItem:
+    - name:&cRaw Mutton
+    - lore:&7Price:&6 1600Σ
+    - id:423
+    - amount:64
+    InventoryLocation: 22
+    Message: '&7[&bShop&7] You bought 64 Raw Mutton for&6 1600 &7Sigmas.'
+    Price: 1600.0
+    PriceType: money
+    Reward:
+    - - id:423
+      - amount:64
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Food Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 32
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Food

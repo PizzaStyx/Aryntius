@@ -1,0 +1,21 @@
+title: Jobs
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lJobs Help"
+    - ""
+    - "Jobs are the easiest way to earn money when starting off."
+    - ""
+    - "Money is earned instantly whenever you do your job."
+    - ""
+    - "The higher your job level is, the more you get paid."
+  2:
+    - "To browse jobs, use &9/jobs browse&0."
+    - ""
+    - "To join a job, use &9/jobs join <job name>&0."
+    - "" 
+    - "To show job stats, use &9/jobs stats&0."
+    - ""
+    - "For more help, use &9/jobs help&0."
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

@@ -1,0 +1,15 @@
+title: npc_selthine_packrat_A
+author: PizzaStyx
+pages:
+  1:
+    - "Backpacks hold items you put in them, like chests. But better!"
+    - ""
+    - "You can access them at any time using &9/backpack&0 or &9/bk&0."
+    - ""
+    - "Due to unknown magic, backpacks don't drop items when you die. They're effectively player vaults!"
+  2:
+    - "You gain more rows in your backpack as you rank up."
+    - ""
+    - "The best way to do that is to use the currency you've earned to rank up using &9/ranks&0. Wham! More space!"
+    - ""
+    - "&8&lEnd of dialogue."

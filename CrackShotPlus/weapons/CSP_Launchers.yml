@@ -1,0 +1,48 @@
+### ROCKET LAUNCHERS
+Rocket1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PiercedFlame,PiercedSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Blue
+Rocket2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PiercedFlame,PiercedSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_BlueDark
+Rocket3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PiercedFlame,PiercedSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Purple
+Rocket4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PiercedFlame,PiercedSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Red
+### OTHER LAUNCHERS
+GLauncher:
+    Damage:
+        Damage_Hologram_Format: "&4&lKA-BOOM!"
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "GunSmoke"
+        Delay_Bar:
+            Left_Color: "&b"
+            Right_Color: "&8"
+            Symbol: "|"
+            Symbol_Amount: 40
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7READY TO FIRE"

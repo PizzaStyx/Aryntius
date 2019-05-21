@@ -1,0 +1,278 @@
+ShopName: npc_Fladnag_Shop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Fladnag''s Mastery &8]'
+shop:
+### SCROLLS ----------------------------------------------------
+  VScroll_1: ### Scroll of Clarity
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_1'
+    MenuItem:
+    - id:339
+    - name:&d&oScroll of Clarity
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f10 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oGain &a&oSpeed X &7&ofor 5.0s."
+    - "lore:&d★ &7&oRemoves &8&oSlowness &7&oon use."
+    - "lore:&d★ &7&oRemoves &8&oBlindness &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought a &d&oScroll of Clarity &7for &f1 &aStar Fragment&7.'
+  VScroll_2: ### Scroll of Shielding
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_2'
+    MenuItem:
+    - id:339
+    - name:&d&oScroll of Shielding
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f15 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oRestores full health on use."
+    - "lore:&d★ &7&oSet your gold hearts to &e&o100.0❤"
+    - "lore:&7&o  for up to 10.0s."
+    - "lore:&d★ &7&oRemoves &a&oRegeneration &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You bought a &d&oScroll of Shielding &7for &f1 &aStar Fragment&7.'
+  VScroll_3: ### Scroll of Armouring
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_3'
+    MenuItem:
+    - id:339
+    - name:&d&oScroll of Armouring
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f15 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oGain &a&oResistance IV &7&ofor 10.0s."
+    - "lore:&d★ &7&oGain &a&oRegeneration X &7&ofor 10.0s."
+    - "lore:&d★ &7&oRemoves all gold hearts on use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You bought a &d&oScroll of Armouring &7for &f1 &aStar Fragment&7.'
+  VScroll_4: ### Scroll of Vision
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_4'
+    MenuItem:
+    - id:339
+    - name:&d&oScroll of Vision
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f7 Seconds"
+    - "lore:&0 "
+    - "lore:&d★ &7&oGain &a&oNight Vision &7&ofor 30.0s."
+    - "lore:&d★ &7&oRemoves &8&oNausea &7&oon use."
+    - "lore:&d★ &7&oRemoves &8&oBlindness &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought a &d&oScroll of Vision &7for &f1 &aStar Fragment&7.'
+### MYTHIC SCROLLS ---------------------------------------------
+  VScroll_L1: ### Scroll of Anger
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_L1'
+    MenuItem:
+    - id:339
+    - name:&5&oScroll of Anger
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oGain &a&oStrength CC &7&ofor 10.0s."
+    - "lore:&5★ &7&oRemoves &8&oFatigue &7&oon use."
+    - "lore:&5★ &7&oRemoves &8&oWeakness &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought a &5&oScroll of Anger &7for &f5 &aStar Fragment&7.'
+  VScroll_L2: ### Scroll of Divinity
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_L2'
+    MenuItem:
+    - id:339
+    - name:&5&oScroll of Divinity
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f30 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oGain &a&oResistance V &7&ofor 15.0s."
+    - "lore:&5★ &7&oRemoves &a&oRegeneration &7&oon use."
+    - "lore:&5★ &7&oRemoves all gold hearts on use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bInfo&7] You bought a &5&oScroll of Divinity &7for &f5 &aStar Fragment&7.'
+  VScroll_L3: ### Scroll of Divinity
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% VScroll_L3'
+    MenuItem:
+    - id:339
+    - name:&5&oScroll of Frenzy
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c0.0❤"
+    - "lore:&7Cooldown: &f20 Seconds"
+    - "lore:&0 "
+    - "lore:&5★ &7&oGain &a&oHaste X &7&ofor 10.0s."
+    - "lore:&5★ &7&oGain &a&oSpeed X &7&ofor 10.0s."
+    - "lore:&5★ &7&oRemoves &8&oFatigue &7&oon use."
+    - "lore:&5★ &7&oRemoves &8&oSlowness &7&oon use."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bInfo&7] You bought a &5&oScroll of Frenzy &7for &f5 &aStar Fragment&7.'
+  Scroll6: ### Scroll of Holy Smite
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Scroll6'
+    MenuItem:
+    - id:339
+    - name:&5&oScroll of Holy Smite
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic (Consumable)"
+    - "lore:&7Damage: &c10000.0❤x3"
+    - "lore:&7Cooldown: &f15 Seconds"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f20x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought a &5&oScroll of Frenzy &7for &f5 &aStar Fragment&7.'

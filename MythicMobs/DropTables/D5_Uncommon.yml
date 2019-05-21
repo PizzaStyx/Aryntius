@@ -1,0 +1,74 @@
+Uncommon:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - exp 25
+  ### WEAPONS
+  - Crossbow1 1 0.01
+  - Flashbang 1 0.02
+  - FireGrenade 1 0.02
+  - Scroll2 1 0.02
+  - Shotgun1 1 0.01
+  - WheatMagic 1 0.007
+  - FireTendrils 1 0.008
+  - Water0 1 0.008
+  ### ITEMS
+  - Alloy_Pick 1 0.02
+  - Alloy_Axe 1 0.02
+  - Alloy_Spade 1 0.02
+  - Alloy_Sword 1 0.02
+  - Alloy_Hoe 1 0.02
+  - T5_1 1 0.01
+  - T5_2 1 0.01
+  - T5_3 1 0.01
+  - T5_4 1 0.01
+  - T5_5 1 0.008
+  - T5_6 1 0.008
+  - T5_7 1 0.008
+  - T5_8 1 0.008
+  - T5_9 1 0.002
+  - T5_10 1 0.01
+  - T5_11 1 0.008
+  - T5_12 1 0.008
+  - T5_13 1 0.01
+  - T5_14 1 0.008
+  - T5_15 1 0.008
+  - T5_16 1 0.002
+  - T5_17 1 0.008
+  - T5_18 1 0.01
+  - T5_19 1 0.008
+  - T5_20 1 0.002
+  - T5_21 1 0.008
+  - T5_22 1 0.008
+  - T5_23 1 0.006
+  - T5_24 1 0.006
+  - T5_25 1 0.008
+  ### ARMOR ITEMS
+  - T5_26 1 0.006
+  - T5_27 1 0.01
+  - T5_28 1 0.004
+  - T5_29 1 0.008
+  - T5_30 1 0.01
+  - T5_31 1 0.008
+  - T5_32 1 0.006
+  - T5_33 1 0.01
+  - T5_34 1 0.01
+  - T5_35 1 0.01
+  - T5_36 1 0.01
+  ### ARMOR SETS
+  - HL_Helm 1 0.004
+  - HL_Chest 1 0.004
+  - HL_Legs 1 0.004
+  - HL_Boots 1 0.004
+  - Pleated_Helm 1 0.004
+  - Pleated_Chest 1 0.004
+  - Pleated_Legs 1 0.004
+  - Pleated_Boots 1 0.004
+  - Rushwalker_Helm 1 0.004
+  - Rushwalker_Chest 1 0.004
+  - Rushwalker_Legs 1 0.004
+  - Rushwalker_Boots 1 0.004
+  - Monk_Helm 1 0.004
+  - Monk_Chest 1 0.004
+  - Monk_Legs 1 0.004
+  - Monk_Boots 1 0.004

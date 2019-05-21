@@ -1,0 +1,23 @@
+title: npc_HH3_Selthine
+author: PizzaStyx
+pages:
+  1:
+    - "Look around you. Selthine is in ruins."
+    - ""
+    - "Our scouts have verified that the rest of Aryntius has fared no better."
+    - ""
+    - "All of this suffering was brought onto us by the Corruption. It is an evil force, one beyond all mortal"
+  2:
+    - "comprehension. Unlike what was previously thought by us, the Corruption seems... alive."
+    - ""
+    - "It does not merely spread randomly--it attacks in patterns, always in unison."
+    - ""
+    - "At this point there isn't much we can do"
+  3:
+    - "other than slow its spread by killing its carriers."
+    - ""
+    - "For now we have kept it at bay, forging an uneasy peace in the world of Aryntius."
+    - ""
+    - "I trust that you will help us do the same."
+    - ""
+    - "&8&lEnd of dialogue"

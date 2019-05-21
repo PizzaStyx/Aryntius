@@ -1,0 +1,372 @@
+AutoRifle1:
+    Item_Information:
+        Item_Name: "&3Clockwork Assault Rifle&7"
+        Item_Type: 417
+        Item_Lore: "&0 |&7Tier: &3Rare|&0 |&7Type: &9Rifle|&7Ammo: &9Coal|&7DPS: &c2.0❤|&0 |&7Right-click to shoot.|&0 |&7“&3A steam-powered automatic|&3 rifle with a massive clip.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 20
+        Bullet_Spread: 1.2
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_IRONGOLEM_HURT-0.3-2-0,ENTITY_SKELETON_HURT-0.3-2-0,ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-0.3-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was boiled alive by &f<shooter>&7 using steam power!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 8
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 263
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 64
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ENTITY_ITEM_BREAK-1-1-0
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_OPEN-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+AutoRifle2:
+    Item_Information:
+        Item_Name: "&b&oA Salt rifle&7"
+        Item_Type: 417
+        Item_Lore: "&7Salty X|&0 |&7Tier: &6&oLegendary|&0 |&7Type: &9Rifle|&7Ammo: &9Salt (Sugar)|&7DPS: &c12.0❤|&0 |&7Right-click to shoot. Left|&7click to scope. Deals x1.5|&7damage on headshot.|&0 |&7“&6An assault rifle that uses|&6 salt as ammo. Neat.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 300
+        Bullet_Spread: 1
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ENDERMEN_DEATH-0.5-2-2
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7made &f<victim>&7 salty!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0
+    Burstfire:
+        Enable: false
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 6
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 353
+        Sounds_Out_Of_Ammo: ENTITY_ENDERMEN_DEATH-1-1-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 32
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 40
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_CLOSE-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-2
+    Headshot:
+        Enable: true
+        Bonus_Damage: 900
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-4-0
+        Sounds_Victim: ENTITY_PLAYER_HURT-1-1-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 900
+        Chance: 40
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENTITY_ENDERDRAGON_FLAP-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+BurstRifle1:
+    Item_Information:
+        Item_Name: "&9Carbine&7"
+        Item_Type: 417
+        Item_Lore: "&0 |&7Tier: &9Superior|&0 |&7Type: &9Rifle|&7Ammo: &9Iron Nugget|&7DPS: &c6.0❤|&0 |&7Right-click to scope.|&0 |&7“&9A light, semi-automatic|&9 repeating rifle.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 7
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 25
+        Projectile_Damage: 40
+        Bullet_Spread: 2
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_ITEM_BREAK-1-2-2,BLOCK_NOTE_SNARE-1-0-2
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was shot to pieces by &f<shooter>&7!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 2
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 40
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_CLOSE-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-2
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+BurstRifle2:
+    Item_Information:
+        Item_Name: "&d&oGreat War Repeater&7"
+        Item_Type: 417
+        Item_Lore: "&0 |&7Tier: &d&oSuperior|&0 |&7Type: &9Rifle|&7Ammo: &9Iron Nugget|&7DPS: &c8.0❤|&0 |&7Right-click to scope.|&0 |&7“&dA well-worn repeating rifle|&d from an era long past.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 8
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 30
+        Projectile_Damage: 70
+        Bullet_Spread: 1
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: BLOCK_NOTE_SNARE-1-0-0,ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-0.5-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7swiss-cheesed &f<victim>&7!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 2
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 64
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 40
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_CLOSE-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-2
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: BLOCK_NOTE_HAT-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+BurstRifle3:
+    Item_Information:
+        Item_Name: "&5&oRatt's Wheelgun&7"
+        Item_Type: 418
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 3
+        Projectile_Type: snowball
+        Projectile_Speed: 30
+        Projectile_Damage: 90
+        Bullet_Spread: 0.5
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: BLOCK_NOTE_SNARE-1-0-0,ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-0.5-2-0,ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-0.25-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7swiss-cheesed &f<victim>&7!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 64
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 40
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_CLOSE-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-2
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 270
+        Chance: 50
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+FusionRifle:
+    Item_Information:
+        Item_Name: "&b&oFusion Rifle&7"
+        Item_Type: 419
+        Item_Lore: "&0 |&7Tier: &b&oIridescent|&0 |&7Type: &9Rifle|&7Ammo: &9Iron Nugget|&7DPS: &c10.0❤ &7(Alt. &c50.0x2❤&7)|&0 |&7Right-click to toggle modes.|&750% chance of critical strike.|&7Deals x2 damage on critical.|&0 |&7“&bA high-powered rifle with a|&b missile launcher attached.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Attachments:
+            Type: main
+            Info: "RAttachment"
+            Toggle_Delay: 0
+            Sounds_Toggle: BLOCK_NOTE_HAT-1-2-0
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 60
+        Bullet_Spread: 0.2
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: ENTITY_IRONGOLEM_HURT-0.3-2-0,ENTITY_SKELETON_HURT-0.3-2-0,ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-0.3-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter>&7 got &f<victim> &7in their sights!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 8
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 64
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ENTITY_ITEM_BREAK-1-1-0
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_OPEN-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 60
+        Chance: 50
+        Sounds_Shooter: BLOCK_NOTE_PLING-1-2-0
+RAttachment:
+    Item_Information:
+        Attachments:
+            Type: accessory
+            Toggle_Delay: 0
+            Sounds_Toggle: BLOCK_NOTE_HAT-1-2-0
+        Item_Name: "&6&oStorm Rockets&7"
+        Item_Type: 403
+        Item_Lore: "&6Attachment only.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 1000
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD-1-0-0,ENTITY_GENERIC_EXTINGUISH_FIRE-1-1-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 4
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_OPEN-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<shooter>&7 got &f<victim> &7in their sights!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-0.2-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-168,BLOCK_BREAK-22,SMOKE
+        Particle_Hit: EXPLOSION

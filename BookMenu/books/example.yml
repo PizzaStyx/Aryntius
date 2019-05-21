@@ -1,0 +1,28 @@
+title: Test Book
+author: Plugin Testing
+pages:
+  1:
+    - '        Color Testing'
+    - '§1In Text:'
+    - ' §aColor Code'
+    - ' &bAlt. Color Code'
+    - '§1JSON:'
+    - 'Hello {text: "Color Code", color: "§a"} test,'
+    - '{text: "Alt. Color Code", color: "&b"},'
+    - '{text: "Just Color Char", color: "c"},'
+    - '{text: "Color Name", color: "DARK_PURPLE"}'
+    - '§a {text:"Underlined", underlined: true, color:1}'
+    - '{text:"Italic", italic: true, color:"§2"}'
+    - '{text:"Bold", bold: true, color:"&3"}'
+    - '{text:"Obfuscated", obfuscated: true, color: "DARK_RED"}'
+  2:
+    - '       Actions Test'
+    - '{ text: "Hover Test", hover: "&1Hover Hover\n&aHover" }'
+    - '{ text: "Command Test", command: "say Hello!", hover: "&aClick to perform test command" }'
+    - '{ text: "Console Command Test", command: "say Hey, Im %player", console: true, hover: "&aClick to perform test console command" }'
+    - '{ text: "Open Other Book", hover: "&aClick to perform open other book from this one", open: "example-2"}'
+    - '{ text: "Url Test", url: "http://minecraft.net/", hover: "&aClick to openFor Url" }'
+    - '{ text: "Go to page", gotoPage: 3, hover: "&aClick to go to page 3" }'
+  3:
+    - Page 3
+    - Just a simple page

@@ -1,0 +1,197 @@
+ShopName: i_DeedTrading
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Banking &8]"
+shop:
+### CONVERT TO -------------------------------------------------
+  Deed_1:
+    MenuItem:
+    - id:339
+    - "name:&aBronze Deed"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&a★ &7Value: &610,000Σ"
+    - "lore:&0 "
+    - "lore:&7Click to withdraw"
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bInfo&7] You withdrew &610,000Σ&7.'
+    PriceType: money
+    Price: 10000.0
+    RewardType: command
+    Reward:
+    - 'mm items give -s %player% Deed_1 1'
+  Deed_2:
+    MenuItem:
+    - id:339
+    - "name:&aSilver Deed"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&a★ &7Value: &6100,000Σ"
+    - "lore:&0 "
+    - "lore:&7Click to withdraw"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 3
+    Message: '&7[&bInfo&7] You withdrew &6100,000Σ&7.'
+    PriceType: money
+    Price: 100000.0
+    RewardType: command
+    Reward:
+    - 'mm items give -s %player% Deed_2 1'
+  Deed_3:
+    MenuItem:
+    - id:339
+    - "name:&eGolden Deed"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&e★ &7Value: &61,000,000Σ"
+    - "lore:&0 "
+    - "lore:&7Click to withdraw"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You withdrew &61,000,000Σ&7.'
+    PriceType: money
+    Price: 1000000.0
+    RewardType: command
+    Reward:
+    - 'mm items give -s %player% Deed_3 1'
+  Deed_4:
+    MenuItem:
+    - id:339
+    - "name:&dPlatinum Deed"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&d★ &7Value: &610,000,000Σ"
+    - "lore:&0 "
+    - "lore:&7Click to withdraw"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 7
+    Message: '&7[&bInfo&7] You withdrew &610,000,000Σ&7.'
+    PriceType: money
+    Price: 10000000.0
+    RewardType: command
+    Reward:
+    - 'mm items give -s %player% Deed_4 1'
+  Deed_5:
+    MenuItem:
+    - id:339
+    - "name:&bDiamond Deed"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&b★ &7Value: &6100,000,000Σ"
+    - "lore:&0 "
+    - "lore:&7Click to withdraw"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 9
+    Message: '&7[&bInfo&7] You withdrew &6100,000,000Σ&7.'
+    PriceType: money
+    Price: 100000000.0
+    RewardType: command
+    Reward:
+    - 'mm items give -s %player% Deed_5 1'
+### CONVERT FROM -----------------------------------------------
+  Sigma_1:
+    MenuItem:
+    - id:371
+    - "name:&610,000Σ"
+    - "lore:&7Converts deeds into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &aBronze Deed"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 19
+    Price:
+    - - mythicitem:Deed_1
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 10000'
+    RewardType: command
+  Sigma_2:
+    MenuItem:
+    - id:371
+    - "name:&6100,000Σ"
+    - "lore:&7Converts deeds into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &aSilver Deed"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:2
+    InventoryLocation: 21
+    Price:
+    - - mythicitem:Deed_2
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 100000'
+    RewardType: command
+  Sigma_3:
+    MenuItem:
+    - id:371
+    - "name:&61,000,000Σ"
+    - "lore:&7Converts deeds into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &eGolden Deed"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:3
+    InventoryLocation: 23
+    Price:
+    - - mythicitem:Deed_3
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 1000000'
+    RewardType: command
+  Sigma_4:
+    MenuItem:
+    - id:371
+    - "name:&610,000,000Σ"
+    - "lore:&7Converts deeds into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &dPlatinum Deed"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:4
+    InventoryLocation: 25
+    Price:
+    - - mythicitem:Deed_4
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 10000000'
+    RewardType: command
+  Sigma_5:
+    MenuItem:
+    - id:371
+    - "name:&6100,000,000Σ"
+    - "lore:&7Converts deeds into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &bDiamond Deed"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:5
+    InventoryLocation: 27
+    Price:
+    - - mythicitem:Deed_5
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 100000000'
+    RewardType: command

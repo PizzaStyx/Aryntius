@@ -1,0 +1,16 @@
+title: SC_Dialogue_Caeron
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lSky Captain"
+    - "&8Travel NPC"
+    - ""
+    - "&8“&1Greetings, traveler!"
+    - "&1 Where would you like"
+    - "&1 to visit?&8”"
+    - ""
+    - '&7- { text: "Can you take me", color:"BLUE", command: "bs menu_city_fasttravel", hover: "&7Travel Map"}'
+    - '&l  { text: "somewhere else?", color:"BLUE", command: "bs menu_city_fasttravel", hover: "&7Travel Map"}'
+    - ""
+    - '&7- { text: "I''d like to know", color:"BLUE", hover: "&7View lore", open: "SC_Dialogue_Caeron_B"}'
+    - '&l  { text: "about this city.", color:"BLUE", hover: "&7View lore", open: "SC_Dialogue_Caeron_B"}'

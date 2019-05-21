@@ -1,0 +1,19 @@
+title: SetHomes
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lSetting Homes"
+    - ""
+    - "A player may set a home for easy access and fast travel."
+    - ""
+    - "Use &9/sethome <home &9name> &0to set a home warp."
+    - ""
+    - "Use &9/home <home &9name>&0 to return to it!"
+  2:
+    - "Most servers have a maximum home limit of 3."
+    - ""
+    - "We made ours 9001. (owner's personal preference)."
+    - ""
+    - "Effectively, you have limitless homes, since no sane person would need over 9000."
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

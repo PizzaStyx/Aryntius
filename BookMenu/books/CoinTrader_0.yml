@@ -1,0 +1,17 @@
+title: CoinTrader_0
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lCoin Trader"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Hey! You seem like an"
+    - "&1 honest fellow! I have"
+    - "&1 the most profitable"
+    - "&1 job for you!&8”"
+    - ""
+    - '&7- { text: "What exactly must", color:"BLUE", hover: "&7View lore", open: "CoinTrader_0A"}'
+    - '&l  { text: "I do?", color:"BLUE", hover: "&7View lore", open: "CoinTrader_0A"}'
+    - ""
+    - '&7- { text: "I''d like to convert", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'
+    - '&l  { text: "some currency.", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'

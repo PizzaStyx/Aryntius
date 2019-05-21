@@ -1,0 +1,287 @@
+## FLASK ITEMS
+Flask1:
+    Item_Information:
+        Item_Name: "&3Mithril Flask"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: REGENERATION-200-10,HEAL-1-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+Flask2:
+    Item_Information:
+        Item_Name: "&9Byzantite Flask"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: ABSORPTION-6000-25,SLOW-100-5,BLINDNESS-100-1,WEAKNESS-100-5
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+Flask3:
+    Item_Information:
+        Item_Name: "&d&oUranium Flask"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 300
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: SLOWNESS-1-1,POISON-600-10,SPEED-200-4
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+Flask4:
+    Item_Information:
+        Item_Name: "&5&oUndying Rage"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 300
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_GHAST_SHOOT-1-1-0,ENTITY_GHAST_SHOOT-1-0-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: INCREASE_DAMAGE-200-200,REGENERATION-1-1,ABSORPTION-1-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+Flask5:
+    Item_Information:
+        Item_Name: "&5&oStoneheart Brew"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0,BLOCK_ANVIL_LAND-1-2-0,BLOCK_ANVIL_LAND-1-1-0,BLOCK_ANVIL_LAND-1-0-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: DAMAGE_RESISTANCE-200-5,SLOW-60-10,WEAKNESS-60-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+Flask6:
+    Item_Information:
+        Item_Name: "&2Flask of Swiftness"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: SPEED-200-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+Flask7:
+    Item_Information:
+        Item_Name: "&2Flask of Rejuvenation"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: SATURATION-200-10,REGENERATION-200-10,BLINDNESS-100-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+Flask8:
+    Item_Information:
+        Item_Name: "&fFlask of Healing"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 300
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEAL-1-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+Flask9:
+    Item_Information:
+        Item_Name: "&fFlask of Frenzy"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: SPEED-200-4,FAST_DIGGING-200-4
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+Flask10:
+    Item_Information:
+        Item_Name: "&3Flask of Curing"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: BLINDNESS-1-1,CONFUSION-1-1,POISON-1-1,SLOW_DIGGING-1-1,SLOW-1-1,UNLUCK-1-1,WEAKNESS-1-1,WITHER-1-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+Flask11:
+    Item_Information:
+        Item_Name: "&5&oFlask of Lifeforce"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1200
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-0.8-1-0,ENTITY_HOSTILE_SWIM-1-2-0,ENTITY_HOSTILE_SWIM-0.5-0-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEALTH_BOOST-6000-5,REGENERATION-200-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true

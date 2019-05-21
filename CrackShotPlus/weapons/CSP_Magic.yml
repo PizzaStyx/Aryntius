@@ -1,0 +1,297 @@
+###FIRE WEAPONS
+Fire1:
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "PiercedFlame"
+        Delay_Bar:
+            Left_Color: "&c"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+Fire2:
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "PiercedFlame"
+        Delay_Bar:
+            Left_Color: "&c"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+Fire3:
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "PiercedFlame"
+        Delay_Bar:
+            Left_Color: "&c"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+Fire4:
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "PiercedFlame,PiercedSmoke"
+        Delay_Bar:
+            Left_Color: "&c"
+            Right_Color: "&8"
+            Symbol: "✵"
+            Symbol_Amount: 3
+            Action_Bar: "&4•✶&7#BAR#&4✶• &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+### WATER WEAPONS
+Water1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "DeepWater"
+        Delay_Bar:
+            Left_Color: "&b"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+Water2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "DeepWater"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Water
+Water3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PiercedWater"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Water
+Water4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "DeepWater,Smoking_Water"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Water2_noProc
+### EARTH WEAPONS
+Earth1:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Earth"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Earth
+Earth3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Earth"
+        Bouncing_Projectiles:
+            Decrese_Velocity_Per_Bounce: 0.75
+            Minium_Velocity: 0.0
+            Bounce_Amount: 3
+### AIR MAGIC
+Air1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic"
+### VOID MAGIC
+Curse1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WitchMagic"
+        Homing_Projectiles:
+            Radius_To_Nearest_Entity: 30
+            Crosshair_To_Lock: false
+            Lose_Control_Time: 100
+Curse2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WitchMagic,PiercedSmoke"
+        Homing_Projectiles:
+            Radius_To_Nearest_Entity: 30
+            Crosshair_To_Lock: true
+            Lose_Control_Time: 100
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Void
+Curse3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WitchMagic"
+        Delay_Bar:
+            Left_Color: "&5"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+Curse5:
+    Damage:
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&5&lCursed"
+                    Subtitle: "&7No life regeneration"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WitchMagic"
+        Delay_Bar:
+            Left_Color: "&5"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+### FROST MAGIC
+Frost1:
+    Damage:
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&b&lFrozen"
+                    Subtitle: "&7All speed reduced"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic,Smoking_Frost"
+        Delay_Bar:
+            Left_Color: "&f"
+            Right_Color: "&b"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+Frost2:
+    Damage:
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&b&lFrozen"
+                    Subtitle: "&7All speed reduced"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic"
+        Delay_Bar:
+            Left_Color: "&f"
+            Right_Color: "&b"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+Frost3:
+    Damage:
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&b&lFrozen"
+                    Subtitle: "&7All speed reduced"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Frost
+Frost4:
+    Damage:
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&b&lFrozen"
+                    Subtitle: "&7All speed reduced"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic,Smoking_Frost"
+        Delay_Bar:
+            Left_Color: "&f"
+            Right_Color: "&b"
+            Symbol: "✵"
+            Symbol_Amount: 3
+            Action_Bar: "&f•✶&7#BAR#&f✶• &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+### OTHER MAGIC
+BloodBowl:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "BloodMagic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Blood
+Apple:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GoldMagic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Holy
+Harp:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Music"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Music
+Harp2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Music"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Music
+Euzhe:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperMagic"
+        Bouncing_Projectiles:
+            Decrese_Velocity_Per_Bounce: 0.6
+            Minium_Velocity: 0.6
+            Bounce_Amount: 3
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Void
+### KAPPA PRIME
+NopeNope:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Razor"
+        Bouncing_Projectiles:
+            Decrese_Velocity_Per_Bounce: 1.2
+            Minium_Velocity: 0.0
+            Bounce_Amount: 5
+        Homing_Projectiles:
+            Radius_To_Nearest_Entity: 30
+            Crosshair_To_Lock: false
+            Lose_Control_Time: 100
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Box

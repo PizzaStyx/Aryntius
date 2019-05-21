@@ -1,0 +1,92 @@
+Airstrike:
+    Item_Information:
+        Item_Name: "&9Airstrike Flare"
+        Item_Type: 50
+        Item_Lore: "&0 |&7Tier: &9Superior|&0 |&7Type: &9Flare|&7Fuse: &93 Seconds|&7Radius: &98 Blocks|&7DPS: &c20.0❤x3|&0 |&7Right-click to throw.|&0 |&7“&9Calls in an airship fleet to|&9 strike at the thrown flare.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 300
+        Projectile_Amount: 1
+        Projectile_Type: flare
+        Projectile_Subtype: 50
+        Projectile_Speed: 10
+        Sounds_Shoot: ITEM_FLINTANDSTEEL_USE-2-0-0,ENTITY_GENERIC_EXTINGUISH_FIRE-2-0-0
+    Airstrikes:
+        Enable: true
+        Flare_Activation_Delay: 60
+        Particle_Call_Airstrike: lightning
+        Message_Call_Airstrike: "&bThe buzz of an airship fleet deafens your ears."
+        Block_Type: 85
+        Area: 4
+        Distance_Between_Bombs: 4
+        Height_Dropped: 90
+        Vertical_Variation: 10
+        Horizontal_Variation: 10
+        Multiple_Strikes:
+            Enable: true
+            Number_Of_Strikes: 3
+            Delay_Between_Strikes: 20
+        Sounds_Airstrike: ENTITY_ENDERMEN_STARE-2-2-0
+    Custom_Death_Message:
+        Normal: "&7[&aWorld&7] &f<victim> &7was blown up by &f<shooter>&7's Air strike!"
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 4
+        Sounds_Explode: ENTITY_ENDERDRAGON_HURT-2-2-0
+        On_Impact_With_Anything: true
+    Extras:
+        One_Time_Use: true
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: dev,-5000,0,-5000,5000,255,5000,true|Expansions,-99999,0,-99999,99999,255,99999,true
+        Message_Of_Denial: "&7[ &cWeapon is disabled in this area! &7]"
+NukeStrike:
+    Item_Information:
+        Item_Name: "&6&oNuclear Airstrike Flare"
+        Item_Type: 76
+        Item_Lore: "&0 |&7Tier: &6&oLegendary|&0 |&7Type: &9Flare|&7Fuse: &95 Seconds|&7Radius: &920 Blocks|&7DPS: &c9999.0❤|&0 |&7Right-click to throw.|&0 |&7“&6Launches a nuclear strike|&6 at the marked location.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 600
+        Projectile_Amount: 1
+        Projectile_Type: flare
+        Projectile_Subtype: 76
+        Projectile_Speed: 10
+        Sounds_Shoot: ITEM_FLINTANDSTEEL_USE-2-0-0,ENTITY_GENERIC_EXTINGUISH_FIRE-2-0-0
+    Airstrikes:
+        Enable: true
+        Flare_Activation_Delay: 100
+        Particle_Call_Airstrike: lightning
+        Message_Call_Airstrike: "&cMay death rain upon them!"
+        Block_Type: 145
+        Area: 1
+        Distance_Between_Bombs: 0
+        Height_Dropped: 90
+        Vertical_Variation: 20
+        Horizontal_Variation: 0
+        Sounds_Airstrike: ENTITY_ENDERMEN_STARE-2-2-0
+    Custom_Death_Message:
+        Normal: "&7[&aWorld&7] &f<victim> &cwas nuked by &f<shooter>&c!"
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        On_Impact_With_Anything: true
+        Damage_Multiplier: 99999
+        Ignite_Victims: 120
+        Explosion_Radius: 20
+        Explosion_Incendiary: true
+        Explosion_Potion_Effect: BLINDNESS-120-1,SLOW-120-1,POISON-240-1
+        Sounds_Explode: BLOCK_ANVIL_LAND-2-2-0,BLOCK_ANVIL_LAND-2-1-0,BLOCK_ANVIL_LAND-2-0-0,ENTITY_ENDERDRAGON_DEATH-4-2-4,ENTITY_WITHER_DEATH-4-2-4,ENTITY_WITHER_DEATH-4-1-4,ENTITY_WITHER_DEATH-4-0-4
+    Extras:
+        One_Time_Use: true
+    Region_Check:
+        Enable: true
+        World_And_Coordinates: dev,-5000,0,-5000,5000,255,5000,true|Expansions,-99999,0,-99999,99999,255,99999,true
+        Message_Of_Denial: "&7[ &cWeapon is disabled in this area! &7]"

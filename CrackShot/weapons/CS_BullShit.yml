@@ -1,0 +1,29 @@
+DoomFist:
+    Item_Information:
+        Item_Name: "&f&oFist of Doom&7"
+        Item_Type: 145
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Melee_Mode: true
+        Remove_Unused_Tag: true
+    Shooting:
+        Remove_Bullet_Drop: true
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 5
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 10
+        Projectile_Damage: 4000
+        Reset_Fall_Distance: true
+    Custom_Death_Message: 
+        Normal: "&7[&dInfo&7] &f<victim> &7was crushed by &f<shooter>&7!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+        Super_Effective: PLAYER-200
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_PLAYER_ATTACK_KNOCKBACK-1-2-0,ENTITY_PLAYER_ATTACK_KNOCKBACK-1-1-0,ENTITY_PLAYER_ATTACK_KNOCKBACK-1-0-0

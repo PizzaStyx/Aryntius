@@ -1,0 +1,266 @@
+AKStilleto:
+    Item_Information:
+        Item_Name: "&6&oAKStilleto&7"
+        Item_Type: 309
+        Item_Lore: "&0 |&7Tier: &6&oLegendary|&0 |&7Type: &9SMG|&7Ammo: &9Iron Nugget|&7DPS: &c25.0❤|&0 |&7“&6Are these shoes or guns?|&6 Shoe guns? Gun shoes?&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 12
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 50
+        Bullet_Spread: 1
+        Sounds_Shoot: BLOCK_NOTE_HAT-1-2-0,BLOCK_NOTE_SNARE-1-2-0,BLOCK_NOTE_SNARE-1-1-0,BLOCK_NOTE_SNARE-1-0-0
+    Skip_Name_Check: false
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was shot to death by &f<shooter>&7's stilletos! Wait... what?"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 4
+        Delay_Between_Shots_In_Burst: 2
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 16
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ENTITY_ITEM_BREAK-1-1-0
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_OPEN-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+SMG1:
+    Item_Information:
+        Item_Name: "&3Pirson Smig&7"
+        Item_Type: 355~8
+        Item_Lore: "&0 |&7Tier: &3Rare|&0 |&7Type: &9SMG|&7Ammo: &9Iron Nugget|&7DPS: &c1.5❤|&0 |&7Right-click to shoot. Shots|&7slow targets for up to 0.5|&7seconds.|&0 |&7“&3A hovy n smol gon dat firez|&3 lotsa boletz.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 19
+        Bullet_Spread: 1
+        Sounds_Shoot: BLOCK_NOTE_HAT-1-2-0,BLOCK_NOTE_SNARE-1-2-0,BLOCK_NOTE_SNARE-1-1-0,BLOCK_NOTE_SNARE-1-0-0
+    Skip_Name_Check: false
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was shotted 2 deth by &f<shooter>&7's smig!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.8
+    Burstfire:
+        Enable: false
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 9
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 16
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ENTITY_ITEM_BREAK-1-1-0
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_OPEN-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-10-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+SMG2:
+    Item_Information:
+        Item_Name: "&9The Taipan&7"
+        Item_Type: 355~7
+        Item_Lore: "&0 |&7Tier: &9Superior|&0 |&7Type: &9SMG|&7Ammo: &9Iron Nugget|&7DPS: &c4.5❤|&0 |&7Right-click to shoot. Shots do|&7Poison IV on targets for up|&7to 3 seconds.|&0 |&7“&9This feisty little submachine|&9 gun packs a very venomous|&9 punch.&9 &7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 30
+        Bullet_Spread: 1
+        Sounds_Shoot: BLOCK_NOTE_HAT-1-2-0,BLOCK_NOTE_SNARE-1-2-0,BLOCK_NOTE_SNARE-1-1-0,BLOCK_NOTE_SNARE-1-0-0
+    Skip_Name_Check: false
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was shot to pieces by &f<shooter>&7's SMG!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.8
+    Burstfire:
+        Enable: false
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 9
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_OPEN-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: POISON-60-4
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+SMG3:
+    Item_Information:
+        Item_Name: "&d&oThe Syringe&7"
+        Item_Type: 355~6
+        Item_Lore: "&0 |&7Tier: &d&oUltimate|&0 |&7Type: &9SMG|&7Ammo: &9Iron Nugget|&7DPS: &c7.0❤|&0 |&7Right-click to shoot. Gives user|&7Regen. IV for 5 seconds on hit.|&0 |&7“&dMedic! Medic! Medic!&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 45
+        Bullet_Spread: 0.8
+        Sounds_Shoot: BLOCK_NOTE_HAT-1-2-0,BLOCK_NOTE_SNARE-1-2-0,BLOCK_NOTE_SNARE-1-1-0,BLOCK_NOTE_SNARE-1-0-0
+    Skip_Name_Check: false
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<victim> &7was shot to pieces by &f<shooter>&7's SMG!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.6
+    Burstfire:
+        Enable: false
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 9
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_OPEN-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: REGENERATION-100-4
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0
+SMG4:
+    Item_Information:
+        Item_Name: "&5&oThe Widowmaker&7"
+        Item_Type: 355~15
+        Item_Lore: "&0 |&7Tier: &6&oLegendary|&0 |&7Type: &9SMG|&7Ammo: &9Iron Nugget|&7DPS: &c35.0❤|&0 |&7Right-click to shoot. Shots do|&7Confusion IV for 1.5 seconds|&7upon hitting an enemy.|&0 |&7“&6Arrivederci, mi amore.&7”"
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 60
+        Bullet_Spread: 0.8
+        Sounds_Shoot: BLOCK_NOTE_HAT-1-2-0,BLOCK_NOTE_SNARE-1-2-0,BLOCK_NOTE_SNARE-1-1-0,BLOCK_NOTE_SNARE-1-0-0
+    Skip_Name_Check: false
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7made &f<victim>&7's spouse a widow!"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.5
+    Burstfire:
+        Enable: false
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 10
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 452
+        Sounds_Shoot_With_No_Ammo: UI_BUTTON_CLICK-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 80
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: BLOCK_NOTE_PLING-1-2-0
+        Sounds_Reloading: ITEM_FLINTANDSTEEL_USE-1-1-4,BLOCK_WOODEN_DOOR_OPEN-1-2-6,ITEM_FLINTANDSTEEL_USE-1-1-36,ENTITY_PLAYER_HURT-1-0-37,BLOCK_IRON_DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: BLOCK_PISTON_CONTRACT-1-2-0,BLOCK_PISTON_CONTRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: CONFUSION-30-4
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_EXPERIENCE_ORB_PICKUP-1-2-0

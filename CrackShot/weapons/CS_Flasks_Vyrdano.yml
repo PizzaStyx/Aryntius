@@ -1,0 +1,132 @@
+## VYRDANO FLASK ITEMS -----------------------------------------
+VFlask_1:
+    Item_Information:
+        Item_Name: "&d&oFlask of Deftness"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: FAST_DIGGING-200-10,REGENERATION-200-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+VFlask_2:
+    Item_Information:
+        Item_Name: "&d&oLifeweave Flask"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0,ENTITY_HOSTILE_SWIM-0.5-0-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEAL-1-10,SPEED-200-10,WATER_BREATHING-200-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+VFlask_3:
+    Item_Information:
+        Item_Name: "&d&oFlask of Grounding"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: ABSORPTION-100-50,SLOW-1-1,LEVITATION-1-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+VFlask_4:
+    Item_Information:
+        Item_Name: "&d&oFlask of Leaping"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: JUMP-240-5,SLOW-60-10,SLOW_DIGGING-60-10,BLINDNESS-60-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+### VYRDANO LEGENDARY FLASKS -----------------------------------
+VFlask_L1:
+    Item_Information:
+        Item_Name: "&5&oSunfoil Brew"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 600
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_WITHER_DEATH-0.5-1-0,ENTITY_ENDERDRAGON_GROWL-0.2-1-500,ENTITY_ENDERDRAGON_GROWL-0.2-2-500
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: ABSORPTION-400-50,DAMAGE_RESISTANCE-1-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true

@@ -1,0 +1,48 @@
+ShopName: Food
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &6Food &eShop &7]'
+shop:
+  Meats:
+    MenuItem:
+    - name:&cThe Butchery
+    - lore:&7Fresh, raw meat!
+    - id:423
+    - amount:1
+    InventoryLocation: 11
+    PriceType: free
+    Reward: MeatShop
+    RewardType: shop
+  Bakery:
+    MenuItem:
+    - name:&aPizza's Bakery
+    - lore:&7Cookies, cakes, etc!
+    - id:354
+    - amount:1
+    InventoryLocation: 14
+    PriceType: free
+    Reward: BakeShop
+    RewardType: shop
+  AppleShop:
+    MenuItem:
+    - name:&bApples to Apples
+    - lore:&7You know what you want!
+    - id:260
+    - amount:1
+    InventoryLocation: 17
+    PriceType: free
+    Reward: AppleShop
+    RewardType: shop
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Main Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 32
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Menu

@@ -1,0 +1,85 @@
+VScroll_1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Void"
+        Delay_Bar:
+            Left_Color: "&d"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&dCOOLDOWN COMPLETE"
+VScroll_2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Heart"
+        Delay_Bar:
+            Left_Color: "&d"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&dCOOLDOWN COMPLETE"
+VScroll_3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Fire"
+        Delay_Bar:
+            Left_Color: "&d"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&dCOOLDOWN COMPLETE"
+VScroll_4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Smoke"
+        Delay_Bar:
+            Left_Color: "&d"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&dCOOLDOWN COMPLETE"
+### LEGENDARY SCROLLS ------------------------------------------
+VScroll_L1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Gold"
+        Delay_Bar:
+            Left_Color: "&6"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&6COOLDOWN COMPLETE"
+VScroll_L2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Cloud"
+        Delay_Bar:
+            Left_Color: "&6"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&6COOLDOWN COMPLETE"
+VScroll_L3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Fire"
+        Delay_Bar:
+            Left_Color: "&6"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&6COOLDOWN COMPLETE"

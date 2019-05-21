@@ -1,0 +1,698 @@
+ShopName: menu_dungeon_atlas
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &9Maugri's Atlas &8]"
+shop:
+### GREEN (EASY TIER) ------------------------------------------
+  Green_1:
+    Message: '&bYou have traveled to the &fAcid Spires&b.'
+    ExtraPermission: 'atlas.first'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_1
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:1010.5,62.0,2975.5:0.0:26.5"
+    InventoryLocation: 4
+    MenuItem:
+    - id:160
+    - durability:13
+    - name:&aAcid Spires
+    - "lore:&7Difficulty: &f✦&8✦✦✦"
+    - "lore:&7Map Type: &fBoss Only"
+    - "lore:&7Requirements: &aCitizen &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &cCorrupted Fragment"
+    - amount:1
+  Green_2:
+    Message: '&bYou have traveled to the &fMushroom Mountains&b.'
+    ExtraPermission: 'atlas.first'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_1
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:1550.5,69.0,3056.5:-11.5:135.5"
+    InventoryLocation: 6
+    MenuItem:
+    - id:160
+    - durability:13
+    - name:&aMushroom Mountains
+    - "lore:&7Difficulty: &f✦&8✦✦✦"
+    - "lore:&7Map Type: &fMountains"
+    - "lore:&7Requirements: &aCitizen &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &cCorrupted Fragment"
+    - amount:1
+  Green_3:
+    Message: '&bYou have traveled to the &fSpider Den&b.'
+    ExtraPermission: 'atlas.first'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_1
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:250.5,61.0,3250.5:0.0:270.0"
+    InventoryLocation: 11
+    MenuItem:
+    - id:160
+    - durability:13
+    - name:&aSpider Den
+    - "lore:&7Difficulty: &f✦&8✦✦✦"
+    - "lore:&7Map Type: &fCaverns"
+    - "lore:&7Requirements: &aCitizen &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &cCorrupted Fragment"
+    - amount:1
+  Green_4:
+    Message: '&bYou have traveled to the &fGrand Archives&b.'
+    ExtraPermission: 'atlas.first'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_1
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:-992.5,101.0,642.5:0.0:0.0"
+    InventoryLocation: 17
+    MenuItem:
+    - id:160
+    - durability:13
+    - name:&aGrand Archives
+    - "lore:&7Difficulty: &f✦&8✦✦✦"
+    - "lore:&7Map Type: &fLabyrinth"
+    - "lore:&7Requirements: &aCitizen &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &cCorrupted Fragment"
+    - amount:1
+  Green_5:
+    Message: '&bYou have traveled to the &fAncient Desert&b.'
+    ExtraPermission: 'atlas.first'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_1
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:495.5,67.0,3082.5:0.0:102.5"
+    InventoryLocation: 28
+    MenuItem:
+    - id:160
+    - durability:13
+    - name:&aAncient Desert
+    - "lore:&7Difficulty: &f✦&8✦✦✦"
+    - "lore:&7Map Type: &fMountains"
+    - "lore:&7Requirements: &aCitizen &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &cCorrupted Fragment"
+    - amount:1
+  Green_6:
+    Message: '&bYou have traveled to the &fRedrock Canyon&b.'
+    ExtraPermission: 'atlas.first'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_1
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:-3.5,62.0,3037.5:0.0:163.5"
+    InventoryLocation: 36
+    MenuItem:
+    - id:160
+    - durability:13
+    - name:&aRedrock Canyon
+    - "lore:&7Difficulty: &f✦&8✦✦✦"
+    - "lore:&7Map Type: &fBoss Only"
+    - "lore:&7Requirements: &aCitizen &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &cCorrupted Fragment"
+    - amount:1
+### YELLOW (MEDIUM TIER) ---------------------------------------
+  Yellow_1:
+    Message: '&bYou have traveled to the &fLost Tomb&b.'
+    ExtraPermission: 'atlas.second'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_2
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:-796.5,101.0,642.5:0.0:90.0"
+    InventoryLocation: 14
+    MenuItem:
+    - id:160
+    - durability:4
+    - name:&eLost Tomb
+    - "lore:&7Difficulty: &f✦✦&8✦✦"
+    - "lore:&7Map Type: &fLabyrinth"
+    - "lore:&7Requirements: &2Noble &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &4Greater Corrupted Fragment"
+    - amount:1
+  Yellow_2:
+    Message: '&bYou have traveled to the &fCrumbling Castle&b.'
+    ExtraPermission: 'atlas.second'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_2
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:-260.5,71.0,3093.5:0.0:180.0"
+    InventoryLocation: 21
+    MenuItem:
+    - id:160
+    - durability:4
+    - name:&eCrumbling Castle
+    - "lore:&7Difficulty: &f✦✦&8✦✦"
+    - "lore:&7Map Type: &fMountains"
+    - "lore:&7Requirements: &2Noble &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &4Greater Corrupted Fragment"
+    - amount:1
+  Yellow_3:
+    Message: '&bYou have traveled to the &fAzure Atrium&b.'
+    ExtraPermission: 'atlas.second'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_2
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:2000.5,62.0,1992.5:0.0:0.0"
+    InventoryLocation: 25
+    MenuItem:
+    - id:160
+    - durability:4
+    - name:&eAzure Atrium
+    - "lore:&7Difficulty: &f✦✦&8✦✦"
+    - "lore:&7Map Type: &fBoss Only"
+    - "lore:&7Requirements: &2Noble &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &4Greater Corrupted Fragment"
+    - amount:1
+  Yellow_4:
+    Message: '&bYou have traveled to the &fEye of the Storm&b.'
+    ExtraPermission: 'atlas.second'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_2
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:287.5,63.0,2996.5:0.0:135.0"
+    InventoryLocation: 38
+    MenuItem:
+    - id:160
+    - durability:4
+    - name:&eEye of the Storm
+    - "lore:&7Difficulty: &f✦✦&8✦✦"
+    - "lore:&7Map Type: &fBoss Only"
+    - "lore:&7Requirements: &2Noble &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &4Greater Corrupted Fragment"
+    - amount:1
+  Yellow_5:
+    Message: '&bYou have traveled to the &fFrozen Wastes&b.'
+    ExtraPermission: 'atlas.second'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_2
+      - amount:3
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:-576.5,62.0,3028.5:0.0:180.0"
+    InventoryLocation: 44
+    MenuItem:
+    - id:160
+    - durability:4
+    - name:&eFrozen Wastes
+    - "lore:&7Difficulty: &f✦✦&8✦✦"
+    - "lore:&7Map Type: &fMountains"
+    - "lore:&7Requirements: &2Noble &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &4Greater Corrupted Fragment"
+    - amount:1
+### RED (HARD TIER) --------------------------------------------
+  Red_1:
+    Message: '&bYou have traveled to the &fForge of Embers&b.'
+    ExtraPermission: 'atlas.third'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_3
+      - amount:3
+    RewardType: Command
+    Reward:
+    - "mv tp %player% e:Dungeon:0.5,62.0,3250.5:0.0:0.0"
+    InventoryLocation: 31
+    MenuItem:
+    - id:160
+    - durability:14
+    - name:&cForge of Embers
+    - "lore:&7Difficulty: &f✦✦✦&8✦"
+    - "lore:&7Map Type: &fCaverns"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &4&oEssence of S&c&ohadows"
+    - amount:1
+  Red_2:
+    Message: '&bYou have traveled to the &fSunken City&b.'
+    ExtraPermission: 'atlas.third'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_3
+      - amount:3
+    RewardType: Command
+    Reward:
+    - "mv tp %player% e:Dungeon:250.5,81.0,3500.5:0.0:180.0"
+    InventoryLocation: 33
+    MenuItem:
+    - id:160
+    - durability:14
+    - name:&cSunken City
+    - "lore:&7Difficulty: &f✦✦✦&8✦"
+    - "lore:&7Map Type: &fHybrid"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &4&oEssence of S&c&ohadows"
+    - amount:1
+  Red_3:
+    Message: '&bYou have traveled to the &fAbandoned Asylum&b.'
+    ExtraPermission: 'atlas.third'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_3
+      - amount:3
+    RewardType: Command
+    Reward:
+    - "mv tp %player% e:Dungeon:-1020.5,117.0,740.5:0.0:270.0"
+    InventoryLocation: 39
+    MenuItem:
+    - id:160
+    - durability:14
+    - "name:&cAbandoned Asylum"
+    - "lore:&7Difficulty: &f✦✦✦&8✦"
+    - "lore:&7Map Type: &fLabyrinth"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &4&oEssence of S&c&ohadows"
+    - amount:1
+  Red_4:
+    Message: '&bYou have traveled to the &fPath of the Lost&b.'
+    ExtraPermission: 'atlas.third'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_3
+      - amount:3
+    RewardType: Command
+    Reward:
+    - "mv tp %player% e:Dungeon:397.5,84.0,2671.5:0.0:45.0"
+    InventoryLocation: 43
+    MenuItem:
+    - id:160
+    - durability:14
+    - name:&cPath of the Lost
+    - "lore:&7Difficulty: &f✦✦✦&8✦"
+    - "lore:&7Map Type: &fMountains"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f3x &4&oEssence of S&c&ohadows"
+    - amount:1
+  ShapersRealm:
+    Message: '&bYou have traveled to the &fHeart of the World&b.'
+    ExtraPermission: 'atlas.third'
+    PriceType: item
+    Price:
+    - - mythicitem:Key_North
+      - amount:1
+    - - mythicitem:Key_South
+      - amount:1
+    - - mythicitem:Key_East
+      - amount:1
+    - - mythicitem:Key_West
+      - amount:1
+    RewardType: Command
+    Reward:
+    - "mv tp %player% e:Dungeon:964.5,45.0,3477.5:0.0:302.0"
+    InventoryLocation: 41
+    MenuItem:
+    - id:160
+    - durability:10
+    - "name:&dHeart of the World"
+    - "lore:&7Difficulty: &f✦✦✦✦"
+    - "lore:&7Map Type: &fBoss Only"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&7Travel Cost:"
+    - "lore:&7- &f1x &eNorthern Compass Shard"
+    - "lore:&7- &f1x &eWestern Compass Shard"
+    - "lore:&7- &f1x &eEastern Compass Shard"
+    - "lore:&7- &f1x &eSouthern Compass Shard"
+    - amount:1
+### FILLER SPACES ----------------------------------------------
+  Filler_1:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 1
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_2:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 2
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_3:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 3
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_4:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 5
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_5:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 7
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_6:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 8
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_7:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 9
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_8:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 10
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_9:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 12
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_10:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 13
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_11:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 15
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_12:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 16
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_13:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 18
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_14:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 19
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_15:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 20
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_16:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 22
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_17:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 23
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_18:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 24
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_19:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 26
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_20:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 27
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_21:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 29
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_22:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 30
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_23:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 32
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_24:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 34
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_25:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 35
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_26:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 37
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_27:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 40
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_28:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 42
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_29:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 45
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_B1:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 46
+    MenuItem:
+    - id:95
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_B2:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 47
+    MenuItem:
+    - id:95
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_B3:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 48
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B4:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 49
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B5:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 51
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B6:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 52
+    MenuItem:
+    - id:95
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_B7:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 53
+    MenuItem:
+    - id:95
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_B8:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 54
+    MenuItem:
+    - id:95
+    - durability:7
+    - name:&0
+    - amount:1
+### MENU BUTTON/UTILS ------------------------------------------
+  MenuButton:
+    PriceType: nothing
+    RewardType: close
+    InventoryLocation: 50
+    MenuItem:
+    - id:166
+    - name:&cClose Menu
+    - "lore:&7Exit the Atlas"
+    - amount:1

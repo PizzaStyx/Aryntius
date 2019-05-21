@@ -1,0 +1,52 @@
+ShopName: npc_TutQuest
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &9Quest Completed &8]'
+shop:
+  Reward_1:
+    RewardType: Command
+    PriceType: free
+    Reward:
+    - pex user %player% group set Settler
+    - eco give %player% 25000
+    - bc &f%player% &7has ranked up to &eSettler&7!
+    - mv tp %player% e:world:-29.5,104.0,94.5:0.0:25.0
+    - rawmsg %player% &7You have traveled to &aSelthine&7.
+    MenuItem:
+    - id:35
+    - durability:4
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - "name:&eQuest Reward"
+    - "lore:&7You have completed the tutorial"
+    - "lore:&7quest! Click to claim your reward!"
+    - "lore:&0 "
+    - "lore:&fRewards:"
+    - "lore:&f★ &625,000Σ"
+    - "lore:&f★ &eSettler &7Rank"
+    - "lore:&f★ &7Access to the city of &aSelthine"
+    - "lore:&0 "
+    - "lore:&cThis reward can only be claimed"
+    - "lore:&conce per player."
+    InventoryLocation: 3
+    ExtraPermission: 'shopranks.asp'
+  Reward_2:
+    RewardType: Command
+    PriceType: free
+    Reward:
+    - mv tp %player% e:world:-29.5,104.0,94.5:0.0:25.0
+    - rawmsg %player% &7You have traveled to &aSelthine&7.
+    MenuItem:
+    - id:35
+    - durability:5
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - "name:&aTravel to Selthine"
+    - "lore:&7Fast travel back to the city of"
+    - "lore:&7Selthine. This option is intended"
+    - "lore:&7for returning players."
+    InventoryLocation: 7
+    ExtraPermission: 'shoputils.fasttravel'

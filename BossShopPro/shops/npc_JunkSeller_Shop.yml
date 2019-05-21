@@ -1,0 +1,88 @@
+ShopName: npc_JunkSeller_Shop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Complete Junk &8]'
+shop:
+### FLASKS ----------------------------------------------------
+  RNG_Currency: ### Random Currency Item
+    PriceType: item
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:3
+    RewardType: Command
+    Reward:
+    - 'rc randomCurrency %player%'
+    MenuItem:
+    - id:378
+    - name:&aPrayer of Luck
+    - "lore:&0 "
+    - "lore:&a★ &7&oGives you a random"
+    - "lore:&a&o  Currency &7&oitem."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f3x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You have received a random currency item.'
+  RNG_Corrupted: ### Random Corrupted Item
+    MenuItem:
+    - id:283
+    - name:&cCursed Artifact
+    - "lore:&0 "
+    - "lore:&c★ &7&oGives you a random"
+    - "lore:&4&o  Corr&c&oupted &7&oitem."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &4&oEssence of S&c&ohadows"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'rc randomCorrupted %player%'
+    PriceType: item
+    Price:
+    - - mythicitem:HH_3
+      - amount:8
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You have bought a random &4&oCorr&c&oupted &7item.'
+  RNG_Iri: ### Random Iri
+    MenuItem:
+    - id:359
+    - name:&bDusty Old Relic
+    - "lore:&0 "
+    - "lore:&b★ &7&oGives you a random"
+    - "lore:&b&o  Iridescent &7&oitem."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f1x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f1x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f1x &5&oCh&d&oaos Sphe&5&ore"
+    - "lore:&7- &f1x &5&oEt&d&oher Cryst&5&oal"
+    - "lore:&7- &f1x &5&oPh&d&ooenix Ash&5&oes"
+    - "lore:&7- &f1x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    RewardType: Command
+    Reward:
+    - 'rc randomIri %player%'
+    PriceType: item
+    Price:
+    - - mythicitem:ChaosSphere
+      - amount:1
+    - - mythicitem:EtherCrystal
+      - amount:1
+    - - mythicitem:PhoenixAshes
+      - amount:1
+    - - mythicitem:DreamFragment
+      - amount:1
+    - - mythicitem:Astralite
+      - amount:1
+    - - mythicitem:AncientHide
+      - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You have bought a random &b&oIridescent &7item.'

@@ -1,0 +1,8 @@
+title: Lab_Smith_4A
+author: PizzaStyx
+pages:
+  1:
+    - "I was actually part of the few tasked by the Eternals to create this place: neither a city nor a fortress, but a prison designed to house one of the Eternals that had gone mad."
+    - ""
+    - '&7- { text: "So what happened", color:"BLUE", hover: "&7View lore", open: "Lab_Smith_4B"}'
+    - '&l  { text: "to them?", color:"BLUE", hover: "&7View lore", open: "Lab_Smith_4B"}'

@@ -1,0 +1,105 @@
+### LEGACY FLASKS (CS FILE) ---------------------------------------------------
+LGC_Flask4:
+    Item_Information:
+        Item_Name: "&6&oUndying Rage"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 300
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_GHAST_SHOOT-1-1-0,ENTITY_GHAST_SHOOT-1-0-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: INCREASE_DAMAGE-200-200,REGENERATION-1-1,ABSORPTION-1-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+LGC_Flask5:
+    Item_Information:
+        Item_Name: "&6&oStoneheart Brew"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0,BLOCK_ANVIL_LAND-1-2-0,BLOCK_ANVIL_LAND-1-1-0,BLOCK_ANVIL_LAND-1-0-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: DAMAGE_RESISTANCE-200-5,SLOW-60-10,WEAKNESS-60-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+LGC_Flask11:
+    Item_Information:
+        Item_Name: "&6&oFlask of Lifeforce"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1200
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-0.8-1-0,ENTITY_HOSTILE_SWIM-1-2-0,ENTITY_HOSTILE_SWIM-0.5-0-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEALTH_BOOST-6000-5,REGENERATION-200-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+LGC_VFlask_L1:
+    Item_Information:
+        Item_Name: "&6&oSunfoil Brew"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 600
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_WITHER_DEATH-0.5-1-0,ENTITY_ENDERDRAGON_GROWL-0.2-1-500,ENTITY_ENDERDRAGON_GROWL-0.2-2-500
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: ABSORPTION-400-50,DAMAGE_RESISTANCE-1-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true

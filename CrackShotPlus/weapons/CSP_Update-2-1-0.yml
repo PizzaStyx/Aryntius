@@ -1,0 +1,70 @@
+###---------------------------------------------------------###
+### HUNTING HOUSE WEAPONS (CSP file)
+###---------------------------------------------------------###
+HH_Rocket:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PiercedFlame,PiercedSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_DarkRed
+HH_Pistol:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperRed"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_DarkRed
+HH_Bow_Low:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Crit"
+HH_Bow_Mid:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Crit"
+HH_Bow_Final:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Crit"
+HH_Magic_Low:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "FireTube"
+        Delay_Bar:
+            Left_Color: "&c"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+HH_Magic_Mid:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Void,WitchMagic"
+        Delay_Bar:
+            Left_Color: "&4"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+HH_Magic_Final:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WhiteMagic,BigCloud"
+        Delay_Bar:
+            Left_Color: "&f"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"

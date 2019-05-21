@@ -1,0 +1,90 @@
+Rare:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - exp 50
+  ### TOOLS/CONSUMABLES
+  - BoomNuts 1 0.01
+  - Scroll3 1 0.01
+  - Aquir_Pick 1 0.01
+  - Aquir_Axe 1 0.01
+  - Aquir_Hoe 1 0.01
+  - Aquir_Sword 1 0.01
+  ### MELEE WEAPON DROPS
+  - T4_1 1 0.006
+  - T4_2 1 0.006
+  - T4_3 1 0.004
+  - T4_4 1 0.006
+  - T4_5 1 0.006
+  - T4_6 1 0.006
+  - T4_7 1 0.004
+  - T4_8 1 0.004
+  - T4_9 1 0.004
+  - T4_10 1 0.004
+  - T4_U1 1 0.003
+  - T4_U2 1 0.003
+  - T4_U3 1 0.003
+  - T4_U4 1 0.002
+  - T4_W1 1 0.002
+  - T4_W2 1 0.002
+  - T4_W3 1 0.001
+  ### RANGED/MAGIC WEAPONS
+  - Frost0 1 0.004
+  - Fire1 1 0.004
+  - Water1 1 0.004
+  - Air1 1 0.004
+  - Bow1 1 0.003
+  - Crossbow2 1 0.004
+  - Rocket1 1 0.002
+  - AutoRifle1 1 0.004
+  - Scattergun2 1 0.004
+  - Shotgun2 1 0.004
+  - SMG1 1 0.004
+  - Sniper1 1 0.003
+  ### CHARMS/FLASKS
+  - Charm_Rejuv 1 0.004
+  - Charm_Hunger 1 0.004
+  - Charm_Heal 1 0.004
+  - Flask1 1 0.004
+  - Flask10 1 0.004
+  ### ARMOR ITEMS
+  - T4_11 1 0.006
+  - T4_12 1 0.006
+  - T4_13 1 0.006
+  - T4_14 1 0.004
+  - T4_15 1 0.002
+  - T4_A1 1 0.004
+  - T4_A2 1 0.006
+  - T4_A3 1 0.004
+  - T4_A4 1 0.004
+  - T4_A5 1 0.004
+  - T4_A6 1 0.002
+  - T4_A7 1 0.004
+  - T4_A8 1 0.006
+  - T4_A9 1 0.004
+  ### UNWANTED LEGENDARIES
+  - Greedmonger 1 0.001
+  - WeedWhacker 1 0.001
+  - PowerDrill 1 0.001
+  - LegendFisher 1 0.001
+  ### ARMOR SETS
+  - Mithril_Helm 1 0.002
+  - Mithril_Chest 1 0.002
+  - Mithril_Legs 1 0.002
+  - Mithril_Boots 1 0.002
+  - Bunny_Helm 1 0.002
+  - Bunny_Chest 1 0.002
+  - Bunny_Legs 1 0.002
+  - Bunny_Boots 1 0.002
+  - Aquir_Helm 1 0.002
+  - Aquir_Chest 1 0.002
+  - Aquir_Legs 1 0.002
+  - Aquir_Boots 1 0.002
+  - Runic_Helm 1 0.002
+  - Runic_Chest 1 0.002
+  - Runic_Legs 1 0.002
+  - Runic_Boots 1 0.002
+  - Berserker_Helm 1 0.002
+  - Berserker_Chest 1 0.002
+  - Berserker_Legs 1 0.002
+  - Berserker_Boots 1 0.002

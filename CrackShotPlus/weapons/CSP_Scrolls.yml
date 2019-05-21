@@ -1,0 +1,85 @@
+### SCROLLS
+Scroll1:
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "PiercedFlame"
+        Delay_Bar:
+            Left_Color: "&c"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7COOLDOWN COMPLETE"
+Scroll2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "DeepWater"
+        Delay_Bar:
+            Left_Color: "&b"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7COOLDOWN COMPLETE"
+Scroll3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Earth"
+        Delay_Bar:
+            Left_Color: "&a"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7COOLDOWN COMPLETE"
+Scroll4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "AirMagic"
+        Delay_Bar:
+            Left_Color: "&f"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7COOLDOWN COMPLETE"
+Scroll5:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "BloodMagic"
+        Delay_Bar:
+            Left_Color: "&4"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&cCOOLDOWN COMPLETE"
+Scroll6:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WhiteMagic"
+        Delay_Bar:
+            Left_Color: "&6"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&6COOLDOWN COMPLETE"
+Scroll7:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Heart_Trails"
+        Delay_Bar:
+            Left_Color: "&6"
+            Right_Color: "&7"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&6COOLDOWN COMPLETE"

@@ -1,0 +1,276 @@
+ShopName: npc_Void_BaroKiteer
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &5Void &dTrader &8]"
+shop:
+  Charm_VaalPact:
+    MenuItem:
+    - id:433
+    - name:&b&oVoid Pact
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b&oIridescent"
+    - "lore:&0 "
+    - "lore:&b» &7&oWhile equipped in off hand:"
+    - "lore:&b★ &c&o+20.0❤ &7&omaximum health."
+    - "lore:&b★ &7&oWhenever you hit an enemy,"
+    - "lore:&7&o  fully restore your health."
+    - "lore:&b★ &c&oRegeneration has no effect."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f128x &aStar Fragment"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought 1 Void Pact for &f128 &aStar Fragments&7.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    PriceType: item
+    Reward:
+    - mythicitem:Charm_VaalPact
+    RewardType: item
+  SpellCatalyst:
+    MenuItem:
+    - id:369
+    - name:&b&oEternal Catalyst
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b&oIridescent"
+    - "lore:&0 "
+    - "lore:&b» &7&oWhile equipped in off hand:"
+    - "lore:&b★ &7&o50% chance to add &c&o20.0❤ &5&oChaos"
+    - "lore:&7&o  damage to ranged/magic attacks."
+    - "lore:&b★ &7&o25% chance to add &c&o40.0❤ &5&oChaos"
+    - "lore:&7&o  damage to ranged/magic attacks."
+    - "lore:&b★ &7&o15% chance to add &c&o80.0❤ &5&oChaos"
+    - "lore:&7&o  damage to ranged/magic attacks."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f128x &aStar Fragment"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7[&bInfo&7] You bought 1 Eternal Catalyst for &f128 &aStar Fragments&7.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    PriceType: item
+    Reward:
+    - mythicitem:SpellCatalyst
+    RewardType: item
+  Charm_NVision:
+    MenuItem:
+    - id:375
+    - name:&b&oEye of the Void
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b&oIridescent"
+    - "lore:&0 "
+    - "lore:&b★ &7&oYou have &a&oNight Vision&7&o."
+    - "lore:&b» &7&oWhile equipped in off hand:"
+    - "lore:&b★ &c&o+15.0❤ &7&omaximum health."
+    - "lore:&b★ &7&oAdds &c&o25.0❤ &5&oChaos &7&odamage"
+    - "lore:&7&o  to all attacks."
+    - "lore:&b★ &7&oYou are immune to &8&oBlindness&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f128x &aStar Fragment"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bInfo&7] You bought 1 Eye of the Void for &f128 &aStar Fragments&7.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    PriceType: item
+    Reward:
+    - mythicitem:Charm_NVision
+    RewardType: item
+  Dragon_Tear:
+    MenuItem:
+    - id:370
+    - "name:&b&oDragon's Tear"
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b&oIridescent"
+    - "lore:&0 "
+    - "lore:&b★ &7&oYou have &e&o20.0❤&7&o. (Refreshes"
+    - "lore:&7&o  once every 10.0 seconds.)"
+    - "lore:&b» &7&oWhile equipped in off hand:"
+    - "lore:&b★ &c&o+20.0❤ &7&omaximum health."
+    - "lore:&b★ &7&oYou have &e&o20.0❤&7&o. (Refreshes"
+    - "lore:&7&o  once every 2.5 seconds.)"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f128x &aStar Fragment"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought 1 Dragon''s Tear for &f128 &aStar Fragments&7.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    PriceType: item
+    Reward:
+    - mythicitem:Dragon_Tear
+    RewardType: item
+### CHARMS -----------------------------------------------------
+  Charm_Defense:
+    MenuItem:
+    - id:337
+    - name:&b&oCharm of Deftness
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b&oIridescent"
+    - "lore:&0 "
+    - "lore:&b» &7&oWhile equipped in off hand:"
+    - "lore:&b★ &c&o+10.0❤ &7&omaximum health."
+    - "lore:&b★ &7&oYou have &a&oResistance IV&7&o."
+    - "lore:&7&o  (Refreshes every second)."
+    - "lore:&b★ &7&oYou cannot be &8&oSlowed&7&o, &b&oChilled&7&o,"
+    - "lore:&7&o  or &b&oFrozen &7&oby enemy attacks."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f256x &aStar Fragment"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought 1 Charm of Deftness for &f256 &aStar Fragments&7.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    PriceType: item
+    Reward:
+    - mythicitem:Charm_Defense
+    RewardType: item
+  Charm_Bleed:
+    MenuItem:
+    - id:351
+    - Durability:14
+    - name:&b&oCharm of Purpose
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b&oIridescent"
+    - "lore:&0 "
+    - "lore:&b★ &7&oEnemies you hit are marked"
+    - "lore:&7&o  as &4&oBleeding &7&ofor 10.0s."
+    - "lore:&b» &7&oWhile equipped in off hand:"
+    - "lore:&b★ &7&oAdds &c&o250.0-400.0❤ &7&odamage"
+    - "lore:&7&o  against &4&oBleeding &7&oenemies."
+    - "lore:&b★ &7&oYou are immune to nonlethal"
+    - "lore:&7&o  damage while &4&oBleeding&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f256x &aStar Fragment"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bInfo&7] You bought 1 Charm of Purpose for &f256 &aStar Fragments&7.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    PriceType: item
+    Reward:
+    - mythicitem:Charm_Bleed
+    RewardType: item
+  Charm_Negate:
+    MenuItem:
+    - id:351
+    - Durability:12
+    - name:&b&oCharm of Purity
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b&oIridescent"
+    - "lore:&0 "
+    - "lore:&b» &7&oWhile equipped in off hand:"
+    - "lore:&b★ &7&oRemoves all negative effects"
+    - "lore:&7&o  from you once every 3.0s."
+    - "lore:&b★ &7&o10% chance to fully restore"
+    - "lore:&7&o  your health and gold hearts"
+    - "lore:&7&o  when you take damage."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f256x &aStar Fragment"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bInfo&7] You bought 1 Charm of Purity for &f256 &aStar Fragments&7.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    PriceType: item
+    Reward:
+    - mythicitem:Charm_Negate
+    RewardType: item
+  Charm_Freeze:
+    MenuItem:
+    - id:351
+    - Durability:7
+    - name:&b&oUnending Solstice
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b&oIridescent"
+    - "lore:&0 "
+    - "lore:&b» &7&oWhile equipped in off hand:"
+    - "lore:&b★ &7&oAdds &c&o40.0❤ &5&oChaos &7&odamage to"
+    - "lore:&7&o  ranged/magic attacks against"
+    - "lore:&b&o  Frozen &7&oenemies."
+    - "lore:&b★ &7&oAdds &c&o120.0❤ &5&oChaos &7&odamage to"
+    - "lore:&7&o  melee attacks against &b&oFrozen"
+    - "lore:&7&o  enemies."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f256x &aStar Fragment"
+    - enchantment:PROTECTION_EXPLOSIONS#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought 1 Unending Solstice for &f256 &aStar Fragments&7.'
+    Price:
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    - - mythicitem:Coin_Nether
+      - amount:64
+    PriceType: item
+    Reward:
+    - mythicitem:Charm_Freeze
+    RewardType: item

@@ -1,0 +1,15 @@
+title: allowedMods
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lAllowed Mods"
+    - ""
+    - "Mild enhancements such as Optifine are perfectly fine."
+    - ""
+    - "Autoclickers, auto aim, nofall, and other mods that resemble hacked clients are strictly prohibited and will warrant a ban on sight."
+  2:
+    - "Due to how they can give an extreme advantage while navigating, minimap mods are not allowed."
+    - ""
+    - "If you have a mod that you are unsure if you should use, feel free to ask us on Discord!"
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

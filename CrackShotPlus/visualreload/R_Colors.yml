@@ -1,0 +1,82 @@
+## RANGER RELOADS
+R_Green:
+    Left_Color: "&a"
+    Right_Color: "&7"
+    Symbol: "░"
+    Symbol_Amount: 7
+    Reload_Message:
+        Action_Bar: "&7Reloading... #BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Blue:
+    Left_Color: "&b"
+    Right_Color: "&7"
+    Symbol: "░"
+    Symbol_Amount: 7
+    Reload_Message:
+        Action_Bar: "&7Reloading... #BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_BlueDark:
+    Left_Color: "&9"
+    Right_Color: "&7"
+    Symbol: "░"
+    Symbol_Amount: 7
+    Reload_Message:
+        Action_Bar: "&7Reloading... #BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Red:
+    Left_Color: "&c"
+    Right_Color: "&7"
+    Symbol: "░"
+    Symbol_Amount: 7
+    Reload_Message:
+        Action_Bar: "&7Reloading... #BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_DarkRed:
+    Left_Color: "&4"
+    Right_Color: "&8"
+    Symbol: "░"
+    Symbol_Amount: 7
+    Reload_Message:
+        Action_Bar: "&7Reloading... #BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Yellow:
+    Left_Color: "&e"
+    Right_Color: "&7"
+    Symbol: "░"
+    Symbol_Amount: 7
+    Reload_Message:
+        Action_Bar: "&7Reloading... #BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Purple:
+    Left_Color: "&d"
+    Right_Color: "&7"
+    Symbol: "░"
+    Symbol_Amount: 7
+    Reload_Message:
+        Action_Bar: "&7Reloading... #BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_PurpleDark:
+    Left_Color: "&5"
+    Right_Color: "&8"
+    Symbol: "░"
+    Symbol_Amount: 7
+    Reload_Message:
+        Action_Bar: "&7Reloading... #BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&7RELOADING COMPLETE"
+R_Gold:
+    Left_Color: "&6"
+    Right_Color: "&8"
+    Symbol: "░"
+    Symbol_Amount: 7
+    Reload_Message:
+        Action_Bar: "&7Reloading... #BAR# &7#TIME#s"
+    Reload_Complete_Message:
+        Action_Bar: "&6RELOADING COMPLETE"

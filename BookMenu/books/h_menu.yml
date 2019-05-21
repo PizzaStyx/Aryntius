@@ -1,0 +1,53 @@
+title: Information
+author: PizzaStyx
+pages:
+### ALL PAGES SHOULD HAVE NO MORE THAN 13 LINES (Or they disappear on certain clients).
+  1:
+    - "&8&lHelp Center"
+    - ""
+    - "Welcome to the help center! Click on a topic to read more about it!"
+    - ""
+    - "&8Server Info"
+    - '&7» { text: "&9Server Rules", command: "rules", hover: "&7View &9Server Rules"}'
+    - '&7» { text: "&9Video Settings", hover: "&7View &9Video Settings", open: "h_videoSettings"}'
+    - '&7» { text: "&9Allowed Mods", hover: "&7View &9Allowed Mods", open: "h_allowedMods"}'
+    - '&7» { text: "&9Social Media", hover: "&7View &9Server Info", open: "h_serverInfo"}'
+  2:
+    - "&8Item Information"
+    - '&7» { text: "&9Item Types", command: "bs help_ItemTypes", hover: "&7View &9Item Types"}'
+    - '&7» { text: "&9Item Tier List", command: "bs help_ItemTierList", hover: "&7View &9Item Tier List"}'
+    - '&7» { text: "&9Drop Locations", hover: "&7View &9Drop Locations", open: "h_dropLocations"}'
+    - ""
+    - "&8Universal Mechanics"
+    - '&7» { text: "&9Enemies", hover: "&7View &9Enemies", open: "h_enemies"}'
+    - '&7» { text: "&9Bosses", hover: "&7View &9Bosses", open: "h_bosses"}'
+    - '&7» { text: "&9NPC Information", hover: "&7View &9NPC Info", open: "h_npcInfo"}'
+    - '&7» { text: "&9Damage Scaling", hover: "&7View &9Damage Scaling", open: "h_DamageTypes"}'
+    - '&7» { text: "&9Status Effects", hover: "&7View &9Status Effects", open: "h_StatusEffects"}'
+    - '&7» { text: "&9PvP Zones", hover: "&7View &9PvP Zones", open: "h_PvPZones"}'
+  3:
+    - "&8Commands"
+    - '&7» { text: "&9Backpacks", hover: "&7View &9Backpacks", open: "h_backpacks"}'
+    - '&7» { text: "&9Disposal", hover: "&7View &9Disposal", open: "h_disposal"}'
+    - ""
+    - "&8Chat Help"
+    - '&7» { text: "&9Chat Channels", hover: "&7View &9Chat Channels", open: "h_chatChannels"}'
+    - '&7» { text: "&9Chat Tags/Info", hover: "&7View &9Chat Tags/Info", open: "h_chatInfo"}'
+    - '&7» { text: "&9Chat Items", hover: "&7View &9Chat Items", open: "h_chatItem"}'
+    - ""
+    - "&8Social Features"
+    - '&7» { text: "&9Parties", hover: "&7View &9Party Information", open: "h_PartyGuide"}'
+    - '&7» { text: "&9Guilds", hover: "&7View &9Guild Information", open: "h_GuildGuide"}'
+  4:
+    - "&8Economy Help"
+    - '&7» { text: "&9Jobs", hover: "&7View &9Jobs", open: "h_ecoJobs"}'
+    - '&7» { text: "&9Trading", hover: "&7View &9Trading", open: "h_ecoTrading"}'
+    - '&7» { text: "&9Auctions", hover: "&7View &9Auctions", open: "h_ecoAuctions"}'
+    - '&7» { text: "&9Chest Shops", hover: "&7View &9Chest Shops", open: "h_ecoChestShop"}'
+    - '&7» { text: "&9Direct Selling", hover: "&7View &9Direct Selling", open: "h_ecoSellHand"}'
+    - ""
+    - "&8Survival Mechanics"
+    - '&7» { text: "&9Teleports", hover: "&7View &9Teleports", open: "h_teleports"}'
+    - '&7» { text: "&9Setting Homes", hover: "&7View &9Setting Homes", open: "h_setHomes"}'
+    - '&7» { text: "&9Grief Prevention", hover: "&7View &9Grief Prevention", open: "h_antiGrief"}'
+    - '&7» { text: "&9Miscellaneous", hover: "&7View &9Miscellaneous", open: "h_survivalMisc"}'

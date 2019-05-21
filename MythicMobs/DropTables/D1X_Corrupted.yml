@@ -1,0 +1,84 @@
+###---------------------------------------------------------###
+### CORRUPTED DROPS
+###---------------------------------------------------------###
+Corrupted:
+  Conditions:
+  - playerwithin 50
+  Drops:
+## Drop chance changes by power.
+## 0.2% - Normal
+## 0.1% - Powerful
+## 0.05% - Insanely overpowered
+  - Scroll5 1 0.002
+### RANGED/MAGIC WEAPONS
+  - Bow5 1 0.002
+  - BloodMagic 1 0.001
+  - Aura_Void 1 0.0005
+### MELEE WEAPONS
+  - TwinViper 1 0.001
+  - SilenceDagger 1 0.001
+  - LeechSword 1 0.002
+  - BleedAxe 1 0.002
+  - BleedSword 1 0.001
+  - ChaosScythe 1 0.002
+  - FrostSaber 1 0.001
+  - PhysSword 1 0.0005
+### CHARMS/ACCESSORIES
+  - Jewel_Fire 1 0.001
+  - Jewel_Water 1 0.001
+  - Jewel_Earth 1 0.001
+  - Jewel_Air 1 0.001
+  - BloodCatalyst 1 0.001
+  - ShockCatalyst 1 0.0005
+  - BoneCatalyst 1 0.0005
+  - Charm_SuperHeal 1 0.001
+  - Charm_Eldritch 1 0.0005
+  - Shield_Madness 1 0.002
+  - Shield_Chaos 1 0.002
+### ARMOR
+  - Helm_Chaos 1 0.002
+  - Helm_Blind 1 0.001
+  - Helm_Ranger 1 0.001
+  - Helm_Melee 1 0.0005
+  - Helm_Frenzy 1 0.0005
+  - Chest_Decay 1 0.002
+  - Chest_Phys 1 0.001
+  - Chest_Lethal 1 0.001
+  - Chest_Melee 1 0.0005
+  - Chest_Ranger 1 0.0005
+  - Legs_FullHeal 1 0.001
+  - Legs_Chaos 1 0.0005
+  - Boots_NoSpeed 1 0.002
+  - Boots_ShockFrost 1 0.002
+  - Boots_Featherborne 1 0.001
+  - Boots_Madness 1 0.0005
+  - SBH 1 0.001
+### ARMOR SETS
+  - Cultist_Helm 1 0.002
+  - Cultist_Chest 1 0.002
+  - Cultist_Legs 1 0.002
+  - Cultist_Boots 1 0.002
+  - Infernal_Helm 1 0.001
+  - Infernal_Chest 1 0.001
+  - Infernal_Legs 1 0.001
+  - Infernal_Boots 1 0.001
+  - Icetomb_Helm 1 0.0005
+  - Icetomb_Chest 1 0.0005
+  - Icetomb_Legs 1 0.0005
+  - Icetomb_Boots 1 0.0005
+### Items found below were removed in later updates
+### due to using entirely outdated design elements.
+Corrupted_Legacy:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - SpectralHunter 1 0.002
+  - WiltedRose 1 0.0015
+  - Corrupted_Pick 1 0.002
+  - Corrupted_Spade 1 0.002
+  - Corrupted_Axe 1 0.002
+  - Corrupted_Sword 1 0.002
+  - LifesBane 1 0.002
+  - Curse1 1 0.001
+  - BloodBowl 1 0.002
+  - Sniper6 1 0.002

@@ -1,0 +1,161 @@
+ShopName: Ranks
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &3Rank &bShop &7]'
+shop:
+  Settler:
+    RewardType: Command
+    PriceType: money
+    Price: 15000
+    Reward:
+    - pex user %player% group set Settler
+    - bc &f%player% &7has ranked up to &eSettler&7!
+    MenuItem:
+    - id:265
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - name:&eSettler
+    - lore:&0 
+    - lore:&7Price:&6 15,000Σ
+    - lore:&7Requirements:&f None
+    - lore:&0 
+    - lore:&7The &eSettler &7rank includes:&r
+    - lore:&0 
+    - lore:&e★ &7Double backpack size! Use /bk!
+    - lore:&e★ &7900 Bonus Claim Space
+    - lore:&e★ &7craftbook mechanics such as [lift up],
+    - lore:&7  [lift down], [bridge], [gate], [dgate]
+    - lore:&e★ &7/pay, /worth, /baltop, /sell, and /near
+    - lore:&e★ &7Everything from the &fVagrant&7 rank
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You spent &615,000 &7Sigmas and ranked up to &eSettler&7!'
+    ExtraPermission: 'shopranks.asp'
+  Citizen:
+    RewardType: Command
+    PriceType: money
+    Price: 365000
+    Reward:
+    - pex user %player% group set Citizen
+    - bc &f%player% &7has ranked up to &aCitizen&7!
+    MenuItem:
+    - id:266
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - name:&aCitizen
+    - lore:&0 
+    - lore:&7Price:&6 365,000Σ
+    - lore:&7Requirements:&e Settler &7achieved
+    - lore:&0 
+    - lore:&7The &aCitizen &7rank includes:&r
+    - lore:&0 
+    - lore:&a★ &7Triple backpack size! Use /bk!
+    - lore:&a★ &72500 Bonus Claim Space
+    - lore:&a★ &7Access to /trials and /aquir
+    - lore:&a★ &7Creation of [balance] signs
+    - lore:&a★ &7Creation of [disposal] signs
+    - lore:&a★ &7AFK kick exemption
+    - lore:&a★ &7Everything from the &eSettler&7 rank
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You spent &6365,000 &7Sigmas and ranked up to &aCitizen&7!'
+    ExtraPermission: 'shopranks.viper'
+  Noble:
+    RewardType: Command
+    PriceType: money
+    Price: 1456000
+    Reward:
+    - pex user %player% group set Noble
+    - bc &f%player% &7has ranked up to &2Noble&7!
+    MenuItem:
+    - id:264
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - name:&2Noble
+    - lore:&0 
+    - lore:&7Price:&6 1,456,000Σ
+    - lore:&7Requirements:&a Citizen &7achieved
+    - lore:&0 
+    - lore:&7The &2Noble&7 rank includes:&r
+    - lore:&0 
+    - lore:&2★ &74x backpack storage space!
+    - lore:&2★ &74900 Bonus Claim Space
+    - lore:&2★ &7Access to the /feed command
+    - lore:&2★ &7Access to the /craft command
+    - lore:&2★ &7Creation of colored signs
+    - lore:&2★ &7Everything from the &aCitizen&7 rank
+    InventoryLocation: 14
+    Message: '&7[&bShop&7] You spent &61,456,000 &7Sigmas and ranked up to &2Noble&7!'
+    ExtraPermission: 'shopranks.cobra'
+  Ascendant:
+    RewardType: Command
+    Price: 8192000
+    PriceType: money
+    Reward:
+    - pex user %player% group set Ascendant
+    - bc &f%player% &7has ranked up to &dAscendant&7!
+    MenuItem:
+    - id:388
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - name:&dAscendant
+    - lore:&0 
+    - lore:&7Price:&6 8,192,000Σ
+    - lore:&7Requirements:&2 Noble &7achieved
+    - lore:&0 
+    - lore:&7The &dAscendant&7 rank includes:&r
+    - lore:&0 
+    - lore:&d★ &75x backpack storage space!
+    - lore:&d★ &78100 Bonus Claim Space
+    - lore:&d★ &7Creation of [heal] signs
+    - lore:&d★ &7Access to the /heal command
+    - lore:&d★ &7Access to the /back command
+    - lore:&d★ &7Access to the /echest command
+    - lore:&d★ &7Everything from the &2Noble&7 rank
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You spent &68,192,000 &7Sigmas and ranked up to &dAscendant&7!'
+    ExtraPermission: 'shopranks.python'
+  Deity:
+    RewardType: Command
+    Price: 17865000
+    PriceType: money
+    Reward:
+    - pex user %player% group set Deity
+    - bc &f%player% &7has ranked up to &5Deity&7!
+    MenuItem:
+    - id:399
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    - name:&5Deity
+    - lore:&0 
+    - lore:&7Price:&6 17,865,000Σ
+    - lore:&7Requirements:&d Ascendant&7 achieved
+    - lore:&0 
+    - lore:&7The &5Deity&7 rank includes:&r
+    - lore:&0 
+    - lore:&5★ &76x backpack storage space!
+    - lore:&5★ &712100 Bonus Claim Space
+    - lore:&5★ &7Access to the /fly command
+    - lore:&5★ &7Access to the /etop command
+    - lore:&5★ &7Access to the /stack command
+    - lore:&5★ &7Fast travel using /rifts command
+    - lore:&5★ &7Everything from the &dAscendant&7 rank
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You spent &617,865,000 &7Sigmas and ranked up to &5Deity&7!'
+    ExtraPermission: 'shopranks.anaconda'
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Main Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 32
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Menu

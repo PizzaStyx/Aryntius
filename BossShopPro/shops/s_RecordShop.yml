@@ -1,0 +1,186 @@
+ShopName: RecordShop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &5Record &dShop &7]'
+shop:
+  13:
+    MenuItem:
+    - name:&eMusic Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2256
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2256
+      - amount:1
+    RewardType: item
+  Cat:
+    MenuItem:
+    - name:&2Music Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2257
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2257
+      - amount:1
+    RewardType: item
+  Blocks:
+    MenuItem:
+    - name:&cMusic Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2258
+    - amount:1
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2258
+      - amount:1
+    RewardType: item
+  Chirp:
+    MenuItem:
+    - name:&4Music Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2259
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2259
+      - amount:1
+    RewardType: item
+  Far:
+    MenuItem:
+    - name:&aMusic Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2260
+    - amount:1
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2260
+      - amount:1
+    RewardType: item
+  Mall:
+    MenuItem:
+    - name:&5Music Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2261
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2261
+      - amount:1
+    RewardType: item
+  Mellohi:
+    MenuItem:
+    - name:&dMusic Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2262
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2262
+      - amount:1
+    RewardType: item
+  Stal:
+    MenuItem:
+    - name:&8Music Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2263
+    - amount:1
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2263
+      - amount:1
+    RewardType: item
+  strad:
+    MenuItem:
+    - name:&fMusic Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2264
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2264
+      - amount:1
+    RewardType: item
+  Ward:
+    MenuItem:
+    - name:&3Music Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2265
+    - amount:1
+    InventoryLocation: 19
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2265
+      - amount:1
+    RewardType: item
+  wait:
+    MenuItem:
+    - name:&bMusic Disc
+    - lore:&7Price:&6 2500Σ
+    - id:2267
+    - amount:1
+    InventoryLocation: 23
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 2500 &7Sigmas.'
+    Price: 2500.0
+    PriceType: money
+    Reward:
+    - - id:2267
+      - amount:1
+    RewardType: item
+  11:
+    MenuItem:
+    - name:&c&oBroken Music Disc
+    - lore:&7Price:&6 7500Σ
+    - id:2266
+    - amount:1
+    InventoryLocation: 27
+    Message: '&7[&bShop&7] You bought 1 Music Disc for&6 7500 &7Sigmas.'
+    Price: 7500.0
+    PriceType: money
+    Reward:
+    - - id:2266
+      - amount:1
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Item Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 32
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: ItemShop

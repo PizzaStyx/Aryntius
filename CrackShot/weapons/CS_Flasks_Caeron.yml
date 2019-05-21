@@ -1,0 +1,105 @@
+## VYRDANO FLASK ITEMS -----------------------------------------
+CFlask_1:
+    Item_Information:
+        Item_Name: "&9Assassin's Acrimony"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: FAST_DIGGING-200-10,HEAL-1-10
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+CFlask_2:
+    Item_Information:
+        Item_Name: "&9Sentinel's Stability"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0,ENTITY_HOSTILE_SWIM-0.5-0-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: REGENERATION-200-10,WATER_BREATHING-200-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+CFlask_3:
+    Item_Information:
+        Item_Name: "&9Rabbit's Rush"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: SPEED-200-5,JUMP-200-2,SLOW-1-1,LEVITATION-1-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+CFlask_4:
+    Item_Information:
+        Item_Name: "&9Tanuki's Tenacity"
+        Item_Type: 437
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 2-2-NONE-0
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 1.0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_HOSTILE_SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: INCREASE_DAMAGE-200-100,BLINDNESS-60-1
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true

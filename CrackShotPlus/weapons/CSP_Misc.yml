@@ -1,0 +1,129 @@
+Railgun:
+    Damage:
+        Damage_Hologram_Format: "&4&l-[ &c&lOUCH &4&l]-"
+        Spawn_Firework:
+            Shape: STAR
+            Color: 255-0-0
+            Flicker: false
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperSpark"
+        Delay_Bar:
+            Left_Color: "&c"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7RAILGUN READY"
+SiegeCannon:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PlasmaBurst"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Blue
+HealingBeacon:
+    Shoot:
+        Invisible_Projectiles: true
+        Delay_Bar:
+            Left_Color: "&a"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7BEACON RECHARGED"
+Laser:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperAqua"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Blue
+Laser2:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperRed"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Red
+CatGun:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke,PistolTrail"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Blue
+IonCannon:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PistolTrail_Thick"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Blue
+Flamethrower:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Flamethrower"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gold
+### EXPLOSIVES OF DOOM
+NukeGrenade:
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "Smoking_Lava"
+        Delay_Bar:
+            Left_Color: "&d"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7COOLDOWN COMPLETE"
+Airstrike:
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "PiercedSmoke"
+        Delay_Bar:
+            Left_Color: "&5"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7COOLDOWN COMPLETE"
+NukeStrike:
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "Smoking_Lava"
+        Delay_Bar:
+            Left_Color: "&6"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7COOLDOWN COMPLETE"

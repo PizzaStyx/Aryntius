@@ -1,0 +1,110 @@
+ShopName: npc_blacksmith_caeron
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Horuk's Hastings &8]"
+shop:
+  Horuk_Helm: ### Random Helmet
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'rc horukHelm %player%'
+    MenuItem:
+    - id:298
+    - name:&aRandom Helmet
+    - "lore:&0 "
+    - "lore:&a★ &7&oForges a random helmet item."
+    - "lore:&a★ &7&oItem is at least &d&oExalted &7&otier."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7You have received a random helmet.'
+  Horuk_Chest: ### Random Chestplate
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'rc horukChest %player%'
+    MenuItem:
+    - id:299
+    - name:&aRandom Chestplate
+    - "lore:&0 "
+    - "lore:&a★ &7&oForges a random chestplate item."
+    - "lore:&a★ &7&oItem is at least &d&oExalted &7&otier."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7You have received a random chestplate.'
+  Horuk_Legs: ### Random Leggings
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'rc horukLegs %player%'
+    MenuItem:
+    - id:300
+    - name:&aRandom Leggings
+    - "lore:&0 "
+    - "lore:&a★ &7&oForges a random leggings item."
+    - "lore:&a★ &7&oItem is at least &d&oExalted &7&otier."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7You have received a random pair of leggings.'
+  Horuk_Boots: ### Random Helmet
+    PriceType: item
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    RewardType: Command
+    Reward:
+    - 'rc horukBoots %player%'
+    MenuItem:
+    - id:301
+    - name:&aRandom Boots
+    - "lore:&0 "
+    - "lore:&a★ &7&oForges a random boots item."
+    - "lore:&a★ &7&oItem is at least &d&oExalted &7&otier."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7You have received a random pair of boots.'

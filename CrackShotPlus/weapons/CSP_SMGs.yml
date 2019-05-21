@@ -1,0 +1,42 @@
+### SMGS
+SMG1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Blue
+SMG2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Toxic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Green
+SMG3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PinkMagic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Purple
+SMG4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "BloodMagic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Red
+### MISC
+AKStilleto:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Yellow

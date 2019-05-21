@@ -1,0 +1,16 @@
+title: npc_selthine_smith
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lBlacksmith"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Welcome, traveler! I"
+    - "&1 sell the finest gear"
+    - "&1 in Selthine!&8”"
+    - ""
+    - '&7- { text: "Let''s see those", color:"BLUE", command: "shop npc_selthine_blacksmith", hover: "&7View shop"}'
+    - '&l  { text: "items, then!", color:"BLUE", command: "shop npc_selthine_blacksmith", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "What happened to", color:"BLUE", hover: "&7View lore", open: "npc_selthine_smith2"}'
+    - '&l  { text: "the city?", color:"BLUE", hover: "&7View lore", open: "npc_selthine_smith2"}'

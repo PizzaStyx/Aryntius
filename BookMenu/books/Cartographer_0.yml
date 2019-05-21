@@ -1,0 +1,16 @@
+title: Cartographer_0
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lIzenryl"
+    - "&8??? NPC"
+    - ""
+    - "&8“&1Ah, it's you! I have"
+    - "&1 heard much about"
+    - "&1 your feats!"
+    - ""
+    - "&1 You must join me in"
+    - "&1 City Hall at once!&8”"
+    - ""
+    - '&7- { text: "Who even are you?", color:"BLUE", hover: "&7View lore", open: "Cartographer_1"}'
+    - '&l  { text: "And why should I?", color:"BLUE", hover: "&7View lore", open: "Cartographer_1"}'

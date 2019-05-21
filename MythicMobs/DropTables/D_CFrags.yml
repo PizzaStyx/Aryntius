@@ -1,0 +1,28 @@
+###---------------------------------------------------------###
+### CORRUPTED FRAGMENTS (Open world stuff)
+###---------------------------------------------------------###
+CFrags_1:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - HH_1 1 0.25
+CFrags_1X:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - HH_1 1
+CFrags_2:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - HH_2 1 0.25
+CFrags_2X:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - HH_2 1
+CFrags_3:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - HH_3 1

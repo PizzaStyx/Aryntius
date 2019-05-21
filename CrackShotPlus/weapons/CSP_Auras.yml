@@ -1,0 +1,60 @@
+Aura_Frost:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&b&lFrozen"
+                    Subtitle: "&7All speed reduced"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "IceStorm"
+Aura_Fire:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "FireStorm"
+Aura_Speed:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WaterStorm"
+Aura_Earth:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&8&lStunned"
+                    Subtitle: "&7No attack damage/vision"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "EarthStorm"
+Aura_Void:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&4&lCursed"
+                    Subtitle: "&7No damage reduction"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "VoidStorm"

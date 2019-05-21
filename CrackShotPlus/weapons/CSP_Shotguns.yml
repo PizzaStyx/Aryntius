@@ -1,0 +1,84 @@
+###NORMAL SHOTGUNS
+Shotgun1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Green
+Shotgun2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Crit"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Green
+Shotgun3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PiercedFlame,Flaming_Trails"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Yellow
+Shotgun4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PistolTrail"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Green
+ShotgunX:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Executor"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Blue
+### TIGRIS MODELS
+Tigris:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PistolTrail"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Gold
+Tigris2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PistolTrail"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Gold
+Tigris3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PistolTrail"
+### OTHER SPECIAL SHOTGUNS
+AutoShotgun:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PistolTrail"
+        Increasing_Fire_Rate:
+            Starting_Rate: 1
+            Add_Rate_Per_Shot: 1
+            Minium_Rate_For_Shot: 1
+            Maxium_Rate_For_Shot: 16
+            Decrease_Back_to_Starting_Rate:
+                Minium_Milliseconds: 500
+                Maxium_Milliseconds: 2000
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Red

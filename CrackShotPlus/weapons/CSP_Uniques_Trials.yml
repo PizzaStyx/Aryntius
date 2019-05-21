@@ -1,0 +1,119 @@
+### Trials Uniques ---------------------------------------------
+### Finally separated into its own file (07-04-2018)
+### TRIAL OF SORROW --------------------------------------------
+Earth4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Earth"
+    # Reload:
+        # Visual_Reload:
+            # Visual_Reload: R_Earth
+Dragoon:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Minigun1,Minigun2"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Gold
+### TRIAL OF HATRED --------------------------------------------
+Fire5:
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "PiercedFlame"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Fire2
+Bow4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Smoking_Trails,PiercedFlame,Smoking_Lava,PiercedSmoke"
+        Delay_Bar:
+            Left_Color: "&6"
+            Right_Color: "&8"
+            Symbol: "»"
+            Symbol_Amount: 8
+            Action_Bar: "&7#BAR#&6&l> &7#TIME#s"
+            End_Action_Bar: "&7ABILITY RECHARGED"
+Fang:
+    Damage:
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&6&lIgnited"
+                    Subtitle: "&fNo Regeneration + Slowness/Blindness"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Razor"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Blood
+### TRIAL OF CUNNING -------------------------------------------
+Water5:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "DeepWater,Smoking_Water"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Water2
+ShotgunY:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Executor,F_Smoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Water2_noProc
+Justicar:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PiercedWater"
+        Delay_Bar:
+            Left_Color: "&b"
+            Right_Color: "&7"
+            Symbol: "✶"
+            Symbol_Amount: 5
+            Action_Bar: "&3&l{&7#BAR#&3&l} &7#TIME#s"
+            End_Action_Bar: "&7ABILITY RECHARGED"
+### THE VOID ---------------------------------------------------
+Curse4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "VoidMagic"
+    # Reload:
+        # Visual_Reload:
+            # Visual_Reload: R_Void2
+        Delay_Bar:
+            Left_Color: "&5"
+            Right_Color: "&8"
+            Symbol: "•"
+            Symbol_Amount: 20
+            Action_Bar: "&7#BAR# &7#TIME#s"
+            End_Action_Bar: "&7SPELL RECHARGED"
+Hexstorm:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "WitchMagic"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Void3
+VoidLauncher:
+    Shoot:
+        Invisible_Projectiles: false
+        Trails:
+            Trail: "WitchMagic,PiercedSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Void3

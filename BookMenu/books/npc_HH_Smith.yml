@@ -1,0 +1,16 @@
+title: npc_HH_Smith
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lCovenant Smith"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Greetings, hunter."
+    - "&1 Need some equipment"
+    - "&1 for your next trip?&8”"
+    - ""
+    - '&7- { text: "Sure, I''d like to", color:"BLUE", command: "bs npc_HH_blacksmith", hover: "&7View wares"}'
+    - '&l  { text: "buy some gear.", color:"BLUE", command: "bs npc_HH_blacksmith", hover: "&7View wares"}'
+    - ""
+    - '&7- { text: "What makes your", color:"BLUE", hover: "&7View info", open: "npc_HH_Smith2"}'
+    - '&l  { text: "items different?", color:"BLUE", hover: "&7View info", open: "npc_HH_Smith2"}'

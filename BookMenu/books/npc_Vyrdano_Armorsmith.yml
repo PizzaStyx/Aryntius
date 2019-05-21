@@ -1,0 +1,16 @@
+title: npc_Vyrdano_Armorsmith
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lArmorsmith"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1You're just in time!"
+    - "&1 Got some fresh helms"
+    - "&1 right off the anvil!&8”"
+    - ""
+    - '&7- { text: "What else have", color:"BLUE", command: "shop npc_Armorsmith_Shop", hover: "&7View shop"}'
+    - '&l  { text: "you got?", color:"BLUE", command: "shop npc_Armorsmith_Shop", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "Where can I find", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Armorsmith_2"}'
+    - '&l  { text: "rare metals?", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Armorsmith_2"}'

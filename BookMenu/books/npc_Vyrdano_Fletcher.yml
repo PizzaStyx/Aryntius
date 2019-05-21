@@ -1,0 +1,16 @@
+title: npc_Vyrdano_Fletcher
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lFletcher"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Salutations! Are you"
+    - "&1 interested in the fine"
+    - "&1 art of bowmaking?&8”"
+    - ""
+    - '&7- { text: "Sure, I''d like to", color:"BLUE", command: "shop npc_Fletcher_Shop", hover: "&7View shop"}'
+    - '&l  { text: "see your wares!", color:"BLUE", command: "shop npc_Fletcher_Shop", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "Got any tips for", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Fletcher_2"}'
+    - '&l  { text: "a fellow archer?", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Fletcher_2"}'

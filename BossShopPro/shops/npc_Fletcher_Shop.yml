@@ -1,0 +1,249 @@
+ShopName: npc_Fletcher_Shop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Archer''s Stock &8]'
+shop:
+  NG_Bow_Low: ### Forge a random Uncommon
+    PriceType: item
+    Price:
+    - - id:378
+      - 'name:&5&oCh&d&oaos Sphe&5&ore'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dBef&5ore there was life, th&dere#&d was only p&5rimordial di&dscord.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:3
+    RewardType: Command
+    Reward:
+    - 'rc rngbow_1 %player%'
+    MenuItem:
+    - id:261
+    - name:&bCrafted Longbow (Low)
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b???"
+    - "lore:&0 "
+    - "lore:&b★ &7Adds &c100.0❤ &7damage to all"
+    - "lore:&7  ranged/magic attacks."
+    - "lore:&b★ &7Up to 1 extra modifier."
+    - "lore:&0 "
+    - "lore:&7Crafting Cost:"
+    - "lore:&7- &f3x &5&oCh&d&oaos Sphe&5&ore"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You forged &f1 &aRecurve Bow &7for &f3 &5&oCh&d&oaos Sphe&5&ore&7.'
+  NG_Bow_Mid: ### Forge a random item
+    PriceType: item
+    Price:
+    - - id:378
+      - 'name:&5&oCh&d&oaos Sphe&5&ore'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dBef&5ore there was life, th&dere#&d was only p&5rimordial di&dscord.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    RewardType: Command
+    Reward:
+    - 'rc rngbow_2 %player%'
+    MenuItem:
+    - id:261
+    - name:&bCrafted Longbow (Mid)
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b???"
+    - "lore:&0 "
+    - "lore:&b★ &7Adds &c100.0❤ &7damage to all"
+    - "lore:&7  ranged/magic attacks."
+    - "lore:&b★ &7Has 2 extra modifiers."
+    - "lore:&0 "
+    - "lore:&7Crafting Cost:"
+    - "lore:&7- &f8x &5&oCh&d&oaos Sphe&5&ore"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You forged &f1 &aRecurve Bow &7for &f8 &5&oCh&d&oaos Sphe&5&ore&7.'
+  NG_Bow_High: ### Forge a random Rare
+    PriceType: item
+    Price:
+    - - id:378
+      - 'name:&5&oCh&d&oaos Sphe&5&ore'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dBef&5ore there was life, th&dere#&d was only p&5rimordial di&dscord.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    RewardType: Command
+    Reward:
+    - 'rc rngbow_3 %player%'
+    MenuItem:
+    - id:261
+    - name:&bCrafted Longbow (High)
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b???"
+    - "lore:&0 "
+    - "lore:&b★ &7Adds &c100.0❤ &7damage to all"
+    - "lore:&7  ranged/magic attacks."
+    - "lore:&b★ &7Has 2 perfect modifiers."
+    - "lore:&0 "
+    - "lore:&7Crafting Cost:"
+    - "lore:&7- &f15x &5&oCh&d&oaos Sphe&5&ore"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You forged &f1 &aRecurve Bow &7for &f15 &5&oCh&d&oaos Sphe&5&ore&7.'
+### LEGENDARY BOWS ---------------------------------------------
+  Skywhisper: ### Forge Skywhisper
+    MenuItem:
+    - id:261
+    - name:&6&oSk&e&oywhisp&6&oer
+    - "lore:&7Power M"
+    - "lore:&7Infinity"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&7Type: &fBow"
+    - "lore:&7Ammo: &fArrow"
+    - "lore:&7Ability: &c750.0❤"
+    - "lore:&7Cooldown: &fNone"
+    - "lore:&0 "
+    - "lore:&6★ &7&oFully-draw shots to cast ability."
+    - "lore:&e★ &7&o50% critical strike chance."
+    - "lore:&6★ &7&o100.0x damage on critical hit."
+    - "lore:&0 "
+    - "lore:&7Crafting Cost:"
+    - "lore:&7- &f20x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f20x &5&oCh&d&oaos Sphe&5&ore"
+    - "lore:&7- &f20x &5&oPh&d&ooenix Ash&5&oes"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 11
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Skywhisper'
+    PriceType: item
+    Price:
+    - - id:378
+      - 'name:&5&oCh&d&oaos Sphe&5&ore'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dBef&5ore there was life, th&dere#&d was only p&5rimordial di&dscord.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:289
+      - 'name:&5&oPh&d&ooenix Ash&5&oes'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dLife s&5prings forth fro&dm the#&d soi&5ls below, even in the fa&dce#&d of even&5tual failu&dre.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:266
+      - 'name:&5&oAs&d&otrali&5&ote'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dFor&5ged from the pures&dt of#&d divine m&5etals, f&dew can match#&d suc&5h strength and po&dwer.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    Message: '&7[&bInfo&7] You have crafted the &6&oSk&e&oywhisp&6&oer&7!'
+  Equilibrium: ### Forge Equilibrium
+    MenuItem:
+    - id:261
+    - name:&6&oEq&e&ouilibri&6&oum
+    - "lore:&7Power D"
+    - "lore:&7Infinity"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&7Type: &fBow"
+    - "lore:&7Ammo: &fArrow"
+    - "lore:&7Ability: &c80.0❤x12"
+    - "lore:&7Cooldown: &fNone"
+    - "lore:&0 "
+    - "lore:&e★ &7&oFully-draw shots to cast ability."
+    - "lore:&6★ &7&o50% chance to convert base damage"
+    - "lore:&7&o  into &5&oChaos &7&odamage on hit."
+    - "lore:&e★ &7&o25% chance to &3&oShock&7&o, &b&oFreeze&7&o, &6&oIgnite"
+    - "lore:&7&o  or &d&oCurse &7&oenemies on hit."
+    - "lore:&0 "
+    - "lore:&7Crafting Cost:"
+    - "lore:&7- &f20x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f20x &5&oCh&d&oaos Sphe&5&ore"
+    - "lore:&7- &f20x &5&oEt&d&oher Cryst&5&oal"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 17
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% ElementalBow'
+    PriceType: item
+    Price:
+    - - id:378
+      - 'name:&5&oCh&d&oaos Sphe&5&ore'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dBef&5ore there was life, th&dere#&d was only p&5rimordial di&dscord.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:377
+      - 'name:&5&oEt&d&oher Cryst&5&oal'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dA s&5hard of the Void, fore&dver#&d entan&5gled in the lifef&dorce of#&d th&5e world.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:266
+      - 'name:&5&oAs&d&otrali&5&ote'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dFor&5ged from the pures&dt of#&d divine m&5etals, f&dew can match#&d suc&5h strength and po&dwer.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    Message: '&7[&bInfo&7] You have crafted the &6&oEq&e&ouilibri&6&oum&7!'
+  WorldEater: ### Forge The World-Eater
+    MenuItem:
+    - id:261
+    - name:&6&oTh&e&oe World-Eat&6&oer
+    - "lore:&7Power D"
+    - "lore:&7Infinity"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&7Type: &fBow"
+    - "lore:&7Ammo: &fArrow"
+    - "lore:&7Ability: &c500.0❤"
+    - "lore:&7Cooldown: &fNone"
+    - "lore:&0 "
+    - "lore:&6★ &7&oFully-draw shots to cast ability."
+    - "lore:&e★ &7&oDeals &c&o500.0❤ &5&oChaos &7&odamage for"
+    - "lore:&7&o  each elemental effect inflicted."
+    - "lore:&0 "
+    - "lore:&7Crafting Cost:"
+    - "lore:&7- &f20x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f20x &5&oCh&d&oaos Sphe&5&ore"
+    - "lore:&7- &f20x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 14
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% WorldEater'
+    PriceType: item
+    Price:
+    - - id:378
+      - 'name:&5&oCh&d&oaos Sphe&5&ore'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dBef&5ore there was life, th&dere#&d was only p&5rimordial di&dscord.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:406
+      - 'name:&5&oDr&d&oeam Fragme&5&ont'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dThe e&5ssence of a lo&dng-dead#&d Titan, no&5w impris&doned within a#&d morta&5l''s soul.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:266
+      - 'name:&5&oAs&d&otrali&5&ote'
+      - 'lore:&7Currency Item#&0 #&d★ &7&oCan be traded with NPCs in#&7&o  Vyrdano to create special#&7&o  endgame items.#&0 #&7“&dFor&5ged from the pures&dt of#&d divine m&5etals, f&dew can match#&d suc&5h strength and po&dwer.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    Message: '&7[&bInfo&7] You have crafted the &6&oTh&e&oe World-Eat&6&oer&7!'

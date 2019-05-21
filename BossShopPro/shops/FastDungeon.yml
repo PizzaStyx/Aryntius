@@ -1,0 +1,274 @@
+ShopName: menu_dungeon_fasttravel
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &9Dungeons &8]"
+shop:
+### DUNGEON MENU ITEMS -----------------------------------------
+  Labyrinth:
+    Message: '&bYou have traveled to the &fLabyrinth&b.'
+    PriceType: none
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:0.5,104.0,966.5:0.0:0.0"
+    InventoryLocation: 11
+    MenuItem:
+    - id:377
+    - name:&aThe Labyrinth
+    - "lore:&7Difficulty: &f✦&8✦✦✦"
+    - "lore:&7Total Levels: &f5"
+    - "lore:&7Requirements: &fNone"
+    - "lore:&fClick to travel"
+    - amount:1
+  Trials:
+    Message: '&bYou have traveled to the &fTrials&b.'
+    ExtraPermission: 'atlas.first'
+    PriceType: free
+    RewardType: command
+    Reward:
+    - "mv tp %player% e:Dungeon:797.5,102.0,803.5:0.0:45.0"
+    InventoryLocation: 13
+    MenuItem:
+    - id:410
+    - name:&eTrials of the Aquir
+    - "lore:&7Difficulty: &f✦✦&8✦✦"
+    - "lore:&7Total Levels: &f4"
+    - "lore:&7Requirements: &aCitizen &7or higher"
+    - "lore:&fClick to travel"
+    - amount:1
+  Atlas:
+    ExtraPermission: 'atlas.first'
+    PriceType: free
+    Reward: menu_dungeon_atlas
+    RewardType: shop
+    InventoryLocation: 15
+    MenuItem:
+    - id:399
+    - "name:&9Maugri's Atlas"
+    - "lore:&7Difficulty: &f✦✦✦&8✦"
+    - "lore:&7Total Levels: &f16"
+    - "lore:&7Requirements: &aCitizen &7and higher"
+    - "lore:&fClick to open"
+    - amount:1
+  Rifts:
+    ExtraPermission: 'atlas.third'
+    PriceType: free
+    Reward: npc_ZanaPls
+    RewardType: shop
+    InventoryLocation: 17
+    MenuItem:
+    - id:426
+    - "name:&5The Rifts"
+    - "lore:&7Difficulty: &f✦✦✦✦"
+    - "lore:&7Total Levels: &f7"
+    - "lore:&7Requirements: &dAscendant &7or higher"
+    - "lore:&fClick to open"
+    - amount:1
+### FILLER SPACES ----------------------------------------------
+  Filler_1:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 1
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_2:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 2
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_3:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 3
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_4:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 4
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_5:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 5
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_6:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 6
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_7:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 7
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_8:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 8
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_9:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 9
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_10:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 10
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_12:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 12
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_14:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 14
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_16:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 16
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_18:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 18
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_19:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 19
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_20:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 20
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_21:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 21
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_22:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 22
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_23:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 23
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_24:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 24
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_25:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 25
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1
+  Filler_26:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 26
+    MenuItem:
+    - id:160
+    - durability:15
+    - name:&0
+    - amount:1
+  Filler_27:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 27
+    MenuItem:
+    - id:160
+    - durability:7
+    - name:&0
+    - amount:1

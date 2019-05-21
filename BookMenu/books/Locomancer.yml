@@ -1,0 +1,16 @@
+title: Locomancer_0
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lLocomancer"
+    - "&8Travel NPC"
+    - ""
+    - "&8“&1Hey! Want to try my"
+    - "&1 new teleport spell?"
+    - "&1 It's far quicker than"
+    - "&1 those nasty airships."
+    - "&1 Best of all, it's free!&8”"
+    - ""
+    - '&7- { text: "I''ll give it a go.", color:"BLUE", command: "rtp tpgui", hover: "&7Try spell"}'
+    - ""
+    - '&7- { text: "What''s the catch?", color:"BLUE", hover: "&7View lore", open: "Locomancer_A"}'

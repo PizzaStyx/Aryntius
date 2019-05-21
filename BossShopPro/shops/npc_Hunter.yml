@@ -1,0 +1,85 @@
+ShopName: gfew7fgerfug
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Furs & &aElise&7]'
+shop:
+  Bow_1:
+    MenuItem:
+    - id:261
+    - name:&fAngry Shortbow
+    - 'lore:&0 #&7Tier: &fCommon#&0 #&7“&fA simple bow designed#&f for hunting small game.&7”#&0 #&7Price:&6 3 Rabbit Hide'
+    - enchantment:ARROW_DAMAGE#3
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 1 Angry Shortbow for &a3 &7Rabbit Hide.'
+    Price:
+    - - id:415
+      - amount:3
+    PriceType: item
+    Reward:
+    - - id:261
+      - name:&fAngry Shortbow
+      - 'lore:&0 #&7Tier: &fCommon#&0 #&7“&fA simple bow designed#&f for hunting small game.&7”'
+      - enchantment:ARROW_DAMAGE#3
+      - amount:1
+    RewardType: item
+  Bow_2:
+    MenuItem:
+    - id:261
+    - name:&2Damaged Longbow
+    - 'lore:&0 #&7Tier: &2Uncommon#&0 #&7“&2A powerful weapon that#&2 has long since passed#&2 its prime.&7”#&0 #&7Price:&6 8 Rabbit Hide'
+    - enchantment:ARROW_DAMAGE#5
+    - durability:128
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 1 Damaged Longbow for &a8 &7Rabbit Hide.'
+    Price:
+    - - id:415
+      - amount:8
+    PriceType: item
+    Reward:
+    - - id:261
+      - name:&2Damaged Longbow
+      - durability:128
+      - 'lore:&0 #&7Tier: &2Uncommon#&0 #&7“&2A powerful weapon that#&2 has long since passed#&2 its prime.&7”'
+      - enchantment:ARROW_DAMAGE#5
+      - amount:1
+    RewardType: item
+  HKnife_1:
+    MenuItem:
+    - id:359
+    - 'name:&3Tracker''s Blade'
+    - 'lore:&0#&7Tier: &3Rare#&0 #&7Effect: &aHaste I#&0 #&7“&3A razor-sharp knife#&3 made to slice through#&3 the toughest of hides.&7”#&0 #&7Price:&6 18 Leather'
+    - enchantment:DAMAGE_ALL#10
+    - enchantment:MENDING#1
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Tracker''s Blade for &a18 &7Leather.'
+    Price:
+    - - id:334
+      - amount:18
+    PriceType: item
+    Reward:
+    - - id:359
+      - 'name:&3Tracker''s Blade'
+      - 'lore:&0#&7Tier: &3Rare#&0 #&7Effect: &aHaste I#&0 #&7“&3A razor-sharp knife#&3 made to slice through#&3 the toughest of hides.&7”'
+      - enchantment:DAMAGE_ALL#10
+      - enchantment:MENDING#1
+      - amount:1
+    RewardType: item
+  HunterStaff:
+    MenuItem:
+    - id:352
+    - 'name:&d&oHunter''s Staff'
+    - 'lore:&0 #&7Tier: &d&oUltimate# &0 #&7Type: &9Magic#&7Speed: &9Very Slow#&7Damage: &c20.0❤#&0 #&7Left-click to cast. Summons#&7wolves that target enemies.#&7Wolves die after 8.0s.#&0 #&7“&dBorf borf borf!&7”#&0 #&7Price: &6128 Leather'
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 1 Hunter''s Staff for &a128 &7Leather.'
+    Price:
+    - - id:334
+      - amount:128
+    PriceType: item
+    Reward:
+    - 'shot give %player% summon1 1'
+    RewardType: command

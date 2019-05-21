@@ -1,0 +1,16 @@
+title: npc_Caeron_Pequod
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lPequod"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1So many wonderful"
+    - "&1 poisons! Ale, beer,"
+    - "&1 and even gin!&8”"
+    - ""
+    - '&7- { text: "I''ll take whatever", color:"BLUE", command: "shop npc_Pequod_Shop", hover: "&7View shop"}'
+    - '&l  { text: "you have, mate!", color:"BLUE", command: "shop npc_Pequod_Shop", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "Why do you call", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Pequod_2"}'
+    - '&l  { text: "those poisons?", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Pequod_2"}'

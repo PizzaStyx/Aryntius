@@ -1,0 +1,13 @@
+title: Cartographer_1
+author: PizzaStyx
+pages:
+  1:
+    - "I am a scholar of the rift, an observer of the stars."
+    - ""
+    - "You are one of the only people that have survived exposure to the Void."
+    - ""
+    - "Vyrdano houses an Aquir relic of similar properties."
+  2:
+    - "We've analyzed how it works, but only you can test it without any ill effects."
+    - ""
+    - '&7- { text: "What''s in it for me?", color:"BLUE", hover: "&7View lore", open: "Cartographer_2"}'

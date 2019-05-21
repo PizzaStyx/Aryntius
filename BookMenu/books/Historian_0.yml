@@ -1,0 +1,16 @@
+title: Historian_0
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lHistorian"
+    - "&8Information NPC"
+    - ""
+    - "&8“&1Hello, there! Do you"
+    - "&1 have anything you'd"
+    - "&1 like to learn about?&8”"
+    - ""
+    - '&7- { text: "What happened to", color:"BLUE", hover: "&7View lore", open: "Historian_1"}'
+    - '&l  { text: "the city?", color:"BLUE", hover: "&7View lore", open: "Historian_1"}'
+    - ""
+    - '&7- { text: "Are there any other", color:"BLUE", hover: "&7View lore", open: "Historian_2"}'
+    - '&l  { text: "cities like Selthine?", color:"BLUE", hover: "&7View lore", open: "Historian_2"}'

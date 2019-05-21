@@ -1,0 +1,436 @@
+ShopName: Plants
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Plant &aBlocks &7]'
+shop:
+  OakSapling:
+    MenuItem:
+    - name:&aOak Sapling
+    - lore:&7Price:&6 50Σ
+    - id:6
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bShop&7] You bought 1 Oak Sapling for&6 50 &7Sigmas.'
+    Price: 50.0
+    PriceType: money
+    Reward:
+    - - id:6
+      - amount:1
+    RewardType: item
+  SpruceSapling:
+    MenuItem:
+    - name:&bSpruce Sapling
+    - lore:&7Price:&6 50Σ
+    - id:6
+    - durability:1
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bShop&7] You bought 1 Spruce Sapling for&6 50 &7Sigmas.'
+    Price: 50.0
+    PriceType: money
+    Reward:
+    - - id:6
+      - durability:1
+      - amount:1
+    RewardType: item
+  BirchSapling:
+    MenuItem:
+    - name:&3Birch Sapling
+    - lore:&7Price:&6 50Σ
+    - id:6
+    - durability:2
+    - amount:1
+    InventoryLocation: 3
+    Message: '&7[&bShop&7] You bought 1 Birch Sapling for&6 50 &7Sigmas.'
+    Price: 50.0
+    PriceType: money
+    Reward:
+    - - id:6
+      - durability:2
+      - amount:1
+    RewardType: item
+  JungleSapling:
+    MenuItem:
+    - name:&cJungle Sapling
+    - lore:&7Price:&6 50Σ
+    - id:6
+    - durability:3
+    - amount:1
+    InventoryLocation: 4
+    Message: '&7[&bShop&7] You bought 1 Jungle Sapling for&6 50 &7Sigmas.'
+    Price: 50.0
+    PriceType: money
+    Reward:
+    - - id:6
+      - durability:3
+      - amount:1
+    RewardType: item
+  AcaciaSapling:
+    MenuItem:
+    - name:&eAcacia Sapling
+    - lore:&7Price:&6 50Σ
+    - id:6
+    - durability:4
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bShop&7] You bought 1 Acacia Sapling for&6 50 &7Sigmas.'
+    Price: 50.0
+    PriceType: money
+    Reward:
+    - - id:6
+      - durability:4
+      - amount:1
+    RewardType: item
+  DarkOakSapling:
+    MenuItem:
+    - name:&dDark Oak Sapling
+    - lore:&7Price:&6 50Σ
+    - id:6
+    - durability:5
+    - amount:1
+    InventoryLocation: 6
+    Message: '&7[&bShop&7] You bought 1 Dark Oak Sapling for&6 50 &7Sigmas.'
+    Price: 50.0
+    PriceType: money
+    Reward:
+    - - id:6
+      - durability:5
+      - amount:1
+    RewardType: item
+  TallGrass:
+    MenuItem:
+    - name:&fTall Grass
+    - lore:&7Price:&6 20Σ
+    - id:31
+    - durability:1
+    - amount:1
+    InventoryLocation: 7
+    Message: '&7[&bShop&7] You bought 1 Tall Grass for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:31
+      - durability:1
+      - amount:1
+    RewardType: item
+  Fern:
+    MenuItem:
+    - name:&fFern
+    - lore:&7Price:&6 20Σ
+    - id:31
+    - durability:2
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bShop&7] You bought 1 Fern for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:31
+      - durability:2
+      - amount:1
+    RewardType: item
+  DeadBush:
+    MenuItem:
+    - name:&cDead Bush
+    - lore:&7Price:&6 20Σ
+    - id:32
+    - amount:1
+    InventoryLocation: 9
+    Message: '&7[&bShop&7] You bought 1 Dead Bush for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:32
+      - amount:1
+    RewardType: item
+  Vines:
+    MenuItem:
+    - name:&aVines
+    - lore:&7Price:&6 20Σ
+    - id:106
+    - amount:1
+    InventoryLocation: 10
+    Message: '&7[&bShop&7] You bought 1 Vines for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:106
+      - amount:1
+    RewardType: item
+  LilyPad:
+    MenuItem:
+    - name:&2Lily Pad
+    - lore:&7Price:&6 20Σ
+    - id:111
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bShop&7] You bought 1 Lily Pad for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:111
+      - amount:1
+    RewardType: item
+  Dandelion:
+    MenuItem:
+    - name:&eDandelion
+    - lore:&7Price:&6 20Σ
+    - id:37
+    - amount:1
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 1 Dandelion for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:37
+      - amount:1
+    RewardType: item
+  Poppy:
+    MenuItem:
+    - name:&cPoppy
+    - lore:&7Price:&6 20Σ
+    - id:38
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 1 Poppy for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:38
+      - amount:1
+    RewardType: item
+  BlueOrchid:
+    MenuItem:
+    - name:&bBlue Orchid
+    - lore:&7Price:&6 30Σ
+    - id:38
+    - durability:1
+    - amount:1
+    InventoryLocation: 14
+    Message: '&7[&bShop&7] You bought 1 Blue Orchid for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:38
+      - durability:1
+      - amount:1
+    RewardType: item
+  Allium:
+    MenuItem:
+    - name:&dAllium
+    - lore:&7Price:&6 30Σ
+    - id:38
+    - durability:2
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Allium for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:38
+      - durability:2
+      - amount:1
+    RewardType: item
+  OxEyeDaisy:
+    MenuItem:
+    - name:&fOxeye Daisy
+    - lore:&7Price:&6 30Σ
+    - id:38
+    - durability:8
+    - amount:1
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 1 Oxeye Daisy for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:38
+      - durability:8
+      - amount:1
+    RewardType: item
+  AzureBluet:
+    MenuItem:
+    - name:&fAzure Bluet
+    - lore:&7Price:&6 30Σ
+    - id:38
+    - durability:3
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bShop&7] You bought 1 Azure Bluet for&6 30 &7Sigmas.'
+    Price: 30.0
+    PriceType: money
+    Reward:
+    - - id:38
+      - durability:3
+      - amount:1
+    RewardType: item
+  Tulip1:
+    MenuItem:
+    - name:&cRed Tulip
+    - lore:&7Price:&6 20Σ
+    - id:38
+    - durability:4
+    - amount:1
+    InventoryLocation: 18
+    Message: '&7[&bShop&7] You bought 1 Red Tulip for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:38
+      - durability:4
+      - amount:1
+    RewardType: item
+  Tulip2:
+    MenuItem:
+    - name:&6Orange Tulip
+    - lore:&7Price:&6 20Σ
+    - id:38
+    - durability:5
+    - amount:1
+    InventoryLocation: 19
+    Message: '&7[&bShop&7] You bought 1 Orange Tulip for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:38
+      - durability:5
+      - amount:1
+    RewardType: item
+  Tulip3:
+    MenuItem:
+    - name:&fWhite Tulip
+    - lore:&7Price:&6 20Σ
+    - id:38
+    - durability:6
+    - amount:1
+    InventoryLocation: 20
+    Message: '&7[&bShop&7] You bought 1 White Tulip for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:38
+      - durability:6
+      - amount:1
+    RewardType: item
+  Tulip4:
+    MenuItem:
+    - name:&dPink Tulip
+    - lore:&7Price:&6 20Σ
+    - id:38
+    - durability:7
+    - amount:1
+    InventoryLocation: 21
+    Message: '&7[&bShop&7] You bought 1 Pink Tulip for&6 20 &7Sigmas.'
+    Price: 20.0
+    PriceType: money
+    Reward:
+    - - id:38
+      - durability:7
+      - amount:1
+    RewardType: item
+  Sunflower:
+    MenuItem:
+    - name:&eSunflower
+    - lore:&7Price:&6 100Σ
+    - id:175
+    - amount:1
+    InventoryLocation: 22
+    Message: '&7[&bShop&7] You bought 1 Sunflower for&6 100 &7Sigmas.'
+    Price: 100.0
+    PriceType: money
+    Reward:
+    - - id:175
+      - amount:1
+    RewardType: item
+  Lilac:
+    MenuItem:
+    - name:&5Lilac
+    - lore:&7Price:&6 100Σ
+    - id:175
+    - durability:1
+    - amount:1
+    InventoryLocation: 23
+    Message: '&7[&bShop&7] You bought 1 Lilac for&6 100 &7Sigmas.'
+    Price: 100.0
+    PriceType: money
+    Reward:
+    - - id:175
+      - durability:1
+      - amount:1
+    RewardType: item
+  TallGrass2:
+    MenuItem:
+    - name:&aDouble Tallgrass
+    - lore:&7Price:&6 100Σ
+    - id:175
+    - durability:2
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bShop&7] You bought 1 Double Tallgrass for&6 100 &7Sigmas.'
+    Price: 100.0
+    PriceType: money
+    Reward:
+    - - id:175
+      - durability:2
+      - amount:1
+    RewardType: item
+  GiantFern:
+    MenuItem:
+    - name:&aGiant Fern
+    - lore:&7Price:&6 100Σ
+    - id:175
+    - durability:3
+    - amount:1
+    InventoryLocation: 25
+    Message: '&7[&bShop&7] You bought 1 Giant Fern for&6 100 &7Sigmas.'
+    Price: 100.0
+    PriceType: money
+    Reward:
+    - - id:175
+      - durability:3
+      - amount:1
+    RewardType: item
+  RoseBush:
+    MenuItem:
+    - name:&4Rose Bush
+    - lore:&7Price:&6 120Σ
+    - id:175
+    - durability:4
+    - amount:1
+    InventoryLocation: 26
+    Message: '&7[&bShop&7] You bought 1 Rose Bush for&6 120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:175
+      - durability:4
+      - amount:1
+    RewardType: item
+  Peony:
+    MenuItem:
+    - name:&dPeony
+    - lore:&7Price:&6 100Σ
+    - id:175
+    - durability:5
+    - amount:1
+    InventoryLocation: 27
+    Message: '&7[&bShop&7] You bought 1 Peony for&6 100 &7Sigmas.'
+    Price: 100.0
+    PriceType: money
+    Reward:
+    - - id:175
+      - durability:5
+      - amount:1
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Blocks Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 41
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: Blocks

@@ -1,0 +1,16 @@
+title: npc_Caeron_Fladnag
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lFladnag"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1YOU SHALL NOT PASS"
+    - "&1 without trying some"
+    - "&1 glorious spells!&8”"
+    - ""
+    - '&7- { text: "Sure, but I might", color:"BLUE", command: "shop npc_Fladnag_Shop", hover: "&7View shop"}'
+    - '&l  { text: "singe your beard.", color:"BLUE", command: "shop npc_Fladnag_Shop", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "You seem very", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Fladnag_2"}'
+    - '&l  { text: "familiar...", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Fladnag_2"}'

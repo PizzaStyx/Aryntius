@@ -1,0 +1,16 @@
+title: Lab_Smith_2
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lAncient Smith"
+    - "&8Trading NPC"
+    - ""
+    - "&1The old man speaks in"
+    - "&1an archaic dialect you"
+    - "&1cannot comprehend."
+    - ""
+    - "&1He then silently nods"
+    - "&1and slowly reveals"
+    - "&1his shop's stock."
+    - ""
+    - '&7- { text: "Open Smith''s Shop", color:"BLUE", command: "shop npc_blacksmith_lab_2", hover: "&7View shop"}'

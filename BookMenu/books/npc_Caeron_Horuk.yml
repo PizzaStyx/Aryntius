@@ -1,0 +1,16 @@
+title: npc_Caeron_Horuk
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lHoruk"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1ME SMASH. YOU SMASH."
+    - "&1 WE ALL SMASH, BUT IS"
+    - "&1 BETTER WITH ARMOR!&8”"
+    - ""
+    - '&7- { text: "Let''s look at those", color:"BLUE", command: "shop npc_blacksmith_caeron", hover: "&7View shop"}'
+    - '&l  { text: "armors, then!", color:"BLUE", command: "shop npc_blacksmith_caeron", hover: "&7View shop"}'
+    - ""
+    - '&7- { text: "There''s no need to", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Horuk_2"}'
+    - '&l  { text: "yell! I''m right here!", color:"BLUE", hover: "&7View lore", open: "npc_Caeron_Horuk_2"}'

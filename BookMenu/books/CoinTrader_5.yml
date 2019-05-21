@@ -1,0 +1,16 @@
+title: CoinTrader_5
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lCoin Trader"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1It's a good day to"
+    - "&1 see you again, my"
+    - "&1 old friend!&8”"
+    - ""
+    - '&7- { text: "Hello again! How", color:"BLUE", hover: "&7View lore", open: "CoinTrader_5A"}'
+    - '&l  { text: "are things?", color:"BLUE", hover: "&7View lore", open: "CoinTrader_5A"}'
+    - ""
+    - '&7- { text: "I''d like to convert", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'
+    - '&l  { text: "some currency.", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'

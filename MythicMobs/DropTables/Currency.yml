@@ -1,0 +1,254 @@
+###---------------------------------------------------------###
+### MONEY/FOOD DROPS (Because Labyrinth stuff)
+###---------------------------------------------------------###
+Food:
+  Conditions:
+  - playerwithin 50
+  Drops:
+### FOOD ITEMS
+  - 357 1-10 0.02
+  - 260 1-5 0.01
+  - 297 1-5 0.005
+  - 350 1-5 0.005
+  - 366 1-5 0.003
+  - 424 1-4 0.003
+  - 393 1-4 0.003
+  - 320 1-3 0.002
+  - 364 1-3 0.002
+  - 400 1 0.001
+  - 322 1 0.001
+  - 322:1 1 0.0005
+### MONEY DROPS (LEGACY) ---------------------------------------
+Money_Low:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Silver 1-5 0.1
+  - Coin_Gold 1-3 0.05
+  - Coin_Diamond 1 0.01
+  - Coin_Emerald 1 0.005
+  - Coin_Nether 1 0.001
+Money_Mid:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Silver 1-10 0.1
+  - Coin_Gold 1-6 0.05
+  - Coin_Diamond 1-3 0.01
+  - Coin_Emerald 1-2 0.005
+  - Coin_Nether 1 0.002
+Money_High:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Silver 1-16 0.2
+  - Coin_Gold 1-12 0.1
+  - Coin_Diamond 1-5 0.05
+  - Coin_Emerald 1-3 0.02
+  - Coin_Nether 1 0.01
+Money_Max:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Silver 1-16 0.2
+  - Coin_Gold 1-12 0.2
+  - Coin_Diamond 1 0.5
+  - Coin_Emerald 1 0.5
+  - Coin_Tear 1 0.1
+Money_Boss:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Silver 16-64 0.5
+  - Coin_Gold 16-64 0.5
+  - Coin_Diamond 5-16 0.5
+  - Coin_Emerald 3-12 0.5
+  - Coin_Tear 1-8 0.5
+  - Coin_Nether 1 1
+Money_Endgame:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Diamond 5-16 0.5
+  - Coin_Emerald 3-12 0.5
+  - Coin_Tear 1-8 0.5
+  - Coin_Nether 1 0.5
+Money_Trials:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Silver 16-64 0.5
+  - Coin_Gold 16-64 0.5
+  - Coin_Diamond 16-32 0.5
+  - Coin_Emerald 10-16 0.5
+  - Coin_Tear 5-12 0.5
+  - Coin_Nether 8 1
+Money_Titan:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Silver 32-128 0.5
+  - Coin_Gold 16-80 0.5
+  - Coin_Diamond 16-64 0.5
+  - Coin_Emerald 16-32 0.5
+  - Coin_Tear 12-20 0.5
+  - Coin_Nether 15 1
+### MONEY DROPS (2.2.2+) ---------------------------------------
+Currency_Floor_1:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Silver 1-3 0.1
+Currency_Floor_2:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Silver 1-5 0.1
+  - Coin_Gold 1 0.05
+Currency_Floor_3:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Gold 1-5 0.1
+  - Coin_Diamond 1 0.05
+Currency_Floor_4:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Diamond 1-4 0.1
+  - Coin_Emerald 1 0.05
+Currency_Floor_5:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Emerald 1-3 0.1
+  - Coin_Tear 1 0.05
+  - Coin_Nether 1 0.001
+Currency_Trials_1:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Tear 1-2 0.1
+  - Coin_Nether 1 0.005
+  - HH_1 1 0.05
+Currency_Trials_2:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Tear 1-4 0.1
+  - Coin_Nether 1 0.01
+  - HH_1 1 0.1
+  - HH_2 1 0.05
+Currency_Trials_3:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Tear 1-8 1
+  - Coin_Nether 1 0.5
+  - HH_1 1 0.25
+  - HH_2 1 0.1
+Currency_Trials_Boss:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Tear 1-15 1
+  - Coin_Nether 1-3 1
+  - HH_1 1 0.5
+  - HH_2 1 0.25
+  - HH_3 1 0.05
+Currency_Atlas_1:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Tear 5-12 0.5
+  - Coin_Nether 1 0.25
+  - HH_1 1 0.3
+  - HH_2 1 0.05
+Currency_Atlas_2:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Tear 8-15 0.5
+  - Coin_Nether 1 1
+  - HH_1 1-3 0.3
+  - HH_2 1-2 0.15
+  - HH_3 1 0.01
+Currency_Atlas_3:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Nether 1-3 1
+  - HH_1 1-5 0.3
+  - HH_2 1-3 0.15
+  - HH_3 1 0.05
+Currency_Atlas_Boss:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Nether 3-8 1
+  - HH_1 3-5 1
+  - HH_2 2-4 0.5
+  - HH_3 1 0.2
+Currency_Atlas_Boss2:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Nether 5-10 1
+  - HH_1 5-8 1
+  - HH_2 4-6 0.5
+  - HH_3 1 0.5
+Currency_Atlas_Boss3:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Nether 6-12 1
+  - HH_1 8-12 1
+  - HH_2 5-8 0.5
+  - HH_3 1-3 0.5
+Currency_Rifts_1:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Nether 1-3 0.1
+  - HH_1 1 0.25
+  - HH_2 1 0.1
+  - HH_3 1 0.05
+Currency_Rifts_2:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Nether 1-5 1
+  - HH_1 1 0.5
+  - HH_2 1 0.25
+  - HH_3 1 0.1
+Currency_Rifts_Boss:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - Coin_Nether 8-16 1
+  - HH_1 10-15 1
+  - HH_2 8-12 0.5
+  - HH_3 3-5 0.5
+### BOSS FRAGMENTS ---------------------------------------------
+Atlas_Fragments:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - ChaosSphere 1 0.15
+  - DreamFragment 1 0.15
+  - EtherCrystal 1 0.15
+  - PhoenixAshes 1 0.15
+  - AncientHide 1 0.15
+  - Astralite 1 0.15
+Titan_Fragments:
+  TotalItems: 1
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - ChaosSphere 2-5 0.15
+  - DreamFragment 2-5 0.15
+  - EtherCrystal 2-5 0.15
+  - PhoenixAshes 2-5 0.15
+  - AncientHide 2-5 0.15
+  - Astralite 2-5 0.15

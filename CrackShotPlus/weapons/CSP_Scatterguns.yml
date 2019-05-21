@@ -1,0 +1,49 @@
+### SCATTERGUNS
+Scattergun1:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Green
+Scattergun2:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Blue
+Scattergun3:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_BlueDark
+Scattergun4:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gun_Purple
+Scattergun5:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "PiercedFlame,Flaming_Trails"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_PurpleDark
+Roadhog:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "GunSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Blue

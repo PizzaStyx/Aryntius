@@ -1,0 +1,436 @@
+ShopName: help_ItemTierList
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &9Item Tier List &8]"
+shop:
+  Tier_Worthless:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 1
+    MenuItem:
+    - id:160
+    - durability:7
+    - "name:&7Tier: &8Worthless"
+    - "lore:&7Low Enchantments"
+    - "lore:&7No Effect Power"
+    - "lore:&0 "
+    - "lore:&7“&8Worthless items have poor stats"
+    - "lore:&8 but can be decent substitutes for"
+    - "lore:&8 gear in the earlygame.&7”"
+    - amount:1
+  Tier_Common:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 2
+    MenuItem:
+    - id:160
+    - durability:0
+    - "name:&7Tier: &fCommon"
+    - "lore:&7Weak Enchantments"
+    - "lore:&7Weak Effect Power"
+    - "lore:&0 "
+    - "lore:&7“&fCommon items are the starting tier"
+    - "lore:&f and can be found in plentiful amounts"
+    - "lore:&f throughout the server.&7”"
+    - amount:1
+  Tier_Uncommon:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 3
+    MenuItem:
+    - id:160
+    - durability:5
+    - "name:&7Tier: &2Uncommon"
+    - "lore:&7Moderate Enchantments"
+    - "lore:&7Weak Effect Power"
+    - "lore:&0 "
+    - "lore:&7“&2Uncommon items are the next tier"
+    - "lore:&2 above &fCommon &2and have noticeably"
+    - "lore:&2 better stats overall.&7”"
+    - amount:1
+  Tier_Rare:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 4
+    MenuItem:
+    - id:160
+    - durability:9
+    - "name:&7Tier: &3Rare"
+    - "lore:&7Moderate Enchantments"
+    - "lore:&7Moderate Effect Power"
+    - "lore:&0 "
+    - "lore:&7“&3Rare items drop in midgame areas"
+    - "lore:&3 and begin to rapidly scale stats"
+    - "lore:&3 with their abilities.&7”"
+    - amount:1
+  Tier_Superior:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 5
+    MenuItem:
+    - id:160
+    - durability:11
+    - "name:&7Tier: &9Superior"
+    - "lore:&7Strong Enchantments"
+    - "lore:&7Moderate Effect Power"
+    - "lore:&0 "
+    - "lore:&7“&9Superior items are very powerful"
+    - "lore:&9 and drop in midgame areas.&7”"
+    - amount:1
+  Tier_Exalted:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 6
+    MenuItem:
+    - id:160
+    - durability:2
+    - "name:&7Tier: &d&oExalted"
+    - "lore:&7Strong Enchantments"
+    - "lore:&7Strong Effect Power"
+    - "lore:&0 "
+    - "lore:&7“&dExalted items are the strongest"
+    - "lore:&d midgame tier and can be found in"
+    - "Lore:&d many areas on the server.&7”"
+    - amount:1
+  Tier_Mythic:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 7
+    MenuItem:
+    - id:160
+    - durability:10
+    - "name:&7Tier: &5&oMythic"
+    - "lore:&7Maximum Enchantments"
+    - "lore:&7Strong Effect Power"
+    - "lore:&0 "
+    - "lore:&7“&5Mythic items are the first tier in"
+    - "lore:&5 the endgame and drop from high"
+    - "Lore:&5 level areas.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Tier_Legendary:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 8
+    MenuItem:
+    - id:160
+    - durability:1
+    - "name:&7Tier: &6&oLegendary"
+    - "lore:&7Maximum Enchantments"
+    - "lore:&7Maximum Effect Power"
+    - "lore:&0 "
+    - "lore:&7“&6These items have incredibly powerful"
+    - "lore:&6 effects, dropping only from bosses."
+    - "lore:&6 The star on its tier denotes which"
+    - "lore:&6 boss/area it comes from.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Tier_Iridescent:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 9
+    MenuItem:
+    - id:160
+    - durability:3
+    - "name:&7Tier: &b&oIridescent"
+    - "lore:&7Various Enchantments"
+    - "lore:&7Random Effect Power"
+    - "lore:&0 "
+    - "lore:&7“&bThis is the highest tier--blessed with"
+    - "lore:&b untold power. These drop solely from"
+    - "lore:&b endgame bosses/minibosses.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+### ENDGAME TIERS ----------------------------------------------
+  Tier_Corrupted:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 19
+    MenuItem:
+    - id:160
+    - durability:14
+    - "name:&7Tier: &4&oCorr&c&oupted"
+    - "lore:&7Various Enchantments"
+    - "lore:&7Various Positive Effects"
+    - "lore:&7Various Negative Effects"
+    - "lore:&0 "
+    - "lore:&7“&4Cor&crupted items trade extremely h&4igh"
+    - "lore:&4 bonuses f&cor weaknesses and c&4an only"
+    - "lore:&4 be o&cbtained in endgame ar&4eas.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Tier_Ascended:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 20
+    MenuItem:
+    - id:160
+    - durability:4
+    - "name:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&7Maximum Enchantments"
+    - "lore:&7Maximum Effect Power"
+    - "lore:&0 "
+    - "lore:&7“&eAsc&6ended items are special Legend&eary"
+    - "lore:&e items whic&6h can only be obt&eained from"
+    - "lore:&e craftin&6g in the city of V&eyrdano.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+### ACTUAL ITEM EXAMPLES ---------------------------------------
+  Example_Worthless:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 10
+    MenuItem:
+    - id:302
+    - name:&8Decrepit Helm
+    - "lore:&0 "
+    - "lore:&7Tier: &8Worthless"
+    - "lore:&0 "
+    - "lore:&8★ &c-10%&7 movement speed."
+    - "lore:&8★ &c-1.0❤&7 while equipped."
+    - "lore:&0 "
+    - "lore:&7“&8There is nothing remotely"
+    - "lore:&8 redeemable about this filthy"
+    - "lore:&8 old helmet.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#1
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+  Example_Common:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 11
+    MenuItem:
+    - id:280
+    - name:&fTempest Staff
+    - "lore:&0 "
+    - "lore:&7Tier: &fCommon"
+    - "lore:&0 "
+    - "lore:&f★ &a+2% &7attack speed."
+    - "lore:&f★ &a+8% &7movement speed."
+    - "lore:&0 "
+    - "lore:&7“&fMay the winds guide you.&7”"
+    - enchantment:DAMAGE_ALL#3
+    - enchantment:KNOCKBACK#3
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+  Example_Uncommon:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 12
+    MenuItem:
+    - id:303
+    - name:&2Arcane Chainmail
+    - "lore:&0 "
+    - "lore:&7Tier: &2Uncommon"
+    - "lore:&0 "
+    - "lore:&2★ &c+3.0❤&7 while equipped."
+    - "lore:&2★ &a+18% &7movement speed."
+    - "lore:&0 "
+    - "lore:&7“&2A lightweight piece of armor"
+    - "lore:&2 forged with strange magics.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#5
+    - enchantment:PROTECTION_PROJECTILE#5
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+  Example_Rare:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 13
+    MenuItem:
+    - id:317
+    - name:&3Frightwalker&7
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare"
+    - "lore:&0 "
+    - "lore:&3★ &c+5.0❤ &7while equipped."
+    - "lore:&3★ &735% chance to gain &aSpeed IV"
+    - "lore:&7  and &aJump Boost III &7for 5.0s"
+    - "lore:&7  after taking damage."
+    - "lore:&0 "
+    - "lore:&7“&3Without fear, death will quickly"
+    - "lore:&3 consume all traces of life.&7”"
+    - enchantment:PROTECTION_FALL#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+  Example_Superior:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 14
+    MenuItem:
+    - id:258
+    - name:&9Dread Cleaver&r
+    - "lore:&7Smite X"
+    - "lore:&7Sharpness L"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &9Superior"
+    - "lore:&0 "
+    - "lore:&9★ &a+50% &7attack speed."
+    - "lore:&9★ &725% chance to inflict &c30.0❤"
+    - "lore:&4  Bleed &7damage over a period"
+    - "lore:&7  of 1.5s."
+    - "lore:&0 "
+    - "lore:&7“&9Sharpened by blood and honed"
+    - "lore:&9 through sacrifice--all fear the"
+    - "lore:&9 dread clever's might.&7”"
+    - enchantment:PROTECTION_FALL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Example_Exalted:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 15
+    MenuItem:
+    - id:315
+    - name:&d&oThe Brazen Bull&r
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted"
+    - "lore:&0 "
+    - "lore:&d★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&d★ &7&o20% chance for your attacks"
+    - "lore:&7&o  to &6&oIgnite &7&oenemies for 5.0s."
+    - "lore:&0 "
+    - "lore:&7“&dThe execution is always more"
+    - "lore:&d entertaining than the trial.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - enchantment:PROTECTION_PROJECTILE#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+  Example_Mythic:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 16
+    MenuItem:
+    - id:302
+    - name:&5&oHorned Helmet&r
+    - "lore:&7Protection XV"
+    - "lore:&7Projectile Protection XV"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &5&oMythic"
+    - "lore:&0 "
+    - "lore:&5★ &c&o+15.0❤ &7&owhile equipped."
+    - "lore:&5★ &7&oYou have &a&oStrength LXV&7&o."
+    - "lore:&7&o  (Refreshes every 8.0s)."
+    - "lore:&5★ &7&oAdds &c&o25.0-75.0❤ &7&odamage"
+    - "lore:&7&o  to all melee attacks."
+    - "lore:&0 "
+    - "lore:&7“&5Wearing this makes you feel"
+    - "lore:&5 very aggressive.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#1
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+### ENDGAME EXAMPLES -------------------------------------------
+  Example_Iridescent:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 18
+    MenuItem:
+    - id:352
+    - "name:&b&oBone of the Ancients&r"
+    - "lore:&7Accessory Item"
+    - "lore:&0 "
+    - "lore:&7Tier: &b&oIridescent"
+    - "lore:&0 "
+    - "lore:&b» &7&oWhile equipped in off hand:"
+    - "lore:&b★ &c&o+20.0❤ &7&omaximum health."
+    - "lore:&b★ &7&o50% chance for your attacks to"
+    - "lore:&7&o  inflict &3&oShock &7&ofor up to 5.0s."
+    - "lore:&b★ &7&oAdds &c&o150.0-300.0❤ &7&odamage to all"
+    - "lore:&7&o  attacks against &e&oIgnited &7&oenemies."
+    - "lore:&0 "
+    - "lore:&7“&bSo. You want to hear a story, eh?&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Example_Corrupted:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 28
+    MenuItem:
+    - id:276
+    - name:&4&oWi&c&onterspi&4&ore&r
+    - "lore:&7Sharpness M"
+    - "lore:&7Knockback II"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &4&oCorr&c&oupted"
+    - "lore:&0 "
+    - "lore:&4★ &a&o+75% &7&oattack speed."
+    - "lore:&c★ &7&oYour melee attacks &b&oFreeze"
+    - "lore:&7&o  enemies for up to 5.0s."
+    - "lore:&4★ &7&oYou are &b&oFrozen &7&owhile this is"
+    - "lore:&7&o  equipped in either hand."
+    - "lore:&0 "
+    - "lore:&7“&4Win&cd howls from the maw of t&4he"
+    - "lore:&4 abyss, b&cathing this wo&4rld in an"
+    - "lore:&4 endle&css chilling sto&4rm.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Example_Unique:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 17
+    MenuItem:
+    - id:311
+    - name:&6&oPetrus Anulla&r
+    - "lore:&7Projectile Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4✦"
+    - "lore:&0 "
+    - "lore:&6★ &c&o+15.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oRestore &c&o50.0❤ &7&oover a period"
+    - "lore:&7&o  of 10.0s whenever you take"
+    - "lore:&7&o  damage."
+    - "lore:&0 "
+    - "lore:&7“&6Despite his exile, Petrus is still"
+    - "lore:&6 hailed as a hero to the people"
+    - "lore:&6 of the Aquir Empire.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+  Example_Ascended:
+    PriceType: nothing
+    RewardType: nothing
+    InventoryLocation: 29
+    MenuItem:
+    - id:283
+    - name:&6&oDre&e&oam Sa&6&ober&r
+    - "lore:&7Sharpness M"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed &d✷"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+75% &7&oattack speed."
+    - "lore:&6★ &c&o+20.0❤ &7&oif held in main hand."
+    - "lore:&6★ &7&oAdds &c&o80.0❤ &5&oChaos &7&odamage to"
+    - "lore:&7&o  all melee attacks."
+    - "lore:&0 "
+    - "lore:&7“&eThe body can ne&6ver enter the"
+    - "lore:&6 eth&eer--for only the min&6d shall"
+    - "lore:&6 be wil&eling to return.&7”"
+    - enchantment:PROTECTION_ENVIRONMENTAL#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+### UTILITIES --------------------------------------------------
+  MenuButton:
+    PriceType: nothing
+    RewardType: playercommand
+    Reward:
+    - menu open h_menu
+    InventoryLocation: 41
+    MenuItem:
+    - id:166
+    - name:&9Go Back
+    - "lore:&7Return to &9Help Center"
+    - amount:1

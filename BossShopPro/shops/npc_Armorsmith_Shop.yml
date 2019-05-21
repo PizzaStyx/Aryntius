@@ -1,0 +1,456 @@
+ShopName: npc_Armorsmith_Shop
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Ascended Armors &8]"
+shop:
+### EAGLE ARMOUR SET -------------------------------------------
+  Eagle_Helm:
+    Price:
+    - - mythicitem:PhoenixAshes
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Eagle_Helm
+    RewardType: item
+    MenuItem:
+    - id:314
+    - name:&6&oEag&e&ole's G&6&oaze
+    - "lore:&7Protection XX"
+    - "lore:&7Blast Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&e★ &a&o+30% &7&omovement speed."
+    - "lore:&6★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&e★ &7&o20% chance to inflict &d&oCurse &7&owith your"
+    - "lore:&7&o  ranged/magic attacks."
+    - "lore:&6★ &7&oSet Bonus: Fully restore your health"
+    - "lore:&7&o  whenever you hit a monster/boss."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oPh&d&ooenix Ash&5&oes"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You have forged the &6&oEag&e&ole''s Ga&6&oze&7.'
+  Eagle_Chest:
+    Price:
+    - - mythicitem:PhoenixAshes
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Eagle_Chest
+    RewardType: item
+    MenuItem:
+    - id:303
+    - name:&6&oEag&e&ole's Hun&6&oger
+    - "lore:&7Protection XX"
+    - "lore:&7Projectile Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+20% &7&omovement speed."
+    - "lore:&e★ &c&o+20.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oAdds &c&o15.0❤ &7&odamage to ranged/magic"
+    - "lore:&7&o  attacks for every 10 &a&oStrength&7&o. (E.g."
+    - "lore:&7&o  75.0 extra damage from Strength L)."
+    - "lore:&e★ &7&oSet Bonus: Fully restore your health"
+    - "lore:&7&o  whenever you hit a monster/boss."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oPh&d&ooenix Ash&5&oes"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You have forged the &6&oEag&e&ole''s Hun&6&oger&7.'
+  Eagle_Legs:
+    Price:
+    - - mythicitem:PhoenixAshes
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Eagle_Legs
+    RewardType: item
+    MenuItem:
+    - id:316
+    - name:&6&oEag&e&ole's Gr&6&oasp
+    - "lore:&7Blast Protection XX"
+    - "lore:&7Projectile Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&e★ &a&o+20% &7&omovement speed."
+    - "lore:&6★ &c&o+20.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&o35% chance to add &c&o50.0-80.0❤ &5&oChaos"
+    - "lore:&7&o  damage to all attacks."
+    - "lore:&e★ &7&oSet Bonus: Fully restore your health"
+    - "lore:&7&o  whenever you hit a monster/boss."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oPh&d&ooenix Ash&5&oes"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 20
+    Message: '&7[&bInfo&7] You have forged the &6&oEag&e&ole''s Gr&6&oasp&7.'
+  Eagle_Boots:
+    Price:
+    - - mythicitem:PhoenixAshes
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Eagle_Boots
+    RewardType: item
+    MenuItem:
+    - id:305
+    - name:&6&oEag&e&ole's Banq&6&ouet
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+30% &7&omovement speed."
+    - "lore:&e★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&e★ &7&oYou have 15 &a&oStrength &7&ofor each level"
+    - "lore:&7&o  of &a&oRegeneration&7&o. (E.g. Your Strength"
+    - "lore:&7&o  is set to CL from Regeneration X)."
+    - "lore:&6★ &7&oSet Bonus: Fully restore your health"
+    - "lore:&7&o  whenever you hit a monster/boss."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oPh&d&ooenix Ash&5&oes"
+    - enchantment:DEPTH_STRIDER#10
+    - enchantment:PROTECTION_FALL#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 29
+    Message: '&7[&bInfo&7] You have forged the &6&oEag&e&ole''s Banq&6&ouet&7.'
+### DIVINE ARMOUR SET ------------------------------------------
+  Divine_Helm:
+    Price:
+    - - mythicitem:EtherCrystal
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Divine_Helm
+    RewardType: item
+    MenuItem:
+    - id:302
+    - name:&6&oDiv&e&oine Basci&6&onet
+    - "lore:&7Protection XX"
+    - "lore:&7Blast Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&6★ &7&o10% chance for your attacks"
+    - "lore:&7&o  to inflict &3&oShock &7&ofor 5.0s."
+    - "lore:&e★ &7&o10% chance for your attacks"
+    - "lore:&7&o  to inflict &b&oFreeze &7&ofor 5.0s."
+    - "lore:&6★ &7&oSet Bonus: &a&oRegeneration X&7&o."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oEt&d&oher Cryst&5&oal"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You have forged the &6&oDiv&e&oine Basci&6&onet&7.'
+  Divine_Chest:
+    Price:
+    - - mythicitem:EtherCrystal
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Divine_Chest
+    RewardType: item
+    MenuItem:
+    - id:307
+    - name:&6&oDiv&e&oine Cuir&6&oass
+    - "lore:&7Protection XX"
+    - "lore:&7Projectile Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&e★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&o35% chance to fully restore"
+    - "lore:&7&o  your gold hearts after you"
+    - "lore:&7&o  take damage."
+    - "lore:&e★ &7&oSet Bonus: &a&oRegeneration X&7&o."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oEt&d&oher Cryst&5&oal"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 14
+    Message: '&7[&bInfo&7] You have forged the &6&oDiv&e&oine Cuir&6&oass&7.'
+  Divine_Legs:
+    Price:
+    - - mythicitem:EtherCrystal
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Divine_Legs
+    RewardType: item
+    MenuItem:
+    - id:304
+    - name:&6&oDiv&e&oine Platel&6&oegs
+    - "lore:&7Blast Protection XX"
+    - "lore:&7Projectile Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&6★ &7&oYou have 1 level of &a&oResist&7&o."
+    - "lore:&7&o  for every &e&o20.0❤&7&o. (E.g. Resist."
+    - "lore:&7&o  IV from 80.0❤)."
+    - "lore:&e★ &7&o50% chance to refresh your"
+    - "lore:&a&o  Resist&7&o. after you take damage."
+    - "lore:&e★ &7&oSet Bonus: &a&oRegeneration X&7&o."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oEt&d&oher Cryst&5&oal"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 23
+    Message: '&7[&bInfo&7] You have forged the &6&oDiv&e&oine Platel&6&oegs&7.'
+  Divine_Boots:
+    Price:
+    - - mythicitem:EtherCrystal
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Divine_Boots
+    RewardType: item
+    MenuItem:
+    - id:309
+    - name:&6&oDiv&e&oine Sabat&6&oons
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&e★ &a&o+45% &7&omovement speed."
+    - "lore:&e★ &7&oRestore &c&o1.0❤ &7&oevery second"
+    - "lore:&7&o  for every 10 &a&oStrength&7&o. (E.g."
+    - "lore:&7&o  5.0❤ from Strength L)."
+    - "lore:&6★ &7&oSet Bonus: &a&oRegeneration X&7&o."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oEt&d&oher Cryst&5&oal"
+    - enchantment:DEPTH_STRIDER#10
+    - enchantment:PROTECTION_FALL#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 32
+    Message: '&7[&bInfo&7] You have forged the &6&oDiv&e&oine Sabat&6&oons&7.'
+### DREAMER'S ARMOUR SET ---------------------------------------
+  Dreamer_Helm:
+    Price:
+    - - mythicitem:DreamFragment
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Dreamer_Helm
+    RewardType: item
+    MenuItem:
+    - id:298
+    - name:&6&oDre&e&oamer's M&6&oask
+    - "lore:&7Protection XX"
+    - "lore:&7Blast Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&6★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&e★ &7&oAdds &c&o2.0❤ &5&oChaos &7&odamage to all attacks"
+    - "lore:&7&o  for every level of &a&oHaste&7&o."
+    - "lore:&7&o  (E.g. 10.0 Chaos damage from Haste V)."
+    - "lore:&6★ &7&oSet Bonus: You cannot be knocked back."
+    - "lore:&7&o  Whenever you hit a monster/boss, set"
+    - "lore:&7&o  your gold hearts to &e&o50.0❤&7&o for 20.0s."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:0#100#0
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You have forged the &6&oDre&e&oamer''s M&6&oask&7.'
+  Dreamer_Chest:
+    Price:
+    - - mythicitem:DreamFragment
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Dreamer_Chest
+    RewardType: item
+    MenuItem:
+    - id:299
+    - name:&6&oDre&e&oamer's Man&6&otle
+    - "lore:&7Protection XX"
+    - "lore:&7Projectile Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&e★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oRestore &c&o20.0-50.0❤ &7&owhenever you hit"
+    - "lore:&7&o  an enemy."
+    - "lore:&e★ &7&oSet Bonus: You cannot be knocked back."
+    - "lore:&7&o  Whenever you hit a monster/boss, set"
+    - "lore:&7&o  your gold hearts to &e&o50.0❤&7&o for 20.0s."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:0#100#0
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You have forged the &6&oDre&e&oamer''s Man&6&otle&7.'
+  Dreamer_Legs:
+    Price:
+    - - mythicitem:DreamFragment
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Dreamer_Legs
+    RewardType: item
+    MenuItem:
+    - id:300
+    - name:&6&oDre&e&oamer's Ro&6&obes
+    - "lore:&7Blast Protection XX"
+    - "lore:&7Projectile Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&e★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&e★ &7&oFully restore the health of all nearby"
+    - "lore:&7&o  players twice per second for a period"
+    - "lore:&7&o  of 5.0s. &c&oAbility cooldown: 15.0s."
+    - "lore:&6★ &7&oSet Bonus: You cannot be knocked back."
+    - "lore:&7&o  Whenever you hit a monster/boss, set"
+    - "lore:&7&o  your gold hearts to &e&o50.0❤&7&o for 20.0s."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:0#100#0
+    - amount:1
+    InventoryLocation: 26
+    Message: '&7[&bInfo&7] You have forged the &6&oDre&e&oamer''s Ro&6&obes&7.'
+  Dreamer_Boots:
+    Price:
+    - - mythicitem:DreamFragment
+      - amount:10
+    - - mythicitem:Astralite
+      - amount:5
+    - - mythicitem:AncientHide
+      - amount:5
+    PriceType: item
+    Reward:
+    - mythicitem:Dreamer_Boots
+    RewardType: item
+    MenuItem:
+    - id:301
+    - name:&6&oDre&e&oamer's Tre&6&oads
+    - "lore:&7Depth Strider X"
+    - "lore:&7Feather Falling X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oAs&e&ocend&6&oed"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+80% &7&omovement speed."
+    - "lore:&e★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&e★ &7&oYou have &a&oJump Boost III&7&o."
+    - "lore:&6★ &7&oSet Bonus: You cannot be knocked back."
+    - "lore:&7&o  Whenever you hit a monster/boss, set"
+    - "lore:&7&o  your gold hearts to &e&o50.0❤&7&o for 20.0s."
+    - "lore:&0 "
+    - "lore:&7Forge Cost:"
+    - "lore:&7- &f5x &5&oAs&d&otrali&5&ote"
+    - "lore:&7- &f5x &5&oAn&d&ocient Hi&5&ode"
+    - "lore:&7- &f10x &5&oDr&d&oeam Fragme&5&ont"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:0#100#0
+    - amount:1
+    InventoryLocation: 35
+    Message: '&7[&bInfo&7] You have forged the &6&oDre&e&oamer''s Tre&6&oads&7.'

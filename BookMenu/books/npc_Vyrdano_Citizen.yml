@@ -1,0 +1,16 @@
+title: npc_Vyrdano_Citizen
+author: PizzaStyx
+pages:
+  1:
+    - "&0&lCitizen"
+    - "&8Ordinary NPC"
+    - ""
+    - "&8“&1Hello, there! You're"
+    - "&1 not familiar with the"
+    - "&1 city, are you?&8”"
+    - ""
+    - '&7- { text: "Where can I find", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Citizen_A"}'
+    - '&l  { text: "City Hall?", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Citizen_A"}'
+    - ""
+    - '&7- { text: "So what''s it like in", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Citizen_B"}'
+    - '&l  { text: "Vyrdano?", color:"BLUE", hover: "&7View lore", open: "npc_Vyrdano_Citizen_B"}'

@@ -1,0 +1,16 @@
+title: Lab_Smith_4
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lDivine Smith"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1It is rare for one of"
+    - "&1 you to get this far."
+    - "&1 So very rare.&8”"
+    - ""
+    - '&7- { text: "What is the origin", color:"BLUE", hover: "&7View lore", open: "Lab_Smith_4A"}'
+    - '&l  { text: "of the Labyrinth?", color:"BLUE", hover: "&7View lore", open: "Lab_Smith_4A"}'
+    - ""
+    - '&7- { text: "What items can you", color:"BLUE", command: "shop npc_blacksmith_lab_4", hover: "&7View shop"}'
+    - '&l  { text: "offer me?", color:"BLUE", command: "shop npc_blacksmith_lab_4", hover: "&7View shop"}'

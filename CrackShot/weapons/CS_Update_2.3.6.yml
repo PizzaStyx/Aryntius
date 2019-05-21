@@ -1,0 +1,139 @@
+Neogen_1:
+    Item_Information:
+        Item_Name: "&b&oHellfire&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 16
+        Recoil_Amount: 0
+        Bullet_Spread: 2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 12
+        Projectile_Damage: 240
+        Remove_Arrows_On_Impact: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-0.5-2-0,ENTITY_SHULKER_SHOOT-0.75-2-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    # Fully_Automatic:
+        # Enable: true
+        # Fire_Rate: 1
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 5
+        Delay_Between_Shots_In_Burst: 2
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: SMOKE
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 720
+        Chance: 50
+        Sounds_Shooter: ENTITY_GENERIC_EXTINGUISH_FIRE-0.2-2-0
+Neogen_2:
+    Item_Information:
+        Item_Name: "&b&oArctic Thunder&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 0
+        Bullet_Spread: 2
+        Projectile_Amount: 15
+        Projectile_Type: snowball
+        Projectile_Speed: 12
+        Projectile_Damage: 300
+        Remove_Arrows_On_Impact: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.2-1-0,ENTITY_WITHER_SHOOT-0.2-2-0,ENTITY_GHAST_SHOOT-0.5-2-0,ENTITY_GENERIC_EXTINGUISH_FIRE-1-2-0,ENTITY_GENERIC_EXTINGUISH_FIRE-0.5-1-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 900
+        Chance: 25
+        Sounds_Shooter: ENTITY_GENERIC_EXTINGUISH_FIRE-0.2-2-0
+Neogen_3:
+    Item_Information:
+        Item_Name: "&b&oMind Surge&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 10
+        Recoil_Amount: 0
+        Bullet_Spread: 1
+        Projectile_Amount: 8
+        Projectile_Type: snowball
+        Projectile_Speed: 15
+        Projectile_Damage: 400
+        Remove_Arrows_On_Impact: true
+        # Remove_Bullet_Drop: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_SHULKER_SHOOT-1-2-0,ENTITY_SHULKER_SHOOT-0.75-1-0,ENTITY_SHULKER_SHOOT-0.5-0-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: SMOKE
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 3600
+        Chance: 30
+        Sounds_Shooter: ENTITY_GENERIC_EXTINGUISH_FIRE-0.2-2-0
+Neogen_4:
+    Item_Information:
+        Item_Name: "&b&oPandemonium&7"
+        Item_Type: 403
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 20
+        Recoil_Amount: 0
+        Bullet_Spread: 1
+        Projectile_Amount: 12
+        Projectile_Type: snowball
+        Projectile_Speed: 12
+        Projectile_Damage: 160
+        Remove_Arrows_On_Impact: true
+        Remove_Bullet_Drop: true
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-0-0,ENTITY_SHULKER_SHOOT-0.75-2-0,ENTITY_SHULKER_SHOOT-0.5-1-0,ENTITY_SHULKER_SHOOT-0.5-0-0
+    Custom_Death_Message:
+        Normal: "&7[&dInfo&7] &f<shooter> &7showed &f<victim>&7 true pain!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Sneak:
+        Enable: true
+        Bullet_Spread: 3
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: SMOKE

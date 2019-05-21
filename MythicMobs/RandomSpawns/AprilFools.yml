@@ -1,0 +1,10 @@
+### Random spawns
+# 1:
+  # MobType: AprilFool
+  # Worlds: world
+  # Chance: 0.25
+  # Priority: 10
+  # Action: replace
+  # Conditions:
+  # - outside true
+  # - inregion{r=sporn} false

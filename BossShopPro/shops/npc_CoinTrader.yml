@@ -1,0 +1,427 @@
+ShopName: npc_coin_trader
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Currency &aConversion &7]"
+shop:
+### CONVERT TO -------------------------------------------------
+  SigmaToSilver:
+    MenuItem:
+    - id:452
+    - "name:&aSilver Coin"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&a★ &7&oCan be sold for Sigmas"
+    - "lore:&7&o  or traded with NPCs."
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &650Σ"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You converted &650 &7Sigmas into &f1 &aSilver Coin&7.'
+    Price: 50.0
+    PriceType: money
+    Reward:
+    - 'mm items give -s %player% Coin_Silver 1'
+    RewardType: command
+  SilverToGold:
+    MenuItem:
+    - id:371
+    - "name:&aGold Coin"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&a★ &7&oCan be sold for Sigmas"
+    - "lore:&7&o  or traded with NPCs."
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f10x &aSilver Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 14
+    Message: '&7[&bInfo&7] You converted &f10 &aSilver Coins &7into &f1 &aGold Coin&7.'
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Coin_Gold 1'
+    RewardType: command
+  GoldToDiamond:
+    MenuItem:
+    - id:264
+    - "name:&aUncut Diamond"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&a★ &7&oCan be sold for Sigmas"
+    - "lore:&7&o  or traded with NPCs."
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f10x &aGold Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 23
+    Message: '&7[&bInfo&7] You converted &f10 &aGold Coins &7into &f1 &aUncut Diamond&7.'
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Coin_Diamond 1'
+    RewardType: command
+  DiamondtoEmerald:
+    MenuItem:
+    - id:388
+    - "name:&aAncient Emerald"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&a★ &7&oCan be sold for Sigmas"
+    - "lore:&7&o  or traded with NPCs."
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f10x &aUncut Diamond"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 32
+    Message: '&7[&bInfo&7] You converted &f10 &aUncut Diamonds &7into &f1 &aAncient Emerald&7.'
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Coin_Emerald 1'
+    RewardType: command
+  EmeraldtoTearstone:
+    MenuItem:
+    - id:370
+    - "name:&aTearstone"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&a★ &7&oCan be sold for Sigmas"
+    - "lore:&7&o  or traded with NPCs."
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f10x &aAncient Emerald"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 41
+    Message: '&7[&bInfo&7] You converted &f10 &aAncient Emeralds &7into &f1 &aTearstone&7.'
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Coin_Tear 1'
+    RewardType: command
+  TearstoneToStarFrags:
+    MenuItem:
+    - id:399
+    - "name:&aStar Fragment"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&a★ &7&oCan be sold for Sigmas"
+    - "lore:&7&o  or traded with NPCs."
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f10x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 50
+    Message: '&7[&bInfo&7] You converted &f10 &aTearstone &7into &f1 &aStar Fragment&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Coin_Nether 1'
+    RewardType: command
+### CONVERT FROM -----------------------------------------------
+  Sigma_1:
+    MenuItem:
+    - id:266
+    - "name:&625Σ"
+    - "lore:&7Converts currency"
+    - "lore:&7items into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &aSilver Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 19
+    Price:
+    - - id:452
+      - 'name:&aSilver Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aOnce a universal measure#&a of value across the world#&a centuries ago.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 25'
+    RewardType: command
+  Sigma_2:
+    MenuItem:
+    - id:266
+    - "name:&6100Σ"
+    - "lore:&7Converts currency"
+    - "lore:&7items into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &aGold Coin"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:2
+    InventoryLocation: 20
+    Price:
+    - - id:371
+      - 'name:&aGold Coin'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aSought by many, treasured#&a by all. Gold was the center#&a of all civilization.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 100'
+    RewardType: command
+  Sigma_3:
+    MenuItem:
+    - id:266
+    - "name:&6500Σ"
+    - "lore:&7Converts currency"
+    - "lore:&7items into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &aUncut Diamond"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:3
+    InventoryLocation: 21
+    Price:
+    - - id:264
+      - 'name:&aUncut Diamond'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA priceless formation of#&a the natural world, worth#&a dozens of coins.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 500'
+    RewardType: command
+  Sigma_4:
+    MenuItem:
+    - id:266
+    - "name:&61,000Σ"
+    - "lore:&7Converts currency"
+    - "lore:&7items into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &aAncient Emerald"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:4
+    InventoryLocation: 28
+    Price:
+    - - id:388
+      - 'name:&aAncient Emerald'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aThe sole remnant of a long#&a dead civilization, often held#&a as a symbol of pride.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 1000'
+    RewardType: command
+  Sigma_5:
+    MenuItem:
+    - id:266
+    - "name:&62,500Σ"
+    - "lore:&7Converts currency"
+    - "lore:&7items into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:5
+    InventoryLocation: 29
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 2500'
+    RewardType: command
+  Sigma_6:
+    MenuItem:
+    - id:266
+    - "name:&612,500Σ"
+    - "lore:&7Converts currency"
+    - "lore:&7items into Sigmas"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f1x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:6
+    InventoryLocation: 30
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'eco give %player% 12500'
+    RewardType: command
+### MISC CURRENCY CONVERSIONS ----------------------------------
+  Corrupt_1:
+    MenuItem:
+    - id:263
+    - "name:&cCorrupted Fragment"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&c★ &7&oCan be traded with NPCs in"
+    - "lore:&7&o  the Hunter's Covenant"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f16x &aTearstone"
+    - "lore:&7- &f8x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 25
+    Message: '&7[&bInfo&7] You converted &f16 &aTearstone &7and &f8 &aStar Fragment &7into &f1 &cCorrupted Fragment&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% HH_1 1'
+    RewardType: command
+  Corrupt_2:
+    MenuItem:
+    - id:263
+    - "name:&4Greater Corrupted Fragment"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&4★ &7&oCan be traded with NPCs in"
+    - "lore:&7&o  the Hunter's Covenant"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f64x &cCorrupted Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 26
+    Message: '&7[&bInfo&7] You converted &f64 &cCorrupted Fragment &7into &f1 &4Greater Corrupted Fragment&7.'
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&cCorrupted Fragment'
+      - 'lore:&7Currency Item#&0 #&c★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&cA piece of a monster''s soul,#&c tainted beyond salvation by#&c an unknown force.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:64
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% HH_2 1'
+    RewardType: command
+  Corrupt_3:
+    MenuItem:
+    - id:263
+    - "name:&4&oEssence of S&c&ohadows"
+    - "lore:&7Currency Item"
+    - "lore:&0 "
+    - "lore:&4★ &7&oCan be traded with NPCs in"
+    - "lore:&7&o  the Hunter's Covenant"
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f64x &4Greater Corrupted Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 27
+    Message: '&7[&bInfo&7] You converted &f64 &4Greater Corrupted Fragment &7into &f1 &4&oEssence of S&c&ohadows&7.'
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4Greater Corrupted Fragment'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4A large piece of a monster''s#&4 soul, nearly destroyed from#&4 exposure to dark energies.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:64
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% HH_3 1'
+    RewardType: command
+  RandomRiftCurrency:
+    MenuItem:
+    - id:449
+    - "name:&bRandom Endgame Currency"
+    - "lore:&0 "
+    - "lore:&b★ &7&oConverts the amount below"
+    - "lore:&7&o  into a random rift-tier"
+    - "lore:&7&o  currency item."
+    - "lore:&0 "
+    - "lore:&7Conversion Cost:"
+    - "lore:&7- &f16x &4&oEssence of S&c&ohadows"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 35
+    Message: '&7[&bInfo&7] You converted &f16 &4&oEssence of S&c&ohadows &7into a random endgame currency item.'
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4&oEssence of S&c&ohadows'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4An unstable so&cul--shrouded#&c in dar&4kness after centu&cries#&c of corr&4uption.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    PriceType: item
+    Reward:
+    - 'rc randomEndgameCurrency %player%'
+    RewardType: command

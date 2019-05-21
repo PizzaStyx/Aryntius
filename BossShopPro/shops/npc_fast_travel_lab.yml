@@ -1,0 +1,141 @@
+ShopName: npc_fast_travel_lab
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Fast Travel &8]"
+shop:
+  Floor1Teleport:
+    MenuItem:
+    - id:399
+    - "name:&aFloor 1 Teleport"
+    - "lore:&0 "
+    - "lore:&a★ &7&oTeleports you to the"
+    - "lore:&7&o  end of the 1st floor"
+    - "lore:&7&o  in the Labyrinth."
+    - "lore:&0 "
+    - "lore:&7Teleport Cost:"
+    - "lore:&7- &f1x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bInfo&7] You used &f1 &aStar Fragment &7to teleport to the end of the &f1st &7floor of the Labyrinth.'
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:1
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:-123.5,101.0,916.5:0.0:180.0'
+    RewardType: command
+  Floor2Teleport:
+    MenuItem:
+    - id:399
+    - "name:&aFloor 2 Teleport"
+    - "lore:&0 "
+    - "lore:&a★ &7&oTeleports you to the"
+    - "lore:&7&o  end of the 2nd floor"
+    - "lore:&7&o  in the Labyrinth."
+    - "lore:&0 "
+    - "lore:&7Teleport Cost:"
+    - "lore:&7- &f2x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:2
+    InventoryLocation: 3
+    Message: '&7[&bInfo&7] You used &f2 &aStar Fragments &7to teleport to the end of the &f2nd &7floor of the Labyrinth.'
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:2
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:-297.5,101.0,1006.5:0.0:90.0'
+    RewardType: command
+  Floor3Teleport:
+    MenuItem:
+    - id:399
+    - "name:&aFloor 3 Teleport"
+    - "lore:&0 "
+    - "lore:&a★ &7&oTeleports you to the"
+    - "lore:&7&o  end of the 3rd floor"
+    - "lore:&7&o  in the Labyrinth."
+    - "lore:&0 "
+    - "lore:&7Teleport Cost:"
+    - "lore:&7- &f4x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:3
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You used &f4 &aStar Fragments &7to teleport to the end of the &f3rd &7floor of the Labyrinth.'
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:4
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:-95.5,101.0,636.5:0.0:180.0'
+    RewardType: command
+  Floor4Teleport:
+    MenuItem:
+    - id:399
+    - "name:&aFloor 4 Teleport"
+    - "lore:&0 "
+    - "lore:&a★ &7&oTeleports you to the"
+    - "lore:&7&o  end of the 4th floor"
+    - "lore:&7&o  in the Labyrinth."
+    - "lore:&0 "
+    - "lore:&7Teleport Cost:"
+    - "lore:&7- &f8x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:4
+    InventoryLocation: 7
+    Message: '&7[&bInfo&7] You used &f8 &aStar Fragments &7to teleport to the end of the &f4th &7floor of the Labyrinth.'
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:-515.5,101.0,760.5:0.0:0.0'
+    RewardType: command
+  Floor5Teleport:
+    MenuItem:
+    - id:399
+    - "name:&aFloor 5 Teleport"
+    - "lore:&0 "
+    - "lore:&a★ &7&oTeleports you to the"
+    - "lore:&7&o  end of the 5th floor"
+    - "lore:&7&o  in the Labyrinth."
+    - "lore:&0 "
+    - "lore:&7Teleport Cost:"
+    - "lore:&7- &f12x &aStar Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:5
+    InventoryLocation: 9
+    Message: '&7[&bInfo&7] You used &f12 &aStar Fragments &7to teleport to the end of the &f5th &7floor of the Labyrinth.'
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:12
+    PriceType: item
+    Reward:
+    - 'mv tp %player% e:Dungeon:-711.5,101.0,636.5:0.0:180.0'
+    RewardType: command

@@ -1,0 +1,51 @@
+### AURAS AND STUFF
+IceStorm:
+    Trail: "CLOUD"
+    Trail_Radius: 1
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 1
+    Circle:
+        Maxium_Circle_Size: 2.0
+FireStorm:
+    Trail: "FLAME"
+    Trail_Radius: 1
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 1
+    Circle:
+        Maxium_Circle_Size: 2.0
+WaterStorm:
+    Trail: "MAGIC_CRIT"
+    Trail_Radius: 1
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 1
+    Circle:
+        Maxium_Circle_Size: 2.0
+EarthStorm:
+    Trail: "HAPPY_VILLAGER"
+    Trail_Radius: 1
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 1
+    Circle:
+        Maxium_Circle_Size: 2.0
+VoidStorm:
+    Trail: "WITCH_MAGIC"
+    Trail_Radius: 1
+    Trail_Go_Through: "entities"
+    Space_Between_Trails: 2.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 1
+    Circle:
+        Maxium_Circle_Size: 2.0

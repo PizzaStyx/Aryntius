@@ -1,0 +1,191 @@
+### VYRDANO SCROLL SHOP
+VScroll_1:
+    Item_Information:
+        Item_Name: "&d&oScroll of Clarity&7"
+        Item_Type: 339
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 200
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-0-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: SPEED-100-10,SLOW-1-1,BLINDNESS-1-1
+    Extras:
+        One_Time_Use: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+VScroll_2:
+    Item_Information:
+        Item_Name: "&d&oScroll of Shielding&7"
+        Item_Type: 339
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 300
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-0-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEAL-10-1,ABSORPTION-50-200
+    Extras:
+        One_Time_Use: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+VScroll_3:
+    Item_Information:
+        Item_Name: "&d&oScroll of Armouring&7"
+        Item_Type: 339
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 300
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-0-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: DAMAGE_RESISTANCE-200-4,REGENERATION-200-10,ABSORPTION-1-1
+    Extras:
+        One_Time_Use: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+VScroll_4:
+    Item_Information:
+        Item_Name: "&d&oScroll of Vision&7"
+        Item_Type: 339
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 140
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_WITHER_SHOOT-0.5-0-0,ENTITY_GHAST_SHOOT-1-2-0,ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: NIGHT_VISION-600-1,CONFUSION-1-1,BLINDNESS-1-1
+    Extras:
+        One_Time_Use: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+### MYTHIC SCROLLS ---------------------------------------------
+VScroll_L1:
+    Item_Information:
+        Item_Name: "&5&oScroll of Anger&7"
+        Item_Type: 339
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_GHAST_SHOOT-1-1-0,ENTITY_GHAST_SHOOT-1-0-0,ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: INCREASE_DAMAGE-200-200,WEAKNESS-1-1,SLOW_DIGGING-1-1
+    Extras:
+        One_Time_Use: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+VScroll_L2:
+    Item_Information:
+        Item_Name: "&5&oScroll of Divinity&7"
+        Item_Type: 339
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 600
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_GHAST_SHOOT-1-1-0,ENTITY_GHAST_SHOOT-1-0-0,ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: DAMAGE_RESISTANCE-300-5,ABSORPTION-1-1,REGENERATION-1-1
+    Extras:
+        One_Time_Use: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+VScroll_L3:
+    Item_Information:
+        Item_Name: "&5&oScroll of Frenzy&7"
+        Item_Type: 339
+        Sounds_Acquired: ENTITY_ITEM_PICKUP-1.0-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 400
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_GHAST_SHOOT-1-2-0,ENTITY_GHAST_SHOOT-1-1-0,ENTITY_GHAST_SHOOT-1-0-0,ENTITY_HOSTILE_SWIM-1-1-0,ENTITY_HOSTILE_SWIM-1-2-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: SPEED-200-10,FAST_DIGGING-200-10,SLOW_DIGGING-1-1,SLOW-1-1
+    Extras:
+        One_Time_Use: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true

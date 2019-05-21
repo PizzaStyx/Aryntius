@@ -1,0 +1,209 @@
+ShopName: Crops
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &2Crops an&ad Seeds &7]'
+shop:
+  Seeds:
+    MenuItem:
+    - name:&aSeeds
+    - lore:&7Price:&6 25Σ
+    - id:295
+    - amount:1
+    InventoryLocation: 12
+    Message: '&7[&bShop&7] You bought 1 Seeds for &625 &7Sigmas.'
+    Price: 25.0
+    PriceType: money
+    Reward:
+    - - id:295
+      - amount:1
+    RewardType: item
+  CocoaSeeds:
+    MenuItem:
+    - name:&9Cocoa beans
+    - lore:&7Price:&6 80Σ
+    - id:351
+    - durability:3
+    - amount:1
+    InventoryLocation: 13
+    Message: '&7[&bShop&7] You bought 1 Cocoa Beans for &680 &7Sigmas.'
+    Price: 80.0
+    PriceType: money
+    Reward:
+    - - id:351
+      - durability:3
+      - amount:1
+    RewardType: item
+  BRSeeds:
+    MenuItem:
+    - name:&cBeetroot Seeds
+    - lore:&7Price:&6 175Σ
+    - id:435
+    - amount:1
+    InventoryLocation: 14
+    Message: '&7[&bShop&7] You bought 1 Beetroot Seeds for &6175 &7Sigmas.'
+    Price: 175.0
+    PriceType: money
+    Reward:
+    - - id:435
+      - amount:1
+    RewardType: item
+  MSeeds:
+    MenuItem:
+    - name:&2Melon Seeds
+    - lore:&7Price:&6 250Σ
+    - id:362
+    - amount:1
+    InventoryLocation: 15
+    Message: '&7[&bShop&7] You bought 1 Melon Seeds for &6250 &7Sigmas.'
+    Price: 250.0
+    PriceType: money
+    Reward:
+    - - id:362
+      - amount:1
+    RewardType: item
+  PSeeds:
+    MenuItem:
+    - name:&6Pumpkin Seeds
+    - lore:&7Price:&6 300Σ
+    - id:361
+    - amount:1
+    InventoryLocation: 16
+    Message: '&7[&bShop&7] You bought 1 Pumpkin Seeds for &6300 &7Sigmas.'
+    Price: 300.0
+    PriceType: money
+    Reward:
+    - - id:361
+      - amount:1
+    RewardType: item
+##LAYER 2
+##NO SEEDS
+##ONLY FRUITS AND CROPS
+  Potatoes:
+    MenuItem:
+    - name:&ePotato
+    - lore:&7Price:&6 60Σ
+    - id:392
+    - amount:1
+    InventoryLocation: 21
+    Message: '&7[&bShop&7] You bought 1 Potato for &660 &7Sigmas.'
+    Price: 60.0
+    PriceType: money
+    Reward:
+    - - id:392
+      - amount:1
+    RewardType: item
+  Carrots:
+    MenuItem:
+    - name:&aCarrots
+    - lore:&7Price:&6 60Σ
+    - id:391
+    - amount:1
+    InventoryLocation: 22
+    Message: '&7[&bShop&7] You bought 1 Carrot for &660 &7Sigmas.'
+    Price: 60.0
+    PriceType: money
+    Reward:
+    - - id:391
+      - amount:1
+    RewardType: item
+  Mushroom:
+    MenuItem:
+    - name:&eMushroom
+    - lore:&7Price:&6 80Σ
+    - id:39
+    - amount:1
+    InventoryLocation: 23
+    Message: '&7[&bShop&7] You bought 1 Mushroom for&6 80 &7Sigmas.'
+    Price: 80.0
+    PriceType: money
+    Reward:
+    - - id:39
+      - amount:1
+    RewardType: item
+  RedMushroom:
+    MenuItem:
+    - name:&cRed Mushroom
+    - lore:&7Price:&6 80Σ
+    - id:40
+    - amount:1
+    InventoryLocation: 24
+    Message: '&7[&bShop&7] You bought 1 Red Mushroom for&6 80 &7Sigmas.'
+    Price: 80.0
+    PriceType: money
+    Reward:
+    - - id:40
+      - amount:1
+    RewardType: item
+  SugarCane:
+    MenuItem:
+    - name:&bSugar Canes
+    - lore:&7Price:&6 120Σ
+    - id:338
+    - amount:1
+    InventoryLocation: 25
+    Message: '&7[&bShop&7] You bought 1 Sugar Canes for &6120 &7Sigmas.'
+    Price: 120.0
+    PriceType: money
+    Reward:
+    - - id:338
+      - amount:1
+    RewardType: item
+## LAYER 3
+## MAX LEVEL CROPS
+## FTW
+  Cactus:
+    MenuItem:
+    - name:&aCactus
+    - lore:&7Price:&6 150Σ
+    - id:81
+    - amount:1
+    InventoryLocation: 30
+    Message: '&7[&bShop&7] You bought 1 Cactus for&6 150 &7Sigmas.'
+    Price: 150.0
+    PriceType: money
+    Reward:
+    - - id:81
+      - amount:1
+    RewardType: item
+  NetherWart:
+    MenuItem:
+    - name:&cNether Wart
+    - lore:&7Price:&6 500Σ
+    - id:372
+    - amount:1
+    InventoryLocation: 31
+    Message: '&7[&bShop&7] You bought 1 Nether Wart for &6500 &7Sigmas.'
+    Price: 500.0
+    PriceType: money
+    Reward:
+    - - id:372
+      - amount:1
+    RewardType: item
+  ChorusFlower:
+    MenuItem:
+    - name:&dChorus Flower
+    - lore:&7Price:&6 2000Σ
+    - id:200
+    - durability:5
+    - amount:1
+    InventoryLocation: 32
+    Message: '&7[&bShop&7] You bought 1 Chorus Flower for&6 2000 &7Sigmas.'
+    Price: 2000.0
+    PriceType: money
+    Reward:
+    - - id:200
+      - amount:1
+    RewardType: item
+  GoBack:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&cGo Back
+    - lore:&7Return to the Item Shop
+    - id:166
+    - amount:1
+    InventoryLocation: 50
+    Message: ''
+    PriceType: free
+    RewardType: shop
+    Reward: ItemShop

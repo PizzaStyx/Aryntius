@@ -1,0 +1,18 @@
+title: Trading
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lTrading Help"
+    - ""
+    - "Trading allows you to directly transfer items with another player without hassle!"
+    - ""
+    - "For added security, you must press the confirm button twice in order to finalize any of your trades."
+    - ""
+  2:
+    - "To request a trade with other players, use &9/trade <player>&0"
+    - ""
+    - "To accept a trade request, do &9/trade &9accept <player>&0."
+    - ""
+    - "To ignore all incoming trade requests, do &9/trade ignore&0."
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

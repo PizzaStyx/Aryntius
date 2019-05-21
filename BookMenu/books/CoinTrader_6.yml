@@ -1,0 +1,15 @@
+title: CoinTrader_6
+author: PizzaStyx
+pages:
+  1:
+    - "&2&lCoin Trader"
+    - "&8Trading NPC"
+    - ""
+    - "&8“&1Ah, there you are!"
+    - "&1 We've set up a camp"
+    - "&1 at the entrance. Now"
+    - "&1 go off and do your"
+    - "&1 stuff, adventurer!&8”"
+    - ""
+    - '&7- { text: "I''d like to convert", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'
+    - '&l  { text: "some currency.", color:"BLUE", command: "shop npc_coin_trader", hover: "&7View shop"}'

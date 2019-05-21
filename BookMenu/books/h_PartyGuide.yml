@@ -1,0 +1,96 @@
+title: PartyGuide
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lParty Guide"
+    - ""
+    - "Party up and fight better!"
+    - ""
+    - "&8Table of Contents"
+    - '&7» { text: "&9Party Management", gotoPage: 2, hover: "&7Jump to &9Party Management" }'
+    - '&7» { text: "&9Party Commands", gotoPage: 6, hover: "&7Jump to &9Party Commands" }'
+    - '&7» { text: "&9Item Sharing", gotoPage: 9, hover: "&7Jump to &9Item Sharing" }'
+    - '&7» { text: "&9EXP Sharing", gotoPage: 12, hover: "&7Jump to &9EXP Sharing" }'
+    - ""
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'
+  2:
+    - "&8&lParty Management"
+    - ""
+    - "To create a party, use the command:"
+    - ""
+    - "&9/party create <name> &9[password]"
+    - ""
+    - "The password is optional and intended for usage with private parties."
+  3:
+    - "To join a party, use"
+    - "&9/party join <player> &9[password]"
+    - ""
+    - "To invite a player to a private party, use"
+    - "&9/party invite <player>"
+    - ""
+    - "To leave a party, use"
+    - "&9/party quit"
+    - ""
+    - "To view the party info, use &9/party info"
+  4:
+    - "To toggle your party's privacy status, use"
+    - "&9/party lock"
+    - "&9/party unlock"
+    - ""
+    - "To change the password of your private party use"
+    - "&9/party password &9<password>"
+  5:
+    - "To make another member the party leader, use"
+    - "&9/party owner &9<player>"
+    - ""
+    - "To kick a member of your party, use"
+    - "&9/party kick <player>"
+    - ""
+    - "To disband your party, use"
+    - "&9/party disband"
+  6:
+    - "&8&lParty Commands"
+    - ""
+    - "To teleport to a player in your party, use &9/ptp <player>&0."
+    - ""
+    - "Use &9/ptp accept &0to accept the teleport."
+    - ""
+    - "Use &9/ptp toggle &0to automatically deny party teleports."
+  7:
+    - "Use &9/party chat &0to toggle party-only chat."
+    - ""
+    - "To ally with another party, use &9/party &9alliance invite <leader &9name>"
+    - ""
+    - "To accept an ally request, use &9/party &9alliance accept"
+  8:
+    - "Alliances share all party benefits and cannot harm other members."
+    - ""
+    - "To check your party's alliances, use &9/party alliance"
+    - ""
+    - "To disband your alliance, use &9/party &9alliance disband"
+  9:
+    - "&8&lItem Sharing"
+    - ""
+    - "There are three modes of item sharing: EQUAL, RANDOM, and NONE. By default, it is set to NONE."
+    - ""
+    - "Party leaders can set the item sharing mode using &9/party &9itemshare &9<mode>"
+  10:
+    - "NONE is default drop management. A player gets the drop. Other players have no effect."
+    - ""
+    - "EQUAL shares all items picked up by party members."
+    - ""
+    - "So if a player picks up an item, it has a chance to enter the"
+  11:
+    - "inventory of any online party member."
+    - ""
+    - "RANDOM works like EQUAL but will distribute the items randomly among all online players instead of equally, so some party members may get too many drops, others will get none. Etc."
+  12:
+    - "&8&lEXP Sharing"
+    - ""
+    - "EXP sharing works exactly like item sharing."
+    - ""
+    - "Party leaders can set the EXP sharing mode using &9/party &9xpshare &9<mode>"
+    - ""
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", gotoPage: 1, hover: "&7Return to main page" }'

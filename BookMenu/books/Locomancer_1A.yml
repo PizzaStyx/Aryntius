@@ -1,0 +1,15 @@
+title: Locomancer_1A
+author: PizzaStyx
+pages:
+  1:
+    - "Using the unstable energy from Star Fragments, I've devised a way to instantly teleport to an area deep within the labyrinth!"
+    - ""
+    - "All you have to do is hand me a few and I'll get you in there in no time!"
+    - ""
+  2:
+    - "Do note, however, that I've no idea how powerful the beasts down there may be."
+    - ""
+    - "So if you get mauled to death by hordes of undead, don't blame me."
+    - ""
+    - '&7- { text: "I''m willing to take", color:"BLUE", command: "bs npc_fast_travel_lab", hover: "&7Select Teleport"}'
+    - '&l  { text: "such a risk.", color:"BLUE", command: "bs npc_fast_travel_lab", hover: "&7Select Teleport"}'

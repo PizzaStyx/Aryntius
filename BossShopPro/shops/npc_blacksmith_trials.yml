@@ -1,0 +1,493 @@
+ShopName: npc_blacksmith_trials
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Eternal Blacksmith &8]"
+shop:
+### TITAN ARMOR SET
+  Titan_Helm:
+    MenuItem:
+    - id:314
+    - name:&6&oTitan Wreath
+    - "lore:&7Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &2&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &c&o+20.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oYou have &a&oResistance IV&7&o."
+    - "lore:&7&o  (Refreshes every second)."
+    - "lore:&6★ &7&oSet Bonus: &a&oRegeneration X&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &aStar Fragment"
+    - "lore:&7- &f20x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought 1 Titan Wreath for &f8 &aStar Fragments&7, &f20 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Titan_Helm 1'
+    RewardType: command
+  Titan_Chest:
+    MenuItem:
+    - id:315
+    - name:&6&oTitan Fleece
+    - "lore:&7Projectile Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &2&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &c&o+20.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oFully restore your health"
+    - "lore:&7&o  once every 5.0s."
+    - "lore:&6★ &7&oSet Bonus: &a&oRegeneration X&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &aStar Fragment"
+    - "lore:&7- &f20x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought 1 Titan Fleece for &f8 &aStar Fragments&7, &f20 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Titan_Chest 1'
+    RewardType: command
+  Titan_Legs:
+    MenuItem:
+    - id:316
+    - name:&6&oTitan Leggings
+    - "lore:&7Blast Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &2&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &c&o+20.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oRestore &c&o10.0❤ &7&owhenever"
+    - "lore:&7&o  you take damage."
+    - "lore:&6★ &7&oSet Bonus: &a&oRegeneration X&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &aStar Fragment"
+    - "lore:&7- &f20x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 20
+    Message: '&7[&bInfo&7] You bought 1 Titan Leggings for &f8 &aStar Fragments&7, &f20 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Titan_Legs 1'
+    RewardType: command
+  Titan_Boots:
+    MenuItem:
+    - id:317
+    - name:&6&oTitan Calceus
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &2&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &c&o+20.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oYou have &a&oFire Resistance&7&o."
+    - "lore:&7&o  (Refreshes every second)."
+    - "lore:&6★ &7&oSet Bonus: &a&oRegeneration X&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &aStar Fragment"
+    - "lore:&7- &f20x &aTearstone"
+    - enchantment:PROTECTION_FALL#10
+    - enchantment:DEPTH_STRIDER#10
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 29
+    Message: '&7[&bInfo&7] You bought 1 Titan Boots for &f8 &aStar Fragments&7, &f20 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:20
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Titan_Boots 1'
+    RewardType: command
+### DRAGONSCALE ARMOR SET
+  Dragon_Helm:
+    MenuItem:
+    - id:298
+    - name:&6&oDragonscale Helm
+    - "lore:&7Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+20% &7&omovement speed."
+    - "lore:&6★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oAdds &c&o150.0-300.0❤ &7&odamage to all"
+    - "lore:&7&o  melee attacks."
+    - "lore:&6★ &7&oSet Bonus: You have 200 &a&oStrength&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f15x &aStar Fragment"
+    - "lore:&7- &f10x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:128#0#0
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You bought 1 Dragonscale Helm for &f15 &aStar Fragments&7, &f10 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Dragon_Helm 1'
+    RewardType: command
+  Dragon_Chest:
+    MenuItem:
+    - id:299
+    - name:&6&oDragonscale Plate Mail
+    - "lore:&7Projectile Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+20% &7&omovement speed."
+    - "lore:&6★ &c&o+15.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oYou have &a&oResist. IV&7&o + &a&oFire Resist&7&o."
+    - "lore:&7&o  (Refreshes every 5.0s)."
+    - "lore:&6★ &7&oSet Bonus: You have 200 &a&oStrength&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f15x &aStar Fragment"
+    - "lore:&7- &f10x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:128#0#0
+    - amount:1
+    InventoryLocation: 14
+    Message: '&7[&bInfo&7] You bought 1 Dragonscale Plate Mail for &f15 &aStar Fragments&7, &f10 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Dragon_Chest 1'
+    RewardType: command
+  Dragon_Legs:
+    MenuItem:
+    - id:300
+    - name:&6&oDragonscale Greaves
+    - "lore:&7Blast Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+20% &7&omovement speed."
+    - "lore:&6★ &c&o+15.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oRestore &c&o10.0-15.0❤ &7&owhenever you"
+    - "lore:&7&o  hit an enemy."
+    - "lore:&6★ &7&oSet Bonus: You have 200 &a&oStrength&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f15x &aStar Fragment"
+    - "lore:&7- &f10x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:128#0#0
+    - amount:1
+    InventoryLocation: 23
+    Message: '&7[&bInfo&7] You bought 1 Dragonscale Greaves for &f15 &aStar Fragments&7, &f10 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Dragon_Legs 1'
+    RewardType: command
+  Dragon_Boots:
+    MenuItem:
+    - id:301
+    - name:&6&oDragonscale Boots
+    - "lore:&7Depth Strider X"
+    - "lore:&7Feather Falling X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+20% &7&omovement speed."
+    - "lore:&6★ &c&o+10.0❤ &7&owhile equipped."
+    - "lore:&6★ &7&oMelee attacks inflict &c&o30.0❤ &4&oBleed"
+    - "lore:&7&o  damage over a period of 1.5s."
+    - "lore:&6★ &7&oSet Bonus: You have 200 &a&oStrength&7&o."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f15x &aStar Fragment"
+    - "lore:&7- &f10x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:128#0#0
+    - amount:1
+    InventoryLocation: 32
+    Message: '&7[&bInfo&7] You bought 1 Dragonscale Boots for &f15 &aStar Fragments&7, &f10 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:10
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Dragon_Boots 1'
+    RewardType: command
+### REDEEMER'S ARMOR
+  Redeemer_Helm:
+    MenuItem:
+    - id:298
+    - "name:&6&oRedeemer's Cowl"
+    - "lore:&7Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &b&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+30% &7&omovement speed."
+    - "lore:&6★ &7&oAdds &c&o15.0❤ &5&oChaos &7&odamage"
+    - "lore:&7&o  to all ranged/magic attacks."
+    - "lore:&6★ &7&oSet Bonus: &e&o60.0❤&7&o (Recharges"
+    - "lore:&7&o  fully every 10.0 seconds.)"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - "lore:&7- &f30x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:128#128#128
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought 1 Redeemer''s Cowl for &f5 &aStar Fragments&7, &f30 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:30
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Redeemer_Helm 1'
+    RewardType: command
+  Redeemer_Chest:
+    MenuItem:
+    - id:303
+    - "name:&6&oRedeemer's Chainbody"
+    - "lore:&7Projectile Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &b&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+30% &7&omovement speed."
+    - "lore:&6★ &7&oYou have &a&oResistance IV&7&o."
+    - "lore:&7&o  (Refreshes every 4.0s)."
+    - "lore:&6★ &7&oSet Bonus: &e&o60.0❤&7&o (Recharges"
+    - "lore:&7&o  fully every 10.0 seconds.)"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - "lore:&7- &f30x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought 1 Redeemer''s Chainbody for &f5 &aStar Fragments&7, &f30 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:30
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Redeemer_Chest 1'
+    RewardType: command
+  Redeemer_Legs:
+    MenuItem:
+    - id:300
+    - "name:&6&oRedeemer's Robe"
+    - "lore:&7Blast Protection XX"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &b&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+30% &7&omovement speed."
+    - "lore:&6★ &7&oYou have &a&oJump Boost III&7&o."
+    - "lore:&7&o  (Refreshes every 2.0s)."
+    - "lore:&6★ &7&oSet Bonus: &e&o60.0❤&7&o (Recharges"
+    - "lore:&7&o  fully every 10.0 seconds.)"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - "lore:&7- &f30x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - color:128#128#128
+    - amount:1
+    InventoryLocation: 26
+    Message: '&7[&bInfo&7] You bought 1 Redeemer''s Robe for &f5 &aStar Fragments&7, &f30 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:30
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Redeemer_Legs 1'
+    RewardType: command
+  Redeemer_Boots:
+    MenuItem:
+    - id:305
+    - "name:&6&oRedeemer's Sandals"
+    - "lore:&7Depth Strider X"
+    - "lore:&7Feather Falling X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &b&o✶"
+    - "lore:&0 "
+    - "lore:&6★ &a&o+30% &7&omovement speed."
+    - "lore:&6★ &7&oAdds &c&o50.0-100.0❤ &7&odamage to"
+    - "lore:&7&o  all ranged/magic attacks."
+    - "lore:&6★ &7&oSet Bonus: &e&o60.0❤&7&o (Recharges"
+    - "lore:&7&o  fully every 10.0 seconds.)"
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f5x &aStar Fragment"
+    - "lore:&7- &f30x &aTearstone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 35
+    Message: '&7[&bInfo&7] You bought 1 Redeemer''s Sandals for &f5 &aStar Fragments&7, &f30 &aTearstone&7.'
+    Price:
+    - - id:370
+      - 'name:&aTearstone'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aA crystalline material that#&a is often found in the ruins#&a of the Aquir Empire.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:30
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:5
+    PriceType: item
+    Reward:
+    - 'mm items give -s %player% Redeemer_Boots 1'
+    RewardType: command

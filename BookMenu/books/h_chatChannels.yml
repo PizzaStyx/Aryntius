@@ -1,0 +1,28 @@
+title: ChatChannels
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lChat Channels"
+    - ""
+    - "Use &9/c <name> &0to switch to a channel."
+    - ""
+    - "Use &9/l <name> &0to leave that channel."
+    - ""
+    - "Speaking in a channel will only allow people in that channel to hear you."
+  2:
+    - "&8&lChannel List"
+    - ""
+    - "&2[Global] &0is the default channel which anyone can access."
+    - ""
+    - "Use &9/c Global &0to switch to it."
+    - ""
+    - "&6[Trade] &0is used for item tags and deals, such as 'WTB iron pickaxe'."
+  3:
+    - "Use &9/c Trade &0to switch to it."
+    - ""
+    - "&3[Arch+] &0is reserved for Architects so they can build in peace."
+    - ""
+    - "It is not currently open for public use."
+    - ""
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

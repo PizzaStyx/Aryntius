@@ -1,0 +1,63 @@
+Arch_Sword:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Arch_Sword,Arch_Sword2"
+        Delay_Bar:
+            Left_Color: "&6"
+            Right_Color: "&7"
+            Symbol: "✶"
+            Symbol_Amount: 5
+            Action_Bar: "&f&l{&7#BAR#&f&l} &7#TIME#s"
+            End_Action_Bar: "&7ABILITY RECHARGED"
+Arch_Flask:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "F_Cloud"
+        Delay_Bar:
+            Left_Color: "&f"
+            Right_Color: "&7"
+            Symbol: "✶"
+            Symbol_Amount: 5
+            Action_Bar: "&f&l{&7#BAR#&f&l} &7#TIME#s"
+            End_Title: "&e✶&6✷&e✶"
+            End_Subtitle: "&7Flask Recharged"
+Arch_Rifle:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "Smoking_Flames,PiercedSmoke"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Gold
+Arch_Magic:
+    Damage:
+        No_Knockback:
+            Affect_Players: true
+            Affect_Mobs_And_Animals: true
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SimpleSmoke,PiercedFlame"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Holy
+Arch_Sniper:
+    Damage:
+        Title_And_Subtitle:
+            Victim:
+                Hit:
+                    Title: "&b&lFrozen"
+                    Subtitle: "&7Movement speed reduced"
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Trail: "SniperGold,F_Gold"
+    Reload:
+        Visual_Reload:
+            Visual_Reload: R_Holy_noProc

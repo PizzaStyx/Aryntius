@@ -1,0 +1,424 @@
+ShopName: npc_HH_blacksmith
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: '&8[ &4Hunting Gear &8]'
+shop:
+  HH_Bow_1: ### Rare Bow
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&cCorrupted Fragment'
+      - 'lore:&7Currency Item#&0 #&c★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&cA piece of a monster''s soul,#&c tainted beyond salvation by#&c an unknown force.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:32
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Bow_Low'
+    MenuItem:
+    - id:261
+    - name:&3Scatter Bow
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare &4✵"
+    - "lore:&0 "
+    - "lore:&7Type: &fBow"
+    - "lore:&7Ammo: &fArrow"
+    - "lore:&7Ability: &c50.0❤x3"
+    - "lore:&7Cooldown: &fNone"
+    - "lore:&0 "
+    - "lore:&3★ &7&oFully-draw shots to cast ability."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f32x &cCorrupted Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - enchantment:ARROW_INFINITE#1
+    - hideflags:HIDE_ATTRIBUTES
+    - amount:1
+    InventoryLocation: 2
+    Message: '&7[&bInfo&7] You bought &f1 &3Scatter Bow &7for &f32 &cCorrupted Fragment&7.'
+  HH_Bow_2: ### Exalted Bow
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4Greater Corrupted Fragment'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4A large piece of a monster''s#&4 soul, nearly destroyed from#&4 exposure to dark energies.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:16
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Bow_Mid'
+    MenuItem:
+    - id:261
+    - name:&d&oAstral Bow
+    - "lore:&7Power L"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted &4✵"
+    - "lore:&0 "
+    - "lore:&7Type: &fBow"
+    - "lore:&7Ammo: &fArrow"
+    - "lore:&7Ability: &c900.0❤"
+    - "lore:&7Cooldown: &fNone"
+    - "lore:&0 "
+    - "lore:&d★ &7&oFully-draw shots to cast ability."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f16x &4Greater Corrupted Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You bought &f1 &d&oAstral Bow &7for &f16 &4Greater Corrupted Fragment&7.'
+  HH_Bow_3: ### Spectral Gaze
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4&oEssence of S&c&ohadows'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4An unstable so&cul--shrouded#&c in dar&4kness after centu&cries#&c of corr&4uption.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:8
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Bow_Final'
+    MenuItem:
+    - id:261
+    - name:&6&oSpectral Gaze
+    - "lore:&7Power CL"
+    - "lore:&7Infinity"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4✵"
+    - "lore:&0 "
+    - "lore:&7Type: &fBow"
+    - "lore:&7Ammo: &fArrow"
+    - "lore:&7Ability: &c250.0❤x3"
+    - "lore:&7Cooldown: &fNone"
+    - "lore:&0 "
+    - "lore:&6★ &7&oFully-draw shots to cast ability."
+    - "lore:&6★ &7&oRapidly fires 3 shots during ability."
+    - "lore:&6★ &7&oGain &a&oSpeed IV &7&ofor up to 5.0s when"
+    - "lore:&7&o  you cast this weapon's ability."
+    - "lore:&6★ &7&oGain &a&oNight Vision &7&ofor up to 12.5s"
+    - "lore:&7&o  when you cast this weapon's ability."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f8x &4&oEssence of S&c&ohadows"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 8
+    Message: '&7[&bInfo&7] You bought &f1 &6&oSpectral Gaze &7for &f8 &4&oEssence of S&c&ohadows&7.'
+  HH_Magic_1: ### Exalted Spell
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&cCorrupted Fragment'
+      - 'lore:&7Currency Item#&0 #&c★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&cA piece of a monster''s soul,#&c tainted beyond salvation by#&c an unknown force.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:48
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Magic_Low'
+    MenuItem:
+    - id:403
+    - name:&d&oAshen Burst
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted &4✵"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic"
+    - "lore:&7Speed: &fInstant"
+    - "lore:&7Charge: &fVery Slow"
+    - "lore:&7Damage: &c250.0❤"
+    - "lore:&0 "
+    - "lore:&d★ &7&oAttacks from this weapon can"
+    - "lore:&7&o  pass through walls."
+    - "lore:&d★ &7&oGains damage/status bonuses"
+    - "lore:&7&o  from melee items/accessories."
+    - "lore:&d★ &c&oRanged/magic bonuses have"
+    - "lore:&c&o  no effect on this weapon."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f48x &cCorrupted Fragment"
+    - amount:1
+    InventoryLocation: 11
+    Message: '&7[&bInfo&7] You bought &f1 &d&oAshen Burst &7for &f48 &cCorrupted Fragment&7.'
+  HH_Magic_2: ### Chaos Bolt
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4Greater Corrupted Fragment'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4A large piece of a monster''s#&4 soul, nearly destroyed from#&4 exposure to dark energies.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:24
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Magic_Mid'
+    MenuItem:
+    - id:403
+    - name:&4&oCha&c&oos Bo&4&olt
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &4&oCorr&c&oupted &4✵"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic"
+    - "lore:&7Speed: &fVery Slow"
+    - "lore:&7Charge: &fVery Slow"
+    - "lore:&7Damage: &c30.0❤"
+    - "lore:&0 "
+    - "lore:&c★ &7&oRemoves &a&oResistance &7&ofrom"
+    - "lore:&7&o  enemies on hit."
+    - "lore:&4★ &7&oEnemies gain &a&oStrength CL&7&o,"
+    - "lore:&e&o  +500.0❤ &7&oand &a&oSpeed IV &7&oon"
+    - "lore:&7&o  hit."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f24x &4Greater Corrupted Fragment"
+    - amount:1
+    InventoryLocation: 14
+    Message: '&7[&bInfo&7] You bought &f1 &4&oCha&c&oos Bo&4&olt &7for &f24 &4Greater Corrupted Fragment&7.'
+  HH_Magic_3: ### Typhoon
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4&oEssence of S&c&ohadows'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4An unstable so&cul--shrouded#&c in dar&4kness after centu&cries#&c of corr&4uption.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:9
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Magic_Final'
+    MenuItem:
+    - id:403
+    - name:&6&oTyphoon
+    - "lore:&7Right-click to cast"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4✵"
+    - "lore:&0 "
+    - "lore:&7Type: &fMagic"
+    - "lore:&7Speed: &fSlow"
+    - "lore:&7Charge: &fSlow"
+    - "lore:&7Damage: &c250.0❤x12"
+    - "lore:&0 "
+    - "lore:&6★ &7&o20% chance to inflict &d&oCurse"
+    - "lore:&7&o  with ranged/magic attacks."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f9x &4&oEssence of S&c&ohadows"
+    - amount:1
+    InventoryLocation: 17
+    Message: '&7[&bInfo&7] You bought &f1 &6&oTyphoon &7for &f9 &4&oEssence of S&c&ohadows&7.'
+  HH_Melee_1: ### Rare Sword
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&cCorrupted Fragment'
+      - 'lore:&7Currency Item#&0 #&c★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&cA piece of a monster''s soul,#&c tainted beyond salvation by#&c an unknown force.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:18
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Melee_Low'
+    MenuItem:
+    - id:272
+    - name:&3Turmoil
+    - "lore:&7Sharpness C"
+    - "lore:&7Sweeping Edge X"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &3Rare &4✵"
+    - "lore:&0 "
+    - "lore:&3★ &a&o+90% &7&oattack speed."
+    - "lore:&3★ &c&o+5.0❤ &7&oif held in main hand."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f18x &cCorrupted Fragment"
+    - amount:1
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    InventoryLocation: 20
+    Message: '&7[&bInfo&7] You bought &f1 &3Turmoil &7for &f18 &cCorrupted Fragment&7.'
+  HH_Melee_2: ### Rising Fury
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4Greater Corrupted Fragment'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4A large piece of a monster''s#&4 soul, nearly destroyed from#&4 exposure to dark energies.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:12
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Melee_Mid'
+    MenuItem:
+    - id:279
+    - name:&d&oRising Fury
+    - "lore:&7Smite L"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &d&oExalted &4✵"
+    - "lore:&0 "
+    - "lore:&d★ &a&o+150% &7&oattack speed."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f12x &4Greater Corrupted Fragment"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 23
+    Message: '&7[&bInfo&7] You bought &f1 &d&oRising Fury &7for &f12 &4Greater Corrupted Fragment&7.'
+  HH_Melee_3: ### Hammer of Impurity
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4&oEssence of S&c&ohadows'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4An unstable so&cul--shrouded#&c in dar&4kness after centu&cries#&c of corr&4uption.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:6
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Melee_Final'
+    MenuItem:
+    - id:258
+    - name:&6&oHammer of Impurity
+    - "lore:&7Smite D"
+    - "lore:&7Knockback I"
+    - "lore:&7Unbreakable"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4✵"
+    - "lore:&0 "
+    - "lore:&6★ &8&o-75% &7&oattack speed."
+    - "lore:&6★ &c&o+20.0❤ &7&oif held in main hand."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f6x &4&oEssence of S&c&ohadows"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 26
+    Message: '&7[&bInfo&7] You bought &f1 &6&oHammer of Impurity &7for &f6 &4&oEssence of S&c&ohadows&7.'
+###
+### Legendary ITEMS
+###
+  HH_Rocket:
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4&oEssence of S&c&ohadows'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4An unstable so&cul--shrouded#&c in dar&4kness after centu&cries#&c of corr&4uption.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:15
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Rocket'
+    MenuItem:
+    - id:355
+    - durability:7
+    - name:&6&oThe Destroyer
+    - "lore:&7Right-click to shoot"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4✵"
+    - "lore:&0 "
+    - "lore:&7Type: &fLauncher"
+    - "lore:&7Ammo: &fDiamond"
+    - "lore:&7Radius: &f5 Blocks"
+    - "lore:&7Speed: &fVery Fast"
+    - "lore:&7Damage: &c0.0-3000.0❤"
+    - "lore:&0 "
+    - "lore:&6★ &7&oFires rockets that explode"
+    - "lore:&7&o  on impact."
+    - "lore:&6★ &7&oStuns/blinds enemies inside"
+    - "lore:&7&o  radius for up to 10.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f15x &4&oEssence of S&c&ohadows"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 29
+    Message: '&7[&bInfo&7] You bought &f1 &6&oThe Destroyer &7for &f15 &4&oEssence of S&c&ohadows&7.'
+  HH_Pistol:
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4&oEssence of S&c&ohadows'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4An unstable so&cul--shrouded#&c in dar&4kness after centu&cries#&c of corr&4uption.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:25
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% HH_Pistol'
+    MenuItem:
+    - id:266
+    - name:&6&oRevolution
+    - "lore:&7Right-click to shoot"
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4✵"
+    - "lore:&0 "
+    - "lore:&7Type: &fPistol"
+    - "lore:&7Ammo: &fIron Nugget"
+    - "lore:&7Speed: &fVery Fast"
+    - "lore:&7Damage: &c150.0❤"
+    - "lore:&0 "
+    - "lore:&6★ &7&o50% critical strike chance."
+    - "lore:&6★ &7&o3.5x damage on headshot."
+    - "lore:&6★ &7&o4.5x damage on critical hit."
+    - "lore:&6★ &7&oCrouching reduces bullet spread"
+    - "lore:&7&o  and gun recoil."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f25x &4&oEssence of S&c&ohadows"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 32
+    Message: '&7[&bInfo&7] You bought &f1 &6&oRevolution &7for &f25 &4&oEssence of S&c&ohadows&7.'
+  HH_Shield:
+    PriceType: item
+    Price:
+    - - id:263
+      - durability:1
+      - 'name:&4&oEssence of S&c&ohadows'
+      - 'lore:&7Currency Item#&0 #&4★ &7&oCan be traded with NPCs in#&7&o  the Hunter''s Covenant.#&0 #&7“&4An unstable so&cul--shrouded#&c in dar&4kness after centu&cries#&c of corr&4uption.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:32
+    RewardType: Command
+    Reward:
+    - 'mm i give -s %player% Shield_Frenzy'
+    MenuItem:
+    - id:442
+    - name:&6&oShield of Frenzy
+    - "lore:&0 "
+    - "lore:&7Tier: &6&oLegendary &4✵"
+    - "lore:&0 "
+    - "lore:&6★ &7&oWhenever you hit an enemy"
+    - "lore:&7&o  monster/boss, gain &a&oHaste V"
+    - "lore:&7&o  and &a&oSpeed V &7&ofor 10.0s."
+    - "lore:&0 "
+    - "lore:&7Item Price:"
+    - "lore:&7- &f32x &4&oEssence of S&c&ohadows"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 35
+    Message: '&7[&bInfo&7] You bought &f1 &6&oShield of Frenzy &7for &f32 &4&oEssence of S&c&ohadows&7.'

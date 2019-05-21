@@ -1,0 +1,16 @@
+title: npc_SirGerald_Main
+author: PizzaStyx
+pages:
+  1:
+    - "&6&lSir Gerald"
+    - "&8Covenant Leader"
+    - ""
+    - "&8“&1I do hope you will"
+    - "&1 keep this city safe,"
+    - "&1 one head at a time!&8”"
+    - ""
+    - '&7- { text: "I would like a new", color:"BLUE", command: "bs VyrdanoTitles", hover: "&7Change title"}'
+    - '&l  { text: "covenant title.", color:"BLUE", command: "bs VyrdanoTitles", hover: "&7Change title"}'
+    - ""
+    - '&7- { text: "What do the titles", color:"BLUE", hover: "&7View lore", open: "general_Covenants"}'
+    - '&l  { text: "even do?", color:"BLUE", hover: "&7View lore", open: "general_Covenants"}'

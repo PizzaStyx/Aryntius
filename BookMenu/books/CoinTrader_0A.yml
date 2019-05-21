@@ -1,0 +1,16 @@
+title: CoinTrader_0A
+author: PizzaStyx
+pages:
+  1:
+    - "There's a massive Labyrinth buried beneath the city, for what purpose, nobody knows."
+    - ""
+    - "Rumors say it's filled with untold riches! But I lack the strength to get through the whole thing myself."
+  2:
+    - "So that's where you come in!"
+    - ""
+    - "You can fight off the monsters and I can collect treasure."
+    - ""
+    - "We'll split the profits 50/50. Sound good?"
+    - ""
+    - '&7- { text: "Alright, but how do", color:"BLUE", hover: "&7View lore", open: "CoinTrader_0B"}'
+    - '&l  { text: "I get there?", color:"BLUE", hover: "&7View lore", open: "CoinTrader_0B"}'

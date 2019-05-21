@@ -1,0 +1,60 @@
+title: ChestShop
+author: PizzaStyx
+pages:
+  1:
+    - "&8&lChestShop Help"
+    - ""
+    - "Chestshops allow players to trade goods even if they are offline!"
+    - ""
+    - "All that's needed is a chest and a sign and you're good to go!"
+    - ""
+    - "Formats are detailed in the next few pages."
+  2:
+    - "&8&lShop Format"
+    - ""
+    - "All chestshops are created by placing a sign on a chest."
+    - ""
+    - "Use the sign format below to create one:"
+    - ""
+    - "&9     [shop]"
+    - "&9     amount"
+    - "&9     price"
+    - "&9     type"
+  3:
+    - "&8&lShop Types"
+    - ""
+    - "There are 3 different shop types: &9Sell Shop&0, &9Buy Shop&0, and &9Barter &9Shop&0."
+    - ""
+    - "Sell shops sell the listed amount of items for the price set on the sign."
+    - ""
+    - "Buy shops do this in"
+  4:
+    - "in reverse, as others can sell items to you through the chest."
+    - ""
+    - "Barter shops allow you to sell/buy items for other items directly, bypassing money entirely."
+    - ""
+    - "These are denoted on the shop's sign as &9buy&0, &9sell&0, or &9barter&0."
+  5:
+    - "&8&lSetting Items"
+    - ""
+    - "By default, you must hit the sign with the item type you wish to sell in order to activate the chest shop."
+    - ""
+    - "Barter shops require two punches with the different barter items."
+  6:
+    - "&8&lShop Stock"
+    - ""
+    - "Your chest shop won't do anything if the chest it's connected to is empty!"
+    - ""
+    - "Make sure to fill your chest shop with the items you want to sell, and don't forget to check periodically!"
+  7:
+    - "&8&lExamples"
+    - ""
+    - "&9     [shop]"
+    - "&9     5"
+    - "&9     60"
+    - "&9     sell"
+    - ""
+    - "Sells &95 &0of the shop's item for &9$60&0. I.e. &9$12 &0for each item."
+    - ""
+    - ""
+    - '&7»&7&l> { text: "&8Go Back", hover: "&7Return to &9Help Center", open: "h_menu"}'

@@ -1,0 +1,77 @@
+Exalted:
+  Conditions:
+  - playerwithin 50
+  Drops:
+  - exp 250
+  - NukeGrenade 1 0.01
+  ### WEAPON DROPS
+  - T2_1 1 0.003
+  - T2_2 1 0.005
+  - T2_3 1 0.005
+  - T2_4 1 0.003
+  - T2_5 1 0.006
+  - T2_6 1 0.005
+  - T2_W1 1 0.003
+  - T2_W2 1 0.002
+  - T2_W3 1 0.002
+  - T2_W4 1 0.001
+  - Unity 1 0.004
+  - Gigaspade 1 0.004
+  - Doomhammer 1 0.004
+  - Frost2 1 0.003
+  - Frost3 1 0.003
+  - Curse3 1 0.003
+  - Fire3 1 0.003
+  - Earth3 1 0.003
+  - Water3 1 0.003
+  - Bow3 1 0.002
+  - Laser2 1 0.001
+  - Rocket3 1 0.002
+  - BurstRifle2 1 0.005
+  - Scattergun4 1 0.005
+  - Shotgun4 1 0.004
+  - SMG3 1 0.005
+  - Sniper3 1 0.005
+  ### ACCESSORIES
+  - T2_13 1 0.002
+  - T2_14 1 0.002
+  ### ARMOR BITS
+  - T2_15 1 0.004
+  - T2_16 1 0.003
+  ## T2_17 is Levitation Boots. NOPE.
+  - T2_18 1 0.004
+  - T2_19 1 0.004
+  ### UPDATE 2.2.2 STUFF
+  - T2_A1 1 0.004
+  - T2_A2 1 0.002
+  - T2_A3 1 0.004
+  - T2_A4 1 0.004
+  - T2_A5 1 0.001
+  - T2_A6 1 0.001
+  - T2_A7 1 0.004
+  - T2_A8 1 0.004
+  - T2_A9 1 0.002
+  - T2_A10 1 0.003
+  - T2_A11 1 0.002
+  - T2_A12 1 0.002
+  - T2_A13 1 0.001
+  - T2_A14 1 0.004
+  - T2_A15 1 0.004
+  - T2_A16 1 0.002
+  ### ARMOR SETS
+  - Celestial_Helm 1 0.002
+  - Celestial_Chest 1 0.002
+  - Celestial_Legs 1 0.002
+  - Celestial_Boots 1 0.002
+  - Shadewalker_Helm 1 0.002
+  - Shadewalker_Chest 1 0.002
+  - Shadewalker_Legs 1 0.002
+  - Shadewalker_Boots 1 0.002
+  - Archmage_Helm 1 0.002
+  - Archmage_Chest 1 0.002
+  - Archmage_Legs 1 0.002
+  - Archmage_Boots 1 0.002
+  - Clockwork_Helm 1 0.002
+  - Clockwork_Chest 1 0.002
+  - Clockwork_Legs 1 0.002
+  - Clockwork_Boots 1 0.002

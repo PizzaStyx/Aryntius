@@ -1,0 +1,123 @@
+ShopName: npc_SkyCapn
+signs:
+  text: '[ExampleShop]'
+  NeedPermissionToCreateSign: true
+DisplayName: "&8[ &2Airship Travel &8]"
+shop:
+  City_Selthine:
+    MenuItem:
+    - id:395
+    - "name:&aSelthine"
+    - "lore:&0 "
+    - "lore:&a★ &7&oTravel to Selthine, the"
+    - "lore:&7&o  ruined province."
+    - "lore:&0 "
+    - "lore:&7Travel Requirements:"
+    - "lore:&7- &fNone"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 1
+    Message: '&7[&bInfo&7] You have traveled to the city of &fSelthine&7!'
+    Price: 0
+    PriceType: money
+    Reward:
+    - 'mv tp %player% e:world:-28.5,104.0,94.5:0.0:45.0'
+    RewardType: command
+  City_Vyrdano:
+    MenuItem:
+    - id:395
+    - "name:&bVyrdano"
+    - "lore:&0 "
+    - "lore:&b★ &7&oTravel to Vyrdano, the"
+    - "lore:&7&o  jewel of the sky."
+    - "lore:&0 "
+    - "lore:&7Travel Requirements:"
+    - "lore:&7- &2Noble &7Rank"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 3
+    Message: '&7[&bInfo&7] You have traveled to the city of &fVyrdano&7!'
+    ExtraPermission: 'citytravel.vyrdano'
+    Price: 0
+    PriceType: money
+    Reward:
+    - 'mv tp %player% e:Expansions:15.5,180.0,-136.5:0.0:205.0'
+    RewardType: command
+  City_Prexyl: ### COMING SOON!
+    MenuItem:
+    - id:395
+    - "name:&cPrexyl"
+    - "lore:&0 "
+    - "lore:&c★ &7&oComing soon!"
+    - "lore:&0 "
+    - "lore:&7Travel Requirements:"
+    - "lore:&7- &aCitizen &7Rank"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 5
+    Message: '&7[&bInfo&7] You have traveled to the city of &fPrexyl&7!'
+    ExtraPermission: 'citytravel.prexyl'
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:99999
+    PriceType: item
+    Reward:
+    - 'spawn %player%'
+    RewardType: command
+  City_Soon_1: ### COMING SOON!
+    MenuItem:
+    - id:395
+    - "name:&cComing Soon&f"
+    - "lore:&0 "
+    - "lore:&c★ &7&oComing soon!"
+    - "lore:&0 "
+    - "lore:&7Travel Requirements:"
+    - "lore:&7- &fN/A"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 7
+    Message: '&7[&bInfo&7] You have traveled to the city of &fmeh&7!'
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:99999
+    PriceType: item
+    Reward:
+    - 'spawn %player%'
+    RewardType: command
+  City_Soon_2: ### COMING SOON!
+    MenuItem:
+    - id:395
+    - "name:&cComing Soon"
+    - "lore:&0 "
+    - "lore:&c★ &7&oComing soon!"
+    - "lore:&0 "
+    - "lore:&7Travel Requirements:"
+    - "lore:&7- &fN/A"
+    - enchantment:ARROW_DAMAGE#10
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - amount:1
+    InventoryLocation: 9
+    Message: '&7[&bInfo&7] You have traveled to the city of &fmeh&7!'
+    Price:
+    - - id:399
+      - 'name:&aStar Fragment'
+      - 'lore:&7Currency Item#&0 #&a★ &7&oCan be sold for Sigmas#&7&o  or traded with NPCs.#&0 #&7“&aUsed by many a Divine, few#&a mortals could hope to own#&a such treasures.&7”'
+      - enchantment:ARROW_DAMAGE#10
+      - hideflags:HIDE_ENCHANTS#HIDE_ATTRIBUTES
+      - amount:99999
+    PriceType: item
+    Reward:
+    - 'spawn %player%'
+    RewardType: command

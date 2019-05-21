@@ -1,0 +1,257 @@
+data:
+- npc: 90
+  messages:
+    0: Got the berry shipment and the onion package...
+    1: That crate of beans should be here as well...
+    2: What else am I missing? Hmmm...
+- npc: 72
+  players:
+    44279c7d-0191-402a-8e33-8fed5af7044e: 1
+  messages:
+    0: I've no time for conversation!
+    1: Crops don't just harvest themselves, y'know!
+- npc: 91
+  messages:
+    0: Oi! What are ye doin' in me house?
+    1: Ye can't just barge in to people's property like that!
+- npc: 94
+  players:
+    12a99571-fecd-40e0-8bf7-7e83c316fd32: 1
+    b15c1a5c-2497-43ff-865f-790b0d42560e: 1
+  messages:
+    0: Have you joined the church of lootcifer?
+    1: They're so much better than RNGesus.
+    2: Just yesterday, he helped me find an Iridescent!
+    3: Too bad it was a Dragon's Wrath.
+- npc: 92
+  messages:
+    0: Whoa, watch where you're going!
+    1: Otherwise you might get flattened by this shipment!
+- npc: 68
+  players:
+    b37c6053-f1cf-4588-aace-a3642b62ec90: 2
+    f3d60ab6-ecde-4cb0-b2f0-a5eb8d3be457: 1
+  messages:
+    0: Hey! This elevator is for staff use only!
+    1: If you want to take an airship, use the other elevator!
+- npc: 82
+  messages:
+    0: Ahoy, matey!
+    1: Walk the plank!
+    2: Shiver me timbers!
+- npc: 84
+  messages:
+    0: Can't you see I'm busy?
+- npc: 75
+  players:
+    6dce5535-fe12-4d47-896f-579dec4751eb: 4
+    5ac5e0a1-5767-475c-898a-08200f6f40cc: 4
+    c1466c10-d6c3-46e1-8c1d-a981838e24c4: 1
+    f3d60ab6-ecde-4cb0-b2f0-a5eb8d3be457: 4
+    2a0909db-92ce-436b-8222-44f2199e615d: 1
+    02bff895-5baa-4831-b94c-046544febeea: 1
+  messages:
+    0: Greetings, mortal. You have many questions, but I will only answer the most
+      important one of them.
+    1: This place you see is a vision--a world where you failed to destroy the Shadewalker.
+    2: None now live where the town once stood, only barren wastes and hordes of undead.
+    3: But all actions have consequences. And in time you, too, shall reap what you
+      sow.
+- npc: 89
+  players:
+    b15c1a5c-2497-43ff-865f-790b0d42560e: 1
+  messages:
+    0: Man, there's a lot of empty space here.
+    1: Maybe I should build a shop?
+    2: Hmmmm...
+- npc: 99
+  messages:
+    0: Hmm...
+- npc: 66
+  players:
+    b5446ebc-2bd7-4cfd-8088-f378413bf797: 2
+    f8d4eb83-a83c-42f5-aedb-0fd1796f86e1: 1
+    c1466c10-d6c3-46e1-8c1d-a981838e24c4: 2
+    70578282-b7b8-4ccd-b322-2732bb6d51d5: 1
+    38a27426-9699-472a-93ad-39f8c6b0fd7f: 1
+  messages:
+    0: Ah, on official business from the King, himself?
+    1: Then we'll do our best to supply you on your journey!
+    2: Give my regards to the Royal Chef. He's my brother, after all!
+- npc: 98
+  messages:
+    0: Ah, what a beautiful view!
+- npc: 93
+  messages:
+    0: Ah, what a beautiful day!
+    1: Too bad my wife isn't here to see it.
+    2: Oh wait... I never married!
+- npc: 78
+  players:
+    b15c1a5c-2497-43ff-865f-790b0d42560e: 2
+    e5732dfe-cdbd-4a6b-82ae-dc0d6538664d: 1
+  messages:
+    0: Ah, hello there! Welcome to my humble abode!
+    1: You won't find much of use in here. I'd suggest visiting the trade district.
+    2: Just head a bit north of here and you'll find it in no time!
+- npc: 74
+  players:
+    85aeaab6-f4f8-45c1-acd1-b8a881e8f665: 1
+    1c1ed34a-ded7-438a-af42-09f3b5874800: 1
+  messages:
+    0: Something's just not right as of late...
+    1: But I'm not sure exactly what...
+- npc: 103
+  players:
+    744ec390-e132-4b63-9964-fd2a4b670c24: 1
+    fef7f15c-6811-45da-8668-035a4bccc613: 1
+    e98076d4-ccaa-477c-bc0c-3db5ea715f3e: 2
+    35e60ab3-7385-46c5-b87f-63d404efcd1c: 2
+    a5895ef8-3d90-486f-a58c-d11e67349704: 1
+    10fe77b0-22b5-427a-a24f-6a5bed29b35e: 1
+  messages:
+    0: If you're off to the old mines, be warned.
+    1: A lot of adventurers never come back.
+    2: So if you're in a pickle, just use §f/spawn §7and you'll come right back here,
+      where it's safe!
+- npc: 5
+  messages:
+    0: Can't stop the rock.
+    1: You can't stop the rock.
+- npc: 70
+  players:
+    4b8d558f-f7a9-47ce-bcbe-c7d8af1a5184: 4
+    536534f8-853f-4016-8a3c-e433f88d7c1f: 2
+    462ad0c7-37d4-46ea-8090-67643badbb1e: 4
+    b37c6053-f1cf-4588-aace-a3642b62ec90: 2
+    5ac5e0a1-5767-475c-898a-08200f6f40cc: 4
+    c1466c10-d6c3-46e1-8c1d-a981838e24c4: 1
+    38a27426-9699-472a-93ad-39f8c6b0fd7f: 4
+    cbe6fed9-11c9-406e-b8ae-4ab69088a951: 2
+  messages:
+    0: It's about damn time you've arrived! We've lost far too many men to this outbreak,
+      all turned mad in the lower mines.
+    1: This all started when we unearthed an entrance... Seemed like a burial chamber
+      or something. None of us dared to venture too far within.
+    2: But I'm sure you can make some sense of it. You are a kingdom agent, after
+      all.
+    3: Also, feel free to take supplies from the chests strewn about these caverns.
+      Better to have them in your hands than an undead horde's.
+    4: Now go! We don't have all day to save the village!
+- npc: 80
+  players:
+    12a99571-fecd-40e0-8bf7-7e83c316fd32: 1
+  messages:
+    0: Well, I didn't expect any guests over!
+    1: If you need something, speak to one of the shopkeepers outside.
+    2: I don't have much to offer. My home has only one bed, after all.
+- npc: 12
+  players:
+    744ec390-e132-4b63-9964-fd2a4b670c24: 1
+    35e60ab3-7385-46c5-b87f-63d404efcd1c: 1
+    16e5eef7-d81e-4a22-8a64-4e6ae1206b3f: 1
+    8d9218f7-441f-4500-be78-978305346c8a: 1
+  messages:
+    0: Be careful out there, adventurer!
+    1: There are nasty beasts strewn about the land.
+- npc: 71
+  players:
+    82d0eeda-241e-43b5-8d48-c8ae46e04375: 2
+    44279c7d-0191-402a-8e33-8fed5af7044e: 2
+    5fd04f53-16e8-43d8-9c80-630898aa2ebb: 1
+    cbe6fed9-11c9-406e-b8ae-4ab69088a951: 1
+  messages:
+    0: Ugh... what an unpleasant day...
+    1: I'm not sure what's worse... my grief or the smell...
+- npc: 95
+  messages:
+    0: This port's for worker use only.
+    1: If you want to get around faster, use the walkways.
+    2: Although you could also swim. There's technically no law against that.
+- npc: 1
+  players:
+    12a99571-fecd-40e0-8bf7-7e83c316fd32: 1
+    744ec390-e132-4b63-9964-fd2a4b670c24: 1
+    09a2ca00-a88c-4b48-a040-67310f7bac37: 1
+    b53fbc9e-2321-4618-ad1b-71e8c00f3c36: 1
+    e98076d4-ccaa-477c-bc0c-3db5ea715f3e: 1
+    27cfb5d5-b614-4d3b-8247-2f8bd08dac77: 1
+    35e60ab3-7385-46c5-b87f-63d404efcd1c: 1
+    16e5eef7-d81e-4a22-8a64-4e6ae1206b3f: 1
+    a5895ef8-3d90-486f-a58c-d11e67349704: 1
+  messages:
+    0: Ah, hello there! It's rare to see a new face in Selthine.
+    1: If you're looking for commerce, head to the undercity. That's where all the
+      merchants live.
+- npc: 81
+  messages:
+    0: Shhh, be very quiet. The corn has ears, y'know.
+- npc: 0
+  players:
+    ad6094f8-b299-4fa9-9d16-5ada7ff2281b: 4
+    7af87a08-170a-49be-8a1d-7dc8a89ba3e4: 2
+    78704bf4-6726-4725-90ab-80024468182e: 3
+    82d0eeda-241e-43b5-8d48-c8ae46e04375: 4
+    b37c6053-f1cf-4588-aace-a3642b62ec90: 3
+    1c1ed34a-ded7-438a-af42-09f3b5874800: 2
+    2f45e605-ce5f-4db6-a5f9-c27b190705e4: 2
+    5fd04f53-16e8-43d8-9c80-630898aa2ebb: 1
+    5ac5e0a1-5767-475c-898a-08200f6f40cc: 3
+    1dac1d33-c0da-4ddc-8e7b-39597419a12c: 1
+    c1466c10-d6c3-46e1-8c1d-a981838e24c4: 1
+    38a27426-9699-472a-93ad-39f8c6b0fd7f: 2
+    f3d60ab6-ecde-4cb0-b2f0-a5eb8d3be457: 4
+    cbe6fed9-11c9-406e-b8ae-4ab69088a951: 1
+    c6b29b4f-a33a-4d01-b206-48ad990942d8: 2
+    e71e62e5-ae7d-41d3-b052-5d3bd048224b: 1
+    54a17012-24a9-4a28-84d5-a3b788e2838f: 1
+    02bff895-5baa-4831-b94c-046544febeea: 1
+  messages:
+    0: Ah, so you are the agent sent by the king!
+    1: Welcome to Paleon. It may be small, but we've made our impact.
+    2: Unfortunately, rumors say something's up in the mines, lately.
+    3: Talk to Father John at the church for more information.
+    4: He knows far more about this situation than I do.
+- npc: 73
+  players:
+    44279c7d-0191-402a-8e33-8fed5af7044e: 1
+  messages:
+    0: If you ever need more space for items, just use §f/backpack§7!
+    1: Backpack space expands one row for each rank you gain.
+    2: By the time you reach the last rank, you'll have a full double-chest of space!
+    3: Best of all, you don't lose anything when you die! It's basically a triple-sized
+      inventory!
+- npc: 69
+  messages:
+    0: Ah, I see you've already suited up quite nicely.
+    1: If anything, I'd say your gear is better than what I could make!
+    2: Good luck on your travels, then. Hail to the King!
+- npc: 96
+  messages:
+    0: Hey, I'm workin' here!
+- npc: 16
+  players:
+    2bc26e35-25f2-4b74-a681-0103b88e5ca1: 1
+    5ce9e9b9-1f65-4158-bc85-c1f073f4ae18: 1
+    218fba71-a324-4c03-947e-836c4d0e28a0: 1
+    c534ddb8-b919-45d2-bbc2-ded9e9d9ea49: 1
+  messages:
+    0: Man, maybe I should've actually fought the monsters inside the labyrinth instead
+      of running past them all.
+    1: I probably would've gotten actual gear instead of being stuck with my starting
+      gear.
+- npc: 97
+  messages:
+    0: Ah, so many wonderful books!
+    1: It's a shame I can't read!
+- npc: 102
+  players:
+    744ec390-e132-4b63-9964-fd2a4b670c24: 2
+    b15c1a5c-2497-43ff-865f-790b0d42560e: 1
+    11c311ad-eb88-4f35-8a2b-9a842546fa8e: 1
+    35e60ab3-7385-46c5-b87f-63d404efcd1c: 2
+    ad99d673-d341-45ad-a3d3-d54d31a52b2a: 1
+  messages:
+    0: Oi! Be wary out there, traveler.
+    1: I spotted some undead on this side of the city earlier.
+    2: Chances are, they'll still be roaming about.
