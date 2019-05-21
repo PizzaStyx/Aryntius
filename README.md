@@ -13,3 +13,6 @@ A list of plugins used can be found below:
 - InfernalMobs (Deprecated and only used for set bonuses)
 - MythicMobs
 - RandomCommand
+- TreasureChest
+
+Note: TreasureChest's config files are generated automatically using the in-game configuration tool and thus none are included in this repository.
