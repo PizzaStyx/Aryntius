@@ -10,7 +10,7 @@ A list of notable plugins used can be found below:
 - [CitizensText](https://www.spigotmc.org/resources/citizenstext.40107/)
 - [Crackshot](https://dev.bukkit.org/projects/crackshot)
 - [CrackshotPlus](https://www.spigotmc.org/resources/%E2%96%91-crackshotplus-%E2%96%91-1-8-x-1-14-x-%E2%96%91.18085/)
-- [InfernalMobs] https://www.spigotmc.org/resources/infernal-mobs.2156/)
+- [InfernalMobs](https://www.spigotmc.org/resources/infernal-mobs.2156/)
 - [MythicMobs](https://www.mythicmobs.net/index.php?pages/download/)
 - [RandomCommand](https://www.spigotmc.org/resources/random-command.12640/)
 - [TreasureChest](https://www.spigotmc.org/resources/treasurechest-reloaded.1747/)
