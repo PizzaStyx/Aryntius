@@ -13,6 +13,7 @@ A list of notable plugins used can be found below:
 - [InfernalMobs](https://www.spigotmc.org/resources/infernal-mobs.2156/) (Deprecated. Used solely for making Set Bonuses.)
 - [MythicMobs](https://www.mythicmobs.net/index.php?pages/download/)
 - [MythicMobs Artifacts](http://mythicmobs.net/index.php?resources/artifacts.37/)
+- [MythicMobs BossShop Add-On](https://www.spigotmc.org/resources/mythicmobs-%E2%9A%94-bossshoppro-add-on-%E2%9A%94.58415/)
 - [RandomCommand](https://www.spigotmc.org/resources/random-command.12640/)
 - [TreasureChest](https://www.spigotmc.org/resources/treasurechest-reloaded.1747/)
 
